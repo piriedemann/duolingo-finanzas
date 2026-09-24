@@ -41,13 +41,28 @@ export default function App() {
       content = <Tools id={arg} />
       break
     case 'liga':
-      content = <League />
+      content = (
+        <>
+          <League />
+          <div className="mobile-only" style={{ marginTop: 16 }}>
+            <Quests />
+          </div>
+        </>
+      )
       break
     case 'perfil':
       content = <Profile />
       break
     default:
-      content = <Learn />
+      content = (
+        <>
+          <div className="mobile-only mobile-panel">
+            <DailyGoal />
+            <PracticeCard />
+          </div>
+          <Learn />
+        </>
+      )
   }
   const active = page === 'episodio' ? 'episodios' : page
 
