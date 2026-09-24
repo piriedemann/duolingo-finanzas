@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import { ALL_LESSONS, findLesson } from '../data/units'
 import { LessonPlayer, type LessonResult, type QueueItem } from '../components/LessonPlayer'
-import { completeLesson, completePractice, getState, isLessonUnlocked, setState, MAX_HEARTS, useStore } from '../state/store'
+import { completeLesson, completePractice, completeQuiz, getState, isLessonUnlocked, setState, MAX_HEARTS, useStore } from '../state/store'
 import { go } from '../lib/util'
 import { confetti } from '../lib/confetti'
 import { sfx } from '../lib/sound'
 import { Mascot } from '../components/Mascot'
-import { EPISODES } from '../data/episodes'
+import { EPISODES, quizFor } from '../data/episodes'
+import { LESSON_EPISODES } from '../data/lessonEpisodes'
 
 const ORDERED = ALL_LESSONS.map((x) => x.lesson.id)
 
@@ -24,11 +25,12 @@ export function LessonPage({ id }: { id: string }) {
     go('aprender')
     return null
   }
-  const { lesson, unit } = found
+  const { unit } = found
   const wasDone = !!s.completed[id]
 
   if (result) {
-    const eps = EPISODES.filter((e) => e.number !== null && lesson.episodeRefs?.includes(e.number))
+    const refs = LESSON_EPISODES[id] ?? []
+    const eps = EPISODES.filter((e) => refs.includes(e.id))
     return (
       <Results
         result={result}
@@ -39,7 +41,8 @@ export function LessonPage({ id }: { id: string }) {
               <div className="muted small">🎧 Profundiza en el podcast</div>
               {eps.map((e) => (
                 <a key={e.number} className="ep-link" href={'#/episodio/' + e.id}>
-                  #{e.number} · {e.title}
+                  {e.number !== null ? `#${e.number} · ` : ''}
+                  {e.title}
                 </a>
               ))}
             </div>
@@ -124,7 +127,9 @@ function Results({
   onRetry,
   practice,
   extra,
+  title,
 }: {
+  title?: string
   result: LessonResult & { xp: number }
   color: string
   onContinue: () => void
@@ -144,7 +149,7 @@ function Results({
   return (
     <div className="results" style={{ ['--unit' as string]: color }}>
       <Mascot mood={perfect ? 'wow' : 'happy'} size={160} bounce />
-      <h1 className="results-title">{practice ? '¡Práctica completada!' : perfect ? '¡Lección perfecta!' : '¡Lección completada!'}</h1>
+      <h1 className="results-title">{title ?? (practice ? '¡Práctica completada!' : perfect ? '¡Lección perfecta!' : '¡Lección completada!')}</h1>
       <div className="stat-row">
         <div className="stat gold">
           <div className="stat-head">XP TOTAL</div>
@@ -172,6 +177,36 @@ function Results({
         </button>
       </div>
     </div>
+  )
+}
+
+export function QuizPage({ id }: { id: string }) {
+  const ep = EPISODES.find((e) => e.id === id)
+  const quiz = quizFor(id)
+  const [result, setResult] = useState<(LessonResult & { xp: number }) | null>(null)
+  const items = useMemo<QueueItem[]>(() => (quiz ?? []).map((ex, exIndex) => ({ ex, lessonId: 'ep:' + id, exIndex })), [quiz, id])
+  if (!ep || !quiz?.length) return <NotFound />
+  if (result) {
+    return (
+      <Results
+        result={result}
+        color="#ce82ff"
+        title="¡Quiz del episodio completado!"
+        onContinue={() => go('episodio/' + id)}
+      />
+    )
+  }
+  return (
+    <LessonPlayer
+      items={items}
+      color="#ce82ff"
+      onExit={() => go('episodio/' + id)}
+      onFinish={(r) => {
+        const xp = 8 + (r.accuracy === 1 ? 4 : 0)
+        completeQuiz(id, r.accuracy, xp)
+        setResult({ ...r, xp })
+      }}
+    />
   )
 }
 

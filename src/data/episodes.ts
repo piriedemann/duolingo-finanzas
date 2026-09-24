@@ -1,5 +1,6 @@
 import type { Category, Episode, Exercise } from './types'
 import raw from './episodes.json'
+import { EPISODE_QUIZZES } from './episodeQuizzes'
 
 export interface EpisodeX extends Episode {
   id: string
@@ -68,3 +69,6 @@ export const CATEGORY_UNIT: Record<Category, string> = {
 
 export const spotifySearch = (e: Episode) =>
   'https://open.spotify.com/search/' + encodeURIComponent(`Animales Financieros ${e.title}`)
+
+/** Quiz de un episodio: el generado desde el transcript tiene prioridad */
+export const quizFor = (id: string): Exercise[] | undefined => GENERATED_QUIZZES[id] ?? EPISODE_QUIZZES[id]

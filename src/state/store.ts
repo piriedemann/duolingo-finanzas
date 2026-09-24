@@ -42,6 +42,7 @@ export interface State {
   lessonsToday: number
   perfectToday: number
   chests: string[]
+  quizzes: Record<string, number>
 }
 
 export const today = (d = new Date()) => {
@@ -79,6 +80,7 @@ const initial = (): State => ({
   lessonsToday: 0,
   perfectToday: 0,
   chests: [],
+  quizzes: {},
 })
 
 function load(): State {
@@ -282,6 +284,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   { id: 'perfect', emoji: '🎯', title: 'Francotirador', desc: 'Una lección sin errores', test: (s) => s.perfectLessons >= 1 },
   { id: 'perfect5', emoji: '🏹', title: 'Ojo de águila', desc: '5 lecciones perfectas', test: (s) => s.perfectLessons >= 5 },
   { id: 'listen5', emoji: '🎧', title: 'Oyente fiel', desc: 'Marca 5 episodios como escuchados', test: (s) => s.listened.length >= 5 },
+  { id: 'quiz5', emoji: '🎙️', title: 'Fan del podcast', desc: 'Completa 5 quizzes de episodios', test: (s) => Object.keys(s.quizzes ?? {}).length >= 5 },
   { id: 'tools3', emoji: '🧮', title: 'Calculadora humana', desc: 'Usa 3 herramientas', test: (s) => s.toolsUsed.length >= 3 },
   { id: 'rich', emoji: '🐷', title: 'Chanchito lleno', desc: 'Junta 500 Lucas', test: (s) => s.lucas >= 500 },
 ]
@@ -302,4 +305,18 @@ export function openChest(id: string, reward: number) {
 export function isLessonUnlocked(s: State, index: number, orderedIds: string[]) {
   if (s.unlockAll || index === 0) return true
   return !!s.completed[orderedIds[index - 1]]
+}
+
+export function completeQuiz(id: string, accuracy: number, xp: number) {
+  setState((s) => {
+    const next = addXp(s, xp)
+    const first = s.quizzes[id] === undefined
+    return {
+      ...next,
+      lucas: next.lucas + (first ? 10 : 0),
+      lessonsToday: next.lessonsToday + 1,
+      perfectToday: next.perfectToday + (accuracy === 1 ? 1 : 0),
+      quizzes: { ...next.quizzes, [id]: Math.max(s.quizzes[id] ?? 0, accuracy) },
+    }
+  })
 }

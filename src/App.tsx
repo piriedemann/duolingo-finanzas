@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { ACHIEVEMENTS, pendingToasts, today, useStore } from './state/store'
 import { go, useHashRoute } from './lib/util'
 import { Learn } from './pages/Learn'
-import { LessonPage, PracticePage } from './pages/LessonPage'
+import { LessonPage, PracticePage, QuizPage } from './pages/LessonPage'
 import { EpisodeDetail, Episodes } from './pages/Episodes'
 import { Tools } from './pages/Tools'
 import { League, useLeague } from './pages/League'
@@ -28,6 +28,7 @@ export default function App() {
   if (!onboarded) return <Onboarding />
   if (page === 'leccion' && arg) return <LessonPage id={arg} key={arg} />
   if (page === 'practica') return <PracticePage />
+  if (page === 'quiz' && arg) return <QuizPage id={arg} key={arg} />
 
   let content: React.ReactNode
   switch (page) {

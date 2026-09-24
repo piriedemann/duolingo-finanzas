@@ -453,3 +453,8 @@ input[type='range']:disabled { opacity: .6; }
   .mobile-panel > :only-child { grid-column: span 2; }
 }
 .node-wrap:has(.start-tag) { margin-top: 34px; }
+.quiz-cta { display: flex; align-items: center; gap: 12px; cursor: pointer; font: inherit; color: inherit; border-color: var(--purple); border-bottom-width: 5px; }
+.quiz-cta:hover { background: var(--soft); }
+.quiz-cta .big-animal { font-size: 2.4rem; }
+.pop-eps { margin-top: 10px; font-weight: 700; font-size: .85rem; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pop-eps a { color: #fff; background: rgba(255,255,255,.22); border-radius: 8px; padding: 2px 8px; }

@@ -5,6 +5,8 @@ import { go, richText } from '../lib/util'
 import { confetti } from '../lib/confetti'
 import { sfx } from '../lib/sound'
 import { Mascot } from '../components/Mascot'
+import { LESSON_EPISODES } from '../data/lessonEpisodes'
+import { EPISODES } from '../data/episodes'
 
 const ORDERED = ALL_LESSONS.map((x) => x.lesson.id)
 // desplazamiento horizontal en zigzag, como el camino de Duolingo
@@ -51,7 +53,7 @@ export function Learn() {
                 const off = OFFSETS[(gi + ui) % OFFSETS.length]
                 const rec = s.completed[lesson.id]
                 return (
-                  <div key={lesson.id} className="node-wrap" style={{ transform: `translateX(${off}px)` }}>
+                  <div key={lesson.id} className="node-wrap" style={{ transform: `translateX(${off}px)`, zIndex: open === lesson.id ? 12 : undefined }}>
                     {current && open !== lesson.id && <div className="start-tag">EMPEZAR</div>}
                     <button
                       className={'node' + (done ? ' done' : '') + (!unlocked ? ' locked' : '') + (current ? ' current' : '')}
@@ -81,6 +83,16 @@ export function Learn() {
                           </button>
                         ) : (
                           <div className="pop-locked">Completa la lección anterior para desbloquear</div>
+                        )}
+                        {(LESSON_EPISODES[lesson.id] ?? []).length > 0 && (
+                          <div className="pop-eps">
+                            🎧 Escucha:{' '}
+                            {EPISODES.filter((e) => LESSON_EPISODES[lesson.id].includes(e.id)).map((e) => (
+                              <a key={e.id} href={'#/episodio/' + e.id}>
+                                {e.number !== null ? '#' + e.number : e.title.slice(0, 18) + '…'}
+                              </a>
+                            ))}
+                          </div>
                         )}
                       </div>
                     )}

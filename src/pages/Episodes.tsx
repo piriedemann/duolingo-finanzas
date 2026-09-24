@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { CATEGORY_LABEL, CATEGORY_UNIT, EPISODES, spotifySearch } from '../data/episodes'
+import { CATEGORY_LABEL, CATEGORY_UNIT, EPISODES, quizFor, spotifySearch } from '../data/episodes'
 import type { Category } from '../data/types'
 import { UNITS } from '../data/units'
 import { markListened, useStore } from '../state/store'
@@ -8,6 +8,7 @@ import { Mascot } from '../components/Mascot'
 
 export function Episodes() {
   const listened = useStore((s) => s.listened)
+  const quizzes = useStore((s) => s.quizzes ?? {})
   const [q, setQ] = useState('')
   const [cat, setCat] = useState<Category | 'all'>('all')
   const cats = useMemo(() => [...new Set(EPISODES.map((e) => e.category))], [])
@@ -56,7 +57,9 @@ export function Episodes() {
                 {e.guest && <div className="ep-guest">con {e.guest}</div>}
                 <div className="ep-cat">{CATEGORY_LABEL[e.category]}</div>
               </div>
-              <div className="ep-state">{done ? '✅' : '▶️'}</div>
+              <div className="ep-state">
+                {quizzes[e.id] !== undefined ? (quizzes[e.id] === 1 ? '👑' : '✅') : done ? '🎧' : '▶️'}
+              </div>
             </button>
           )
         })}
@@ -67,6 +70,7 @@ export function Episodes() {
 
 export function EpisodeDetail({ id }: { id: string }) {
   const listened = useStore((s) => s.listened)
+  const quizScore = useStore((s) => s.quizzes?.[id])
   const e = EPISODES.find((x) => x.id === id)
   const [flipped, setFlipped] = useState<number[]>([])
   if (!e) {
@@ -104,6 +108,20 @@ export function EpisodeDetail({ id }: { id: string }) {
           {done ? '✅ Escuchado' : 'Marcar como escuchado +5 XP'}
         </button>
       </div>
+
+      {quizFor(e.id) && (
+        <button className="card quiz-cta" onClick={() => go('quiz/' + e.id)}>
+          <span className="big-animal">🎙️</span>
+          <div className="grow">
+            <strong>Quiz del episodio</strong>
+            <div className="muted small">
+              {quizFor(e.id)!.length} preguntas ·{' '}
+              {quizScore !== undefined ? `mejor resultado ${Math.round(quizScore * 100)}%` : '+8 XP y 10 🪙 la primera vez'}
+            </div>
+          </div>
+          <span className="btn small primary">{quizScore !== undefined ? 'Repetir' : 'Jugar'}</span>
+        </button>
+      )}
 
       {e.takeaways.length > 0 && (
         <>
