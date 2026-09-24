@@ -25,7 +25,9 @@ export function Episodes() {
       <div className="page-head">
         <div>
           <h1>Episodios</h1>
-          <p className="muted">Escucha, marca como escuchado y practica lo aprendido. {listened.length} escuchados.</p>
+          <p className="muted">
+            {EPISODES.length} episodios con quiz. Escucha, marca como escuchado y practica lo aprendido.
+          </p>
         </div>
 
       </div>
@@ -92,7 +94,10 @@ export function EpisodeDetail({ id }: { id: string }) {
       <div className="ep-hero">
         <div className="ep-hero-num">{e.number !== null ? '#' + e.number : <Mic size={24} />}</div>
         <div>
-          <div className="ep-cat">{CATEGORY_LABEL[e.category]}</div>
+          <div className="ep-cat">
+            {CATEGORY_LABEL[e.category]}
+            {e.fromTranscript && ' · Basado en la transcripción'}
+          </div>
           <h1>{e.title}</h1>
           {e.guest && <div className="ep-guest">con {e.guest}</div>}
         </div>

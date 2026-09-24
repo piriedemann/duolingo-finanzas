@@ -41,7 +41,7 @@ export function Onboarding() {
         </p>
         <ul className="hero-points">
           <li>27 lecciones en 9 unidades, del ahorro a la jubilación</li>
-          <li>Quizzes de cada episodio del podcast</li>
+          <li>Quizzes de más de 180 episodios, creados desde sus transcripciones</li>
           <li>Calculadoras para aplicarlo a tus números</li>
         </ul>
         <button className="btn primary wide" onClick={() => setStep(1)}>

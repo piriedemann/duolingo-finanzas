@@ -27,7 +27,11 @@ const idOf = (e: Episode) => (e.number !== null ? String(e.number) : slug(e.titl
 /** Catálogo: lo generado desde transcripts tiene prioridad sobre research/episodes.json */
 export const EPISODES: EpisodeX[] = (() => {
   const byId = new Map<string, EpisodeX>()
-  for (const e of raw.episodes as (Episode & { date?: string })[]) byId.set(idOf(e), { ...e, id: idOf(e) })
+  for (const e of raw.episodes as (Episode & { date?: string })[]) {
+    // con transcripts disponibles, se descartan los títulos no confirmados de la investigación inicial
+    if (genEpisodes.length && e.title.includes('no confirmado')) continue
+    byId.set(idOf(e), { ...e, id: idOf(e) })
+  }
   for (const e of genEpisodes) byId.set(idOf(e), { ...byId.get(idOf(e)), ...e, id: idOf(e), fromTranscript: true })
   return [...byId.values()].sort((a, b) => (b.number ?? -1) - (a.number ?? -1))
 })()

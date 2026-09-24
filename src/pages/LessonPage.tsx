@@ -97,12 +97,12 @@ export function PracticePage() {
   }, [])
 
   if (result) {
-    return <Results result={result} color="#ce82ff" onContinue={() => go('aprender')} practice />
+    return <Results result={result} color="#5b4f96" onContinue={() => go('aprender')} practice />
   }
   return (
     <LessonPlayer
       items={items}
-      color="#ce82ff"
+      color="#5b4f96"
       practice
       onExit={() => go('aprender')}
       onFinish={(r) => {
@@ -194,7 +194,7 @@ export function QuizPage({ id }: { id: string }) {
     return (
       <Results
         result={result}
-        color="#ce82ff"
+        color="#5b4f96"
         title="Quiz completado"
         onContinue={() => go('episodio/' + id)}
       />
@@ -203,7 +203,7 @@ export function QuizPage({ id }: { id: string }) {
   return (
     <LessonPlayer
       items={items}
-      color="#ce82ff"
+      color="#5b4f96"
       onExit={() => go('episodio/' + id)}
       onFinish={(r) => {
         const xp = 8 + (r.accuracy === 1 ? 4 : 0)
