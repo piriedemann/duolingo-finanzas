@@ -429,3 +429,16 @@ input[type='range']::-moz-range-progress { height: 10px; border-radius: 99px; ba
 input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; width: 26px; height: 26px; margin-top: -8px; border-radius: 50%; background: #fff; border: 3px solid var(--green); box-shadow: 0 3px 0 var(--green-dark); }
 input[type='range']::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 3px solid var(--green); box-shadow: 0 3px 0 var(--green-dark); }
 input[type='range']:disabled { opacity: .6; }
+
+/* guía de unidad */
+.unit-side { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.guide-btn { background: rgba(255,255,255,.2); border: 2px solid rgba(255,255,255,.45); color: #fff; border-radius: 12px; padding: 5px 10px; font-weight: 800; font-size: .78rem; cursor: pointer; white-space: nowrap; }
+.guide-btn:hover { background: rgba(255,255,255,.3); }
+.modal.guide { max-width: 560px; max-height: 88dvh; padding: 0 0 16px; overflow: hidden; align-items: stretch; text-align: left; }
+.modal.guide > .btn { margin: 0 16px; width: auto; }
+.guide-head { color: #fff; display: flex; gap: 14px; align-items: center; padding: 18px; }
+.guide-head h2 { margin: 0; }
+.guide-body { overflow-y: auto; padding: 4px 18px; flex: 1; }
+.guide-lesson { margin: 16px 0 8px; color: var(--muted); text-transform: uppercase; font-size: .8rem; letter-spacing: .05em; }
+.guide-card { border: 2px solid var(--line); border-radius: 14px; padding: 12px 14px; margin-bottom: 10px; }
+.guide-card p { margin: 6px 0 0; }

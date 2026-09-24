@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ALL_LESSONS, UNITS } from '../data/units'
 import { isLessonUnlocked, openChest, useStore } from '../state/store'
-import { go } from '../lib/util'
+import { go, richText } from '../lib/util'
 import { confetti } from '../lib/confetti'
 import { sfx } from '../lib/sound'
 import { Mascot } from '../components/Mascot'
@@ -14,6 +14,8 @@ const CHEST_REWARD = 30
 export function Learn() {
   const s = useStore((s) => s)
   const [open, setOpen] = useState<string | null>(null)
+  const [guide, setGuide] = useState<string | null>(null)
+  const guideUnit = UNITS.find((u) => u.id === guide)
   const currentIndex = ORDERED.findIndex((id) => !s.completed[id])
 
   return (
@@ -32,7 +34,12 @@ export function Learn() {
                 <h2>{unit.title}</h2>
                 <p>{unit.description}</p>
               </div>
-              <div className="unit-emoji">{unit.emoji}</div>
+              <div className="unit-side">
+                <div className="unit-emoji">{unit.emoji}</div>
+                <button className="guide-btn" onClick={() => setGuide(unit.id)}>
+                  📖 Guía
+                </button>
+              </div>
             </div>
 
             <div className="path">
@@ -101,6 +108,39 @@ export function Learn() {
           </section>
         )
       })}
+      {guideUnit && (
+        <div className="modal-backdrop" onClick={() => setGuide(null)}>
+          <div className="modal guide" onClick={(e) => e.stopPropagation()}>
+            <div className="guide-head" style={{ background: guideUnit.color }}>
+              <span className="unit-emoji">{guideUnit.emoji}</span>
+              <div>
+                <div className="unit-kicker">Guía · {guideUnit.animal}</div>
+                <h2>{guideUnit.title}</h2>
+              </div>
+            </div>
+            <div className="guide-body">
+              {guideUnit.lessons.map((l) => (
+                <div key={l.id}>
+                  <h3 className="guide-lesson">{l.title}</h3>
+                  {l.exercises.map((ex, i) =>
+                    ex.type === 'concept' ? (
+                      <div key={i} className="guide-card">
+                        <strong>
+                          {ex.emoji ?? '💡'} {ex.title}
+                        </strong>
+                        <p>{richText(ex.body)}</p>
+                      </div>
+                    ) : null,
+                  )}
+                </div>
+              ))}
+            </div>
+            <button className="btn primary wide" onClick={() => setGuide(null)}>
+              Cerrar
+            </button>
+          </div>
+        </div>
+      )}
       <div className="path-end">
         <Mascot mood="wow" size={120} />
         <h3>¡Más unidades pronto!</h3>

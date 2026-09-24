@@ -1,9 +1,10 @@
-import type { Category, Episode } from './types'
+import type { Category, Episode, Exercise } from './types'
 import raw from './episodes.json'
 
 export interface EpisodeX extends Episode {
   id: string
   date?: string
+  fromTranscript?: boolean
 }
 
 const slug = (t: string) =>
@@ -15,10 +16,20 @@ const slug = (t: string) =>
     .replace(/^-|-$/g, '')
     .slice(0, 50)
 
-/** Catálogo de episodios (research/episodes.json). Se reemplaza con los transcripts cuando estén disponibles. */
-export const EPISODES: EpisodeX[] = (raw.episodes as (Episode & { date?: string })[])
-  .map((e) => ({ ...e, id: e.number !== null ? String(e.number) : slug(e.title) }))
-  .sort((a, b) => (b.number ?? -1) - (a.number ?? -1))
+// Contenido generado desde transcripts (scripts/generate-from-transcripts.ts), si existe
+const generated = import.meta.glob<{ default: unknown }>('./generated/*.json', { eager: true })
+const genEpisodes = (generated['./generated/episodes.json']?.default ?? []) as (Episode & { date?: string })[]
+export const GENERATED_QUIZZES = (generated['./generated/quizzes.json']?.default ?? {}) as Record<string, Exercise[]>
+
+const idOf = (e: Episode) => (e.number !== null ? String(e.number) : slug(e.title))
+
+/** Catálogo: lo generado desde transcripts tiene prioridad sobre research/episodes.json */
+export const EPISODES: EpisodeX[] = (() => {
+  const byId = new Map<string, EpisodeX>()
+  for (const e of raw.episodes as (Episode & { date?: string })[]) byId.set(idOf(e), { ...e, id: idOf(e) })
+  for (const e of genEpisodes) byId.set(idOf(e), { ...byId.get(idOf(e)), ...e, id: idOf(e), fromTranscript: true })
+  return [...byId.values()].sort((a, b) => (b.number ?? -1) - (a.number ?? -1))
+})()
 
 export const SHOW = raw.show as { name: string; hosts: string[]; tagline: string }
 
