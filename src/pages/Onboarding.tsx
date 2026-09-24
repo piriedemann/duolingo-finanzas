@@ -1,22 +1,23 @@
 import { useState } from 'react'
 import { setState } from '../state/store'
-import { Mascot, SpeechBubble } from '../components/Mascot'
 import { SHOW } from '../data/episodes'
 import { go } from '../lib/util'
+import { Brand } from '../App'
+import { ArrowLeft } from '../components/Icons'
 
 const GOALS = [
-  ['🐷', 'Empezar a ahorrar'],
-  ['🦊', 'Salir de deudas'],
-  ['🐂', 'Aprender a invertir'],
-  ['🐘', 'Pensar en mi jubilación'],
-  ['🦅', 'Ganar más plata'],
-  ['🦉', 'Entender mejor el dinero'],
+  'Ordenar mis gastos y empezar a ahorrar',
+  'Salir de deudas',
+  'Aprender a invertir',
+  'Preparar mi jubilación',
+  'Aumentar mis ingresos',
+  'Entender mejor mi relación con el dinero',
 ]
 const DAILY = [
-  [10, 'Relajada', '5 min/día'],
-  [30, 'Normal', '10 min/día'],
-  [50, 'Seria', '15 min/día'],
-  [100, 'Intensa', '20 min/día'],
+  [10, 'Liviano', '5 min al día'],
+  [30, 'Constante', '10 min al día'],
+  [50, 'Comprometido', '15 min al día'],
+  [100, 'Intensivo', '20 min al día'],
 ] as const
 
 export function Onboarding() {
@@ -33,15 +34,20 @@ export function Onboarding() {
   if (step === 0) {
     return (
       <div className="onboard welcome">
-        <Mascot size={180} bounce />
-        <h1 className="brand-big">Animalingo</h1>
+        <Brand />
+        <h1 className="hero-title">Finanzas personales, cinco minutos al día.</h1>
         <p className="lead">
-          Aprende finanzas personales en 5 minutos al día, con el contenido de <strong>{SHOW.name}</strong>.
+          Lecciones cortas, práctica y herramientas basadas en las conversaciones de <strong>{SHOW.name}</strong>.
         </p>
-        <p className="muted small">"{SHOW.tagline}"</p>
+        <ul className="hero-points">
+          <li>27 lecciones en 9 unidades, del ahorro a la jubilación</li>
+          <li>Quizzes de cada episodio del podcast</li>
+          <li>Calculadoras para aplicarlo a tus números</li>
+        </ul>
         <button className="btn primary wide" onClick={() => setStep(1)}>
-          Empezar
+          Comenzar
         </button>
+        <p className="muted small">"{SHOW.tagline}"</p>
       </div>
     )
   }
@@ -50,7 +56,7 @@ export function Onboarding() {
     <div className="onboard">
       <div className="onboard-top">
         <button className="icon-btn" onClick={() => setStep(step - 1)} aria-label="Atrás">
-          ←
+          <ArrowLeft size={22} />
         </button>
         <div className="progress">
           <div className="progress-fill" style={{ width: `${(step / 3) * 100}%` }} />
@@ -58,14 +64,10 @@ export function Onboarding() {
       </div>
       {step === 1 && (
         <>
-          <div className="with-mascot">
-            <Mascot size={90} mood="wink" />
-            <SpeechBubble>¡Hola, animal! Soy Chanchi 🐷 ¿Qué quieres lograr con tu plata?</SpeechBubble>
-          </div>
+          <h2 className="onboard-q">¿Qué te gustaría lograr con tu plata?</h2>
           <div className="options">
-            {GOALS.map(([e, g]) => (
+            {GOALS.map((g) => (
               <button key={g} className={'choice' + (goal === g ? ' selected' : '')} onClick={() => setGoal(g)}>
-                <span className="key">{e}</span>
                 {g}
               </button>
             ))}
@@ -77,10 +79,8 @@ export function Onboarding() {
       )}
       {step === 2 && (
         <>
-          <div className="with-mascot">
-            <Mascot size={90} mood="think" />
-            <SpeechBubble>¿Cuál será tu meta diaria? Lo importante es la constancia, como el interés compuesto 🐢</SpeechBubble>
-          </div>
+          <h2 className="onboard-q">¿Cuánto tiempo le quieres dedicar?</h2>
+          <p className="muted">Como con el interés compuesto, la constancia pesa más que la intensidad.</p>
           <div className="options">
             {DAILY.map(([xp, label, time]) => (
               <button key={xp} className={'choice row' + (daily === xp ? ' selected' : '')} onClick={() => setDaily(xp)}>
@@ -98,10 +98,7 @@ export function Onboarding() {
       )}
       {step === 3 && (
         <>
-          <div className="with-mascot">
-            <Mascot size={90} />
-            <SpeechBubble>¿Cómo te llamo?</SpeechBubble>
-          </div>
+          <h2 className="onboard-q">¿Cómo te llamas?</h2>
           <input
             className="search"
             autoFocus
@@ -112,7 +109,7 @@ export function Onboarding() {
             onKeyDown={(e) => e.key === 'Enter' && finish()}
           />
           <button className="btn primary wide" onClick={finish}>
-            ¡Vamos!
+            Empezar a aprender
           </button>
         </>
       )}

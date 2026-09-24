@@ -38,7 +38,7 @@ export function useLeague() {
       const base = ((seed * (i + 3) * 7919) % 260) + 20
       return { name: n, emoji: e, xp: Math.round(base * progress), me: false }
     })
-    const me = { name: name || 'Tú', emoji: '🐷', xp: weeklyXp(xpByDay), me: true }
+    const me = { name: name || 'Tú', emoji: '', xp: weeklyXp(xpByDay), me: true }
     return [...rivals, me].sort((a, b) => b.xp - a.xp)
   }, [xpByDay, name])
 }
@@ -50,27 +50,27 @@ export function League() {
   return (
     <div className="page">
       <div className="league-head">
-        <div className="league-badge">🥉</div>
-        <h1>Liga Hormiga</h1>
+        <div className="card-label">Liga semanal</div>
+        <h1>Bronce</h1>
         <p className="muted">
-          Los 5 primeros suben a la <strong>Liga Ardilla</strong>. Quedan {daysLeft} {daysLeft === 1 ? 'día' : 'días'}.
+          Los 5 primeros suben a <strong>Plata</strong>. Quedan {daysLeft} {daysLeft === 1 ? 'día' : 'días'}.
         </p>
       </div>
       <div className="card league-list">
         {list.map((x, i) => (
           <div key={x.name + i}>
-            {i === 5 && <div className="zone up">⬆ ZONA DE ASCENSO ⬆</div>}
-            {i === list.length - 3 && <div className="zone down">⬇ ZONA DE DESCENSO ⬇</div>}
+            {i === 5 && <div className="zone up">Zona de ascenso</div>}
+            {i === list.length - 3 && <div className="zone down">Zona de descenso</div>}
             <div className={'league-row' + (x.me ? ' me' : '')}>
               <span className={'rank' + (i < 3 ? ' top' + i : '')}>{i + 1}</span>
-              <span className="avatar">{x.emoji}</span>
+              <span className="avatar">{x.name[0]}</span>
               <span className="grow">{x.me ? <strong>{x.name}</strong> : x.name}</span>
               <span className="muted">{x.xp} XP</span>
             </div>
           </div>
         ))}
       </div>
-      <p className="muted small center">Estás en el puesto #{myPos}. ¡Completa lecciones para subir!</p>
+      <p className="muted small center">Estás en el puesto #{myPos}. Cada lección suma XP a tu semana.</p>
     </div>
   )
 }

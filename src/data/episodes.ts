@@ -35,19 +35,19 @@ export const EPISODES: EpisodeX[] = (() => {
 export const SHOW = raw.show as { name: string; hosts: string[]; tagline: string }
 
 export const CATEGORY_LABEL: Record<Category, string> = {
-  ahorro: '🐜 Ahorro',
-  presupuesto: '🐝 Presupuesto',
-  deudas: '🦊 Deudas',
-  inversion: '🐂 Inversión',
-  interes_compuesto: '🐢 Interés compuesto',
-  mentalidad: '🦉 Mentalidad',
-  carrera_ingresos: '🦅 Carrera e ingresos',
-  emprendimiento: '🚀 Emprendimiento',
-  jubilacion: '🐘 Jubilación',
-  vivienda: '🏠 Vivienda',
-  seguros_riesgo: '🐿️ Seguros y riesgo',
-  cripto: '🪙 Cripto',
-  otros: '🎙️ Otros',
+  ahorro: 'Ahorro',
+  presupuesto: 'Presupuesto',
+  deudas: 'Deudas',
+  inversion: 'Inversión',
+  interes_compuesto: 'Interés compuesto',
+  mentalidad: 'Mentalidad',
+  carrera_ingresos: 'Carrera e ingresos',
+  emprendimiento: 'Emprendimiento',
+  jubilacion: 'Jubilación',
+  vivienda: 'Vivienda',
+  seguros_riesgo: 'Seguros y riesgo',
+  cripto: 'Cripto',
+  otros: 'Otros',
 }
 
 /** Qué unidad de la app refuerza cada categoría de episodio */

@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react'
 import type { Exercise, MatchPairs, NumberEstimate, OrderSteps } from '../data/types'
 import { fmtNum, richText, shuffle } from '../lib/util'
 import { sfx } from '../lib/sound'
-import { Mascot, SpeechBubble } from './Mascot'
 
 export type Answer = number | boolean | string[] | null
 
@@ -81,7 +80,7 @@ export function ExerciseView(p: Props) {
     case 'concept':
       return (
         <div className="concept">
-          <div className="concept-emoji">{ex.emoji ?? '💡'}</div>
+          <div className="concept-kicker">Concepto</div>
           <h2>{ex.title}</h2>
           <p>{richText(ex.body)}</p>
         </div>
@@ -112,10 +111,7 @@ export function ExerciseView(p: Props) {
       return (
         <>
           <h2 className="ex-title">¿Verdadero o falso?</h2>
-          <div className="with-mascot">
-            <Mascot mood="think" size={90} />
-            <SpeechBubble>{ex.statement}</SpeechBubble>
-          </div>
+          <blockquote className="statement">{ex.statement}</blockquote>
           <div className="tf-row">
             {[true, false].map((v) => (
               <button
@@ -127,7 +123,7 @@ export function ExerciseView(p: Props) {
                   p.setAnswer(v)
                 }}
               >
-                {v ? '👍 Verdadero' : '👎 Falso'}
+                {v ? 'Verdadero' : 'Falso'}
               </button>
             ))}
           </div>
@@ -191,7 +187,7 @@ function NumberView({ ex, answer, setAnswer, locked }: Props & { ex: NumberEstim
           <button className="btn small ghost" disabled={locked || v <= ex.min} onClick={() => setAnswer(Math.max(ex.min, v - ex.step))}>
             −
           </button>
-          <span className="muted">Afina con los botones · margen ±{fmtNum(ex.tolerance, ex.unit)}</span>
+          <span className="muted">Margen aceptado ±{fmtNum(ex.tolerance, ex.unit)}</span>
           <button className="btn small ghost" disabled={locked || v >= ex.max} onClick={() => setAnswer(Math.min(ex.max, v + ex.step))}>
             +
           </button>
@@ -212,7 +208,7 @@ function OrderView({ ex, answer, setAnswer, locked, seed }: Props & { ex: OrderS
     <>
       <Prompt text={ex.prompt} />
       <div className="order-slots">
-        {chosen.length === 0 && <div className="muted center">Toca los pasos en el orden correcto 👇</div>}
+        {chosen.length === 0 && <div className="muted center small">Toca los pasos en el orden correcto</div>}
         {chosen.map((x, i) => (
           <button key={x} className="order-item placed" disabled={locked} onClick={() => setAnswer(chosen.filter((y) => y !== x))}>
             <span className="key">{i + 1}</span> {x}

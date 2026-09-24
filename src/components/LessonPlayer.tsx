@@ -3,7 +3,7 @@ import type { Exercise } from '../data/types'
 import { shuffleOptions, canCheck, correctText, ExerciseView, explanation, grade, initialAnswer, isGradable, type Answer } from './Exercises'
 import { loseHeart, MAX_HEARTS, refillHearts, useStore } from '../state/store'
 import { sfx } from '../lib/sound'
-import { Mascot } from './Mascot'
+import { Heart, X } from './Icons'
 
 export interface QueueItem {
   ex: Exercise
@@ -20,7 +20,7 @@ export interface LessonResult {
   gradedCount: number
 }
 
-const CHEERS = ['¡Bacán!', '¡Excelente!', '¡Así se hace!', '¡Impecable!', '¡Crack!', '¡Vas volando!']
+const CHEERS = ['Correcto', 'Exacto', 'Muy bien', 'Bien visto', 'Correcto']
 const HEART_COST = 50
 
 export function LessonPlayer({
@@ -136,20 +136,20 @@ export function LessonPlayer({
     <div className="lesson" style={{ ['--unit' as string]: color }}>
       <header className="lesson-top">
         <button className="icon-btn" onClick={() => setConfirmExit(true)} aria-label="Salir">
-          ✕
+          <X size={22} />
         </button>
         <div className="progress">
           <div className="progress-fill" style={{ width: `${Math.max(4, progress * 100)}%` }} />
-          {combo >= 3 && <span className="combo">🔥 {combo} seguidas</span>}
+          {combo >= 3 && <span className="combo">{combo} seguidas</span>}
         </div>
         <div className="hearts" title="Vidas">
-          {practice ? '🏋️' : <>❤️ {hearts}</>}
+          {practice ? <span className="muted small">Repaso</span> : <><Heart size={18} /> {hearts}</>}
         </div>
       </header>
 
       <main className="lesson-body" key={pos}>
         {ex.type !== 'concept' && firstTry.current.has(key) && status === 'idle' && (
-          <div className="retry-tag">🔁 Error anterior</div>
+          <div className="retry-tag">Revisemos este de nuevo</div>
         )}
         <ExerciseView
           ex={ex}
@@ -194,8 +194,7 @@ export function LessonPlayer({
           <div className="foot-inner">
             <div className="feedback">
               <div className="feedback-head">
-                <span className="feedback-icon">{status === 'correct' ? '✔' : '✖'}</span>
-                <strong>{status === 'correct' ? cheer : 'Respuesta correcta:'}</strong>
+                <strong>{status === 'correct' ? cheer : 'No exactamente. La respuesta es:'}</strong>
               </div>
               {status === 'wrong' && <div className="feedback-answer">{correctText(ex)}</div>}
               {explanation(ex, answer) && <p className="feedback-explain">{explanation(ex, answer)}</p>}
@@ -210,11 +209,10 @@ export function LessonPlayer({
       {outOfHearts && (
         <div className="modal-backdrop">
           <div className="modal">
-            <Mascot mood="sad" size={110} />
-            <h2>¡Te quedaste sin vidas!</h2>
-            <p className="muted">Las vidas se recargan solas (1 cada 20 min). O puedes usar tus Lucas.</p>
+            <h2>Sin vidas por ahora</h2>
+            <p className="muted">Se recupera una cada 20 minutos. También puedes recargarlas con Lucas o hacer un repaso.</p>
             <button className="btn primary wide" disabled={lucas < HEART_COST} onClick={() => refillHearts(HEART_COST)}>
-              Recargar {MAX_HEARTS} ❤️ por {HEART_COST} 🪙
+              Recargar {MAX_HEARTS} vidas · {HEART_COST} Lucas
             </button>
             <button className="btn ghost wide" onClick={onExit}>
               Salir de la lección
@@ -226,11 +224,10 @@ export function LessonPlayer({
       {confirmExit && (
         <div className="modal-backdrop" onClick={() => setConfirmExit(false)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <Mascot mood="sad" size={100} />
-            <h2>¿Seguro que quieres salir?</h2>
+            <h2>¿Salir de la lección?</h2>
             <p className="muted">Perderás el progreso de esta lección.</p>
             <button className="btn primary wide" onClick={() => setConfirmExit(false)}>
-              Seguir aprendiendo
+              Continuar lección
             </button>
             <button className="btn ghost wide danger-text" onClick={onExit}>
               Salir

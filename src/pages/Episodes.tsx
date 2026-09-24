@@ -4,7 +4,7 @@ import type { Category } from '../data/types'
 import { UNITS } from '../data/units'
 import { markListened, useStore } from '../state/store'
 import { go } from '../lib/util'
-import { Mascot } from '../components/Mascot'
+import { ArrowLeft, Check, Crown, Headphones, Mic, Play } from '../components/Icons'
 
 export function Episodes() {
   const listened = useStore((s) => s.listened)
@@ -27,7 +27,7 @@ export function Episodes() {
           <h1>Episodios</h1>
           <p className="muted">Escucha, marca como escuchado y practica lo aprendido. {listened.length} escuchados.</p>
         </div>
-        <span className="page-emoji">🎧</span>
+
       </div>
       <input className="search" placeholder="Buscar por tema, invitado o concepto…" value={q} onChange={(e) => setQ(e.target.value)} />
       <div className="filter-row">
@@ -42,7 +42,6 @@ export function Episodes() {
       </div>
       {list.length === 0 && (
         <div className="center-page">
-          <Mascot mood="think" size={100} />
           <p className="muted">No hay episodios que coincidan.</p>
         </div>
       )}
@@ -51,14 +50,14 @@ export function Episodes() {
           const done = listened.includes(e.id)
           return (
             <button key={e.id} className="ep-card" onClick={() => go('episodio/' + e.id)}>
-              <div className="ep-num">{e.number !== null ? '#' + e.number : '🎙️'}</div>
+              <div className="ep-num">{e.number !== null ? e.number : <Mic size={18} />}</div>
               <div className="ep-main">
                 <div className="ep-title">{e.title}</div>
                 {e.guest && <div className="ep-guest">con {e.guest}</div>}
                 <div className="ep-cat">{CATEGORY_LABEL[e.category]}</div>
               </div>
               <div className="ep-state">
-                {quizzes[e.id] !== undefined ? (quizzes[e.id] === 1 ? '👑' : '✅') : done ? '🎧' : '▶️'}
+                {quizzes[e.id] !== undefined ? quizzes[e.id] === 1 ? <Crown size={18} /> : <Check size={18} /> : done ? <Headphones size={18} /> : null}
               </div>
             </button>
           )
@@ -76,7 +75,6 @@ export function EpisodeDetail({ id }: { id: string }) {
   if (!e) {
     return (
       <div className="center-page">
-        <Mascot mood="sad" />
         <p>Episodio no encontrado</p>
         <button className="btn primary" onClick={() => go('episodios')}>
           Volver
@@ -89,10 +87,10 @@ export function EpisodeDetail({ id }: { id: string }) {
   return (
     <div className="page">
       <button className="back" onClick={() => go('episodios')}>
-        ← Episodios
+        <ArrowLeft size={16} /> Episodios
       </button>
       <div className="ep-hero">
-        <div className="ep-hero-num">{e.number !== null ? '#' + e.number : '🎙️'}</div>
+        <div className="ep-hero-num">{e.number !== null ? '#' + e.number : <Mic size={24} />}</div>
         <div>
           <div className="ep-cat">{CATEGORY_LABEL[e.category]}</div>
           <h1>{e.title}</h1>
@@ -102,21 +100,21 @@ export function EpisodeDetail({ id }: { id: string }) {
       <p className="ep-summary">{e.summary}</p>
       <div className="ep-actions">
         <a className="btn spotify" href={spotifySearch(e)} target="_blank" rel="noreferrer">
-          ▶ Escuchar en Spotify
+          <Play size={16} /> Escuchar en Spotify
         </a>
         <button className={'btn ' + (done ? 'ghost' : 'primary')} disabled={done} onClick={() => markListened(e.id)}>
-          {done ? '✅ Escuchado' : 'Marcar como escuchado +5 XP'}
+          {done ? 'Escuchado' : 'Marcar como escuchado · +5 XP'}
         </button>
       </div>
 
       {quizFor(e.id) && (
         <button className="card quiz-cta" onClick={() => go('quiz/' + e.id)}>
-          <span className="big-animal">🎙️</span>
+          <span className="icon-chip big"><Mic size={20} /></span>
           <div className="grow">
             <strong>Quiz del episodio</strong>
             <div className="muted small">
               {quizFor(e.id)!.length} preguntas ·{' '}
-              {quizScore !== undefined ? `mejor resultado ${Math.round(quizScore * 100)}%` : '+8 XP y 10 🪙 la primera vez'}
+              {quizScore !== undefined ? `mejor resultado ${Math.round(quizScore * 100)}%` : '+8 XP y 10 Lucas la primera vez'}
             </div>
           </div>
           <span className="btn small primary">{quizScore !== undefined ? 'Repetir' : 'Jugar'}</span>
@@ -126,13 +124,13 @@ export function EpisodeDetail({ id }: { id: string }) {
       {e.takeaways.length > 0 && (
         <>
           <h2 className="section-title">Ideas clave</h2>
-          <p className="muted small">Toca cada tarjeta para revelarla. Intenta recordar antes de girarla 🧠</p>
+          <p className="muted small">Intenta recordar cada idea antes de revelarla.</p>
           <div className="flash-grid">
             {e.takeaways.map((t, i) => {
               const on = flipped.includes(i)
               return (
                 <button key={i} className={'flash' + (on ? ' on' : '')} onClick={() => setFlipped(on ? flipped.filter((x) => x !== i) : [...flipped, i])}>
-                  {on ? t : <span className="flash-front">Idea {i + 1} 💡</span>}
+                  {on ? t : <span className="flash-front">Idea {i + 1}</span>}
                 </button>
               )
             })}
@@ -142,7 +140,7 @@ export function EpisodeDetail({ id }: { id: string }) {
 
       {unit && (
         <div className="card related" style={{ borderColor: unit.color }}>
-          <span className="big-animal">{unit.emoji}</span>
+          <span className="unit-symbol small">{unit.emoji}</span>
           <div>
             <div className="muted small">Practica este tema</div>
             <strong>
@@ -151,7 +149,7 @@ export function EpisodeDetail({ id }: { id: string }) {
           </div>
           <button
             className="btn small"
-            style={{ background: unit.color, boxShadow: `0 4px 0 ${unit.colorDark}`, color: '#fff' }}
+            style={{ background: unit.color, borderColor: unit.colorDark, color: '#fff' }}
             onClick={() => {
               go('aprender')
               setTimeout(() => document.getElementById('unidad-' + unit.id)?.scrollIntoView({ behavior: 'smooth' }), 80)

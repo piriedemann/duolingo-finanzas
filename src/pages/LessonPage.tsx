@@ -5,7 +5,7 @@ import { completeLesson, completePractice, completeQuiz, getState, isLessonUnloc
 import { go } from '../lib/util'
 import { confetti } from '../lib/confetti'
 import { sfx } from '../lib/sound'
-import { Mascot } from '../components/Mascot'
+import { Check, Clock, Flame, Target, Zap } from '../components/Icons'
 import { EPISODES, quizFor } from '../data/episodes'
 import { LESSON_EPISODES } from '../data/lessonEpisodes'
 
@@ -38,7 +38,7 @@ export function LessonPage({ id }: { id: string }) {
         extra={
           eps.length > 0 && (
             <div className="card result-eps">
-              <div className="muted small">🎧 Profundiza en el podcast</div>
+              <div className="card-label">Profundiza en el podcast</div>
               {eps.map((e) => (
                 <a key={e.number} className="ep-link" href={'#/episodio/' + e.id}>
                   {e.number !== null ? `#${e.number} · ` : ''}
@@ -141,30 +141,34 @@ function Results({
   const perfect = result.accuracy === 1
   useEffect(() => {
     sfx.finish()
-    const t = setTimeout(() => confetti(), 150)
+    // confeti solo para lecciones perfectas, y discreto
+    const t = perfect ? setTimeout(() => confetti(1200), 150) : undefined
     return () => clearTimeout(t)
-  }, [])
+  }, [perfect])
   const mm = Math.floor(result.seconds / 60)
   const ss = String(result.seconds % 60).padStart(2, '0')
   return (
     <div className="results" style={{ ['--unit' as string]: color }}>
-      <Mascot mood={perfect ? 'wow' : 'happy'} size={160} bounce />
-      <h1 className="results-title">{title ?? (practice ? '¡Práctica completada!' : perfect ? '¡Lección perfecta!' : '¡Lección completada!')}</h1>
+      <div className="results-badge">
+        <Check size={40} strokeWidth={2.5} />
+      </div>
+      <h1 className="results-title">{title ?? (practice ? 'Repaso completado' : perfect ? 'Lección perfecta' : 'Lección completada')}</h1>
+      <p className="muted">{perfect ? 'Sin errores. Así se construye el hábito.' : 'Los errores vuelven en tu próximo repaso para reforzarlos.'}</p>
       <div className="stat-row">
         <div className="stat gold">
-          <div className="stat-head">XP TOTAL</div>
-          <div className="stat-val">⚡ {result.xp}</div>
+          <div className="stat-head">XP</div>
+          <div className="stat-val"><Zap size={18} /> {result.xp}</div>
         </div>
         <div className="stat green">
-          <div className="stat-head">{perfect ? 'PERFECTO' : 'PRECISIÓN'}</div>
-          <div className="stat-val">🎯 {Math.round(result.accuracy * 100)}%</div>
+          <div className="stat-head">Precisión</div>
+          <div className="stat-val"><Target size={18} /> {Math.round(result.accuracy * 100)}%</div>
         </div>
         <div className="stat blue">
-          <div className="stat-head">TIEMPO</div>
-          <div className="stat-val">⏱ {mm}:{ss}</div>
+          <div className="stat-head">Tiempo</div>
+          <div className="stat-val"><Clock size={18} /> {mm}:{ss}</div>
         </div>
       </div>
-      <div className="streak-note">🔥 Racha de {streak} {streak === 1 ? 'día' : 'días'}</div>
+      <div className="streak-note"><Flame size={16} /> Racha de {streak} {streak === 1 ? 'día' : 'días'}</div>
       {extra}
       <div className="results-actions">
         {onRetry && (
@@ -191,7 +195,7 @@ export function QuizPage({ id }: { id: string }) {
       <Results
         result={result}
         color="#ce82ff"
-        title="¡Quiz del episodio completado!"
+        title="Quiz completado"
         onContinue={() => go('episodio/' + id)}
       />
     )
@@ -213,7 +217,6 @@ export function QuizPage({ id }: { id: string }) {
 function NotFound() {
   return (
     <div className="center-page">
-      <Mascot mood="sad" />
       <h2>No encontramos esa lección</h2>
       <button className="btn primary" onClick={() => go('aprender')}>
         Volver

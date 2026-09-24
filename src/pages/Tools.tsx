@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
 import { clp, go } from '../lib/util'
 import { useTool } from '../state/store'
+import { ArrowLeft } from '../components/Icons'
+import { CreditCard, PieChart, ShieldCheck, TrendingUp } from 'lucide-react'
 
 const TOOLS = [
-  { id: 'interes', emoji: '🐢', title: 'Simulador de interés compuesto', desc: '¿Cuánto crece tu plata si la dejas trabajar?', color: '#1cb0f6' },
-  { id: 'presupuesto', emoji: '🐝', title: 'Presupuesto 50/30/20', desc: 'Reparte tu sueldo líquido en 3 celdas.', color: '#ffc800' },
-  { id: 'emergencia', emoji: '🐿️', title: 'Fondo de emergencia', desc: 'Cuánto necesitas y cuándo lo tendrás.', color: '#ff9600' },
-  { id: 'deuda', emoji: '🦊', title: 'La trampa del pago mínimo', desc: 'Cuánto cuesta de verdad pagar el mínimo.', color: '#ff4b4b' },
+  { id: 'interes', Icon: TrendingUp, title: 'Simulador de interés compuesto', desc: '¿Cuánto crece tu plata si la dejas trabajar?', color: '#2c6a86' },
+  { id: 'presupuesto', Icon: PieChart, title: 'Presupuesto 50/30/20', desc: 'Reparte tu sueldo líquido en 3 celdas.', color: '#a8741a' },
+  { id: 'emergencia', Icon: ShieldCheck, title: 'Fondo de emergencia', desc: 'Cuánto necesitas y cuándo lo tendrás.', color: '#a85a2a' },
+  { id: 'deuda', Icon: CreditCard, title: 'La trampa del pago mínimo', desc: 'Cuánto cuesta de verdad pagar el mínimo.', color: '#a8433a' },
 ]
 
 export function Tools({ id }: { id?: string }) {
@@ -26,13 +28,13 @@ export function Tools({ id }: { id?: string }) {
             <h1>Herramientas</h1>
             <p className="muted">Calculadoras para llevar la teoría a tus números. +5 XP la primera vez que usas cada una.</p>
           </div>
-          <span className="page-emoji">🧮</span>
+
         </div>
         <div className="tool-grid">
           {TOOLS.map((t) => (
-            <button key={t.id} className="tool-card" style={{ borderColor: t.color }} onClick={() => go('herramientas/' + t.id)}>
+            <button key={t.id} className="tool-card" onClick={() => go('herramientas/' + t.id)}>
               <span className="tool-emoji" style={{ background: t.color }}>
-                {t.emoji}
+                <t.Icon size={22} color="#fff" />
               </span>
               <strong>{t.title}</strong>
               <span className="muted small">{t.desc}</span>
@@ -45,12 +47,10 @@ export function Tools({ id }: { id?: string }) {
   return (
     <div className="page">
       <button className="back" onClick={() => go('herramientas')}>
-        ← Herramientas
+        <ArrowLeft size={16} /> Herramientas
       </button>
       <div className="page-head">
-        <h1>
-          {tool.emoji} {tool.title}
-        </h1>
+        <h1>{tool.title}</h1>
       </div>
       {tool.id === 'interes' && <Compound />}
       {tool.id === 'presupuesto' && <Budget />}
@@ -177,7 +177,7 @@ function Compound() {
             )}
           </div>
           <p className="insight">
-            🐢 {interest > last.contributed ? '¡Tus intereses superan lo que aportaste! Eso es el interés compuesto trabajando.' : `Los intereses son el ${Math.round((interest / Math.max(1, last.total)) * 100)}% del total. Mientras más tiempo, más pesa esta parte.`}
+            {interest > last.contributed ? '¡Tus intereses superan lo que aportaste! Eso es el interés compuesto trabajando.' : `Los intereses son el ${Math.round((interest / Math.max(1, last.total)) * 100)}% del total. Mientras más tiempo, más pesa esta parte.`}
           </p>
         </div>
       </div>
@@ -188,9 +188,9 @@ function Compound() {
 function Budget() {
   const [income, setIncome] = useState(900_000)
   const parts = [
-    { label: 'Necesidades', pct: 50, emoji: '🏠', desc: 'Arriendo, cuentas, supermercado, transporte', color: '#1cb0f6' },
-    { label: 'Gustos', pct: 30, emoji: '🍕', desc: 'Salidas, delivery, streaming, ropa', color: '#ce82ff' },
-    { label: 'Ahorro e inversión', pct: 20, emoji: '🐷', desc: 'Fondo de emergencia, metas, inversión', color: '#58a700' },
+    { label: 'Necesidades', pct: 50, emoji: 'N', desc: 'Arriendo, cuentas, supermercado, transporte', color: '#2c6a86' },
+    { label: 'Gustos', pct: 30, emoji: 'G', desc: 'Salidas, delivery, streaming, ropa', color: '#5b4f96' },
+    { label: 'Ahorro e inversión', pct: 20, emoji: 'A', desc: 'Fondo de emergencia, metas, inversión', color: '#2f6f4f' },
   ]
   return (
     <div className="tool-layout">
@@ -220,7 +220,7 @@ function Budget() {
             <div className="kpi small-kpi">{clp((income * p.pct) / 100)}</div>
           </div>
         ))}
-        <p className="insight">🐝 Ahorrando {clp(income * 0.2)} al mes, en un año juntas {clp(income * 0.2 * 12)}.</p>
+        <p className="insight">Ahorrando {clp(income * 0.2)} al mes, en un año juntas {clp(income * 0.2 * 12)}.</p>
       </div>
     </div>
   )
@@ -262,7 +262,7 @@ function Emergency() {
             <div className="kpi green-text">{missing === 0 ? '¡Listo!' : eta === Infinity ? '—' : eta + ' meses'}</div>
           </div>
         </div>
-        <p className="insight">🐿️ Guárdalo en algo líquido y de bajo riesgo (cuenta de ahorro, depósito a plazo renovable o fondo money market), separado de tu cuenta del día a día.</p>
+        <p className="insight">Guárdalo en algo líquido y de bajo riesgo (cuenta de ahorro, depósito a plazo renovable o fondo money market), separado de tu cuenta del día a día.</p>
       </div>
     </div>
   )
@@ -292,7 +292,7 @@ function MinPayment() {
   const a = sim(null)
   const fixedPay = Math.max(debt * (minPct / 100), 10_000) + extra
   const b = sim(fixedPay)
-  const f = (m: number) => (m === Infinity ? 'nunca 😱' : m >= 12 ? `${Math.floor(m / 12)} años ${m % 12} meses` : `${m} meses`)
+  const f = (m: number) => (m === Infinity ? 'nunca' : m >= 12 ? `${Math.floor(m / 12)} años ${m % 12} meses` : `${m} meses`)
   return (
     <div className="tool-layout">
       <div className="card">
@@ -304,7 +304,7 @@ function MinPayment() {
       <div className="card">
         <div className="versus">
           <div className="vs-box bad">
-            <div className="vs-title">😰 Solo el mínimo</div>
+            <div className="vs-title">Solo el pago mínimo</div>
             <div className="muted small">Tardas</div>
             <div className="kpi">{f(a.months)}</div>
             <div className="muted small">Pagas en total</div>
@@ -313,7 +313,7 @@ function MinPayment() {
             <div className="kpi red-text">{a.paid === Infinity ? '∞' : clp(a.paid - debt)}</div>
           </div>
           <div className="vs-box good">
-            <div className="vs-title">😎 Cuota fija de {clp(fixedPay)}</div>
+            <div className="vs-title">Cuota fija de {clp(fixedPay)}</div>
             <div className="muted small">Tardas</div>
             <div className="kpi">{f(b.months)}</div>
             <div className="muted small">Pagas en total</div>
@@ -323,7 +323,7 @@ function MinPayment() {
           </div>
         </div>
         {a.paid !== Infinity && b.paid !== Infinity && (
-          <p className="insight">🦊 Pagando una cuota fija te ahorras {clp(a.paid - b.paid)} en intereses. El pago mínimo baja junto con tu deuda, por eso se estira tanto.</p>
+          <p className="insight">Pagando una cuota fija te ahorras {clp(a.paid - b.paid)} en intereses. El pago mínimo baja junto con tu deuda, por eso se estira tanto.</p>
         )}
       </div>
     </div>
