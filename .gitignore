@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# transcripts crudos: contenido privado, no se publica (repo público)
+transcripts/

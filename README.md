@@ -24,7 +24,16 @@ npm run dev      # http://localhost:5173
 npm run build    # genera dist/
 ```
 
-Stack: Vite + React + TypeScript, sin backend. Deploy automático a GitHub Pages con `.github/workflows/deploy.yml`.
+Stack: Vite + React + TypeScript, sin backend. Deploy automático a GitHub Pages (rama `gh-pages`) con `.github/workflows/deploy.yml`.
+
+## Transcripts → lecciones
+
+`scripts/generate-from-transcripts.ts` lee `transcripts/index.json` + `transcripts/*.txt` y usa la API de Claude para generar
+resumen, ideas clave y un quiz por episodio en `src/data/generated/`. `transcripts/` está en `.gitignore` (contenido privado).
+
+```bash
+ANTHROPIC_API_KEY=... node scripts/generate-from-transcripts.ts   # incremental; --only 70,92 --force
+```
 
 ## Contenido
 
