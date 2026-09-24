@@ -256,7 +256,7 @@ export function markListened(id: string) {
   setState((s) => (s.listened.includes(id) ? s : { ...addXp(s, 5), listened: [...s.listened, id] }))
 }
 
-export function useTool(id: string) {
+export function markToolUsed(id: string) {
   setState((s) => (s.toolsUsed.includes(id) ? s : { ...addXp(s, 5), toolsUsed: [...s.toolsUsed, id] }))
 }
 

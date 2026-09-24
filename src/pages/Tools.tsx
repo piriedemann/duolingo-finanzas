@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { clp, go } from '../lib/util'
-import { useTool } from '../state/store'
+import { markToolUsed } from '../state/store'
 import { ArrowLeft } from '../components/Icons'
 import { CreditCard, PieChart, ShieldCheck, TrendingUp } from 'lucide-react'
 
@@ -15,7 +15,7 @@ export function Tools({ id }: { id?: string }) {
   const tool = TOOLS.find((t) => t.id === id)
   useEffect(() => {
     if (tool) {
-      const t = setTimeout(() => useTool(tool.id), 4000) // cuenta como usada tras interactuar un rato
+      const t = setTimeout(() => markToolUsed(tool.id), 4000) // cuenta como usada tras interactuar un rato
       return () => clearTimeout(t)
     }
   }, [tool])
