@@ -1,0 +1,727 @@
+{
+  "show": {
+    "name": "Animales Financieros",
+    "hosts": [
+      "Pablo Riedemann",
+      "Francisco Verdugo"
+    ],
+    "tagline": "Tranquilidad Financiera y Crecimiento Exponencial",
+    "notes": "Podcast chileno (Santiago) que partió en enero de 2022, con episodios semanales los martes (Spotify, Apple Podcasts, YouTube, iVoox). ~223 episodios a septiembre de 2026. Descripción: 'Te acompañamos a bajar tu estrés financiero y te motivamos a crecer día a día' / 'un podcast que te empuja a vivir una vida que no le cambiarías a nadie'. Filosofía: 'El éxito en tus finanzas depende poco de tu inteligencia y mucho de tu comportamiento'; 'cualquiera puede tomar mejores decisiones financieras, siempre y cuando logre manejar su animal interior'. A la audiencia le dicen 'animales'. Segmentos recurrentes: 'Mentores' (desde el ep. 77, ene 2024, con Fernando Gómez, CEO de DVA Capital, como co-entrevistador; incluye episodios de figuras como Charlie Munger); series de libros en varias partes (JL Collins, Morgan Housel, Sahil Bloom, cartas de Buffett, memos de Howard Marks); entrevistas a invitados; episodios en vivo. Marco propio: 'Las Reglas del Juego del Dinero' (ep. 70; también curso en animalesfinancieros.com: 'Aprovecha la plata gratis, prepara tu futuro y ten claro qué hacer con tu próxima luca'). Pablo Riedemann: ingeniero UC, CFA, de Temuco, vive en California; escribe el newsletter 'Principiante' en Substack. Los primeros episodios de 2022 se publicaron también como posts de Substack. Hay newsletter en beehiiv. Auspicio/colaboración con AFP Cuprum en episodios de pensiones.",
+    "sources": [
+      "https://www.ivoox.com/en/podcast-animales-financieros_sq_f11516548_1.html",
+      "https://podcasts.apple.com/cl/podcast/animales-financieros/id1616728665",
+      "https://open.spotify.com/show/5RqxERcDPazAmdiOGPSjcf",
+      "https://principiante.substack.com/about",
+      "https://animalesfinancieros.substack.com/about",
+      "https://alumni.uai.cl/careers/summary/2932"
+    ],
+    "research_caveats": "El proxy bloqueó el acceso directo a todos los sitios de podcasts; todo proviene de fragmentos de resultados de búsqueda web. Los resúmenes y conceptos parafrasean las descripciones de los episodios; no son citas. Los episodios con '(título no confirmado)' se identificaron por su descripción, pero no se encontró el título exacto ni el número."
+  },
+  "episodes": [
+    {
+      "number": null,
+      "title": "El hombre de las cavernas también invierte",
+      "guest": null,
+      "summary": "Episodio piloto: los conductores se presentan y plantean el problema de vivir en un mundo moderno con el mismo cerebro de hace 200.000 años. El ahorro depende más del comportamiento que de cuánto ganas.",
+      "takeaways": [
+        "El éxito financiero depende poco de la inteligencia y mucho del comportamiento",
+        "Empezar a invertir lo antes posible",
+        "Ser disciplinado y no intentar ganarle al mercado",
+        "Diversificar y pagar comisiones bajas aceptando la volatilidad",
+        "El tiempo es el mejor aliado del interés compuesto"
+      ],
+      "category": "mentalidad",
+      "source": "https://principiante.substack.com/p/el-hombre-de-las-cavernas-tambien-5b7",
+      "confidence": "high",
+      "notes": "Descrito como episodio piloto (probablemente #1). También en podtail.com/ru/podcast/animales-financieros/el-hombre-de-las-cavernas-tambien-invierte"
+    },
+    {
+      "number": 2,
+      "title": "¿Qué hago con mi plata? Llegó fin de mes",
+      "guest": null,
+      "summary": "El fin de mes como momento para ordenar las finanzas personales, con recomendaciones para quien tiene deudas y/o no tiene un colchón de emergencia.",
+      "takeaways": [
+        "Usar el fin de mes para revisar y ordenar tus finanzas",
+        "Priorizar el pago de deudas caras",
+        "Construir un fondo de emergencia calculado como múltiplo de tus gastos mensuales",
+        "Decidir con un orden claro qué hacer con el dinero que sobra"
+      ],
+      "category": "presupuesto",
+      "source": "https://open.spotify.com/episode/3CklKeCY8R3ZhOOk57J2Si",
+      "confidence": "high",
+      "alt_source": "https://principiante.substack.com/p/que-hago-con-mi-plata-llego-fin-de-a29"
+    },
+    {
+      "number": null,
+      "title": "Los Yos, y cómo te podrían ayudar a ti",
+      "guest": null,
+      "summary": "Presenta cinco 'yos' internos que hay que controlar para tomar mejores decisiones financieras: Gastón (gastos básicos), Agustín (darse gustos), Alicia (vacaciones), Ángeles (protección ante imprevistos) y Sofía (el futuro).",
+      "takeaways": [
+        "Dividir el dinero según distintos propósitos o 'yos'",
+        "Separar gastos básicos, gustos, metas, protección y futuro",
+        "Reservar una parte para imprevistos (protección)",
+        "Pensar en tu yo futuro al asignar el dinero",
+        "El comportamiento pesa más que la inteligencia en las finanzas"
+      ],
+      "category": "presupuesto",
+      "source": "https://podcasters.spotify.com/pod/show/animales-financieros/episodes/Los-Yos--y-cmo-te-podran-ayudar-a-ti-e1dtli4",
+      "confidence": "high",
+      "date": "2022-02-04",
+      "alt_source": "https://principiante.substack.com/p/los-yos-y-como-te-podrian-ayudar-023"
+    },
+    {
+      "number": null,
+      "title": "Invierte para ser libre (🎶 libre libre, como el viento 🎵😎)",
+      "guest": null,
+      "summary": "Episodio temprano sobre invertir como camino a la libertad financiera, con consejos básicos de inversión y cómo hacer que invertir sea parte de tu vida.",
+      "takeaways": [
+        "Empezar a invertir temprano",
+        "Ser disciplinado y no intentar ganarle al mercado",
+        "Diversificar y pagar comisiones bajas",
+        "Aprovechar el interés compuesto en el tiempo",
+        "Asignar el gasto a tus distintos 'yos' e invertir el resto para tu yo futuro"
+      ],
+      "category": "inversion",
+      "source": "https://principiante.substack.com/p/invierte-para-ser-libre-libre-libre-368",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "Aprendiendo a invertir",
+      "guest": null,
+      "summary": "Tras episodios sobre orden y sistemas, este capítulo entra en cómo y en qué invertir.",
+      "takeaways": [
+        "Primero ordenar tus finanzas, después invertir",
+        "Entender en qué instrumentos se puede invertir",
+        "Construir hábitos de inversión"
+      ],
+      "category": "inversion",
+      "source": "https://principiante.substack.com/p/aprendiendo-a-invertir-061",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "El interés compuesto va a cambiar tu vida, conócelo acá!",
+      "guest": null,
+      "summary": "Explica de forma simple el interés compuesto, una de las fuerzas más importantes en las finanzas, que muchos mencionan pero pocos aprovechan o entienden; cita ideas de Morgan Housel.",
+      "takeaways": [
+        "El interés compuesto hace que los intereses generen nuevos intereses",
+        "Su crecimiento es exponencial: al principio parece que no pasa nada",
+        "El tiempo es el ingrediente clave",
+        "El comportamiento importa más que la inteligencia"
+      ],
+      "category": "interes_compuesto",
+      "source": "https://principiante.substack.com/p/el-interes-compuesto-va-a-cambiar-92d",
+      "confidence": "high"
+    },
+    {
+      "number": null,
+      "title": "Ser constante le gana a ser mejor",
+      "guest": null,
+      "summary": "Aunque seas el mejor inversionista del mundo, si tienes un mal año y no lo aguantas, puedes perder todo lo ganado. Trata sobre la constancia y dar tiempo al interés compuesto.",
+      "takeaways": [
+        "La constancia vale más que la excelencia ocasional",
+        "Sobrevivir a los malos años es clave",
+        "Dar tiempo al interés compuesto para que trabaje",
+        "Evitar decisiones que te saquen del juego"
+      ],
+      "category": "interes_compuesto",
+      "source": "https://principiante.substack.com/p/ser-constante-le-gana-a-ser-mejor-069",
+      "confidence": "high"
+    },
+    {
+      "number": null,
+      "title": "Invertir en las mejores empresas del mundo",
+      "guest": null,
+      "summary": "Las formas que existen para invertir en las mejores empresas del mundo y la importancia de hacerlo de manera diversificada.",
+      "takeaways": [
+        "Hay varias formas de invertir en grandes empresas globales",
+        "La diversificación reduce el riesgo",
+        "Los fondos permiten diversificar y automatizar con poco tiempo"
+      ],
+      "category": "inversion",
+      "source": "https://podcasters.spotify.com/pod/show/animales-financieros/episodes/Invertir-en-las-mejores-empresas-del-mundo-e1eios9",
+      "confidence": "high",
+      "alt_source": "https://principiante.substack.com/p/invertir-en-las-mejores-empresas-524"
+    },
+    {
+      "number": null,
+      "title": "Invertir en la digitalización del mundo, el Metaverso y el mejor fondo en Chile",
+      "guest": "Fernando Gómez (CEO DVA Capital) y Fernando Hales (Portfolio Manager Silicon Fund)",
+      "summary": "Conversación sobre cómo la digitalización del mundo cambió nuestras vidas y cómo invertir en esa tendencia a través de un fondo temático enfocado en semiconductores.",
+      "takeaways": [
+        "Invertir en tendencias en vez de apostar por ganadores individuales",
+        "Fondos temáticos como forma de exposición a una tendencia",
+        "Los semiconductores sostienen la IA y la digitalización",
+        "Diversificar dentro de una temática"
+      ],
+      "category": "inversion",
+      "source": "https://principiante.substack.com/p/invertir-en-la-digitalizacion-del-a50",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "Fintual, Focus, Racional, Clever y DVA",
+      "guest": null,
+      "summary": "Cómo elegir entre las principales fintech chilenas para invertir en fondos, en qué se parecen y en qué se diferencian.",
+      "takeaways": [
+        "Comparar plataformas de inversión por comisiones",
+        "Los robo-advisors bajan costos y automatizan",
+        "Revisar cómo cada plataforma mide la rentabilidad",
+        "Elegir según tus necesidades, no solo por moda"
+      ],
+      "category": "inversion",
+      "source": "https://principiante.substack.com/p/fintual-focus-racional-clever-y-dva-3ec",
+      "confidence": "medium"
+    },
+    {
+      "number": 11,
+      "title": "Ahorrar por ahorrar es el método ideal",
+      "guest": null,
+      "summary": "Muchas personas subestiman la incertidumbre del futuro y se ponen objetivos poco realistas; la mejor forma de ahorrar e invertir es que sea parte de tu vida, hacerlo por hacerlo y no solo para cosas predefinidas.",
+      "takeaways": [
+        "El ahorro debe ser un hábito, no solo un medio para una meta",
+        "El futuro es incierto; los objetivos rígidos pueden fallar",
+        "Automatizar ahorro e inversión como estilo de vida",
+        "Ahorrar sin un fin específico te da flexibilidad"
+      ],
+      "category": "ahorro",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/11---Ahorrar-por-ahorrar-es-el-mtodo-ideal-e1girig",
+      "confidence": "high"
+    },
+    {
+      "number": null,
+      "title": "Buscando Departamentos con Francisco Ackermann",
+      "guest": "Francisco Ackermann (cofundador de Capitalizarme.com)",
+      "summary": "Episodio bonus con un experto en inversión inmobiliaria: cómo afectan las contingencias a este tipo de inversión, cómo empezar y a qué poner atención.",
+      "takeaways": [
+        "Cómo empezar a invertir en departamentos",
+        "Evaluar el contexto y las contingencias antes de invertir",
+        "Detalles a revisar al comprar para invertir"
+      ],
+      "category": "vivienda",
+      "source": "https://principiante.substack.com/p/buscando-departamentos-con-francisco-b8f",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "Tips para el emprendedor que no sale en la tele",
+      "guest": "Gerente general de la Asociación de Emprendedores de Chile (ASECH)",
+      "summary": "Consejos para el emprendedor 'real': quien quiere un negocio para vivir sin trabajar para un tercero, no crear un unicornio.",
+      "takeaways": [
+        "Emprender para vivir de tu negocio es distinto a buscar un unicornio",
+        "Ordenar las finanzas del negocio",
+        "Hábitos financieros para emprendedores"
+      ],
+      "category": "emprendimiento",
+      "source": "https://principiante.substack.com/p/tips-para-el-emprendedor-que-no-sale-116",
+      "confidence": "medium"
+    },
+    {
+      "number": 40,
+      "title": "El mundo del Venture Capital con Evelyn Von Bischhoffshausen (Kayyak)",
+      "guest": "Evelyn Von Bischhoffshausen (Kayyak Ventures)",
+      "summary": "Cómo funciona el venture capital: apuestas fuertes donde, en un portafolio de ~25 inversiones, 2 o 3 entregan todo el retorno; y cómo un family office apostó por algo nuevo en Chile.",
+      "takeaways": [
+        "El venture capital busca pocos grandes ganadores",
+        "Pensar en portafolio y no en apuestas individuales",
+        "Asumir alto riesgo a cambio de alto potencial",
+        "El venture capital es un activo de largo plazo"
+      ],
+      "category": "inversion",
+      "source": "https://www.ivoox.com/en/40-el-mundo-del-venture-capital-con-audios-mp3_rf_108383380_1.html",
+      "confidence": "high"
+    },
+    {
+      "number": 43,
+      "title": "Educación financiera de verdad con Sergio Tricio (Patrimore)",
+      "guest": "Sergio Tricio (gerente general de Patrimore)",
+      "summary": "Conversación con un referente chileno en inversiones y finanzas personales sobre educación financiera práctica, incluyendo cómo ve un experto que su hijo pierda plata en sus primeras inversiones.",
+      "takeaways": [
+        "La educación financiera práctica importa más que la teoría",
+        "Equivocarse temprano con montos pequeños enseña",
+        "Planificación financiera como base"
+      ],
+      "category": "mentalidad",
+      "source": "https://open.spotify.com/episode/3coaIgxyHi2wMAWzrYHq8z",
+      "confidence": "high"
+    },
+    {
+      "number": 46,
+      "title": "Value investing y dividendos por Youtube con Jose Stuven",
+      "guest": "José Stuven (youtuber de value investing)",
+      "summary": "Cómo encontrar valor en las empresas y la importancia del flujo de caja para valorarlas.",
+      "takeaways": [
+        "No darle demasiada importancia a las noticias negativas",
+        "Aprender a leer la información financiera",
+        "Entender el modelo de negocio y cómo genera caja",
+        "Aprovechar las tasas de interés mientras duren"
+      ],
+      "category": "inversion",
+      "source": "https://www.ivoox.com/en/46-value-investing-dividendos-youtube-audios-mp3_rf_111296519_1.html",
+      "confidence": "high"
+    },
+    {
+      "number": 70,
+      "title": "Estas son Las Reglas del Juego del Dinero",
+      "guest": null,
+      "summary": "Responde '¿Qué debería hacer con mi próxima luca?' con una guía paso a paso que todo inversionista debería seguir para jugar el juego financiero y evitar errores comunes.",
+      "takeaways": [
+        "Tener un orden de prioridades para cada peso extra",
+        "Aprovechar la 'plata gratis' (beneficios disponibles)",
+        "Pagar deudas caras y tener fondo de emergencia antes de invertir",
+        "Preparar el futuro (jubilación)",
+        "Evitar errores comunes del inversionista"
+      ],
+      "category": "inversion",
+      "source": "https://open.spotify.com/episode/45yCTTXHDD5rCRRac8DrAq",
+      "confidence": "high",
+      "date": "2023-12-13",
+      "notes": "Base del curso 'Las Reglas del Juego' en animalesfinancieros.com/cursos/las-reglas-del-juego"
+    },
+    {
+      "number": 77,
+      "title": "Mentores | La visión que deberías tener con Patricio Jottar (CEO CCU)",
+      "guest": "Patricio Jottar (CEO CCU)",
+      "summary": "Primer episodio del segmento Mentores (enero 2024): por qué un ejecutivo elige el futuro en vez de predecirlo, y cómo elegir siempre implica renunciar.",
+      "takeaways": [
+        "Elegir el futuro en vez de intentar predecirlo",
+        "Elegir implica renunciar",
+        "La regla 10-80-10 para delegar y empoderar",
+        "Un trabajo al 99% vale 40, no 99",
+        "Para liderar hay que querer a tu gente"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/77---Mentores--La-visin-que-deberas-tener-con-Patricio-Jottar-CEO-CCU-e2elike",
+      "confidence": "high",
+      "notes": "Debut de Fernando Gómez como co-entrevistador del segmento Mentores"
+    },
+    {
+      "number": 84,
+      "title": "Mentores | Fernando Gómez",
+      "guest": "Fernando Gómez (CEO DVA Capital)",
+      "summary": "El entrevistador se vuelve entrevistado: Fernando Gómez, invitado frecuente y co-host del segmento Mentores, cuenta su historia y aprendizajes.",
+      "takeaways": [
+        "Aprendizajes de carrera de un gestor de inversiones",
+        "Aprender de mentores y trayectorias reales",
+        "Visión de largo plazo en inversiones"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/84---Mentores--Fernando-Gmez-e2guimh",
+      "confidence": "medium"
+    },
+    {
+      "number": 112,
+      "title": "Las Reglas del Juego del Dinero en Con Peras y Finanzas",
+      "guest": null,
+      "summary": "Francisco Verdugo presenta Las Reglas del Juego del Dinero en el podcast Con Peras y Finanzas (crossover).",
+      "takeaways": [
+        "Págate a ti mismo primero",
+        "Evitar el exceso de gasto",
+        "Construir un fondo de emergencia",
+        "Pagar deudas de alto interés antes de invertir",
+        "Diversificar y protegerse con seguros"
+      ],
+      "category": "inversion",
+      "source": "https://open.spotify.com/episode/33Wl03TnNDSAaL5q5SyuOU",
+      "confidence": "medium"
+    },
+    {
+      "number": 117,
+      "title": "Mentores | Charlie Munger",
+      "guest": null,
+      "summary": "Repaso de las ideas y modelos mentales de Charlie Munger a partir del libro 'Poor Charlie's Almanack'.",
+      "takeaways": [
+        "Usar modelos mentales para decidir mejor",
+        "Aprender de los errores propios y ajenos",
+        "Paciencia y pensamiento de largo plazo al invertir"
+      ],
+      "category": "mentalidad",
+      "source": "https://www.ivoox.com/en/117-mentores-charlie-munger-audios-mp3_rf_135341808_1.html",
+      "confidence": "high"
+    },
+    {
+      "number": 121,
+      "title": "El Futuro de Animales Financieros",
+      "guest": null,
+      "summary": "Comentan los resultados de la primera gran encuesta a los 'animales' (la audiencia) y el rumbo del podcast.",
+      "takeaways": [
+        "Escuchar a la audiencia para definir contenidos",
+        "Rumbo y formato del podcast"
+      ],
+      "category": "otros",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/121---El-Futuro-de-Animales-Financieros-e2rfpt7",
+      "confidence": "high",
+      "date": "2024-11-26"
+    },
+    {
+      "number": 122,
+      "title": "Tranquilidad Financiera Parte 1",
+      "guest": "Fernando Gómez",
+      "summary": "Fernando Gómez desmenuza la charla sobre tranquilidad financiera que dio en Finanfest (5 puntos); esta parte cubre los dos primeros: generar y ahorrar.",
+      "takeaways": [
+        "La tranquilidad financiera se construye por etapas",
+        "Primero generar ingresos",
+        "Luego ahorrar de forma sistemática"
+      ],
+      "category": "mentalidad",
+      "source": "https://podcasts.apple.com/gt/podcast/122-tranquilidad-financiera-parte-1/id1689097825?i=1000679040001",
+      "confidence": "high",
+      "date": "2024-12-03"
+    },
+    {
+      "number": 123,
+      "title": "Tranquilidad Financiera Parte 2",
+      "guest": "Fernando Gómez",
+      "summary": "Segunda parte de la charla de Finanfest: tras generar y ahorrar, revisan el resto de los puntos e historias sobre los orígenes de Fernando.",
+      "takeaways": [
+        "Continuar el marco de tranquilidad financiera más allá de generar y ahorrar",
+        "Cómo la historia personal influye en la relación con el dinero"
+      ],
+      "category": "mentalidad",
+      "source": "https://open.spotify.com/episode/0LfreBUt2491XlvY82p5JL",
+      "confidence": "medium"
+    },
+    {
+      "number": 124,
+      "title": "Elige tu estilo de vida, después tus inversiones | con Álvaro López (Brattia)",
+      "guest": "Álvaro López (Brattia)",
+      "summary": "Con un ex profesor de finanzas, financieramente independiente y creador de contenido: prioridades, en qué enfocarse al empezar y cómo elegir dónde invertir según el estilo de vida que quieres.",
+      "takeaways": [
+        "Definir primero el estilo de vida que quieres",
+        "Elegir la estrategia de inversión según ese estilo de vida",
+        "Prioridades al empezar a invertir",
+        "La independencia financiera como objetivo (incl. dividendos)"
+      ],
+      "category": "inversion",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/124---Elige-tu-estilo-de-vida--despus-tus-inversiones--con-lvaro-Lpez-Brattia-e2sd3ur",
+      "confidence": "high"
+    },
+    {
+      "number": 133,
+      "title": "Todo Sobre el APV",
+      "guest": null,
+      "summary": "El Ahorro Previsional Voluntario como una de las claves para la jubilación: qué régimen elegir, cuánto ahorrar y con quién contratarlo.",
+      "takeaways": [
+        "El APV complementa el ahorro obligatorio",
+        "Elegir entre régimen A (bonificación estatal) y B (rebaja de base imponible) según tu ingreso",
+        "Definir cuánto ahorrar",
+        "Comparar proveedores y comisiones"
+      ],
+      "category": "jubilacion",
+      "source": "https://open.spotify.com/episode/25I7WCzQnSeTWzlM6NF5Jk",
+      "confidence": "high"
+    },
+    {
+      "number": 135,
+      "title": "2025 según Buffett",
+      "guest": null,
+      "summary": "Leen y comentan la carta 2024 de Warren Buffett a los accionistas de Berkshire Hathaway, incluyendo secciones con enseñanzas más allá de las finanzas.",
+      "takeaways": [
+        "Aprender de las cartas anuales de grandes inversionistas",
+        "Pensamiento de largo plazo",
+        "Lecciones de vida además de inversión"
+      ],
+      "category": "inversion",
+      "source": "https://open.spotify.com/episode/1P9f5DVsXOjAOQDQOcDaBJ",
+      "confidence": "high"
+    },
+    {
+      "number": 138,
+      "title": "Verdades y mentiras de la reforma de pensiones",
+      "guest": "Natalia Gallardo (Gerente de Estudios, AFP Cuprum)",
+      "summary": "Qué significan para las personas los cambios a las reglas de pensiones en Chile tras la reforma.",
+      "takeaways": [
+        "Entender cómo funciona el sistema de pensiones",
+        "Separar mitos de realidades de la reforma",
+        "Cómo te afectan los cambios en tu jubilación"
+      ],
+      "category": "jubilacion",
+      "source": "https://podcasts.apple.com/cl/podcast/138-verdades-y-mentiras-de-la-reforma-de-pensiones/id1616728665?i=1000700725916",
+      "confidence": "high",
+      "date": "2025-03-25"
+    },
+    {
+      "number": 140,
+      "title": "Invirtiendo en Desarrollo Inmobiliario con Matías Zulueta",
+      "guest": "Matías Zulueta (fundador y gerente general de Somos Rentable)",
+      "summary": "Invertir en inmobiliario no tiene por qué ser comprar y arrendar un departamento: distintos formatos (desarrollo, leaseback, renta), sus beneficios y riesgos.",
+      "takeaways": [
+        "Existen formatos inmobiliarios más allá de comprar para arrendar",
+        "Leaseback, renta y desarrollo tienen perfiles distintos",
+        "Cómo se gestionan los riesgos",
+        "Invertir junto al gestor alinea incentivos"
+      ],
+      "category": "vivienda",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/140---Invirtiendo-en-Desarrollo-Inmobiliario-con-Matas-Zulueta-e318cvk",
+      "confidence": "high",
+      "date": "2025-04-08"
+    },
+    {
+      "number": 149,
+      "title": "Hora de Jubilar",
+      "guest": null,
+      "summary": "Una de las decisiones financieras más importantes: cuándo y cómo jubilar; el sistema de pensiones chileno, las modalidades de pensión, detalles y asesores.",
+      "takeaways": [
+        "Cuándo jubilar es una decisión clave",
+        "Conocer las modalidades de pensión",
+        "El rol de un asesor en la jubilación",
+        "Planificar con anticipación"
+      ],
+      "category": "jubilacion",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/149---Hora-de-Jubilar-e341jtm",
+      "confidence": "medium",
+      "notes": "Un resumen de búsqueda menciona entrevistas con Thomas Idzorek (Morningstar) y Natalia Gallardo (AFP Cuprum), no confirmado"
+    },
+    {
+      "number": 150,
+      "title": "El Camino Simple a la Riqueza (parte 1)",
+      "guest": null,
+      "summary": "Primera parte ('Orientación') de una serie sobre el bestseller de JL Collins que cambia cómo pensamos el ahorro y la inversión.",
+      "takeaways": [
+        "Un plan de inversión simple suele ser mejor que uno complejo",
+        "La deuda es el principal freno a la libertad financiera",
+        "Ahorrar una parte importante del ingreso",
+        "Invertir de forma simple y de bajo costo"
+      ],
+      "category": "inversion",
+      "source": "https://open.spotify.com/episode/4BNpUgGdv8vf65b8tIqxXd",
+      "confidence": "high",
+      "date": "2025-06-17"
+    },
+    {
+      "number": 153,
+      "title": "El Camino Simple a la Riqueza (parte 2)",
+      "guest": null,
+      "summary": "Continúan con el libro de JL Collins: su filosofía de inversión, los tipos de activos disponibles y los errores típicos al invertir.",
+      "takeaways": [
+        "Si el plan es complejo, beneficia más al asesor que a ti",
+        "Conocer los tipos de activos",
+        "Evitar errores típicos al invertir",
+        "Mantener el rumbo en el largo plazo"
+      ],
+      "category": "inversion",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/episodes/153---El-Camino-Simple-a-la-Riqueza-parte-2-e357qkj",
+      "confidence": "high"
+    },
+    {
+      "number": 155,
+      "title": "[Español] La escalera de la riqueza con Nick Maggiulli",
+      "guest": "Nick Maggiulli (autor de 'The Wealth Ladder')",
+      "summary": "Entrevista al autor de 'La escalera de la riqueza', cuya tesis es que la estrategia financiera cambia según tu nivel de patrimonio (publicado en versión en español y en inglés).",
+      "takeaways": [
+        "La estrategia financiera cambia según tu nivel de patrimonio",
+        "Gastos, ingresos e inversiones se manejan distinto en cada nivel",
+        "Enfocarse en lo que más mueve la aguja en tu nivel actual"
+      ],
+      "category": "inversion",
+      "source": "https://open.spotify.com/episode/6QOzjDRfTv9ltEBBm2GLLO",
+      "confidence": "high",
+      "date": "2025-07-22",
+      "alt_source": "https://open.spotify.com/episode/4GxQ6nanTwr0HSGgom49ZP"
+    },
+    {
+      "number": 158,
+      "title": "5 Tipos de Riqueza",
+      "guest": null,
+      "summary": "Exploran las ideas de Sahil Bloom en 'Los 5 Tipos de Riqueza': medir el éxito solo por el dinero es problemático; incluye la 'navaja de vida' y 'el compás'.",
+      "takeaways": [
+        "La riqueza incluye tiempo, relaciones, salud mental, salud física y dinero",
+        "Medir el éxito solo con dinero es un error",
+        "Usar herramientas para priorizar lo importante"
+      ],
+      "category": "mentalidad",
+      "source": "https://www.ivoox.com/en/158-5-tipos-riqueza-audios-mp3_rf_155319512_1.html",
+      "confidence": "high"
+    },
+    {
+      "number": 159,
+      "title": "Lo que le falta a Latinoamérica en la IA",
+      "guest": "Luana Helsinger (AI Salon, Rio de Janeiro)",
+      "summary": "Entrevista a quien lidera el ecosistema de inteligencia artificial en Río y creó AI Salon, evento que reúne a gobierno, empresas y líderes de IA de Brasil.",
+      "takeaways": [
+        "El estado del ecosistema de IA en Latinoamérica",
+        "El rol de reunir gobierno, empresas y talento",
+        "Oportunidades de la IA para la región"
+      ],
+      "category": "otros",
+      "source": "https://podcasts.apple.com/cl/podcast/159-lo-que-le-falta-a-latinoam%C3%A9rica-en-la-ia/id1616728665?i=1000722644606",
+      "confidence": "high",
+      "date": "2025-08-19"
+    },
+    {
+      "number": 163,
+      "title": "La robótica es ahora",
+      "guest": "Peter Roberts (PhD candidate, Carnegie Mellon University)",
+      "summary": "Qué tan cerca estamos del futuro con la robótica y la IA, su impacto en el bienestar humano y cómo prepararse para el mercado laboral que viene.",
+      "takeaways": [
+        "La sinergia entre IA y robótica",
+        "Prepararse para el futuro mercado laboral",
+        "Límites y desafíos actuales de la tecnología"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://www.ivoox.com/en/163-la-robotica-es-ahora-audios-mp3_rf_158054132_1.html",
+      "confidence": "high"
+    },
+    {
+      "number": 179,
+      "title": "El arte de gastar dinero parte 1 (en vivo)",
+      "guest": null,
+      "summary": "Primera parte, grabada en vivo, sobre el libro 'El arte de gastar dinero' de Morgan Housel.",
+      "takeaways": [
+        "Gastar bien es tan importante como ahorrar",
+        "Entender qué te da valor y felicidad",
+        "Cuidado con gastar por estatus o envidia"
+      ],
+      "category": "mentalidad",
+      "source": "https://www.youtube.com/watch?v=JRaHjb8MXKo",
+      "confidence": "medium"
+    },
+    {
+      "number": 182,
+      "title": "El Arte de Gastar Dinero Parte 2",
+      "guest": null,
+      "summary": "Continúan con el libro de Morgan Housel: la independencia financiera más allá de la 'regla del 4%' y lograr que el dinero deje de ser un tema.",
+      "takeaways": [
+        "La independencia financiera va más allá de la regla del 4%",
+        "Que el dinero deje de ser una preocupación",
+        "Gastar alineado con tus valores"
+      ],
+      "category": "mentalidad",
+      "source": "https://open.spotify.com/episode/27Sdc1EPCji46a3ZUL8la3",
+      "confidence": "high",
+      "date": "2026-01-27"
+    },
+    {
+      "number": 187,
+      "title": "La IA y el Fin del Trabajo",
+      "guest": null,
+      "summary": "Comentan el memo de Howard Marks sobre el estado de la IA, el texto 'Something Big is Happening' y el reporte de Citrini, preguntándose si seguiremos teniendo trabajo en un par de años.",
+      "takeaways": [
+        "El impacto de la IA en el empleo",
+        "Leer a inversionistas de referencia para entender tendencias",
+        "Prepararse ante cambios en el mercado laboral"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://podcasts.apple.com/cl/podcast/187-la-ia-y-el-fin-del-trabajo/id1616728665?i=1000752848001",
+      "confidence": "high",
+      "date": "2026-03-03"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Construir una plataforma de inversión con 800.000 clientes — Carlos Guayara (trii)",
+      "guest": "Carlos Guayara (cofundador de trii)",
+      "summary": "El camino para democratizar la inversión en Colombia: desafíos regulatorios, casi tres años de retrasos tecnológicos y una comunidad clave para avanzar.",
+      "takeaways": [
+        "Perseverancia al emprender",
+        "Escuchar a los usuarios",
+        "Democratizar el acceso a la inversión"
+      ],
+      "category": "emprendimiento",
+      "source": "https://www.ivoox.com/en/podcast-animales-financieros_sq_f11516548_1.html",
+      "confidence": "medium",
+      "notes": "Episodio reciente (2026); título exacto no encontrado"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Episodio con Gert Findel (Acid Labs)",
+      "guest": "Gert Findel (cofundador de Acid Labs)",
+      "summary": "Qué ha priorizado en cada etapa de su vida, desde semanas de más de 100 horas de trabajo hasta las relaciones que hoy lo mueven; el valor de planificar y entender qué importa.",
+      "takeaways": [
+        "Las prioridades cambian con las etapas de la vida",
+        "Planificar y distinguir lo importante del ruido",
+        "El costo de trabajar en exceso"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Episodio con Tere Razmilic",
+      "guest": "Tere Razmilic (creadora de Con Chupete y Mochila)",
+      "summary": "Cómo tener carrera, criar tres hijos y vivir seis meses en Sudáfrica cada cuatro años: diseño de estilo de vida, trabajo remoto y habilidades para un mundo con IA.",
+      "takeaways": [
+        "Diseñar tu estilo de vida intencionalmente",
+        "Sesgo a la acción",
+        "A veces conviene crecer hacia el lado en vez de subir",
+        "Financiar una vida que permita viajar con hijos",
+        "Aprendizaje continuo en la era de la IA"
+      ],
+      "category": "carrera_ingresos",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Qué pasa si sigues los consejos financieros de la IA toda tu vida",
+      "guest": null,
+      "summary": "Analizan un estudio que simuló seguir los consejos financieros de la IA toda la vida y dónde todavía falla: gastos no ajustados por inflación, datos de comisiones sacados de un blog y recomendaciones distintas a hombres y mujeres.",
+      "takeaways": [
+        "Revisar los detalles de los planes financieros hechos con IA",
+        "Ajustar siempre los gastos por inflación",
+        "Ante la pérdida de empleo, usar el fondo de emergencia",
+        "Verificar las fuentes de datos (comisiones)"
+      ],
+      "category": "otros",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Vender un departamento sin corredor",
+      "guest": null,
+      "summary": "El paso a paso para vender un departamento directamente sin pagar comisión a un corredor, usando IA para estimar el precio y con el checklist de documentos que piden los bancos.",
+      "takeaways": [
+        "Usar IA para estimar el precio y contrastarlo con el mercado",
+        "Calcular la rentabilidad real de la inversión",
+        "Checklist de documentos para el estudio de títulos",
+        "Regla: el dividendo no debería superar mucho el arriendo que ya pagas"
+      ],
+      "category": "vivienda",
+      "source": "https://www.ivoox.com/en/podcast-animales-financieros_sq_f11516548_1.html",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Cockroaches in the Coal Mine — deuda privada",
+      "guest": null,
+      "summary": "Comentan el memo de Howard Marks 'Cockroaches in the Coal Mine' (nov. 2025) y si estamos viendo las primeras señales de caída del mercado de deuda privada.",
+      "takeaways": [
+        "Señales de riesgo en los mercados de crédito",
+        "Qué es la deuda privada",
+        "Prudencia ante la complacencia de los inversionistas"
+      ],
+      "category": "inversion",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/",
+      "confidence": "low"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Especial 200 episodios",
+      "guest": null,
+      "summary": "Episodio especial en que repasan los aprendizajes de 200 episodios y definen el rumbo para los próximos 100.",
+      "takeaways": [
+        "Aprendizajes acumulados del podcast",
+        "Rumbo para los próximos episodios"
+      ],
+      "category": "otros",
+      "source": "https://creators.spotify.com/pod/profile/animales-financieros/",
+      "confidence": "medium"
+    },
+    {
+      "number": null,
+      "title": "(título no confirmado) Finanzas en pareja",
+      "guest": null,
+      "summary": "Sobre la comunicación financiera en pareja: finanzas claras mantienen el amor, con una estructura aplicable también para quienes no tienen pareja; por qué ayuda un tercero en estas conversaciones.",
+      "takeaways": [
+        "Hablar de plata en pareja con claridad",
+        "Tener una estructura común para las finanzas",
+        "Un tercero puede facilitar la conversación"
+      ],
+      "category": "presupuesto",
+      "source": "https://podtail.com/en/podcast/animales-financieros/",
+      "confidence": "low"
+    }
+  ]
+}
