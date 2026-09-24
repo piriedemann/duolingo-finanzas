@@ -2156,6 +2156,125 @@
   "confidence": "high"
  },
  {
+  "number": 85,
+  "title": "La falta de propósito empresarial con Juan Ignacio Eyzaguirre",
+  "guest": "Juan Ignacio Eyzaguirre",
+  "date": "2024-03-21",
+  "summary": "Juan Ignacio Eyzaguirre, autor del libro Despropósito, conversa sobre el rol de las empresas en la sociedad, la destrucción creativa y por qué los incentivos hacen que el progreso venga sobre todo desde la competencia entre empresas. Critica el humo del ESG y el greenwashing, y plantea que somos nosotros, como consumidores, empleados, inversionistas y vecinos, quienes votamos con nuestra plata y nuestras decisiones.",
+  "takeaways": [
+   "El propósito de una empresa es resolverle un problema real a la gente; no todas tienen que ser Tesla o NotCo, pero todas pueden tener una propuesta distinta.",
+   "Revisa tu agenda: ¿qué estás haciendo hoy para la semana, el mes, los próximos 6 y 18 meses? Evita quedarte atrapado en lo urgente y no importante.",
+   "Si estás partiendo en una pega, tu objetivo principal es aprender: dile explícitamente a tu jefe qué quieres aprender y a qué problemas quieres exponerte.",
+   "Desconfía de las etiquetas ESG: pueden ser un negocio de comisiones más altas y rankings de marcar casillas.",
+   "Invertir simple (por ejemplo, un fondo indexado de bajo costo que no tocas) puede ser una muy buena opción cuando no eres experto.",
+   "Vota con tu plata: cada compra, trabajo e inversión es una señal que moldea a las empresas."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 84,
+  "title": "Mentores | Fernando Gómez",
+  "guest": "Fernando Gómez",
+  "date": "2024-03-12",
+  "summary": "Esta vez entrevistan al entrevistador: Fernando Gómez cuenta cómo pasó de grandes bancos de inversión a fundar su propia gestora, las duras lecciones de un hedge fund lanzado justo antes de la crisis de 2008 y cómo piensa las decisiones como pequeñas apuestas con upside y downside. También habla de liderazgo, disciplina, esfuerzo, humildad y de cómo analiza tendencias para invertir.",
+  "takeaways": [
+   "Para decisiones grandes, proyéctate 10 años al futuro y pregúntate de qué camino te arrepentirías de no haber intentado.",
+   "Piensa cada decisión como una pequeña apuesta: busca consistentemente que el upside sea mayor que el downside.",
+   "Arma tus inversiones para no quebrar en casi ningún escenario: el mayor problema es quedar fuera del juego.",
+   "Un buen líder es humilde, confía en su equipo, le da autonomía y evita rodearse de gente que dice que sí a todo.",
+   "La disciplina es la suma de pequeños esfuerzos cuyo resultado no ves día a día, sino al cabo de meses o años.",
+   "Felicita el esfuerzo, no solo el resultado: el talento hay que llevarlo a su potencial."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 83,
+  "title": "El valor de planificar tus finanzas",
+  "guest": null,
+  "date": "2024-03-05",
+  "summary": "Pablo cuenta su nuevo proyecto de planificación financiera uno a uno y, con Francisco, discuten qué es un planificador financiero, cómo se diferencia del wealth management tradicional y por qué tener a un tercero que te acompañe puede cambiar tu comportamiento con la plata. También hablan de que preocuparse de la jubilación es algo históricamente nuevo.",
+  "takeaways": [
+   "La planificación financiera es integral: parte por tus valores, objetivos y planes de vida, y recién después define cómo invertir.",
+   "Existe un modelo de asesoría con tarifa fija, no como porcentaje de tu plata, pensado para quienes no tienen grandes patrimonios.",
+   "Al principio conviene una revisión intensiva de ingresos, gastos, deudas e inversiones: casi siempre hay alguna pifia que corregir.",
+   "Ante cambios de vida (hijos, casa, nueva pega) vale la pena conversar también el lado financiero con alguien.",
+   "Pedir ayuda profesional, en plata como en salud, debería ser lo normal y no señal de que tienes un problema.",
+   "Todos vamos a dejar de trabajar algún día: invertir en tu salud financiera hoy es preparar esos años."
+  ],
+  "category": "presupuesto",
+  "confidence": "high"
+ },
+ {
+  "number": 82,
+  "title": "Gasta plata sin culpa",
+  "guest": null,
+  "date": "2024-02-27",
+  "summary": "Inspirados en Jared Dillian y Morgan Housel, Pablo y Francisco explican por qué obsesionarse con los gastos hormiga genera estrés y cómo las grandes decisiones (casa, auto, estudios, sueldo y pareja) pesan mucho más en tu vida financiera. Cierran con formas de gastar plata que sí aportan felicidad.",
+  "takeaways": [
+   "Enfócate en las grandes decisiones: cómo financias tu casa, qué auto compras, cómo pagas tus estudios y cómo negocias tu sueldo.",
+   "Cotiza tu crédito hipotecario en varios bancos: un punto menos de tasa puede ahorrarte lo mismo que un café diario por 30 años.",
+   "Evita los créditos automotrices caros: compra el auto al contado o en cuotas sin interés, y solo cuando ya tengas lo básico andando.",
+   "Pide aumento argumentando el valor que entregas, no que necesitas más plata.",
+   "Ponle roce a tus compras: pregúntate si lo necesitas o si quieres demostrar algo.",
+   "Gasta en experiencias, en otras personas y en cosas que te ahorren tiempo; y recuerda que no gastar también compra libertad."
+  ],
+  "category": "presupuesto",
+  "confidence": "high"
+ },
+ {
+  "number": 81,
+  "title": "Mentores | Daniel Daccarett",
+  "guest": "Daniel Daccarett",
+  "date": "2024-02-20",
+  "summary": "Daniel Daccarett, cofundador de Emprende Tu Mente, cuenta su camino emprendedor: desde cajero en el negocio de un compañero hasta vender balanzas en La Vega e importar teléfonos públicos, y cómo un asado entre amigos terminó en un evento masivo que conecta emprendedores con empresarios. Comparte su visión de negocios simples, rentables y construidos con paciencia, y sus 4P del emprendedor.",
+  "takeaways": [
+   "Los buenos negocios suelen ser simples: mantente atento a las oportunidades en vez de intentar inventar la rueda.",
+   "Construye una empresa que gane plata desde temprano; la mejor plata viene de los clientes, no de levantar capital.",
+   "Rodéate de personas con talentos distintos a los tuyos y deja que lideren con libertad.",
+   "Una red de contactos no es networking utilitarista: son relaciones que se construyen durante años.",
+   "Aplica las 4P del emprendedor: pasión, perseverancia, paciencia y prudencia.",
+   "Sé prudente con el crédito: no compres lo que no puedes pagar."
+  ],
+  "category": "emprendimiento",
+  "confidence": "high"
+ },
+ {
+  "number": 80,
+  "title": "¿Es hora de invertir en Bitcoin? Opinión de 4 expertos",
+  "guest": "Jaime (CEO de Buda.com), Sergio Tricio (Patrimore), Nico Jaramillo (Arch) y Gonzalo Reyes (Abacus)",
+  "date": "2024-02-14",
+  "summary": "Pablo y Francisco reúnen cuatro entrevistas, dos del mundo cripto y dos del mundo financiero tradicional, para mirar Bitcoin desde varios ángulos: por qué invertir, qué porcentaje del portafolio tiene sentido, cómo valorizarlo y cuáles son sus riesgos. Cierran con la historia de cómo un problema de pagos en internet llevó a uno de los invitados a descubrir Bitcoin.",
+  "takeaways": [
+   "No hay una receta única: el porcentaje en Bitcoin depende de tu convicción, tu perfil y cuánto pesa tu sueldo frente a tu portafolio.",
+   "Bitcoin no genera flujos de caja, así que no se valoriza como una empresa; su precio depende de oferta y demanda.",
+   "Si decides invertir, define un porcentaje y sé tomador de precio en vez de intentar adivinar si está caro o barato.",
+   "Prepárate para caídas de 60-70%: si no puedes convivir con esa volatilidad, no es un instrumento para ti.",
+   "El principal riesgo estructural es regulatorio, porque Bitcoin busca sacar a los gobiernos del control del dinero.",
+   "Cuidado con el market timing: comprar cuando sube y vender cuando cae es el error más común."
+  ],
+  "category": "cripto",
+  "confidence": "high"
+ },
+ {
+  "number": 79,
+  "title": "Fundamentos | M&A",
+  "guest": "Cristóbal Silva y Diego Grove",
+  "date": "2024-02-07",
+  "summary": "En este Fundamentos, Diego y Cristóbal explican las fusiones y adquisiciones (M&A): lo cíclicas que son, los premios que se pagan y por qué en promedio destruyen más valor del que crean. Contrastan casos exitosos de la industria de servicios de información, como ICE y S&P Global, con los errores de asignación de capital de General Electric y Disney.",
+  "takeaways": [
+   "El M&A es cíclico: se dispara cuando la economía está buena y las valorizaciones altas, justo cuando es más fácil sobrepagar.",
+   "Los compradores suelen pagar premios altos, y las sinergias de costo se concretan con más probabilidad que las de ventas.",
+   "Las adquisiciones exitosas siguen un playbook: visión clara, comprar el mejor activo, armar la infraestructura base y luego sumar adyacencias.",
+   "El fit cultural es clave: si no hay fit, la integración no funciona.",
+   "Una empresa puede tener buenos negocios operativos y aun así destruir valor por mala asignación de capital, como pasó con GE.",
+   "Una cultura sana deja que las malas noticias suban; si todo llega en verde a la cima, algo anda mal."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
   "number": 78,
   "title": "Cómo hacer Networking sin ser latero",
   "guest": null,
@@ -2599,7 +2718,7 @@
  {
   "number": 50,
   "title": "Celebrando los #50 con invitados especiales",
-  "guest": "Jesús, Jonathan y Diego (oyentes de la comunidad)",
+  "guest": "Oyentes de la comunidad",
   "date": "2023-07-25",
   "summary": "Para celebrar el episodio 50, Pablo y Francisco graban en persona con tres integrantes de la comunidad, que trabajan en finanzas, cocina y logística. Conversan sobre sus primeras inversiones, sus errores, el fondo de emergencia, las finanzas en pareja y cómo hablar de plata con amigos y familia.",
   "takeaways": [

@@ -4395,6 +4395,709 @@
    "explain": "El orden importa: primero se da y se construye confianza; la ayuda llega como consecuencia, no como transacción."
   }
  ],
+ "79": [
+  {
+   "type": "concept",
+   "title": "M&A: comprar empresas no siempre crea valor",
+   "body": "El **M&A** (fusiones y adquisiciones) es muy cíclico: se dispara cuando la economía y las valorizaciones están altas. Los compradores suelen pagar un **premio** alto sobre el precio de la acción, esperando sinergias. Pero muchas de esas sinergias no se concretan, y en promedio el M&A **destruye más valor del que crea**.",
+   "emoji": "🤝"
+  },
+  {
+   "type": "tf",
+   "statement": "El volumen de M&A tiende a ser más alto cuando la economía está buena y las valorizaciones están altas.",
+   "answer": true,
+   "explain": "En el peak de la burbuja puntocom llegó a ser 22% de las ventas de las empresas listadas y cayó a 3% en la recesión de 2001. Las empresas llenas de caja salen a comprar justo cuando todo está caro."
+  },
+  {
+   "type": "mc",
+   "prompt": "Una empresa transa a $100 por acción y el comprador ofrece $130. ¿Qué premio está pagando?",
+   "options": [
+    "13%",
+    "30%",
+    "130%",
+    "70%"
+   ],
+   "answer": 1,
+   "explain": "El premio se mide contra el precio previo al anuncio. En Estados Unidos, estos premios han promediado cerca de 40%, así que las sinergias tienen que ser grandes para justificarlos."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según el episodio, las sinergias de ___ se concretan con mucha más probabilidad que las de mayores ventas.",
+   "options": [
+    "marketing",
+    "costo",
+    "ventas"
+   ],
+   "answer": 1,
+   "explain": "Recortar costos depende más de ti. Vender más depende de clientes y de integrar culturas, y ahí es donde suelen fallar las fusiones."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada forma de ganar plata de las empresas de servicios de información con su ejemplo",
+   "pairs": [
+    [
+     "Crear un mercado",
+     "Cobrar una fracción mínima por cada transacción"
+    ],
+    [
+     "Índices de referencia",
+     "Licenciar el S&P 500 a quienes lo replican"
+    ],
+    [
+     "Empaquetar data como software",
+     "Terminales tipo Bloomberg o Capital IQ"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el playbook de adquisiciones exitosas que describe Diego",
+   "items": [
+    "Tener una visión clara alineada con la estrategia",
+    "Identificar activos que hagan fit con la empresa",
+    "Comprar el mejor activo, el número uno, y armar la infraestructura base",
+    "Irle sumando adyacencias y nuevos productos"
+   ],
+   "explain": "Primero se arman las tuberías (datos, procesos) y después se suma más. Y siempre cuidando el fit cultural y entendiendo la regulación."
+  },
+  {
+   "type": "mc",
+   "prompt": "General Electric tenía negocios operativos de muy alta calidad. ¿Qué destruyó tanto valor para sus accionistas?",
+   "options": [
+    "Que sus turbinas eran de mala calidad",
+    "Que nunca hizo adquisiciones",
+    "Que pagaba muy pocos dividendos",
+    "La mala asignación de capital en negocios cíclicos y los incentivos a ser número uno o dos a toda costa"
+   ],
+   "answer": 3,
+   "explain": "Vendió activos de GE Capital en la parte baja del ciclo y sobrepagó por activos de petróleo y gas en la parte alta. La agresividad lleva a sobrepagar."
+  },
+  {
+   "type": "tf",
+   "statement": "Si pagas 100 por una empresa cuyos activos identificables valen 80, la diferencia de 20 queda en el balance como goodwill y hay que testear cada año si sigue valiendo eso.",
+   "answer": true,
+   "explain": "Cuando lo comprado ya no justifica lo pagado, se hace un write-down. GE tuvo que reconocer uno gigantesco en 2018."
+  },
+  {
+   "type": "mc",
+   "prompt": "En GE, los reportes subían con semáforos rojos desde abajo y llegaban a la cima puro verde. ¿Qué muestra esta historia?",
+   "options": [
+    "Que la empresa estaba cumpliendo todas sus metas",
+    "Que en una cultura dañada las malas noticias no fluyen hacia arriba",
+    "Que los semáforos son un mal sistema de reporte",
+    "Que los gerentes de abajo exageraban los problemas"
+   ],
+   "answer": 1,
+   "explain": "Es uno de los principales indicadores de una cultura destrozada. Sin información honesta, la alta dirección decide a ciegas."
+  }
+ ],
+ "80": [
+  {
+   "type": "concept",
+   "title": "Cuatro miradas sobre Bitcoin",
+   "body": "En este episodio hablan dos expertos del mundo cripto y dos del mundo financiero tradicional. Las opiniones van desde tener **0% hasta 100%** del portafolio en Bitcoin. La conclusión: no hay receta única. Si inviertes, que sea por **convicción**, con un porcentaje que puedas aguantar si cae fuerte, y sin tratar de adivinar el precio.",
+   "emoji": "₿"
+  },
+  {
+   "type": "mc",
+   "prompt": "Para Jaime, ¿por qué Bitcoin es el mejor candidato a ser la moneda del mundo?",
+   "options": [
+    "Porque lo respalda un banco central",
+    "Porque es muy descentralizado, su creador es anónimo, cualquiera puede entrar o salir y lleva unos 15 años funcionando",
+    "Porque paga dividendos",
+    "Porque su precio nunca baja"
+   ],
+   "answer": 1,
+   "explain": "Que nadie tenga poder para manipularlo ni cambiar las reglas es, para él, la condición clave de una moneda global."
+  },
+  {
+   "type": "tf",
+   "statement": "Bitcoin se puede valorizar como una empresa, descontando sus dividendos y flujos de caja futuros.",
+   "answer": false,
+   "explain": "Bitcoin no genera flujos de caja. Por eso los invitados hablan de oferta y demanda, de su valor por conveniencia o de tomar el precio de mercado como referencia."
+  },
+  {
+   "type": "match",
+   "prompt": "Une a cada invitado con su mirada",
+   "pairs": [
+    [
+     "Jaime (Buda.com)",
+     "Bitcoin como moneda del mundo"
+    ],
+    [
+     "Sergio Tricio",
+     "Los grandes retornos probablemente ya ocurrieron"
+    ],
+    [
+     "Nico Jaramillo (Arch)",
+     "Portafolios diversificados de varias criptomonedas"
+    ],
+    [
+     "Gonzalo Reyes",
+     "Su valor es la conveniencia de tenerlo"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué es el halving de Bitcoin?",
+   "options": [
+    "Cuando el precio cae a la mitad",
+    "Cuando se divide cada bitcoin en dos",
+    "Cuando la cantidad de bitcoins en circulación se reduce a la mitad",
+    "Cuando la recompensa de nuevos bitcoins para los mineros baja a la mitad"
+   ],
+   "answer": 3,
+   "explain": "Según uno de los invitados, esto marca un ciclo de unos 4 años: históricamente, más o menos tres años positivos por cada año negativo. Aun así, ciclos pasados no garantizan el futuro."
+  },
+  {
+   "type": "fill",
+   "sentence": "Como ejemplo de su volatilidad, Bitcoin cayó desde unos US$68.000 en 2021 a unos US$___ en 2022.",
+   "options": [
+    "60.000",
+    "16.000",
+    "1.000"
+   ],
+   "answer": 1,
+   "explain": "Una caída de más de 75%. Por eso insisten en que solo inviertas lo que puedas aguantar en un escenario así."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según los invitados, ¿cuál es el principal riesgo estructural de Bitcoin?",
+   "options": [
+    "El regulatorio, porque busca sacar a los gobiernos del control del dinero, y son ellos quienes ponen las reglas",
+    "Que se acaben los mineros",
+    "Que sea muy fácil de valorizar",
+    "Que tenga muy poca volatilidad"
+   ],
+   "answer": 0,
+   "explain": "Una regulación más dura podría hacerlo menos útil, y bajaría su valor. La aprobación del ETF se vio como una buena señal en ese frente."
+  },
+  {
+   "type": "tf",
+   "statement": "Si sabes que una caída de 60-70% puede ser momentánea, es fácil mantenerse tranquilo e invertido.",
+   "answer": false,
+   "explain": "Nadie lo pasa bien con caídas así. La emoción nos lleva a comprar caro y vender barato; por eso importan la convicción y el largo plazo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué problema llevó a Jaime a interesarse en Bitcoin?",
+   "options": [
+    "Quería esconder su plata de los impuestos",
+    "Buscaba hacerse millonario rápido",
+    "Quería cobrar un dólar en su sitio de amigo secreto, y con los medios de pago de la época la comisión se comía cerca del 30%",
+    "Un banco le cerró la cuenta"
+   ],
+   "answer": 2,
+   "explain": "Sintió que el sistema de pagos estaba roto para internet: mandar un dólar a cualquier parte del mundo era carísimo. Una plata digital sin intermediarios lo resolvía."
+  }
+ ],
+ "81": [
+  {
+   "type": "concept",
+   "title": "Emprender sin apuro",
+   "body": "Para Daniel, emprender es un **estilo de vida**. Sus negocios son simples: encontró oportunidades estando atento, no inventando la rueda. Su mensaje es construir una empresa que gane plata y dure, para que **la plata llegue como consecuencia** de hacer bien las cosas por mucho tiempo, y no perseguir la fama rápida de las películas de Silicon Valley.",
+   "emoji": "🚀"
+  },
+  {
+   "type": "tf",
+   "statement": "Recién titulado, Daniel partió trabajando como cajero en el negocio de un compañero emprendedor, y no tuvo problema en ponerse la cotona.",
+   "answer": true,
+   "explain": "Desde chico vendía en la fábrica de su papá. Esa humildad para hacer cualquier tarea es algo que considera una gran virtud."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué hizo despegar la venta de balanzas que Daniel ofrecía en los mataderos?",
+   "options": [
+    "Una campaña en televisión",
+    "Una nueva norma que exigía imprimir el tipo de corte de la carne, y sus balanzas imprimían ticket",
+    "Que las regalaba con una promoción",
+    "Que abrió una tienda online"
+   ],
+   "answer": 1,
+   "explain": "Estar atento a un cambio en el entorno le abrió un mercado enorme. Es el tipo de oportunidad simple que describe."
+  },
+  {
+   "type": "fill",
+   "sentence": "Con los teléfonos públicos, 3 minutos le costaban unos $27, y cobraba $___ por esa llamada.",
+   "options": [
+    "27",
+    "100",
+    "1.000"
+   ],
+   "answer": 1,
+   "explain": "Un negocio fácil de explicar: la diferencia entre lo que cuesta y lo que cobras. No necesitas biotecnología para tener un buen negocio."
+  },
+  {
+   "type": "tf",
+   "statement": "Daniel celebra cuando un emprendedor levanta capital, porque es la mejor señal de éxito.",
+   "answer": false,
+   "explain": "Le da lata, porque levantar capital es entregar parte de tu empresa. Para él la mejor plata viene de los clientes."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada una de las 4P del emprendedor con su idea",
+   "pairs": [
+    [
+     "Pasión",
+     "El combustible para no cansarte"
+    ],
+    [
+     "Perseverancia",
+     "Si no te contestan, busca cómo llegar"
+    ],
+    [
+     "Paciencia",
+     "Las cosas toman tiempo"
+    ],
+    [
+     "Prudencia",
+     "No comprar lo que no puedes pagar"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo fue creciendo el encuentro de emprendedores que nació de un asado",
+   "items": [
+    "Un asado en su casa con unos 20 amigos",
+    "Un parque prestado por El Mercurio, con unas 500 personas",
+    "El quincho de 3M, con carpas y charlas",
+    "Un evento con apoyo de Corfo",
+    "Un gran parque de Santiago con decenas de miles de asistentes"
+   ],
+   "explain": "Creció paso a paso durante años, sumando gente que creyó en la idea. Es un trabajo de hormiga, no un golpe de suerte."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué piensa Daniel sobre el networking?",
+   "options": [
+    "Que es juntar tarjetas en eventos para sacar provecho",
+    "Que no sirve para nada",
+    "Que le carga el networking utilitarista: una red son relaciones construidas durante años, y conectar mundos distintos ayuda a la movilidad social",
+    "Que solo sirve entre gente del mismo colegio"
+   ],
+   "answer": 2,
+   "explain": "Su gran motivación es que emprendedores sin contactos puedan conversar con empresarios y ejecutivos. Esas conexiones improbables construyen tejido social."
+  },
+  {
+   "type": "tf",
+   "statement": "Para Daniel, casos como Amazon, que perdió plata por muchos años, son excepciones: la gran mayoría de los negocios tiene que ganar plata.",
+   "answer": true,
+   "explain": "No entiende las valorizaciones gigantes de empresas que pierden plata. Para él, un negocio normal tiene que ser rentable y la inversión debe recuperarse en un plazo razonable."
+  }
+ ],
+ "82": [
+  {
+   "type": "concept",
+   "title": "Olvídate del chicle, mira lo grande",
+   "body": "Obsesionarte con cada gasto hormiga te deja pensando en plata todo el día y **te llena de estrés**. Lo que realmente mueve la aguja son unas pocas **grandes decisiones**: cómo financias tu casa, qué auto compras, cómo pagas tus estudios y cómo negocias tu sueldo (y, ojo, con quién compartes tu vida). Si esas están bien, puedes tomarte el café sin culpa.",
+   "emoji": "☕"
+  },
+  {
+   "type": "mc",
+   "prompt": "Pablo simuló un crédito hipotecario a 30 años con un punto menos de tasa. ¿Con qué comparó el ahorro?",
+   "options": [
+    "Con un café de lunes a viernes durante 30 años",
+    "Con un chicle a la semana",
+    "Con una sola cena en un restaurante",
+    "Con el pie del departamento"
+   ],
+   "answer": 0,
+   "explain": "Un café de $4.000 cada día hábil por 30 años suma unos 30 millones, algo muy parecido al ahorro por negociar la tasa. Y cotizar la tasa es una pega que haces una sola vez."
+  },
+  {
+   "type": "tf",
+   "statement": "En Chile, los créditos automotrices suelen ser tan baratos como un crédito hipotecario.",
+   "answer": false,
+   "explain": "En la simulación del episodio la carga anual equivalente rondaba el 38%: por un auto de 10 millones con 2 de pie terminabas pagando unos 13, con 5 millones en intereses en solo 3 años."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según el episodio, el Crédito con Aval del Estado hoy cobra UF + ___, y si estás sin pega no pagas.",
+   "options": [
+    "2%",
+    "6%",
+    "10%"
+   ],
+   "answer": 0,
+   "explain": "Además, puedes limitar la cuota al 10% de tu sueldo y trae seguros incluidos. Por eso lo consideran de los créditos más baratos que vas a encontrar."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada forma de gastar (o no gastar) con su ejemplo del episodio",
+   "pairs": [
+    [
+     "Gastar en otras personas",
+     "Una comilona en tu casa invitando tú"
+    ],
+    [
+     "Pagar por tiempo libre",
+     "Una caja de comida con ingredientes y receta"
+    ],
+    [
+     "Comprar experiencias",
+     "La idea del libro Morir con cero"
+    ],
+    [
+     "No gastar",
+     "Compras libertad y control sobre tu vida"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Vas a pedir un aumento de sueldo. ¿Cuál es el mejor argumento según Pablo y Francisco?",
+   "options": [
+    "Que estás gastando mucho y necesitas más plata",
+    "Que a un amigo le pagan más",
+    "Mostrar el valor que estás entregando y lo que has aportado a la empresa",
+    "Amenazar con renunciar"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Dicen que ese es el peor argumento que le puedes dar a tu jefe.",
+    "Compararte con otros no demuestra tu valor.",
+    "¡Exacto! Anota lo que haces para que la empresa mejore y úsalo en la conversación.",
+    "Recomiendan pensar como gerente y no salir arrancando si te dicen que no."
+   ],
+   "explain": "Aunque te digan que no, el jefe queda con la inquietud, y puede ser una buena instancia de feedback."
+  },
+  {
+   "type": "tf",
+   "statement": "A Jared Dillian no le gustan las comisiones gratis para transar acciones, porque sin ese roce compraría y vendería todo el tiempo.",
+   "answer": true,
+   "explain": "La idea es aplicar ese mismo roce a tus compras: detenerte y preguntarte si de verdad lo necesitas o si quieres demostrar algo."
+  },
+  {
+   "type": "mc",
+   "prompt": "Morgan Housel cuenta que, al ver a alguien bajarse de un auto de lujo, la gente en realidad piensa...",
+   "options": [
+    "Qué bacán esa persona",
+    "Qué bacán sería yo con ese auto",
+    "Qué mal gasta su plata",
+    "Nada, nadie se fija"
+   ],
+   "answer": 1,
+   "explain": "Casi nadie admira al dueño por su auto. Si lo que buscas es respeto y admiración, las cosas caras no son la forma de conseguirlos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Una persona duplicó su sueldo como independiente, se cambió a un arriendo más caro y al año volvió a ganar lo de antes. ¿Qué lección sacan?",
+   "options": [
+    "Que debería haber comprado para no perder plata en arriendo",
+    "Que arrendar le dio flexibilidad para ajustar y bajarse a algo más barato",
+    "Que nunca hay que cambiarse de casa",
+    "Que los ingresos variables siempre suben"
+   ],
+   "answer": 1,
+   "explain": "Con un dividendo le habría costado mucho más salir. Dónde vives es tu costo más grande: elige algo que puedas pagar incluso si tus ingresos bajan."
+  }
+ ],
+ "83": [
+  {
+   "type": "concept",
+   "title": "Planificar no es solo invertir",
+   "body": "La **planificación financiera** es un acompañamiento uno a uno que parte por tu vida: qué valoras, dónde quieres vivir, si quieres hijos, qué seguros necesitas. Recién después se define cómo invertir. A diferencia del wealth management tradicional, pensado para grandes patrimonios, hay un modelo que **cobra una tarifa fija** en vez de un porcentaje de tu plata.",
+   "emoji": "🗺️"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo cobra el modelo de planificación financiera que describe Pablo?",
+   "options": [
+    "Un porcentaje de toda tu plata invertida",
+    "Una comisión por cada fondo que compres",
+    "Una tarifa fija por la asesoría, sin mínimo de inversión"
+   ],
+   "answer": 2,
+   "explain": "Así cualquier persona puede pagar el servicio y el planificador no tiene incentivo a moverte plata para cobrar más."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Pablo, la planificación financiera debería ser igual de intensiva todo el tiempo.",
+   "answer": false,
+   "explain": "Es intensiva al principio para revisar todo y corregir errores. Después pasa a ser acompañamiento, y vuelve a intensificarse cuando hay cambios de vida."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada situación con lo que se descubrió o recomendó en el episodio",
+   "pairs": [
+    [
+     "Invertía en ETF, pero...",
+     "tenía la mitad de la plata en el banco"
+    ],
+    [
+     "Ganaba harta plata, pero...",
+     "no había hecho nada de APV"
+    ],
+    [
+     "Una pareja con bienes",
+     "revisar a nombre de quién está cada cosa"
+    ],
+    [
+     "Te ofrecen otra pega",
+     "conversar también el lado financiero"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "Pablo cita un estudio de Vanguard que dice que un buen planificador puede agregar cerca de un ___ de retorno anual a tu portafolio.",
+   "options": [
+    "0,3%",
+    "3%",
+    "30%"
+   ],
+   "answer": 1,
+   "explain": "Parte de ese valor viene de cosas concretas como elegir fondos más baratos y aprovechar herramientas como el APV."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es uno de los beneficios intangibles de tener un planificador?",
+   "options": [
+    "Que te garantiza ganarle al mercado",
+    "Tomar decisiones según la teoría y no según la guata o lo que te dijo un primo en el asado",
+    "No tener que pensar nunca más en tus objetivos",
+    "Que invierte tu plata sin consultarte"
+   ],
+   "answer": 1,
+   "explain": "Además, compartes la carga emocional de las decisiones de plata con alguien que no tiene conflictos de interés con tu familia ni tus amigos."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el proceso de planificación que describe Pablo",
+   "items": [
+    "Revisar tus ingresos, gastos, deudas e inversiones",
+    "Armar el plan",
+    "Revisar el plan juntos",
+    "Implementarlo y asegurarse de que hagas los cambios"
+   ],
+   "explain": "Saber qué hacer no basta: igual que con un personal trainer, tener a alguien que te empuje hace que de verdad lo hagas."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio plantean que pedir ayuda a un profesional, como un psicólogo o un nutricionista, debería ser lo normal y no una señal de que tienes un problema.",
+   "answer": true,
+   "explain": "Nadie puede saber hacerlo todo bien solo. Con la plata pasa lo mismo: la ayuda de un profesional cambia mucho los resultados."
+  },
+  {
+   "type": "mc",
+   "prompt": "Releyendo a Morgan Housel, ¿por qué mucha gente no siente urgencia por preparar su jubilación?",
+   "options": [
+    "Porque vivir de lo ahorrado al dejar de trabajar es una idea históricamente nueva",
+    "Porque las pensiones siempre alcanzan",
+    "Porque nadie vive muchos años",
+    "Porque la tecnología hará que trabajemos más años sin problema"
+   ],
+   "answer": 0,
+   "explain": "Antes la gente trabajaba hasta el final y vivía menos. Hoy todos vamos a dejar de trabajar algún día y tendremos que vivir de lo que no gastamos."
+  }
+ ],
+ "84": [
+  {
+   "type": "concept",
+   "title": "La vida como una suma de pequeñas apuestas",
+   "body": "Fernando ve cada decisión como una pequeña apuesta con un **upside** (lo que ganas si sale bien) y un **downside** (lo que pierdes si sale mal, incluido el costo de oportunidad). Si consistentemente buscas que el upside sea mayor, el efecto se va acumulando **como el interés compuesto**. Una mala racha no significa que la decisión haya sido mala.",
+   "emoji": "🎲"
+  },
+  {
+   "type": "mc",
+   "prompt": "En 2009, Fernando dudaba entre volver a la banca de inversión o emprender. ¿Qué técnica usó para decidir?",
+   "options": [
+    "Elegir la opción que pagaba más",
+    "Proyectarse 10 años al futuro y preguntarse de qué camino se arrepentiría de no haber participado",
+    "Pedirle a su jefe que decidiera por él",
+    "Lanzar una moneda"
+   ],
+   "answer": 1,
+   "explain": "Asumió que ambos caminos salían razonablemente bien y se preguntó cuál le dejaría la espina. El camino más incierto era el que más feliz lo haría."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Fernando, si tienes la visión correcta del mercado, no importa cuándo la ejecutes.",
+   "answer": false,
+   "explain": "Su hedge fund anticipó la crisis, pero se adelantó y, bajo la presión de los inversionistas, cerró la posición justo antes de la caída. Tener la visión correcta sin ejecutarla en los tiempos correctos igual es un problema."
+  },
+  {
+   "type": "fill",
+   "sentence": "Una cocina con muchos cocineros termina en caos: puedes tener muchos inputs, pero tiene que haber ___.",
+   "options": [
+    "un comité unánime",
+    "responsables finales",
+    "más inversionistas"
+   ],
+   "answer": 1,
+   "explain": "Esa fue su primera gran lección: al final alguien tiene que tomar la decisión y hacerse responsable."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo cambió su forma de enfrentar la incertidumbre después de la crisis de 2008?",
+   "options": [
+    "Dejó de invertir en renta variable",
+    "Empezó a mirar el mercado todo el día",
+    "Arma sus decisiones para no quebrar en casi ningún escenario y poder seguir jugando",
+    "Solo invierte con plata prestada"
+   ],
+   "answer": 2,
+   "explain": "La historia muestra que incluso los peores eventos se terminan recuperando cuando hay fundamentos. El mayor problema es quedar fuera del juego."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada rasgo de liderazgo con lo que dice Fernando",
+   "pairs": [
+    [
+     "Humildad",
+     "Reconocer que nada se hace solo"
+    ],
+    [
+     "Confianza",
+     "No puedes trabajar con gente en la que no confías"
+    ],
+    [
+     "Autonomía",
+     "Gracias por todo lo que hicieron y que nunca les pedí"
+    ],
+    [
+     "Evitar a los yes-men",
+     "Quien dice que sí a todo frena a la empresa"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Cuando sus hijos traían la libreta de notas, Fernando tapaba las notas y solo miraba la línea de esfuerzo.",
+   "answer": true,
+   "explain": "Quería enseñarles que las capacidades son un regalo, pero que el esfuerzo depende de ellos. Felicitar resultados sin mirar el esfuerzo es una mala educación."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los criterios que usa Fernando para analizar una tendencia de inversión, tal como los enumera",
+   "items": [
+    "Que sea permanente o dure muchas décadas",
+    "Seguir la plata: que vaya mucho dinero en esa dirección",
+    "Crecimiento exponencial que genere sorpresas positivas",
+    "La disciplina de mantenerse invertido y tolerar la volatilidad"
+   ],
+   "explain": "Vientos a favor de largo plazo, más dinero y creatividad humana, generan buenos negocios. Pero sin la disciplina de quedarte invertido no los capturas."
+  },
+  {
+   "type": "mc",
+   "prompt": "En la frase que cita Fernando, un punto va a la idea y diez a la planificación. ¿Qué se lleva cien puntos?",
+   "options": [
+    "El capital",
+    "La suerte",
+    "La ejecución"
+   ],
+   "answer": 2,
+   "explain": "Por eso no le complica compartir ideas, incluso con competidores: lo que realmente te hace competitivo es tu capacidad de ejecutar."
+  }
+ ],
+ "85": [
+  {
+   "type": "concept",
+   "title": "¿Quién define el propósito de una empresa?",
+   "body": "Para el invitado, el propósito de una empresa es **resolverle un problema real a la gente**. Y la pregunta clave no es cuál es su rol, sino quién lo decide: **cada uno de nosotros**, como consumidor, empleado, inversionista y vecino. Como dicen en el episodio, la empresa es un reflejo de lo que le piden las personas.",
+   "emoji": "🦉"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Juan Ignacio, ¿por qué el progreso viene sobre todo desde las empresas y no desde el Estado?",
+   "options": [
+    "Porque las empresas tienen más plata que cualquier gobierno",
+    "Porque el Estado no pone reglas",
+    "Por los incentivos: el empresario asume el riesgo y compite a largo plazo, mientras el político juega a ciclos de votos",
+    "Porque las empresas nunca se equivocan"
+   ],
+   "answer": 2,
+   "explain": "Muchas empresas compiten apostando por cosas distintas y pagan sus propios errores. El Estado, con razón, evita el riesgo, y sus plazos son de 3 a 5 años."
+  },
+  {
+   "type": "tf",
+   "statement": "Con la llegada de la ampolleta, quienes encendían los faroles a gas perdieron su trabajo, pero la sociedad completa ganó con un sistema mucho más eficiente.",
+   "answer": true,
+   "explain": "Es el ejemplo de destrucción creativa del episodio: algo se destruye para crear algo nuevo, y ese dinamismo está en el corazón del progreso."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada caso del episodio con su lección",
+   "pairs": [
+    [
+     "General Electric",
+     "Se volvió muy compleja y perdió el foco"
+    ],
+    [
+     "DWS (Deutsche Bank)",
+     "Caso emblemático de greenwashing"
+    ],
+    [
+     "BMW y Stellantis (familias)",
+     "Más cautos con anuncios del auto eléctrico"
+    ],
+    [
+     "General Motors con Alfred Sloan",
+     "Un buen gerente le ganó al patriarca de Ford"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "Sobre productividad, el gran problema es quedarse atrapado en lo urgente y ___.",
+   "options": [
+    "no importante",
+    "muy importante",
+    "de largo plazo"
+   ],
+   "answer": 0,
+   "explain": "Si llenas tus días de reuniones, mails y urgencias, al mirar la agenda del mes puedes darte cuenta de que no avanzaste en nada relevante."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los horizontes que el invitado propone revisar en tu día a día, del más corto al más largo",
+   "items": [
+    "Esta semana",
+    "El próximo mes",
+    "Los próximos 6 meses",
+    "Los próximos 18 meses"
+   ],
+   "explain": "Tener conciencia de cómo repartes tu tiempo entre el corto, mediano y largo plazo es una forma de medir tu productividad. Mientras más alto es tu cargo, más pesa el largo plazo."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu amigo Tomás recién entró a su primera pega. ¿Qué le recomendaría Juan Ignacio?",
+   "options": [
+    "Quedarse callado y esperar que el jefe le asigne tareas",
+    "Decirle explícitamente a su jefe qué quiere aprender y a qué problemas quiere exponerse",
+    "Buscar otra pega a los tres meses si no lo ascienden",
+    "Enfocarse solo en el bono de fin de año"
+   ],
+   "answer": 1,
+   "feedback": [
+    "Esperar pasivamente te deja atrapado en el corto plazo.",
+    "¡Eso! Al partir, el objetivo es aprender, y verbalizarlo alinea a la persona y a la empresa.",
+    "El consejo es tener objetivos a 6 meses y 2 años, no apurarse por un cargo.",
+    "Mirar solo el bono es justamente la mirada de corto plazo que critica el invitado."
+   ],
+   "explain": "Cuando hay una definición explícita de lo que quieres aprender, se conversa, y la empresa gana a alguien motivado."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el invitado, los rankings ESG muestran fielmente qué empresas son más sustentables.",
+   "answer": false,
+   "explain": "Critica que son más de 100 indicadores poco orgánicos, que se vuelven marcar casillas: hasta tabacaleras salen muy bien en los rankings. Además, a los fondos les conviene porque cobran más comisión."
+  },
+  {
+   "type": "mc",
+   "prompt": "Aclarando que no da consejos, ¿qué dice Juan Ignacio que hace con su plata?",
+   "options": [
+    "Compra acciones de empresas ESG con alta comisión",
+    "Invierte todo en bitcoin",
+    "Elige acciones individuales cada semana",
+    "Invierte en un fondo que sigue al S&P 500 con comisión muy baja y no lo toca, además de su casa y un poquito en algo que conoce"
+   ],
+   "answer": 3,
+   "explain": "Sigue el consejo de Warren Buffett: algo simple y barato. Lo aburrido suele funcionar, sobre todo si no eres experto en inversiones."
+  }
+ ],
  "86": [
   {
    "type": "concept",
