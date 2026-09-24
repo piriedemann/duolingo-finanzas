@@ -1,0 +1,766 @@
+[
+ {
+  "number": 215,
+  "title": "Un estudio puso a prueba los consejos financieros de la IA",
+  "guest": null,
+  "date": "2026-09-15",
+  "summary": "Pablo y Francisco comentan un estudio que simuló vidas financieras de personas que seguían consejos de modelos de IA y los compararon con consejos de profesionales. La conclusión: la IA entrega muy bien las reglas básicas del dinero, pero se queda corta en situaciones de vida específicas, arrastra sesgos y depende mucho de lo bien que preguntes.",
+  "takeaways": [
+   "Usa la IA para las bases (ahorrar, invertir a largo plazo, productos baratos y tributariamente eficientes), pero revisa sus respuestas en casos específicos.",
+   "Ante un shock como quedarte sin pega, recuerda que para eso existe tu fondo de emergencia: no aceptes a ciegas un recorte extremo de gastos.",
+   "Verifica las fuentes: la IA puede tomar datos erróneos de un blog, como una comisión mal publicada.",
+   "La calidad del resultado depende de tu prompt y de tu conocimiento para detectar errores, como gastos futuros no ajustados por inflación.",
+   "La IA sugiere dónde poner tu próxima luca, pero no suele rebalancear lo que ya tienes invertido: pídeselo explícitamente o apóyate en alguien que sepa.",
+   "La planificación también debe considerar gastar hoy en experiencias valiosas, no solo maximizar patrimonio."
+  ],
+  "category": "otros",
+  "confidence": "high"
+ },
+ {
+  "number": 214,
+  "title": "Cómo pasé de un podcast en Chile a hacer clases en EEUU",
+  "guest": null,
+  "date": "2026-09-09",
+  "summary": "Pablo cuenta cómo pasó de renunciar a su trabajo y quedar sin ingresos en Estados Unidos a descubrir la planificación financiera y terminar enseñando acciones en una clase de asset allocation en LSU. Con Francisco conversan sobre storytelling, por qué la historia y los números deben calzar al invertir, y cómo usar la IA sin dejar de pensar.",
+  "takeaways": [
+   "Cuando un problema no tiene solución, inviértelo: en vez de buscar cualquier trabajo, pregúntate cuál sería tu trabajo ideal.",
+   "Aportar valor sin pedir nada (como proponer una mejor descripción o ayudar gratis a una comunidad) puede abrirte puertas en tu carrera.",
+   "Una buena historia tiene algo en juego, suspenso, humor y sorpresa, y se une con causalidad ('pero' y 'por eso'), no con 'y después'.",
+   "Al invertir, contrasta la narrativa con los números: si la historia no cuadra con las utilidades, desconfía de los titulares.",
+   "Invertir en lo que puedes explicar te aleja de perseguir precios y te ayuda a darle tiempo al interés compuesto.",
+   "Usa la IA para pensar mejor y hacer lo aburrido, pero siempre sé capaz de defender cada número y texto que presentes."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 213,
+  "title": "Futuro de robots y venta de departamento",
+  "guest": null,
+  "date": "2026-09-01",
+  "summary": "Tras hablar del futuro de los autos autónomos y la IA, Pablo muestra su sistema de cuentas para ordenar gastos y Francisco confiesa cómo un exceso de plata en la cuenta le subió las ganas de gastar. Luego Francisco explica paso a paso cómo vender un departamento: fijar precio con datos, calcular la rentabilidad real y reunir un checklist de documentos.",
+  "takeaways": [
+   "Arma un sistema de cuentas separadas (gastos fijos, variables y personales) con montos fijos mensuales y manda lo que sobre a tus objetivos.",
+   "Ahorra primero y gasta lo que sobra, no al revés; con un buen sistema basta revisar tus finanzas unos minutos al mes.",
+   "No dejes plata con destino definido en tu cuenta corriente: tenerla a la vista aumenta tu propensión a gastar.",
+   "Para poner precio a un departamento, compara propiedades similares, contrasta con precios reales de transacción y calcula la TIR de tu inversión.",
+   "Evalúa si pagar ~2% de comisión a un corredor vale más que tu tiempo mostrando y negociando la propiedad.",
+   "Decide mirando hacia adelante: lo que ya pasó es costo hundido y esperar un 'repunte' también es una apuesta."
+  ],
+  "category": "vivienda",
+  "confidence": "high"
+ },
+ {
+  "number": 212,
+  "title": "Fui a reclamar y me devolvieron el doble de impuestos",
+  "guest": null,
+  "date": "2026-08-27",
+  "summary": "Francisco fue presencialmente al SII porque sentía que su devolución no cuadraba con su APV y su crédito hipotecario, y salió con la devolución duplicada. Con Pablo reflexionan sobre no confiar 100% en ninguna fuente, el valor del conocimiento específico y de usar bien la IA, y comparan el APV con el beneficio del 107 de la LIR.",
+  "takeaways": [
+   "Revisa tu declaración de impuestos: si algo no te cuadra, reclama con argumentos; puede valer mucha plata.",
+   "No confíes ciegamente en ninguna fuente (ni en la AFP ni en un chatbot): ve a la fuente original, como la ley, o asesórate con alguien con experiencia.",
+   "El APV conviene especialmente si hoy tienes un tramo marginal alto y al jubilar tendrás un tramo menor; si seguirás en el mismo tramo, el beneficio se achica.",
+   "El 107 funciona al revés: pagas impuestos hoy, pero las ganancias salen libres de impuesto; es muy atractivo para metas de 5 a 15 años.",
+   "Compara fondos después de impuestos: uno con beneficio tributario puede ganarle a uno más barato sin beneficio.",
+   "Anota por qué tomas tus decisiones: ese registro privado te permite, con ayuda de la IA, encontrar patrones y decidir mejor."
+  ],
+  "category": "jubilacion",
+  "confidence": "high"
+ },
+ {
+  "number": 211,
+  "title": "Agentes Inmobiliarios (encontramos uno que no engaña)",
+  "guest": null,
+  "date": "2026-08-18",
+  "summary": "Pablo explica qué es un agente de IA y qué necesita para funcionar bien (contexto, herramientas y habilidades), y cómo le ahorra horas de trabajo repetitivo. Francisco cuenta cómo intenta convencer a su abuelo, rico en patrimonio pero pobre en liquidez, de vender su casa, y ambos advierten sobre la emocionalidad y el estatus en la inversión inmobiliaria.",
+  "takeaways": [
+   "Un buen agente de IA necesita tres cosas: contexto sobre ti, acceso a herramientas y habilidades o procesos definidos.",
+   "Invierte una vez en el setup inicial para luego delegar tareas repetitivas y liberar tiempo para crear y pensar.",
+   "En la vejez, la independencia está en la liquidez: tener todo en una casa puede dejarte sin plata para imprevistos como una clínica.",
+   "El bono pie no es un regalo: infla el precio para que el banco preste más.",
+   "No compres propiedades por estatus: tener un activo con deuda no significa que tu patrimonio haya crecido.",
+   "Experimenta solo con una pequeña 'plata de juego' (5-10%) y deja la parte estructural en fondos baratos y eficientes, sin arriesgar salir del juego."
+  ],
+  "category": "vivienda",
+  "confidence": "high"
+ },
+ {
+  "number": 210,
+  "title": "Las criptomonedas estables son los nuevos rieles del dinero",
+  "guest": "Tomás Valenzuela",
+  "date": "2026-08-11",
+  "summary": "Pablo entrevista a Tomás Valenzuela, de Mural Pay, sobre las stablecoins: qué son, cómo mantienen su valor atado al dólar y por qué se están convirtiendo en los nuevos rieles para mover plata internacionalmente. También comparan su rol con el de Bitcoin y conversan sobre capital humano chileno, mentores y terapia.",
+  "takeaways": [
+   "Una stablecoin es la representación digital de un activo real, casi siempre el dólar: comprarla para especular es como comprar dólares.",
+   "Sus dos grandes usos son mover plata entre países más rápido y barato, y dar acceso al dólar a quienes no lo tenían.",
+   "Emisores como Circle respaldan cada USDC con un dólar invertido en instrumentos líquidos y ganan el spread; hoy no tienen un seguro estatal como los depósitos bancarios.",
+   "Bitcoin es otra cosa: un activo especulativo que puede servir de cobertura geopolítica; si lo tienes, limita su peso en tu portafolio.",
+   "Ante proyecciones de precio espectaculares, calcula el retorno anualizado implícito y compáralo con alternativas como el S&P 500.",
+   "Tu capital humano crece en tres frentes: lo académico, las redes y mentores, y el trabajo interior (autoconocimiento)."
+  ],
+  "category": "cripto",
+  "confidence": "high"
+ },
+ {
+  "number": 209,
+  "title": "Pensando en serio la casa propia",
+  "guest": null,
+  "date": "2026-08-04",
+  "summary": "Francisco cuenta cómo una emergencia de salud de sus abuelos y una conversación con la Luli lo llevaron a definir reglas personales antes de comprar su casa: que el dividendo se parezca al arriendo que ya paga cómodo y que, después del pie, le quede un buen colchón líquido. Pablo suma su mirada de planificador (el dividendo es solo el piso de los gastos, conviene bajar el riesgo de esa plata) y cierra con lo que aprendió usando IA: vibe coding revisado por un desarrollador y usar la IA para que te haga pensar más, no menos.",
+  "takeaways": [
+   "Apunta a un dividendo parecido al arriendo que ya llevas tiempo pagando cómodo y ahorrando, en vez de partir por 'cuánto me presta el banco'.",
+   "El arriendo es el techo de tu gasto en vivienda; el dividendo es el piso: súmale contribuciones, arreglos y los gastos que vas a querer hacer en tu casa.",
+   "Después de pagar el pie, ten uno o dos años de gastos de vida en instrumentos líquidos para seguir pagando el dividendo si te quedas sin pega.",
+   "Esa plata de seguridad conviene tenerla con menos riesgo (más renta fija), porque comprar casa reduce tu capacidad de tomar riesgo.",
+   "Elige conscientemente entre esperar años por una propiedad más cara o comprar antes algo un poco más modesto pero igual bueno.",
+   "Las decisiones grandes en pareja mejoran si un tercero de confianza (por ejemplo, un planificador) hace las preguntas incómodas."
+  ],
+  "category": "vivienda",
+  "confidence": "high"
+ },
+ {
+  "number": 208,
+  "title": "Qué hacer cuando dejas de encajar en tu círculo",
+  "guest": null,
+  "date": "2026-07-28",
+  "summary": "A partir de un asado donde Pablo sintió que ya no le enganchaban los temas de siempre, los conductores comentan una entrevista a Sergio Fernández (Instituto de Pensamiento Positivo) y la aterrizan a finanzas y a la vida. Proponen ser 'tortuga' en inversiones y hábitos (constancia, cero atajos) y 'primer pingüino' cuando toca tomar riesgos para crear algo nuevo, apoyándose en una comunidad que te empuje.",
+  "takeaways": [
+   "Construir riqueza requiere adrenalina (pedir más pega, emprender); mantenerla e invertirla funciona mejor mientras más fome y lento sea.",
+   "Gana el más consistente, no el más espectacular: como en el tenis amateur, la mayoría de los puntos se pierden por errores propios.",
+   "Si tu cerebro pide emoción, separa un pedacito de 'play money' (2 a 10%) y deja la parte estructural en algo aburrido.",
+   "Define tu 'suficiente': sin saber qué quieres y cuánto cuesta, siempre vas a querer un poquito más.",
+   "Sé un 'primer pingüino' para tomar riesgos con retorno asimétrico, pero con colchón de emergencia y ojalá compatibilizándolo con tu trabajo.",
+   "Cuéntate la verdad: revisa tus finanzas en una planilla para saber dónde estás parado, aunque estés en negativo."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 207,
+  "title": "Terminamos en un hospital en el extranjero y esto es lo que nos salvó",
+  "guest": null,
+  "date": "2026-07-22",
+  "summary": "Francisco relata cómo sus vacaciones en Punta Cana terminaron con su guagua hospitalizada, y cómo el seguro de viaje, el cupo de sus tarjetas de crédito y su colchón de emergencia le permitieron enfocarse en su familia sin estrés financiero. Pablo cuenta su experiencia rindiendo el examen CFP y explica cuándo realmente conviene contratar una planificación financiera.",
+  "takeaways": [
+   "Al contratar un seguro de viaje, pregunta antes en qué clínicas te atienden sin pagar y revisa sus reseñas.",
+   "Mira la tarjeta de crédito como un seguro de liquidez: tener cupo disponible sin usarlo te puede salvar en una urgencia.",
+   "Paga siempre el total facturado: la deuda de tarjeta es de las más caras que existen (cerca del 40% anual como máximo convencional).",
+   "Tus activos financieros líquidos y tu colchón de emergencia permiten pagar la tarjeta antes de que llegue el reembolso; una propiedad no se vende en días.",
+   "Reducir la incertidumbre (plata, salud, trabajo) es lo que te deja vivir tranquilo y enfocado en lo que importa.",
+   "Si tu situación es básica, sigue el paso a paso; una planificación vale la pena cuando tu vida financiera se vuelve compleja (herencia, venta de un negocio, cercanía al retiro)."
+  ],
+  "category": "seguros_riesgo",
+  "confidence": "high"
+ },
+ {
+  "number": 206,
+  "title": "Crea tu futuro | Patricio Jottar [Grandes Éxitos]",
+  "guest": "Patricio Jottar",
+  "date": "2026-07-14",
+  "summary": "Reedición de la entrevista del segmento Mentores a Patricio Jottar, gerente general de CCU, junto a Pablo y Fernando Gómez. Jottar explica que los líderes no predicen el futuro sino que lo eligen y construyen, y comparte sus modelos mentales sobre excelencia, delegación, empoderamiento, suerte y equilibrio entre trabajo y familia.",
+  "takeaways": [
+   "No intentes predecir el futuro: elige uno, renuncia a las demás opciones y construye hacia él.",
+   "Un trabajo hecho al 99% no vale 99, vale 40: no te conformes con el 99 cuando tienes el 100 a la vista.",
+   "En la duda, delega y exige (si eres jefe); en la duda, hazlo sin preguntar (si eres colaborador).",
+   "La suerte se busca: pégale 'palito' a los gatitos chicos de cada día con trabajo bien hecho y estarás listo cuando pase el grande.",
+   "Una idea vale 1, con un plan vale 10 y ejecutada vale 100: la ejecución es lo más difícil y lo más valioso.",
+   "Para equilibrar trabajo y familia: prioriza, delega, aprende a decir que no, duerme bien y anota tus pendientes para no llevarlos en la cabeza."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 205,
+  "title": "Visitó Silicon Valley y casi toma cerveza con Jensen Huang",
+  "guest": "Fernando Gómez",
+  "date": "2026-07-08",
+  "summary": "Fernando Gómez vuelve al podcast tras visitar Nvidia, Google, Intel y otras empresas en Silicon Valley, y comparte la efervescencia que vio en torno a la IA, los robots y los vehículos autónomos. Plantea que por los próximos 10-15 años veremos más colaboración que sustitución entre humanos y máquinas, qué habilidades conviene desarrollar y cómo pensar la exposición a esta tendencia en un portafolio (sin que sea recomendación de inversión).",
+  "takeaways": [
+   "Desarrolla habilidades difíciles de reemplazar: creatividad (pensamiento horizontal), storytelling, idiomas y saber usar IA.",
+   "No te reemplazará la IA, sino un humano que sabe usarla.",
+   "La productividad puede generar más negocios y más empleo en total, aunque la transición sea dura para los afectados.",
+   "Para masificar autos autónomos y drones hoy pesa más la regulación y la aceptación social que la tecnología.",
+   "Los índices ponderados por capitalización están sesgados a EE.UU.; parte de la cadena de la IA está en Asia y Europa.",
+   "Si la IA te da miedo, tener una parte de tu portafolio invertida en ella puede funcionar como cobertura."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": 204,
+  "title": "40 años de experiencia financiera en 44 minutos - Mentores | Rip Reeves",
+  "guest": "Rip Reeves",
+  "date": "2026-06-30",
+  "summary": "Pablo entrevista a Rip Reeves, a quien conoció en una conferencia del CFA y con quien hoy enseña un curso de asignación de activos en LSU. Rip cuenta cómo llegó a Wall Street sin contactos, a punta de guía telefónica y perseverancia, por qué eligió mentores en vez de lo que estaba de moda y en qué se diferencian el inversionista minorista y el institucional.",
+  "takeaways": [
+   "La suerte se sale a buscar: un correo, un café o una conversación pueden abrirte puertas inesperadas.",
+   "La perseverancia vence la falta de contactos: te van a decir que no muchas veces, acostúmbrate.",
+   "Ten un plan B concreto que te permita arriesgarte a ir por lo que quieres.",
+   "Al elegir dónde trabajar, elige personas que inviertan en ti más que el área de moda: todo ocurre en ciclos.",
+   "Con la experiencia no necesariamente cambia tu tolerancia al riesgo, sino tu capacidad de entender qué riesgos estás tomando.",
+   "Como inversionista minorista tú eres toda la 'gobernanza': define tus objetivos (por ejemplo, ingresos si estás jubilado) y diversifica más allá de las acciones."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 203,
+  "title": "Hobby, pasión, don, vocación: el mapa para elegir a qué dedicarte | Nacho Navarrete",
+  "guest": "Nacho Navarrete",
+  "date": "2026-06-23",
+  "summary": "Nacho Navarrete, abogado, emprendedor, actor y autor, cuenta cómo ha vivido varias «vidas» laborales sumando herramientas en cada una. Propone un mapa para no confundir hobby, pasión, don, profesión, vocación y propósito, y da consejos concretos para cambiar de rumbo sin tirarse al vacío.",
+  "takeaways": [
+   "Distingue hobby, pasión, don, profesión (lo que el mercado te paga), vocación y propósito: nombrarlos bien baja la ansiedad al elegir.",
+   "No renuncies sin plan: ojalá da el salto como un spin-off de algo que ya tienes en movimiento.",
+   "Antes de cambiarte, conversa 10-15 minutos con alguien que ya tiene el cargo que te interesa: es información gratis.",
+   "Llévate completo al trabajo que tienes hoy: destacarte donde estás abre nuevas oportunidades.",
+   "Si haces muchas cosas, trabaja por bloques de foco en vez de picotear todo a la vez.",
+   "Revisa tu rueda de la vida: detecta las áreas que tienes en cero y hazte cargo, incluso con ayuda de terapia."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 202,
+  "title": "Cómo armar una vida que te permita trabajar en cualquier país | Tere Razmilic",
+  "guest": "Tere Razmilic",
+  "date": "2026-06-16",
+  "summary": "Tere Razmilic, gerenta de marketing en un family office, profesora universitaria de emprendimiento y creatividad, emprendedora y mamá de tres, cuenta cómo diseñó una carrera que le permite vivir temporadas en otros países con su familia. Habla de crecer hacia los lados en vez de subir por el trampolín corporativo, de diversificar trabajos y de las habilidades que importarán en el futuro.",
+  "takeaways": [
+   "La creatividad es tener ideas; la innovación es ejecutarlas. De 100 ideas funcionan una o dos, pero hay que intentarlo.",
+   "Puedes cambiar la «catapulta» corporativa por un crecimiento horizontal que te dé más libertad, aunque más lento.",
+   "Trabajo remoto no es no ir a la oficina: es que tu trabajo se pueda hacer desde cualquier lugar.",
+   "Diversifica tus fuentes de trabajo para tener por dónde salir jugando si una falla.",
+   "Pide lo que quieres (un sabático, trabajar desde afuera): en el peor caso te dicen que no.",
+   "Habilidades clave hacia adelante: idiomas, manejo de IA, trabajo en equipo, humildad y ganas de seguir aprendiendo."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 201,
+  "title": "Dormir bien es un superpoder",
+  "guest": "Trinidad Pascual",
+  "date": "2026-06-10",
+  "summary": "Trinidad Pascual, de Clínica Somno, explica por qué dormir bien es quizás la inversión con mejor retorno: afecta tu salud, tu energía, tu memoria y hasta tus decisiones financieras. Repasa hábitos de higiene del sueño, señales de alerta como el ronquido y cómo es el proceso para diagnosticar un trastorno del sueño.",
+  "takeaways": [
+   "Estar cansado todo el día no es normal; si dura semanas, consulta a un especialista.",
+   "Acuéstate y levántate a la misma hora todos los días, también el fin de semana, y apunta a 7-8 horas.",
+   "Evita el café después de las 3 de la tarde, cena liviano y temprano, y no hagas deporte justo antes de dormir.",
+   "Mantén la pieza fresca (alrededor de 18 °C) y deja que la luz baje en la noche.",
+   "Roncar no es normal: puede ser apnea del sueño, que se agrava con alcohol y sobrepeso.",
+   "Si despiertas de madrugada y no puedes dormir, sal de la cama y lee algo hasta que vuelva el sueño."
+  ],
+  "category": "otros",
+  "confidence": "high"
+ },
+ {
+  "number": 200,
+  "title": "Instinto Animal",
+  "guest": null,
+  "date": "2026-06-02",
+  "summary": "En el capítulo 200, Pablo y Francisco repasan lo aprendido: primero construir la base financiera con las reglas del juego del dinero y después usar esa base para diseñar una vida intencional, fuera del piloto automático. Proponen un ejercicio práctico para definir objetivos de vida y hablan de pasar a la acción, la motivación intrínseca y la comunidad.",
+  "takeaways": [
+   "Primero arma la base (ahorro, fondo de emergencia, jubilación); después usa el dinero para hacer lo que quieres, no al revés.",
+   "Sesgo a la acción: si sientes el impulso de hacer algo, date 5 segundos para moverte.",
+   "Define objetivos: escribe tu lista, al día siguiente duplícala, ordénala con los cinco tipos de riqueza y recién ahí compárala con una lista maestra.",
+   "La felicidad viene más de motivaciones intrínsecas (crecimiento, relaciones, comunidad) que de comprar cosas.",
+   "Ponle un «suficiente» a tus metas y no te olvides del día a día por esperar los grandes eventos.",
+   "Rodéate de gente que te acompañe: hace más fácil atravesar el «valle de la muerte» al empezar algo nuevo."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 199,
+  "title": "La conferencia de semiconductores más importante del mundo",
+  "guest": "Fernando Alex",
+  "date": "2026-05-26",
+  "summary": "Fernando Alex, portfolio manager de un fondo chileno de semiconductores, cuenta cómo se preparó para ir a la conferencia de semiconductores más importante del mundo y qué aprendió allí. Explica los cuellos de botella de la industria (memoria, advanced packaging, energía, óptica y refrigeración), la geopolítica de Taiwán y China, y cómo pensar esta tendencia en un portafolio de largo plazo.",
+  "takeaways": [
+   "Prepárate con objetivos claros: estudia a quién quieres conocer, arma preguntas y deja espacio para improvisar dentro de ese marco.",
+   "Primero genera confianza y empatía; recién después la gente te escucha en lo racional.",
+   "La IA hoy está frenada por cuellos de botella físicos: memoria, empaquetamiento avanzado, energía, óptica y refrigeración.",
+   "Ganarle al mercado eligiendo acciones exige estar metido en la industria todo el día; desconfía de quienes venden señales.",
+   "Si crees que el mundo será cada vez más digital, esta infraestructura puede ser una parte de tu portafolio de largo plazo, sin intentar adivinar el momento de entrada."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": 198,
+  "title": "5 Errores típicos que nos estresan",
+  "guest": null,
+  "date": "2026-05-19",
+  "summary": "Pablo comparte lo que habló en un congreso médico: los cinco errores financieros típicos de quienes ganan bien (y de casi todos): no ahorrar, no invertir, no prepararse para el retiro, caer ante los vendedores y pagar demasiados impuestos. También conversan sobre la casa propia, la desacumulación y la idea de «finanzas simples, vida compleja».",
+  "takeaways": [
+   "Forma el hábito del ahorro aunque sea con 5 o 10 lucas: ese hábito es lo que habilita todo lo demás.",
+   "Tener todo en depósitos a plazo no es invertir: el riesgo de perder poder adquisitivo también es real.",
+   "Si ganas sobre el tope imponible, tu pensión puede ser mucho menor que tu sueldo: complementa con APV o depósito convenido.",
+   "Seguros por un lado y ahorro por el otro: los seguros con ahorro suelen ser caros. Pregúntale siempre a tu asesor cómo gana él.",
+   "El APV es flexible (pones cuando quieres) y es de las pocas formas legales de pagar menos impuestos.",
+   "La casa propia está bien, pero después de tener fondo de emergencia, APV y otras platas líquidas: lo clave es no salirse del juego."
+  ],
+  "category": "jubilacion",
+  "confidence": "high"
+ },
+ {
+  "number": 197,
+  "title": "De Odontóloga a DJ, Cambios de Vida con Nicole Schlesinger",
+  "guest": "Nicole Schlesinger",
+  "date": "2026-05-12",
+  "summary": "Nicole Schlesinger cuenta cómo pasó de ser odontóloga especialista y profesora universitaria a DJ de matrimonios con la agenda llena por un año. Su cambio no fue un salto al vacío: fue un hobby que practicó por años en paralelo, soltando jornadas de dentista de a poco hasta que la música pasó a ser su ingreso principal. También habla de cómo el profesionalismo (puntualidad, planificación, no tomar en los eventos) la diferenció en un rubro poco tradicional.",
+  "takeaways": [
+   "Antes de elegir una carrera, averigua cómo es el trabajo real: la vida laboral puede ser muy distinta a lo que te muestran en la universidad.",
+   "Si estás estancado, pide ayuda (por ejemplo, una coach laboral) y baja el ritmo para conectar con lo que de verdad te motiva; escribir tus pensamientos ayuda.",
+   "Prueba tu interés como hobby en tus ratos libres antes de apostar todo: practicar mucho te muestra si de verdad te gusta.",
+   "Haz la transición de a poco: suelta una jornada a la vez y mantén un ingreso fijo mientras el nuevo trabajo crece.",
+   "Tómate en serio una profesión no tradicional: puntualidad, planificación y responsabilidad te diferencian de la competencia.",
+   "Los ingresos agendados con anticipación (como matrimonios reservados con un año de adelanto) dan estabilidad financiera."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 196,
+  "title": "Criar bien a tus hijos",
+  "guest": "Felipe Lecannelier",
+  "date": "2026-05-05",
+  "summary": "Francisco conversa con el psicólogo Felipe Lecannelier sobre crianza como una 'inversión parental' permanente de tiempo y presencia. Felipe plantea que el vínculo va antes que la información, que los niños aprenden de lo que haces (no de lo que dices) y que ante una pataleta lo clave es no alejarte ni alejar al niño. También critica la sobreprotección, el peso excesivo que se le da a las notas y la crianza basada en gritos y castigos.",
+  "takeaways": [
+   "La crianza es una inversión de tiempo que se hace toda la vida, no una vez: igual que invertir todos los meses.",
+   "El vínculo es primero y la información después: un niño aprende de alguien en quien confía.",
+   "Los niños toman tu acción y tu tono, no tus palabras: si quieres que lea, que te vea leyendo.",
+   "Ante una pataleta: no te alejes ni lo alejes; quédate presente y muéstrale que puede acudir a ti.",
+   "La sobreprotección es desprotección: transmite al niño que es frágil; mejor ser fuente de consuelo que de estrés.",
+   "Para educar en plata, lo que más pesa es lo que tu hijo te ve hacer y priorizar en el día a día, más que las charlas."
+  ],
+  "category": "otros",
+  "confidence": "high"
+ },
+ {
+  "number": 195,
+  "title": "Cómo es trabajar en Nvidia",
+  "guest": "Marcio Gómez",
+  "date": "2026-04-29",
+  "summary": "Marcio Gómez, con más de 15 años en Nvidia, explica cómo funciona por dentro una de las empresas más importantes del mundo: una cultura plana, de compartir información, rapidez con eficiencia y semanas de no más de 40 horas. Cuenta cómo la empresa pasó de vender unos 10.000 millones de dólares en 2010 a 115.000 millones en 2025 creciendo junto a su ecosistema, y por qué cree que la inteligencia artificial recién está partiendo. Su mensaje: hay que aprender a trabajar con la IA como un copiloto.",
+  "takeaways": [
+   "Mantenerte aprendiendo te permite crecer por años en un mismo lugar: para Marcio, Nvidia es una empresa distinta cada año.",
+   "Comparte la información relevante en vez de guardártela: en Nvidia viene desde el CEO y acelera a todo el equipo.",
+   "Rápido no basta: la idea es ser rápido y eficiente, enfocado en entregar resultados sin trabajar de más.",
+   "Si a tus socios y clientes les va bien, a ti también: crecer ayudando a tu ecosistema.",
+   "Usa la IA como copiloto (ordenar correos, investigar, preparar reuniones), pero el criterio humano sigue siendo clave.",
+   "Los grandes cambios tecnológicos son procesos de años, no olas de un día: la IA viene desde mucho antes de ChatGPT."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 194,
+  "title": "Guías | Tim Ferriss",
+  "guest": null,
+  "date": "2026-04-21",
+  "summary": "Pablo dedica un episodio de 'Guías' a Tim Ferriss, a quien considera la persona más influyente en su carrera. Recorre su podcast y sus episodios favoritos, el newsletter Five Bullet Friday, libros como La semana laboral de 4 horas y Tribe of Mentors, y ejercicios como el fear setting. La idea central: un buen guía te muestra caminos y personas que vale la pena explorar.",
+  "takeaways": [
+   "En una conversación, en vez de contar tu propia historia, di 'cuéntame más': abre la puerta a lo interesante.",
+   "Considera mini retiros o sabáticos a lo largo de la vida en vez de guardar todo el tiempo libre para la jubilación.",
+   "Practica la ignorancia selectiva: decide conscientemente a qué información le prestas atención y a cuál no.",
+   "Haz el ejercicio de fear setting: escribe tu peor escenario y qué harías si pasa; baja la ansiedad ante decisiones difíciles.",
+   "Cuando no sabes qué hacer, sigue la siguiente pista, como un rastreador de leones.",
+   "El crecimiento personal deja de ser una trampa cuando lo enfocas en los demás (pareja, hijos, comunidad)."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 193,
+  "title": "Dormir mejor, superar miedos y encontrar tu manada con Mariana Bennett",
+  "guest": "Mariana Bennett",
+  "date": "2026-04-14",
+  "summary": "Mariana Bennett, nutricionista y coach de salud integrativa, explica por qué dejarse ayudar es autocuidado y cómo un proceso de coaching cambia hábitos paso a paso. El orden: primero recuperar energía (sobre todo durmiendo bien), luego ganar claridad sobre tu 'por qué' y después hacer cambios pequeños y concretos. También habla de encontrar tu manada, del rol del dinero como vehículo y no como meta, y de cómo manejar el estrés.",
+  "takeaways": [
+   "Dejarte ayudar por especialistas (psicólogo, coach, nutricionista, entrenador) es autocuidado, no debilidad.",
+   "Para cambiar hábitos necesitas energía: parte por dormir mejor antes de exigirte más cambios.",
+   "Desconéctate antes de dormir: al menos media hora sin celular, luces más bajas y la pantalla en blanco y negro o rojo.",
+   "Conecta con tu 'por qué' (ejercicio de valores y visualización del día ideal) para salir del corto plazo.",
+   "Cambia un hábito a la vez y en pasos chicos, como cambiar solo el desayuno por una semana.",
+   "El dinero es un vehículo, no el objetivo: define cuánto es 'suficiente' para no vivir en la inercia de generar más."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 192,
+  "title": "Revolución de Inteligencia",
+  "guest": null,
+  "date": "2026-04-07",
+  "summary": "Pablo y Francisco, inspirados en una columna de Cal Newport y un estudio de Harvard Business Review, hablan del 'AI brain fry': el cerebro frito por usar demasiadas herramientas de IA, esperar respuestas, supervisar agentes y vivir interrumpido. Proponen usar la IA de forma deliberada, cuidar tu dieta de contenido (10 páginas de lectura al día en vez de scroll) y proteger tu capacidad de pensar, que es la base de tu capital humano.",
+  "takeaways": [
+   "La IA puede darte más capacidad pero también más trabajo: úsala con intención para no terminar con el cerebro frito.",
+   "Lee 10 páginas al día en vez de media hora de scroll: es como los 10.000 pasos, pero para el cerebro (y suma un libro al mes).",
+   "No uses el teléfono en la primera ni en la última hora del día; cargarlo fuera de la pieza ayuda.",
+   "Usa 2 o 3 herramientas de IA bien aprendidas en vez de monitorear muchas en paralelo.",
+   "Aplica el 10-80-10: tú haces el 10% inicial (pensar) y el 10% final (tu toque); delega el 80% del medio.",
+   "No delegues las habilidades que valoras (como escribir), y combina habilidades para ser más difícil de reemplazar."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 191,
+  "title": "David Fischman",
+  "guest": "David Fischman",
+  "date": "2026-03-31",
+  "summary": "Conversación con David Fischman, autor de 'La alta rentabilidad de la felicidad', sobre por qué ser feliz también es rentable y cómo hay dos ejes: aumentar la felicidad y disminuir la infelicidad. Hablan de estrategias diarias (gratitud, propósito, relaciones, talentos), de la relación entre dinero y libertad, y de cómo las heridas de la niñez se cuelan en la pareja, la crianza y el trabajo.",
+  "takeaways": [
+   "Para ser más feliz no basta sumar cosas buenas: también hay que trabajar lo que te hace infeliz, como las heridas de la infancia.",
+   "Un diario de gratitud (tres cosas cada noche) es un ejercicio simple que, según Fischman, sube bastante la felicidad.",
+   "Trabaja en algo alineado con tus talentos: algo en que eres bueno y que además te encanta.",
+   "Define tu 'número': la cifra que te da tranquilidad; perseguir más plata sin límite te esclaviza en vez de darte libertad.",
+   "Cultiva relaciones cercanas donde puedas mostrarte vulnerable; son el gran predictor de felicidad según el estudio longitudinal de Harvard.",
+   "Para descubrir qué tienes que trabajar, escucha a tu pareja o las evaluaciones 360° de tu equipo."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 190,
+  "title": "Aprendizajes Manada 10% p1",
+  "guest": null,
+  "date": "2026-03-24",
+  "summary": "Pablo y Francisco repasan el primer trimestre de Manada 10%, su grupo de acompañamiento para pasar de la teoría a la acción. Cuentan cómo lo estructuraron (energía, foco y proyecto personal), los marcos que usaron (hábitos, identidad, el elefante y el jinete de 'Switch') y lo que aprendieron sobre partir simple y ejecutar en grupo.",
+  "takeaways": [
+   "Ser del 10% superior en varias áreas a la vez te deja en una intersección que es del 1%: no necesitas ser el mejor del mundo en una sola.",
+   "La idea vale poco y la ejecución vale mucho: 1 punto la idea, 10 el diseño, 100 la ejecución.",
+   "Parte con un solo hábito y lo más simple posible, aunque parezca demasiado fácil; la motivación de las primeras semanas se acaba.",
+   "Los cambios duran cuando se vuelven identidad: no 'trato de correr', sino 'soy alguien que hace deporte'.",
+   "Para cambiar, háblale al jinete (razón), motiva al elefante (emoción) y despeja el camino (entorno).",
+   "Metas grandes necesitan un plan diario medible, como escribir 500 a 1.000 palabras al día para terminar un libro."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 189,
+  "title": "Consu Comunica",
+  "guest": "Consuelo Serené (Consu Comunica)",
+  "date": "2026-03-17",
+  "summary": "Consu Comunica, actriz y coach de oratoria, explica cómo comunicar mejor en reuniones, presentaciones y en la vida personal. Habla del miedo al juicio, del peso del lenguaje no verbal y la voz, de cómo estructurar una presentación con una idea fuerza y de técnicas prácticas para ensayar, dar feedback y usar historias.",
+  "takeaways": [
+   "Si no te haces cargo de cómo comunicas, igual estás comunicando: tu cuerpo y tu voz hablan por ti.",
+   "Elige una idea fuerza y arma la presentación con un inicio que enganche, tres ideas clave y un cierre con llamado a la acción o aprendizaje.",
+   "Ensaya en voz alta y de pie, incorporando el cuerpo, en vez de solo memorizar un PowerPoint.",
+   "Plántate con los pies firmes, espalda derecha y mira a las personas una a una en vez de hacer un barrido.",
+   "Trabaja la voz (pausas, volumen, entonación y ritmo), partiendo por un ritmo dinámico, y termina las frases hacia abajo.",
+   "Confirma que te entendieron: pide que te expliquen con sus palabras o que te digan en una frase qué les quedó."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 188,
+  "title": "Francisco Patrimore",
+  "guest": null,
+  "date": "2026-03-10",
+  "summary": "Episodio que comparte la entrevista a Francisco Verdugo en el podcast Mente Inversionista de Patrimore, donde repasa sus grandes aprendizajes de 2025. Habla del marco GAIN (generar, ahorrar, invertir, navegar), de medir el éxito con el tablero correcto, de definir un 'suficiente', de los cinco tipos de riqueza y de planificar también la etapa de desacumulación, incluida la casa.",
+  "takeaways": [
+   "Piensa en GAIN: generar, ahorrar, invertir y navegar; la industria suele enfocarse solo en invertir.",
+   "Define tu 'suficiente': la menor cantidad de plata que te permite ser feliz, para no caer en la carrera infinita de querer más.",
+   "Tus ingresos y tu tasa de ahorro pesan más en tu patrimonio futuro que buscar unos puntos extra de rentabilidad.",
+   "No necesitas rentar 100% al año: con cerca de 7% anual promedio te va bien si generas y ahorras.",
+   "Los cambios duraderos vienen de cambiar tu identidad: convertirte en ahorrador, en lector, en deportista.",
+   "Mide tu situación por patrimonio (activos menos deudas) y por los cinco tipos de riqueza, no solo por cuánto ganas."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 187,
+  "title": "Reporte Citrini",
+  "guest": null,
+  "date": "2026-03-03",
+  "summary": "Pablo y Francisco analizan tres documentos sobre inteligencia artificial: el memo de Howard Marks sobre el avance de la IA, el ensayo 'Something Big Is Happening' y el escenario distópico a 2028 de Citrini Research. Discuten el salto en autonomía de los modelos, el riesgo para los trabajos de oficina, si hay burbuja y qué hacer hoy para no quedarse atrás.",
+  "takeaways": [
+   "La IA avanza en niveles: chatear (nivel 1), usar herramientas (nivel 2) y agentes autónomos (nivel 3); sube al menos al nivel 2.",
+   "Lo técnico se vuelve commodity; el valor va a estar cada vez más en lo humano: acompañar, entender valores y dar contexto.",
+   "La calidad de lo que te entrega la IA depende mucho de tu prompt y del contexto que le das.",
+   "El reporte de Citrini es un escenario pesimista a propósito (el 10-15% más negativo), no su predicción central.",
+   "Nuestro cerebro extrapola en línea recta, pero la IA crece de forma exponencial: prepárate para que siga sorprendiendo.",
+   "Sé proactivo: aprender y aplicar cosas nuevas que nadie te pidió es hoy una gran forma de diferenciarte en tu pega."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 186,
+  "title": "Guía Retiro JP Morgan",
+  "guest": null,
+  "date": "2026-02-24",
+  "summary": "Pablo y Francisco recorren la guía de retiro de J.P. Morgan: qué variables del retiro controlas, cuáles controlas a medias y cuáles no. Revisan la longevidad, el riesgo de jubilarte antes de lo planeado, cuánto ahorrar según la edad en que partes, la estrategia de los tres baldes, las tasas de retiro flexibles y el costo de salirse del mercado en los peores momentos.",
+  "takeaways": [
+   "Enfócate en lo que controlas: cuánto ahorras y gastas, cómo armas tu portafolio y en qué tipo de cuentas inviertes.",
+   "Planifica para vivir mucho: cerca de la mitad de las personas sanas y no fumadoras llega a los 90 años.",
+   "Mientras antes partes, menos tienes que ahorrar: partiendo a los 25 basta cerca de 7% del ingreso; a los 45, cerca de 25%.",
+   "Si hoy no puedes ahorrar 10%, parte con 3% y súbelo 1 punto cada año (por ejemplo, con cada aumento de sueldo).",
+   "Cerca del retiro, agranda tu fondo de emergencia y considera los tres baldes: corto, mediano y largo plazo.",
+   "Mantente invertido: perderte los 10 mejores días del mercado puede dejarte con menos de la mitad del resultado."
+  ],
+  "category": "jubilacion",
+  "confidence": "high"
+ },
+ {
+  "number": 185,
+  "title": "Estoicismo Financiero",
+  "guest": null,
+  "date": "2026-02-17",
+  "summary": "Pablo y Francisco llevan la filosofía estoica al mundo de la plata, inspirados en el diario de Ryan Holiday: separar lo que controlas (ingresos, gasto, ahorro, habilidades) de lo que no (mercados, noticias, presidentes). Proponen las tres disciplinas estoicas —percepción, acción y voluntad— aplicadas a las finanzas, y el concepto de eutimia: confiar en tu propio proceso sin correr detrás de las huellas del resto.",
+  "takeaways": [
+   "Enfócate en lo que sí controlas: generar ingresos, gastar bien y ahorrar; los retornos del mercado y las noticias no dependen de ti.",
+   "Ante el FOMO de un activo de moda, una buena respuesta es 'no lo necesito': con un retorno razonable y buen ahorro puedes vivir tranquilo.",
+   "Controla tu percepción: una caída del 10-20% es normal y pasa seguido; si una caída del 3-5% te quita el sueño, quizás tu portafolio tiene más riesgo del que toleras.",
+   "Crea sistemas antes que depender de la motivación, y reduce tu exposición a noticias, redes y marketing que gatillan malas decisiones.",
+   "Define para qué quieres la plata (qué quieres financiar en los próximos 5 años); ejercicios como la planificación Odisea ayudan a aclararlo.",
+   "Invertir bien no exige horas diarias: portafolio acorde a tu perfil, instrumentos eficientes y paciencia para que el interés compuesto trabaje."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 184,
+  "title": "Reglas del Juego [Grandes Éxitos]",
+  "guest": null,
+  "date": "2026-02-10",
+  "summary": "Reedición del capítulo 70, el paso a paso de qué hacer con tu próxima luca: desde pagarte a ti primero y juntar tu primer millón con un seguro catastrófico, hasta pagar deudas caras, armar el fondo de emergencia, aprovechar el APV y recién después invertir, prepagar compras y comprar casa. La lógica es jugar primero a la defensa para no salir del juego y luego pasar al ataque.",
+  "takeaways": [
+   "Paso cero: ahorra el 10% de tu sueldo a principio de mes, antes de gastar, aunque sea solo separándolo en la cuenta.",
+   "Junta tu primer millón en algo líquido (como un money market) y súmale un seguro catastrófico para que una emergencia no te saque del juego.",
+   "Si tu empleador iguala tu ahorro, aprovéchalo: es un 100% de retorno inmediato; luego elimina deudas caras que pueden cobrar tasas del orden del 30% anual.",
+   "El fondo de emergencia de 3 a 6 meses puede ser menor si consideras tu saldo del seguro de cesantía (AFC).",
+   "Regla para saber en qué enfocarte: si lo que ahorras en un año supera el 10% de tu portafolio, concéntrate en ahorrar más y ganar más, no en optimizar inversiones.",
+   "La casa propia viene tarde en el orden: concentra tu patrimonio en un solo activo poco líquido y trae costos como contribuciones y mantenciones."
+  ],
+  "category": "ahorro",
+  "confidence": "high"
+ },
+ {
+  "number": 183,
+  "title": "Guías | Cal Newport",
+  "guest": null,
+  "date": "2026-02-03",
+  "summary": "Pablo, solo en el micrófono, estrena los 'guías máximos' repasando las ideas de Cal Newport: Deep Work (trabajo profundo vs. superficial), Digital Minimalism (sumar solo la tecnología que mejora tu vida en el balance total) y So Good They Can't Ignore You (las habilidades le ganan a la pasión). La idea de fondo es vivir de forma intencional y salir del piloto automático.",
+  "takeaways": [
+   "Protege bloques de trabajo profundo: 3-4 horas concentrado rinden más que 8 horas saltando entre correos y mensajes.",
+   "Agrupa las interrupciones: horarios fijos para consultas o un documento compartido que el equipo revisa en conjunto.",
+   "Evalúa cada tecnología sumando beneficios y costos; si lo negativo gana, sácala o limita su uso.",
+   "En un detox digital, define qué harás con el tiempo liberado; un hobby físico que te dé flow ayuda mucho.",
+   "No persigas solo tu pasión: construye capital de carrera con habilidades valiosas, con mentalidad de artesano y práctica deliberada (incómoda).",
+   "Prueba cambios con experimentos cortos, como 30 días sin alcohol o sin redes: si funcionan, sigues; si no, vuelves atrás."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 182,
+  "title": "El Arte de Gastar Dinero p2",
+  "guest": null,
+  "date": "2026-01-27",
+  "summary": "Segunda parte del libro de Morgan Housel sobre cómo gastar dinero. Recorren los 15 niveles de independencia financiera (de la dependencia total al control total del tiempo), la idea de que la riqueza sin independencia es una forma de pobreza, y el consejo de probar muchas cosas y quedarse con pocas. Cierran con una lista de formas de ser miserable al gastar.",
+  "takeaways": [
+   "La independencia financiera no es todo o nada: ubícate en uno de los 15 niveles y apunta al siguiente nivel razonable.",
+   "El nivel 6 (ahorro para el largo plazo y sin deuda de tarjeta) es el punto bisagra donde el interés compuesto empieza a jugar a tu favor.",
+   "Pagar deudas, incluso prepagar un hipotecario, te compra independencia y tranquilidad, además de un retorno asegurado.",
+   "Prueba muchas cosas y quédate con pocas (embudo amplio, filtro pequeño) para descubrir en qué te gusta gastar.",
+   "Mientras más susceptible eres a la publicidad, menos satisfecho estás: usa una vara interna, no la de los demás.",
+   "Evita los extremos: ni perseguir estatus, ni hacer del dinero tu identidad, ni ahorrar tan extremo que nunca te des un gusto."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 181,
+  "title": "Guías | Gabriela Sánchez",
+  "guest": "Gabriela Sánchez",
+  "date": "2026-01-20",
+  "summary": "Gabriela Sánchez, ingeniera que lideró marketplaces y escaló equipos de atención al cliente, cuenta cómo dejó un cargo alto y un vesting para tomarse un año y medio sabático viajando con su pareja. Habla de cómo tomar grandes decisiones, del valor del ocio y el desapego, del retiro de silencio y de cómo usa OKRs con planificación semanal para lograr objetivos, hoy trabajando 4 horas al día.",
+  "takeaways": [
+   "Para decisiones grandes hazte dos preguntas: ¿de qué me voy a arrepentir en el futuro? y ¿qué es lo peor que podría pasar?",
+   "Mientras más bajas tus necesidades básicas, más libertad tienes: si el peor escenario no es tan malo, atreverse es más fácil.",
+   "Un sabático real idealmente dura más de 3 meses, porque cambiar hábitos arraigados toma tiempo; si no puedes, prueba un sabático de la hiperconexión.",
+   "Vas a recaer en malos hábitos; lo que importa es qué tan rápido vuelves a tu centro, y eso se entrena con práctica.",
+   "Baja un objetivo grande a resultados clave (OKR) y luego a acciones semanales, siendo flexible con el cómo pero claro con el qué y el por qué.",
+   "Hacer las cosas bien siempre te abre puertas y te da seguridad de que podrás volver a encontrar trabajo."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 180,
+  "title": "Guías | Gert Findel",
+  "guest": "Gert Findel",
+  "date": "2026-01-13",
+  "summary": "Gert Findel, cofundador de la desarrolladora de software Acid Labs, cuenta cómo planifica su vida de atrás para adelante, por qué priorizó primero la libertad financiera trabajando más de 100 horas a la semana cuando era joven y cómo luego ordenó su salud. Comparte su sistema de metas trimestrales con tres palancas, su calendario con bloques de foco y la idea de que con plata muchos problemas pasan a ser solo costos.",
+  "takeaways": [
+   "Planifica de atrás para adelante: define cómo quieres que termine tu libro y desde ahí diseña el camino y tu próxima acción.",
+   "Tener un mal plan es mejor que no tener ninguno; el plan se va ajustando en el camino.",
+   "Usa metas trimestrales en vez de anuales: obligan a más intensidad y foco; Gert elige tres palancas por trimestre (profesional, social y personal).",
+   "Reserva en el calendario bloques de foco con semanas de anticipación, aunque todavía no sepas para qué los usarás.",
+   "Cuando no tienes plata, reputación ni conocimiento, lo que puedes aportar es trabajo y horas; luego hay que equilibrar salud y relaciones.",
+   "Con plata, muchos problemas pasan a ser costos: pagar un coach o mentor para ganar claridad puede valer mucho la pena."
+  ],
+  "category": "emprendimiento",
+  "confidence": "high"
+ },
+ {
+  "number": 179,
+  "title": "El Arte de Gastar Dinero p1",
+  "guest": null,
+  "date": "2026-01-06",
+  "summary": "Pablo y Francisco comentan la primera mitad de «El arte de gastar dinero» de Morgan Housel: gastar bien no es una ciencia sino un arte, y depende de quién eres y de lo que te ha tocado vivir. Hablan de estatus ganado versus comprado, del marcador interno, de controlar expectativas, del valor del contraste y de ahorrar como una forma de comprar independencia.",
+  "takeaways": [
+   "Vive con un marcador interno: gasta para sentirte orgulloso de quién eres, no para impresionar a otros.",
+   "Antes de comprar estatus, pregúntate qué tan efectivo es, cuánto dura esa atención y de quién la quieres realmente.",
+   "Maneja tus expectativas: la felicidad aparece cuando tu realidad está por encima de lo que esperas.",
+   "Cuida el contraste: los gustos ocasionales (salir a comer, un viaje al año) se disfrutan más que si se vuelven rutina.",
+   "Ahorrar es comprar independencia y opciones futuras; ponle nombres como «independencia» o «tranquilidad» a tus cuentas.",
+   "Busca minimizar tus remordimientos futuros: ni gastarlo todo hoy ni ahorrar tanto que no vivas."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 178,
+  "title": "Guías | Francisco Ackermann",
+  "guest": "Francisco Ackermann",
+  "date": "2025-12-30",
+  "summary": "Para cerrar 2025, Pablo y Francisco le aplican a Francisco Ackermann el test de los cinco tipos de riqueza: sale muy bien en lo financiero y lo mental, pero la salud física es su punto débil. Conversan sobre el propósito como filtro para decir que no, sobre usar la comunidad para cambiar hábitos, sobre las relaciones profundas y sobre las decisiones conscientes con la familia.",
+  "takeaways": [
+   "La riqueza va más allá del dinero; una buena definición es poder dormir tranquilo.",
+   "Un propósito claro (el de Ackermann es educar a 100 millones de personas) sirve para filtrar oportunidades y decir que no.",
+   "Para cambiar un hábito difícil, súmale presión social: retos grupales con una pequeña apuesta o fotografiar todo lo que comes en un grupo.",
+   "Revisa tus relaciones profundas: ¿quién estaría en la primera fila de tu funeral?",
+   "Define tus innegociables (para él, la familia) y organiza tu agenda en torno a ellos, aunque cueste un poco más de plata.",
+   "Es muy difícil ser excelente en todo a la vez: lo importante es elegir el equilibrio de forma consciente."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 177,
+  "title": "Navidad 2025 en vivo",
+  "guest": null,
+  "date": "2025-12-24",
+  "summary": "En un capítulo en vivo de Navidad, Pablo y Francisco repasan qué les funcionó en 2025 y cómo planifican 2026. Comparten los marcos que más usaron (Misogi, los cinco tipos de riqueza, las rocas de Traction y los pequeños experimentos), sus metas para el primer trimestre y la idea de acompañarse en comunidad para lograrlas.",
+  "takeaways": [
+   "Mide lo que quieres mejorar: lo que no se mide no se mejora (Pablo bajó de 16% a 13% de grasa en un año).",
+   "Elige un Misogi: un gran desafío al año con más o menos 50% de probabilidad de lograrlo.",
+   "Parte por las rocas: define entre 3 y 7 prioridades por trimestre y ponlas antes que las piedras y la arena del día a día.",
+   "Haz pequeños experimentos de 30 días: el éxito es hacerlos, no el resultado.",
+   "Con la tecnología, evalúa lo bueno y lo malo, y úsala en ventanas definidas (por ejemplo, dormir con el celular en otra pieza).",
+   "Usa la IA para pensar y conversar ideas, pero que el resultado final venga de ti."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": 176,
+  "title": "¿Es una burbuja? Por Howard Marks",
+  "guest": null,
+  "date": "2025-12-16",
+  "summary": "Pablo y Francisco analizan el memo de Howard Marks sobre si la inteligencia artificial es una burbuja. Distinguen entre burbujas de punto de inflexión, que financian revoluciones que cambian el mundo, y burbujas de reversión a la media, que son pura especulación, y discuten cómo exponerse al riesgo sin irse all-in y sin quedarse fuera.",
+  "takeaways": [
+   "Hay burbujas de punto de inflexión (trenes, electricidad, internet, quizás la IA) y de reversión a la media (tulipanes, subprime 2008); ambas pueden destruir riqueza.",
+   "Que algo sea una revolución no significa que sea buen negocio: de la revolución del auto sobrevivieron muy pocas empresas.",
+   "No pongas toda tu plata en la posible revolución, pero tampoco te quedes completamente fuera: no tomar riesgo también es un riesgo.",
+   "Para prestar plata (renta fija) exige que el premio compense el riesgo; hoy los spreads sobre la tasa de gobierno son bajos.",
+   "Ojo con la concentración en pocas empresas gigantes; diversificar (por ejemplo, con índices equal weight) da más tranquilidad.",
+   "No dejes que el ruido de las noticias detenga tu ahorro mensual: mantente diversificado y con disciplina."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": 155,
+  "title": "La escalera de la riqueza con Nick Maggiulli",
+  "guest": "Nick Maggiulli",
+  "date": "2025-07-22",
+  "summary": "Nick Maggiulli, autor de «Just Keep Buying», presenta su libro «The Wealth Ladder»: seis niveles de patrimonio neto, cada uno diez veces mayor que el anterior, que requieren estrategias distintas. Habla de la importancia de los ingresos, de gastar según tu riqueza y no según tu sueldo, de los riesgos de concentrarse en una propiedad y de por qué prefiere la libertad financiera a la independencia financiera.",
+  "takeaways": [
+   "La relación más fuerte de las finanzas personales es entre ingresos y riqueza: enfócate en subir tus ingresos.",
+   "Al comienzo ahorrar mueve más la aguja que invertir; compara tu ahorro anual con el 10% de tu portafolio.",
+   "Date más libertad de gasto a medida que crece tu patrimonio neto, no tu sueldo, porque los ingresos son inestables.",
+   "En el primer nivel estás expuesto a la mala suerte: arma un fondo de emergencia y apóyate en familia y amigos.",
+   "Evita concentrar casi todo tu patrimonio en una sola propiedad; lo ideal es que sea una parte menor del portafolio.",
+   "Compra continuamente activos diversos que generen ingresos y deja lo especulativo (oro, cripto, arte) en un porcentaje chico."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": 112,
+  "title": "Las Reglas del Juego del Dinero en \"Con Peras y Finanzas\"",
+  "guest": null,
+  "date": "2024-09-24",
+  "summary": "Francisco Verdugo va como invitado al podcast «Con Peras y Finanzas» para explicar las reglas del juego del dinero: un checklist ordenado según qué te retorna más en cada etapa. Parte por pagarte primero y juntar tu primer millón, y sigue con la plata gratis del empleador, pagar deudas caras, el fondo de emergencia, el APV, los seguros, subir tu tasa de ahorro y, recién al final, sofisticar tus inversiones y comprar la casa propia.",
+  "takeaways": [
+   "Regla cero: págate primero, apartando al menos el 10% de lo que ganas.",
+   "Junta tu primer millón para demostrarte que sí puedes ahorrar y cambiar tus hábitos.",
+   "Aprovecha la plata gratis: si tu empleador iguala tu ahorro, es un 100% de retorno inmediato.",
+   "Paga las deudas caras (30-40% de interés) antes de invertir y arma un fondo de emergencia de 3 a 6 meses de gastos.",
+   "Usa el APV (el régimen A te bonifica un 15%) y cubre los riesgos que te pueden quebrar, como un seguro catastrófico.",
+   "Si tu ahorro anual es mayor que el 10% de tu portafolio, enfócate en ganar y ahorrar más, no en optimizar inversiones."
+  ],
+  "category": "presupuesto",
+  "confidence": "high"
+ },
+ {
+  "number": 92,
+  "title": "Cómo invertir en tus 20s, 30s, 40s, 50s y 60s",
+  "guest": null,
+  "date": "2024-05-08",
+  "summary": "Pablo y Francisco recorren, década por década, qué debería priorizar cada uno con su plata y su tiempo. Los 20 son para invertir en ti, partir invirtiendo aunque sea poco y no endeudarte caro; los 30 y 40 son el 'messy middle' de grandes compromisos (casa, pareja, hijos) donde lo clave es no equivocarse; y desde los 50 el foco pasa a preservar patrimonio y planificar la jubilación.",
+  "takeaways": [
+   "En tus 20, ahorra antes de gastar y elige tus primeras pegas más por los jefes y mentores que por una diferencia chica de sueldo.",
+   "Parte invirtiendo temprano aunque sea poco: el interés compuesto multiplica mucho más cada luca a los 20 que a los 40, y vivir caídas con montos chicos es la forma más barata de 'vacunarte' contra la volatilidad.",
+   "No te compliques invirtiendo cuando tienes poco patrimonio: un ETF o fondo, APV y el aporte del empleador; usa tu tiempo en aprender (y mejorar tu inglés).",
+   "En los 30 cuida las grandes decisiones: cotiza el hipotecario por tasa, no compres más casa de la que puedes pagar, planifica la plata en pareja y no compres el auto con crédito.",
+   "Revisa tus seguros según tu etapa: catastrófico e invalidez desde joven, seguro de vida cuando otros dependen de ti, y desde los 50 evalúa autoasegurarte con tu patrimonio.",
+   "En los 40 en adelante lo más importante es no equivocarte: ordena tu asset allocation, busca asesoría profesional con incentivos alineados y cultiva hobbies y curiosidades para disfrutar la jubilación."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": 77,
+  "title": "Mentores | La visión que deberías tener con Patricio Jottar (CEO CCU)",
+  "guest": "Patricio Jottar",
+  "date": "2024-01-23",
+  "summary": "Primer capítulo del segmento Mentores: Pablo y Fernando Gómez conversan con Patricio Jottar, gerente general de CCU, sobre visión, ejecución y liderazgo. Jottar explica que los líderes eligen el futuro (y elegir es renunciar), que la excelencia exige ir por el 100%, cómo delegar y empoderarse, y que no hay liderazgo sin querer a tu gente.",
+  "takeaways": [
+   "Los líderes no predicen el futuro: lo eligen junto a su equipo, y elegir implica renunciar a las otras opciones.",
+   "Busca la excelencia: un trabajo al 99% cuando el 100% estaba a la vista no vale 99, vale mucho menos.",
+   "Delegación y empoderamiento: hay un 10% claramente indelegable, un 10% obviamente delegable y un 80% en duda; ahí, delega y exige (o, si eres el subordinado, hazlo sin preguntar).",
+   "La 'suerte' se trabaja: pégale todos los días a los 'gatos chicos' con trabajo bien hecho en vez de esperar el gran golpe de suerte.",
+   "Arma equipos diversos y busca el punto medio entre los 'yes-man' y la porfía permanente.",
+   "Para equilibrar trabajo y familia: prioriza, delega, aprende a decir que no, duerme bien y anota tus pendientes en vez de cargarlos en la cabeza."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": 70,
+  "title": "Las Reglas del Juego del Dinero",
+  "guest": null,
+  "date": "2023-12-13",
+  "summary": "Pablo y Francisco presentan su paso a paso para saber qué hacer con tu próxima luca: una primera mitad de 'defensa' (pagarte primero, primer millón, seguro catastrófico, aporte del empleador, salir de deudas caras, fondo de emergencia, APV y proteger a tu familia) y una segunda de 'ataque' (prepagar compras, fondo chao jefe, meta de patrimonio según tu edad, asset allocation, casa propia y, al final, gastos para otros). La lógica es ir ordenando por tasas de retorno a favor o en contra y, sobre todo, no quedar fuera del juego.",
+  "takeaways": [
+   "Paso cero: págate primero y separa al menos un 10% de tu sueldo a principio de mes, sin preocuparte todavía de en qué invertirlo.",
+   "Junta tu primer millón en algo líquido (tipo money market) y contrata un seguro catastrófico para que una emergencia no te saque del juego.",
+   "Aprovecha si tu empleador iguala tu ahorro (retorno de 100%) y luego elimina las deudas caras, que pueden rondar un 30% anual en tu contra.",
+   "Arma tu fondo de emergencia considerando el seguro de cesantía (AFC); después usa el APV y protege a tu familia con seguro de vida o invalidez, sin mezclar seguro con ahorro.",
+   "Compara lo que ahorras en un año con el 10% de tu portafolio: si el ahorro es mayor, enfócate en ahorrar y ganar más; si no, en optimizar tus inversiones.",
+   "Recién en la segunda mitad: prepaga compras como auto o vacaciones, arma un fondo 'chao jefe' de unos 12 meses, apunta a la meta de patrimonio por edad, define tu asset allocation y deja la casa propia para después de cumplir los pasos anteriores."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ }
+]

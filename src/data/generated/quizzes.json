@@ -1,0 +1,4308 @@
+{
+ "70": [
+  {
+   "type": "concept",
+   "title": "Las reglas del juego del dinero",
+   "body": "Manejar tu plata tiene un **orden**, tengas mucha o poca. Lo primero es **no quedar fuera del juego**: la gente que compra cripto o un depa para arrendar sin tener fondo de emergencia puede andar bien... hasta que algo sale mal. Por eso el plan parte con una mitad de **defensa** y recién después pasa al **ataque**, ordenando cada paso según las tasas de retorno a tu favor o en tu contra.",
+   "emoji": "🎲"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los primeros pasos de la 'defensa' tal como los plantean en el episodio:",
+   "items": [
+    "Págate primero: separa un 10% de tu sueldo a principio de mes",
+    "Junta tu primer millón y contrata un seguro catastrófico",
+    "Aprovecha si tu empleador iguala tu ahorro",
+    "Sal de las deudas caras",
+    "Arma tu fondo de emergencia"
+   ],
+   "explain": "Primero construyes el hábito y un colchón 'anti game over'; luego tomas el retorno más alto (100% del match), eliminas el ~30% en contra de las deudas caras y recién después completas el fondo de emergencia, que toma más tiempo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Dónde conviene tener tu 'primer millón', según el episodio?",
+   "options": [
+    "En acciones, para que crezca más rápido",
+    "En un depósito a plazo a 30 días",
+    "En algo líquido y seguro, como un money market",
+    "En cripto, porque es de fácil acceso"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Si cae el mercado justo cuando tienes la emergencia, no te sirve.",
+    "Si la necesitas mañana, tendrías que esperar el vencimiento.",
+    "¡Eso! Tiene que estar a mano y sin riesgo para sacarlo al día siguiente.",
+    "Es riesgoso: puede caer justo cuando lo necesitas."
+   ],
+   "explain": "Este millón es tu vida extra para emergencias (una clínica, un remedio, pagar el deducible del seguro catastrófico). Su gracia es que esté disponible de inmediato, no que rente."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si tu empleador pone lo mismo que tú ahorras, partes con un retorno de ___, más alto que el ~30% anual en contra de las deudas caras.",
+   "options": [
+    "10%",
+    "15%",
+    "50%",
+    "100%"
+   ],
+   "answer": 3,
+   "explain": "Por eso el match va antes de pagar deudas: difícilmente encontrarás algo más rentable. Vale la pena preguntar en Recursos Humanos si tu pega tiene un plan así."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio plantean que, gracias al seguro de cesantía (AFC), tu fondo de emergencia propio podría ser menor que los típicos 3 a 6 meses de gastos.",
+   "answer": true,
+   "explain": "Ese seguro ya es parte de tu colchón si te despiden. Eso sí, advierten que se demora y llega en partes, así que igual necesitas plata disponible al día siguiente."
+  },
+  {
+   "type": "concept",
+   "title": "¿Ahorrar o invertir mejor?",
+   "body": "Una regla simple para saber dónde poner tu energía: compara **lo que ahorras en un año** con **el 10% de tu portafolio**. Si tu ahorro anual es mayor, enfócate en ahorrar más y en **ganar más** (hacerte más valioso, tener un sistema para tu plata). Si el 10% de tu portafolio ya es mayor, recién ahí vale la pena optimizar inversiones.",
+   "emoji": "⚖️"
+  },
+  {
+   "type": "mc",
+   "prompt": "La Jose ahorra $100.000 al mes y tiene $10.000.000 invertidos. Según la regla del episodio, ¿en qué debería enfocarse?",
+   "options": [
+    "En elegir el mejor ETF y rebalancear seguido",
+    "En ahorrar más y aumentar sus ingresos",
+    "En buscar la inversión con mayor rentabilidad posible",
+    "En comprarse un departamento para arrendar"
+   ],
+   "answer": 1,
+   "feedback": [
+    "Aún no: esa optimización todavía no le mueve la aguja.",
+    "¡Correcto! Ahorra $1.200.000 al año, más que el $1.000.000 que equivale al 10% de su portafolio.",
+    "Perseguir más retorno no es la prioridad todavía, y suele implicar más riesgo.",
+    "La casa o el depa vienen mucho más adelante en el paso a paso."
+   ],
+   "explain": "Cuando tu portafolio es chico, lo que más mueve la aguja es cuánto logras ahorrar. Optimizar inversiones importa más cuando el portafolio pesa más que tu ahorro anual."
+  },
+  {
+   "type": "match",
+   "prompt": "Según la 'tablita' que citan (de Fidelity), une cada edad con cuántas veces tu sueldo anual deberías tener como patrimonio neto:",
+   "pairs": [
+    [
+     "30 años",
+     "1 vez"
+    ],
+    [
+     "35 años",
+     "2 veces"
+    ],
+    [
+     "40 años",
+     "3 veces"
+    ],
+    [
+     "67 años",
+     "10 veces"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ahora la segunda mitad (el 'ataque'). Ordena estos pasos como aparecen en el plan:",
+   "items": [
+    "Prepagar compras futuras, como un auto o las vacaciones",
+    "Armar el fondo 'chao jefe' (unos 12 meses de gastos)",
+    "Definir tu asset allocation según tus objetivos",
+    "Comprar la casa propia",
+    "Pensar en gastos para otros: universidad de los hijos, herencia"
+   ],
+   "explain": "La casa propia es la compra más importante de tu vida y te concentra en el mercado inmobiliario, por eso va tarde. Y como en el avión, primero te pones tu máscara de oxígeno y después ayudas a otros."
+  }
+ ],
+ "77": [
+  {
+   "type": "concept",
+   "title": "Elegir el futuro",
+   "body": "Para Patricio Jottar, los líderes **no predicen** el futuro: lo **eligen** junto a su equipo y luego lo construyen. Y elegir es fundamentalmente **renunciar**: si tienes 10 opciones y eliges una, dejas nueve atrás. Como dicen en el episodio, quien quiere tenerlas todas termina sin ninguna. Además, la visión no puede ser un secreto: tiene que conocerla toda la organización.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según la 'matemática de la excelencia' que explica Jottar, ¿cuánto vale un trabajo hecho al 99% cuando el 100% estaba a la vista?",
+   "options": [
+    "99",
+    "90",
+    "40",
+    "0"
+   ],
+   "answer": 2,
+   "explain": "La idea es que ese último 1% es 'oro puro'. Equivocarse intentando llegar al 100% es humano; conformarse con el 99% sabiendo lo que falta es mediocridad."
+  },
+  {
+   "type": "fill",
+   "sentence": "Regla de delegación que aprendió Jottar: en el 80% de las cosas donde tienes dudas, ___.",
+   "options": [
+    "no delegues nada",
+    "delega y exige",
+    "pregúntale a tu jefe",
+    "espera a tener más información"
+   ],
+   "answer": 1,
+   "explain": "Hay un 10% indelegable y un 10% obviamente delegable; en el gran medio, delegar hace crecer a las personas y evita que el jefe se transforme en cuello de botella."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada principio de CCU que menciona Jottar con su descripción:",
+   "pairs": [
+    [
+     "Excelencia",
+     "Trabajo bien hecho al 100%"
+    ],
+    [
+     "Entrega",
+     "Buscar también el bien de los demás"
+    ],
+    [
+     "Empoderamiento",
+     "En la duda, hazlo"
+    ],
+    [
+     "Integridad",
+     "Cumplir leyes y normas, en letra y espíritu"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Para Jottar, se puede liderar a mucha gente por mucho tiempo sin realmente querer a las personas, mientras seas eficiente.",
+   "answer": false,
+   "explain": "Él lo plantea como la condición sine qua non del liderazgo: si usas a las personas como peldaños, dejan de confiar en ti y, con el tiempo, no se dejan liderar."
+  },
+  {
+   "type": "order",
+   "prompt": "En la anécdota del empresario que puntuaba ideas, ordena de MENOR a MAYOR puntaje lo que alguien le traía:",
+   "items": [
+    "Una buena idea (1 punto)",
+    "La idea con un plan para llevarla a la práctica (10 puntos)",
+    "La idea ejecutada (100 puntos)"
+   ],
+   "explain": "Todos creen tener grandes ideas; lo escaso y difícil es ejecutarlas. Por eso la ejecución vale muchísimo más que la idea sola."
+  },
+  {
+   "type": "mc",
+   "prompt": "Con la expresión 'pegarle el palo al gato', ¿qué recomienda Jottar a los jóvenes?",
+   "options": [
+    "Esperar el gran golpe de suerte y estar listo para aprovecharlo",
+    "Pegarle todos los días a los 'gatos chicos' con trabajo bien hecho",
+    "No tener grandes sueños para no frustrarse",
+    "Cambiarse de pega seguido hasta que aparezca la oportunidad"
+   ],
+   "answer": 1,
+   "explain": "Los 'momentos estelares' son una parte mínima de las historias de éxito. La suerte se busca con trabajo excelente y vínculos genuinos, y así, cuando aparece un gato grande, no se te pasa."
+  },
+  {
+   "type": "tf",
+   "statement": "Jottar prefiere usar la memoria para retener los números clave de su empresa y dejar los pendientes anotados en una lista, en vez de cargarlos en la cabeza.",
+   "answer": true,
+   "explain": "Anotar pendientes le permite desconectarse al llegar a casa, mientras que tener los números importantes en la cabeza le ayuda a conectar ideas y encontrar soluciones rápido."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué dos claves da Jottar para equilibrar una carrera exigente con la vida familiar?",
+   "options": [
+    "Trabajar de noche y recuperar el fin de semana",
+    "Priorizar y delegar (y aprender a decir que no)",
+    "Tener un equipo de personas parecidas a uno",
+    "Hacer muchas actividades sociales entre semana"
+   ],
+   "answer": 1,
+   "explain": "Si no delegas terminas llegando a las 11 de la noche todos los días. Él además cuida el sueño, evita trasnochar entre semana y descansa de verdad el fin de semana."
+  }
+ ],
+ "92": [
+  {
+   "type": "concept",
+   "title": "Cada década, un foco distinto",
+   "body": "No es lo mismo invertir a los 25 que a los 55. En tus **20** el gran activo es tu tiempo: aprende, ahorra antes de gastar y parte invirtiendo aunque sea poco. En los **30 y 40** llegan los grandes compromisos (casa, pareja, hijos) y lo clave es no equivocarte. Desde los **50** el foco pasa a **preservar** lo construido y planificar la jubilación.",
+   "emoji": "🎂"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el ejercicio del episodio (asumiendo jubilación a los 70), ¿cuántas veces podría multiplicarse cada luca que inviertes en tus 20?",
+   "options": [
+    "Unas 10 veces",
+    "Unas 80 veces",
+    "Unas 2 veces",
+    "Unas 30 veces"
+   ],
+   "answer": 1,
+   "explain": "Mientras más temprano inviertes, más años tiene el interés compuesto para trabajar. Por eso el potencial cae rápido si esperas: a los 30 ronda 30 veces y a los 40 unas 10."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las edades de inicio según el potencial de multiplicar una luca invertida, de MAYOR a MENOR (según el episodio):",
+   "items": [
+    "A los 20 (≈ x80)",
+    "A los 25 (≈ x48)",
+    "A los 30 (≈ x30)",
+    "A los 40 (≈ x10)"
+   ],
+   "explain": "La curva baja de forma exponencial: cada año que postergas le quita tiempo al interés compuesto. Esperar solo 5 años puede reducir el potencial casi a la mitad."
+  },
+  {
+   "type": "tf",
+   "statement": "En tus 20, con poco patrimonio, lo ideal es pasar muchas horas siguiendo acciones y mirando precios en pantalla.",
+   "answer": false,
+   "explain": "Con poca plata invertida, el tiempo rinde más invirtiendo en ti. La recomendación es simple: un ETF o fondo, aprovechar APV y el aporte del empleador, y usar las horas en aprender."
+  },
+  {
+   "type": "fill",
+   "sentence": "Como en tus 20 es difícil ganar más de 4 millones al mes, en el episodio se sugiere enfocarse en el APV régimen ___.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 0,
+   "explain": "El régimen A te da un beneficio del Estado de 15% de lo ahorrado (con tope); el régimen B conviene más cuando tu tasa de impuesto es alta, con sueldos sobre ese nivel."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada década con uno de sus focos según el episodio:",
+   "pairs": [
+    [
+     "20s",
+     "Invertir en ti y partir temprano"
+    ],
+    [
+     "30s",
+     "El 'messy middle': casa, pareja, hijos"
+    ],
+    [
+     "40s",
+     "Ordenar el portafolio y no equivocarse"
+    ],
+    [
+     "50s",
+     "Preservar patrimonio y autoasegurarse"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu amigo Nico tiene hipotecario con seguro de desgravamen y cree que ya no necesita seguro de vida para su familia. ¿Qué detalle mencionan en el episodio?",
+   "options": [
+    "El desgravamen paga el crédito y además le deposita a la familia un monto en efectivo",
+    "El desgravamen solo sirve si la casa está a nombre de la pareja",
+    "El desgravamen condona el crédito, pero no le entrega plata líquida a la familia",
+    "El desgravamen reemplaza también al seguro catastrófico"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Ojo: te condonan la deuda, pero no llega ningún billete.",
+    "No es eso lo que se discute en el episodio.",
+    "¡Exacto! Se deja de pagar el dividendo, pero la familia no recibe liquidez, y vender una propiedad toma tiempo.",
+    "Son coberturas distintas: el catastrófico es para enfermedades graves."
+   ],
+   "explain": "Un seguro de vida entrega plata cuando se necesita; el desgravamen solo elimina la deuda. Si otros dependen de ti, conviene evaluar ambas cosas."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué en tus 20 es buen momento para vivir tu primera gran caída de mercado?",
+   "options": [
+    "Porque a esa edad las caídas son más suaves",
+    "Porque es cuando menos plata pierdes y aprendes a no salir arrancando",
+    "Porque el Estado te devuelve lo perdido",
+    "Porque en los 20 no se pagan comisiones"
+   ],
+   "answer": 1,
+   "explain": "Con montos chicos, una caída duele poco en pesos y te educa la 'guata'. Así, en tus 30 o 40, cuando tengas más invertido, podrás mantener la calma en lugar de vender en el peor momento."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, cerca de la jubilación puede tener más sentido invertir en cosas que pagan dividendos, porque tus ingresos mensuales bajan y con ello tu tasa de impuesto.",
+   "answer": true,
+   "explain": "Mientras trabajas, los dividendos se suman a tu sueldo en el global complementario y pagas más impuesto. Al jubilar, con menos ingresos, ese mismo flujo tributa bastante menos."
+  }
+ ],
+ "112": [
+  {
+   "type": "concept",
+   "title": "Las reglas del juego del dinero",
+   "body": "Invitado a «Con Peras y Finanzas», Francisco Verdugo explica las reglas del juego del dinero: un **checklist para pegar en el refri** que te dice qué hacer con tu próxima luca. Las reglas siguen una lógica: **primero lo que más te retorna** y lo que evita que quiebres, y recién después las inversiones sofisticadas. Lo más importante es mantenerse en el juego.",
+   "emoji": "📋"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la regla cero, inspirada en «El hombre más rico de Babilonia»?",
+   "options": [
+    "Págate primero: guarda al menos el 10% de lo que ganas",
+    "Invertir todo en acciones apenas recibes el sueldo",
+    "Pagar solo el mínimo de la tarjeta",
+    "Comprar primero la casa propia"
+   ],
+   "answer": 0,
+   "explain": "Pagarte primero genera un cambio de comportamiento, y ese hábito es lo que hace posible cumplir todas las reglas siguientes."
+  },
+  {
+   "type": "tf",
+   "statement": "Si tu empleador iguala lo que ahorras, eso equivale a un 100% de retorno en el minuto cero y sin riesgo.",
+   "answer": true,
+   "explain": "Por eso esa plata gratis va antes que pagar deudas: ninguna otra alternativa te da ese retorno."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena estas reglas como aparecen en el checklist",
+   "items": [
+    "Págate primero el 10%",
+    "Junta tu primer millón",
+    "Aprovecha la plata gratis del empleador",
+    "Paga tus deudas caras",
+    "Arma tu fondo de emergencia"
+   ],
+   "explain": "El orden sigue qué te retorna más en cada etapa y qué te protege de quebrar antes de pensar en inversiones."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si trabajas en el mundo formal y tienes seguro de cesantía, el fondo de emergencia sugerido es de al menos ___ de gastos; si eres informal, conviene acercarse a seis.",
+   "options": [
+    "una semana",
+    "dos años",
+    "diez años",
+    "tres meses"
+   ],
+   "answer": 3,
+   "explain": "Quien imponía tiene resguardos extra como el seguro de cesantía; el independiente pierde esos colchones y necesita más ahorro propio."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué dicen que el APV es la única forma de ser Warren Buffett por un año?",
+   "options": [
+    "Porque garantiza un 25% de retorno para siempre",
+    "Porque no se puede retirar nunca",
+    "Porque en el régimen A el Estado te bonifica un 15% de lo que ahorras, además del retorno del fondo",
+    "Porque no cobra ninguna comisión"
+   ],
+   "answer": 2,
+   "explain": "Ese 15% se suma a lo que rinda el fondo. Además, el régimen A se puede retirar: solo pierdes la bonificación."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada regla o concepto con su detalle",
+   "pairs": [
+    [
+     "Regla 20/3/8 del auto",
+     "20% de pie, máximo 3 años, hasta 8% del ingreso"
+    ],
+    [
+     "Seguro catastrófico",
+     "Cubre el riesgo de cola por 10-15 lucas al mes"
+    ],
+    [
+     "Tabla de Fidelity",
+     "Una vez tu sueldo anual ahorrado a los 30"
+    ],
+    [
+     "Ponerse las pilas",
+     "Subir la tasa de ahorro hacia un 20%"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Ganas $1.000.000 al mes y ahorras $100.000, o sea $1.200.000 al año. Tu portafolio es de $1.000.000 y rinde cerca de 10% al año. ¿Dónde deberías enfocar tu tiempo?",
+   "options": [
+    "En ganar y ahorrar más, porque tu ahorro anual supera por lejos lo que rinde tu portafolio",
+    "En buscar el mejor fondo del mercado",
+    "En seguir los grupos de WhatsApp del mercado",
+    "En comprar una acción para probar"
+   ],
+   "answer": 0,
+   "feedback": [
+    "¡Bien! $1.200.000 de ahorro contra unas 100 lucas de retorno: lo que más mueve la aguja es ganar y ahorrar más.",
+    "Optimizar un portafolio de $1.000.000 te daría unas pocas lucas extra al año.",
+    "Pasar el día pendiente del mercado no te acerca a tus metas con un patrimonio chico.",
+    "Con poco patrimonio, tu tiempo rinde más en aprender, trabajar mejor y ahorrar."
+   ],
+   "explain": "Recién cuando tu portafolio es grande (por ejemplo, 100 millones), un 1% extra de retorno hace una diferencia de verdad."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, lo primero del checklist debería ser comprar la casa de tus sueños y después preocuparse del fondo de emergencia.",
+   "answer": false,
+   "explain": "La casa propia llega casi al final, cuando ya tienes los riesgos cubiertos, liquidez y un buen pie. Como en el avión: primero te pones tu mascarilla."
+  }
+ ],
+ "155": [
+  {
+   "type": "concept",
+   "title": "La escalera de la riqueza",
+   "body": "Nick Maggiulli propone que tu estrategia financiera debe **cambiar a medida que crece tu patrimonio neto** (todo lo que tienes menos todo lo que debes). Su escalera tiene **seis niveles** y cada uno es **10 veces** el anterior, porque ese es el salto que se necesita para ver un gran cambio en el estilo de vida. Los montos son de Estados Unidos: lo que importa es el marco.",
+   "emoji": "🪜"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Maggiulli, ¿cuál es la relación más fuerte de todas las finanzas personales?",
+   "options": [
+    "Entre la edad y los gastos",
+    "Entre la tasa de interés y el precio de las casas",
+    "Entre el horóscopo y la bolsa",
+    "Entre los ingresos y la riqueza"
+   ],
+   "answer": 3,
+   "explain": "A medida que suben los ingresos el gasto sube más lento, y esa brecha te permite ahorrar e invertir más, lo que genera todavía más riqueza."
+  },
+  {
+   "type": "fill",
+   "sentence": "Maggiulli recomienda darte más libertad para gastar según tu ___, no según tus ingresos.",
+   "options": [
+    "sueldo del mes",
+    "cupo de la tarjeta",
+    "patrimonio neto",
+    "bono anual"
+   ],
+   "answer": 2,
+   "explain": "Los ingresos son inestables: puedes tener un gran año y después perder la pega. La riqueza acumulada es algo más permanente."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las «libertades» de gasto que se van ganando al subir en la escalera",
+   "items": [
+    "Comprar lo que quieres en el supermercado",
+    "Pedir lo que quieres en un restaurante",
+    "Viajar más seguido y quedarte en mejores hoteles"
+   ],
+   "explain": "Cada libertad se gana después de haber creado la riqueza, no antes."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Maggiulli, en el primer nivel de la escalera una mala suerte pequeña, como un neumático reventado, puede desencadenar una espiral de deudas.",
+   "answer": true,
+   "explain": "Sin plata para arreglar el auto podrías perder la pega y endeudarte; por eso en ese nivel lo clave es un fondo de emergencia y apoyarse en familia y amigos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Si pagas una deuda al 20% anual, ¿qué comparación hace Maggiulli?",
+   "options": [
+    "Estás haciendo lo opuesto a Warren Buffett, que ganaba cerca de 20% al año",
+    "Estás haciendo lo mismo que Warren Buffett",
+    "Es una deuda barata comparada con la bolsa",
+    "Da lo mismo porque la inflación la borra"
+   ],
+   "answer": 0,
+   "explain": "Si ni Buffett podría ganar plata pidiendo prestado al 20%, es muy difícil que tú lo logres: esa deuda crece muy rápido en tu contra."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto de Maggiulli con su significado",
+   "pairs": [
+    [
+     "Patrimonio neto",
+     "Tus activos menos tus deudas"
+    ],
+    [
+     "Just Keep Buying",
+     "Comprar siempre activos diversos que generen ingresos"
+    ],
+    [
+     "Activos que no generan ingresos",
+     "Oro, arte o cripto: máximo 10-15%"
+    ],
+    [
+     "Libertad financiera",
+     "Poder elegir en qué trabajar, sin miedo a perder la pega"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Maggiulli recomienda que la mayor parte de tu patrimonio esté en una sola propiedad para aprovechar la plusvalía.",
+   "answer": false,
+   "explain": "Concentrar el 80-90% en una unidad es muy riesgoso; él prefiere que el inmobiliario sea una parte menor y diversificada, como un REIT."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es su crítica a «Padre rico, padre pobre»?",
+   "options": [
+    "Que el padre pobre debió dejar de estudiar",
+    "Que el padre pobre no era pobre por educarse, sino por no usar sus ingresos para comprar activos que generan ingresos",
+    "Que todos los emprendedores se hacen ricos",
+    "Que invertir en índices es para perdedores"
+   ],
+   "answer": 1,
+   "explain": "Con un trabajo normal puedes llegar a estar bastante bien invirtiendo tus ingresos, y con menos riesgo que el camino del padre rico, donde muchos fracasan."
+  }
+ ],
+ "176": [
+  {
+   "type": "concept",
+   "title": "No todas las burbujas son iguales",
+   "body": "Howard Marks distingue dos tipos de burbujas. Las de **reversión a la media** son pura especulación y el mundo sigue igual después (los tulipanes, las hipotecas subprime de 2008). Las de **punto de inflexión** financian revoluciones que cambian el mundo, como los trenes, la electricidad o internet. Ambas pueden destruir mucha riqueza, pero las segundas dejan infraestructura para el futuro.",
+   "emoji": "🫧"
+  },
+  {
+   "type": "match",
+   "prompt": "Clasifica cada ejemplo del episodio",
+   "pairs": [
+    [
+     "Tulipanes en Holanda",
+     "Especulación pura"
+    ],
+    [
+     "Hipotecas subprime 2008",
+     "Crédito a quien no podía pagar"
+    ],
+    [
+     "Fibra óptica de las puntocom",
+     "Infraestructura que hoy usamos"
+    ],
+    [
+     "Data centers para IA",
+     "Inversión en infraestructura actual"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué conclusión consideran super peligrosa al pensar que algo es una burbuja?",
+   "options": [
+    "Seguir invirtiendo todos los meses",
+    "Diversificar entre distintos países",
+    "Leer más memos de Howard Marks",
+    "Venderlo todo y quedarse con la plata en la cuenta corriente esperando el momento de entrar"
+   ],
+   "answer": 3,
+   "explain": "Nadie sabe cuándo revienta una burbuja: quien salió en 2022 o 2023 se perdió años de retornos y no sabe cuándo volver a entrar."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el memo, como nadie puede asegurar si la IA es una burbuja, lo mejor es no tener ninguna exposición a ella.",
+   "answer": false,
+   "explain": "Marks recomienda no irse all-in, pero tampoco quedarse fuera de lo que puede ser la mayor revolución tecnológica. No tomar riesgo también es un riesgo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Que algo sea una gran revolución no garantiza un buen negocio: tras la revolución del auto, solo ___ compañías sobrevivieron.",
+   "options": [
+    "tres",
+    "treinta",
+    "trescientas",
+    "todas"
+   ],
+   "answer": 0,
+   "explain": "Lo importante son los márgenes y la consistencia del modelo de negocio en el largo plazo, no solo que el producto se venda."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué Pablo es cauto con prestarle plata (renta fija) a estas empresas hoy?",
+   "options": [
+    "Porque los bonos están prohibidos para personas naturales",
+    "Porque las tasas de gobierno están en 15%",
+    "Porque el premio sobre la tasa de gobierno (el spread) es bajo para el riesgo que se corre",
+    "Porque la renta fija nunca paga intereses"
+   ],
+   "answer": 2,
+   "explain": "Si prestarle al gobierno rinde cerca de un 4%, a una empresa con flujos inciertos deberías exigirle bastante más; hoy se habla de premios de apenas 1%."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la progresión típica de una burbuja que describe Marks",
+   "items": [
+    "Aparece algo nuevo y aparentemente revolucionario",
+    "Captura la imaginación y el entusiasmo se vuelve abrumador",
+    "Los que entraron primero ganan mucho",
+    "Los de afuera sienten envidia y entran por miedo sin fijarse en el precio",
+    "Se genera un optimismo excesivo e irracional"
+   ],
+   "explain": "Marks dice que las burbujas son un tema de progresión y no de timing: se pueden reconocer patrones, pero no predecir cuándo revientan."
+  },
+  {
+   "type": "tf",
+   "statement": "La conclusión final de los conductores es que el ruido de las noticias no debe frenar tu ahorro mensual y que conviene seguir diversificado.",
+   "answer": true,
+   "explain": "Van a aparecer noticias negativas sobre la IA y es natural; si estás diversificado y eres disciplinado, en el largo plazo debería estar todo bien."
+  }
+ ],
+ "177": [
+  {
+   "type": "concept",
+   "title": "Planificar el año con marcos simples",
+   "body": "En su capítulo de Navidad, Pablo y Francisco repasan los marcos que más les sirvieron en 2025: el **Misogi**, los **cinco tipos de riqueza**, las **rocas** de Traction y los **pequeños experimentos**. La idea no es ser perfecto, sino que cada año sea un poquito mejor que el anterior para que ese crecimiento se vuelva exponencial.",
+   "emoji": "🎄"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué es un Misogi, según lo que cuentan en el episodio?",
+   "options": [
+    "Un gran desafío que marque tu año, con más o menos 50% de probabilidad de lograrlo",
+    "Una meditación diaria de 10 minutos",
+    "Una dieta de eliminación de alimentos",
+    "Un fondo de inversión japonés"
+   ],
+   "answer": 0,
+   "explain": "Tiene que incomodarte: si es muy fácil no te transforma. Pablo eligió una trifecta de Spartan Race y para 2026 publicar un libro; Francisco, tocar guitarra fogatera."
+  },
+  {
+   "type": "order",
+   "prompt": "En la analogía del frasco, ¿en qué orden conviene llenarlo para que quepa lo más importante?",
+   "items": [
+    "Las rocas: lo verdaderamente importante que quieres avanzar",
+    "Las piedras: lo que no puedes fallar en la pega",
+    "La arena: las cosas del día a día, como reuniones o cafés"
+   ],
+   "explain": "Si metes primero la arena, las rocas no caben; partiendo por lo importante, el frasco queda mucho más lleno."
+  },
+  {
+   "type": "fill",
+   "sentence": "Traction recomienda definir entre ___ rocas por trimestre, sin apuntar a cumplirlas todas.",
+   "options": [
+    "1 y 2",
+    "10 y 15",
+    "20 y 30",
+    "3 y 7"
+   ],
+   "answer": 3,
+   "explain": "Si las cumples todas eran muy fáciles y si no cumples ninguna eran muy difíciles; lo ideal es lograr la mayoría."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el libro de pequeños experimentos que comentan, un experimento es exitoso solo si logras el resultado que buscabas.",
+   "answer": false,
+   "explain": "El éxito está en hacerlo. Sus 30 días sin alcohol no los hicieron dejar de tomar para siempre, pero les cambiaron la relación con la bebida."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea con el autor o libro que la inspiró",
+   "pairs": [
+    [
+     "Rocas trimestrales",
+     "Traction de Gino Wickman"
+    ],
+    [
+     "Cinco tipos de riqueza",
+     "Sahil Bloom"
+    ],
+    [
+     "Evaluar lo bueno y lo malo de cada tecnología",
+     "Cal Newport"
+    ],
+    [
+     "Pequeños experimentos",
+     "Anne-Laure Le Cunff"
+    ],
+    [
+     "Menos, pero mejor",
+     "Greg McKeown"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué truco usa Pablo para usar menos el celular?",
+   "options": [
+    "Definir ventanas de uso y dormir con el teléfono en otra pieza",
+    "Comprarse un celular más caro para cuidarlo",
+    "Dejar todas las notificaciones activadas para responder rápido",
+    "Usar solo WhatsApp y borrar el correo"
+   ],
+   "answer": 0,
+   "explain": "Al despertar lee un libro en vez del teléfono; y de noche lo esconde lejos. Ese pequeño roce basta para frenar el impulso de revisarlo."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio recomiendan usar la IA para conversar y pensar ideas, pero que el contenido final lo hagas tú.",
+   "answer": true,
+   "explain": "Si tu primer paso es pedirle todo a la IA, el resultado suele ser malo; es mejor pensar primero y usarla como compañera para mejorar tus ideas."
+  }
+ ],
+ "178": [
+  {
+   "type": "concept",
+   "title": "Los cinco tipos de riqueza de un creador",
+   "body": "Al aplicarle el test de los cinco tipos de riqueza (financiera, mental, social, física y de tiempo), Francisco Ackermann saca su mejor nota en lo **financiero**, la segunda en lo **mental** y la peor en la **salud física**. Para él, una buena definición de riqueza es **poder dormir tranquilo**: sin deudas, contento con lo que haces y con una vida sana.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es el propósito que Ackermann usa como brújula?",
+   "options": [
+    "Tener 100 propiedades antes de los 40",
+    "Ser el podcast número uno de Chile",
+    "Jubilarse a los 40 años",
+    "Educar financieramente a 100 millones de personas"
+   ],
+   "answer": 3,
+   "explain": "Es un número grande y fácil de comunicar. La idea es que, si una masa crítica de gente empieza a ahorrar, el resto la siga por contagio."
+  },
+  {
+   "type": "tf",
+   "statement": "Ackermann cuenta que para salir de sus deudas lo primero que hizo fue empezar a ganar el doble de plata.",
+   "answer": false,
+   "explain": "Dice que partió trabajando su cabeza: con la mente más clara y ordenada, lo demás se fue alineando."
+  },
+  {
+   "type": "fill",
+   "sentence": "Ackermann usa su propósito como filtro: si un proyecto o una entrevista se alinea con él, lo toma; si no, dice que ___.",
+   "options": [
+    "sí igual",
+    "quizás después",
+    "no",
+    "lo delega"
+   ],
+   "answer": 2,
+   "explain": "Tener el propósito claro reduce el ruido; aun así, reconoce que termina diciendo que no a más de la mitad de las oportunidades que le llegan."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada herramienta para cambiar hábitos con cómo funciona",
+   "pairs": [
+    [
+     "Reto de un mes sin alcohol",
+     "Pones cinco lucas y las pierdes si fallas"
+    ],
+    [
+     "Grupo de fotos de comida",
+     "Fotografiar todo lo que comes te hace cuestionarte"
+    ],
+    [
+     "Pregunta del funeral",
+     "Revela quiénes son tus relaciones profundas"
+    ],
+    [
+     "La navaja de la vida",
+     "Algo innegociable que te hace decir que no"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Ackermann suele dar charlas fuera de Santiago. ¿Qué condición se puso para cuidar lo que más le importa?",
+   "options": [
+    "Ir siempre con su familia, aunque tenga que pagar hoteles extra",
+    "No viajar nunca más por trabajo",
+    "Cobrar el doble por cada charla",
+    "Ir solo y volver el mismo día"
+   ],
+   "answer": 0,
+   "explain": "Aceptó perder un poco de plata a cambio de un viaje familiar al mes: con organización se pueden transar mejor las prioridades."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que los primeros años con los hijos son una ventana de tiempo que no vuelve y que conviene darle espacio de forma consciente.",
+   "answer": true,
+   "explain": "Los conductores lo destacan, aunque Ackermann matiza que no estar tan presente no deja a un niño traumado: lo importante es que sea una decisión familiar consciente."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo se va dando la conversación con Ackermann, de principio a fin",
+   "items": [
+    "Su mejor nota: la riqueza financiera",
+    "Su riqueza mental y el propósito de los 100 millones",
+    "Su peor nota: la salud física y la alimentación",
+    "Las relaciones profundas y la familia",
+    "Cómo quiere verse en dos años y cómo le gustaría ser recordado"
+   ],
+   "explain": "El recorrido parte por lo que mejor tiene y termina en lo más profundo: el legado y el tipo de vida que quiere construir."
+  }
+ ],
+ "179": [
+  {
+   "type": "concept",
+   "title": "Gastar es un arte, no una ciencia",
+   "body": "En «El arte de gastar dinero», Morgan Housel dice que no hay una fórmula única: cada persona gasta según lo que ha vivido. Como dicen en el episodio, **todo comportamiento hace sentido con suficiente información**. La gran idea es gastar con un **marcador interno** (lo que te hace sentir orgulloso de ti) y no con uno externo (lo que piensan los demás).",
+   "emoji": "🎨"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Housel, ¿qué tres preguntas deberías hacerte antes de buscar atención o estatus con una compra?",
+   "options": [
+    "Cuánto cuesta, cuántas cuotas y qué tasa tiene",
+    "Si está de moda, si tus amigos la tienen y si sale en redes",
+    "Si es nacional, si es de marca y si tiene garantía",
+    "Qué tan efectiva es, cuánto dura la atención y quién te está prestando atención"
+   ],
+   "answer": 3,
+   "explain": "Un auto caro o un Rolex llaman la atención de inmediato, pero esa atención dura poco y viene de gente que quizás no te importa, como el vecino."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, la mejor forma de subir tus expectativas sin sufrir es comprarte cosas cada vez mejores.",
+   "answer": false,
+   "explain": "Es al revés: somos felices cuando la realidad supera las expectativas, y las expectativas se pueden ajustar mucho más rápido que la realidad."
+  },
+  {
+   "type": "fill",
+   "sentence": "Para disfrutar más salir a comer, Housel propone cocinar, cocinar, cocinar y de vez en cuando salir, porque lo que da valor es el ___.",
+   "options": [
+    "precio",
+    "estatus",
+    "contraste",
+    "descuento"
+   ],
+   "answer": 2,
+   "explain": "Si sales a comer todos los días se vuelve algo normal y pierdes la gracia; lo ocasional se disfruta mucho más."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada historia del episodio con su lección",
+   "pairs": [
+    [
+     "Buzz Aldrin",
+     "Le pesó más ser el segundo que haber pisado la Luna"
+    ],
+    [
+     "Getty y su mansión",
+     "Envidiaba a quienes eran más alegres que él"
+    ],
+    [
+     "BMW vs Toyota tope de gama",
+     "El estatus se puede comer la utilidad"
+    ],
+    [
+     "Ver reels una hora",
+     "Que algo te guste no significa que lo quieras"
+    ]
+   ]
+  },
+  {
+   "type": "concept",
+   "title": "Ahorrar es comprar independencia",
+   "body": "Solemos ver el ahorro como un sacrificio de hoy para el futuro. Housel lo da vuelta: **cada peso que ahorras compra independencia**, es decir, más opciones de lo que puedes hacer después. Endeudarse es lo contrario: te pone restricciones. Pablo cuenta que sin su fondo de emergencia agrandado no se habría podido ir a vivir a Estados Unidos.",
+   "emoji": "🕊️"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué comparación de Nick Maggiulli se menciona sobre tomar muy poco o demasiado riesgo?",
+   "options": [
+    "Poco riesgo es como el café y mucho riesgo es como el té",
+    "Poco riesgo es como una tortuga y mucho riesgo es como una liebre",
+    "Poco riesgo es como el cigarro y mucho riesgo es como la heroína: ambos hacen mal, en tiempos distintos",
+    "Poco riesgo es como caminar y mucho riesgo es como manejar"
+   ],
+   "answer": 2,
+   "explain": "Dejar todo en la cuenta corriente no duele hoy, pero en 20 años puede no alcanzarte para tus metas; arriesgar de más te puede quebrar rápido."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Housel, el mayor riesgo en las finanzas personales es el remordimiento: llegar a viejo arrepentido por haber gastado todo o por no haber vivido nada.",
+   "answer": true,
+   "explain": "Las finanzas personales son más personales que finanzas: el equilibrio entre ahorrar e invertir en experiencias busca minimizar remordimientos futuros."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué dos grandes fuerzas dice Housel que chocan al decidir cuánto gastar hoy y cuánto ahorrar?",
+   "options": [
+    "El interés compuesto y que cada día estamos un día más cerca de la muerte",
+    "La inflación y el tipo de cambio",
+    "El marketing y las redes sociales",
+    "Los impuestos y las comisiones"
+   ],
+   "answer": 0,
+   "explain": "El interés compuesto premia el sacrificio de hoy, pero la vida es finita y no sabemos hasta cuándo; encontrar el equilibrio es el arte de gastar bien."
+  }
+ ],
+ "180": [
+  {
+   "type": "concept",
+   "title": "Planificar de atrás para adelante",
+   "body": "Gert Findel empieza por el final: ¿cómo quiere que termine su libro? Para él la meta es **libertad y seguridad** para su círculo cercano. Desde ahí planifica escenarios, separa lo que controla de lo que no y decide su próxima acción. Y aunque el plan cambie, lo que no puedes hacer es no tener uno.",
+   "emoji": "🦇"
+  },
+  {
+   "type": "tf",
+   "statement": "Según Gert, es mejor no tener plan que tener un plan malo.",
+   "answer": false,
+   "explain": "Es al revés: la mejor forma de tener un buen plan es partir con uno malo e irlo mejorando. Como en la frase 'failing to plan is planning to fail'."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué Gert prefiere metas trimestrales en vez de anuales?",
+   "options": [
+    "Porque un año es demasiado corto",
+    "Porque obligan a más intensidad y foco, y permiten premiarse más seguido",
+    "Porque así puede tener más metas al mismo tiempo",
+    "Porque las metas anuales son ilegales en su empresa"
+   ],
+   "answer": 1,
+   "explain": "Según su experiencia, lo que te propones a un año se puede hacer en 3 meses con más intensidad. Cuando una meta de ventas pasó a ser la única meta trimestral de alguien, se logró."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada herramienta de Gert con su uso",
+   "pairs": [
+    [
+     "Tres palancas por trimestre",
+     "Una profesional, una social y una personal"
+    ],
+    [
+     "Domingo",
+     "Planificar la semana"
+    ],
+    [
+     "Bloque de 4 horas",
+     "Foco reservado con semanas de anticipación"
+    ],
+    [
+     "Brain dump",
+     "Escribir todo lo pendiente para bajar la ansiedad"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "Una frase de la mamá de Gert: si tienes la plata, eso no es un problema, es un ___.",
+   "options": [
+    "costo",
+    "lujo",
+    "error",
+    "riesgo"
+   ],
+   "answer": 0,
+   "explain": "Resolver lo financiero convierte muchos problemas en costos, como pagar un coach, un mentor o ayuda para ganar claridad."
+  },
+  {
+   "type": "mc",
+   "prompt": "Cuando partes sin plata, sin reputación y sin conocimiento, ¿qué es lo único que puedes poner en la ecuación, según Gert?",
+   "options": [
+    "Contactos influyentes",
+    "Un crédito de consumo",
+    "Tu trabajo y más horas",
+    "Suerte"
+   ],
+   "answer": 2,
+   "explain": "Por eso él trabajó más de 100 horas a la semana de joven. Igual aclara que cada uno debe analizar su situación y que el camino depende de tus fortalezas."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el ejercicio de valores que le hizo un coach a Gert",
+   "items": [
+    "Partir de una lista larga de valores",
+    "Descartar los que no te representan",
+    "Priorizar los más importantes",
+    "Usarlos como criterios para tomar decisiones grandes"
+   ],
+   "explain": "Puede parecer un día perdido rayando papelitos, pero es mucho mejor que años persiguiendo una meta que no te motiva. Un valor que no te ayuda a decidir es un mal valor."
+  },
+  {
+   "type": "tf",
+   "statement": "Gert dice que cuando alguien no lucha por su meta en el día a día, muchas veces es porque esa meta no lo motiva tanto.",
+   "answer": true,
+   "explain": "Descubrir qué te motiva de verdad es difícil. Por eso vale la pena el trabajo de claridad: metas alineadas con tu misión y tus valores."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué hizo Gert para cambiar su salud después de años de trabajo extremo?",
+   "options": [
+    "Se compró un reloj inteligente y listo",
+    "Se consiguió un compañero de gimnasio, su hermano, y fue todos los días a las 6 am sin celular",
+    "Dejó de trabajar por completo",
+    "Contrató una dieta milagrosa"
+   ],
+   "answer": 1,
+   "explain": "El compromiso con otra persona le quitó la opción de fallar. Con el tiempo bajó su grasa a la mitad y mejoró su sueño y alimentación, en un círculo virtuoso."
+  }
+ ],
+ "181": [
+  {
+   "type": "concept",
+   "title": "Atreverse a parar",
+   "body": "Gabriela dejó un cargo alto y un vesting para viajar un año y medio: el equivalente a **22 años de vacaciones** de 3 semanas. Su claridad vino de preguntarse de qué se arrepentiría en el futuro. Como dicen en el episodio, 'dinero siempre va a haber', pero hay oportunidades que no vuelven.",
+   "emoji": "🎒"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué dos preguntas se hace Gabriela antes de tomar decisiones importantes?",
+   "options": [
+    "¿Cuánto gano? y ¿qué pensarán los demás?",
+    "¿De qué me voy a arrepentir en el futuro? y ¿qué es lo peor que podría pasar?",
+    "¿Qué dice mi horóscopo? y ¿qué haría mi jefe?",
+    "¿Es rentable? y ¿es rápido?"
+   ],
+   "answer": 1,
+   "explain": "Si el peor escenario no es terrible, por ejemplo volver a trabajar como empleada, el miedo pierde fuerza y decidir se hace más fácil."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Gabriela, mientras más bajas son tus necesidades básicas, más libertad tienes para tomar este tipo de decisiones.",
+   "answer": true,
+   "explain": "Sus necesidades básicas eran techo, comida y pequeñas comodidades. La austeridad hace que el peor escenario asuste mucho menos."
+  },
+  {
+   "type": "fill",
+   "sentence": "Gabriela recomienda que un sabático real dure más de ___, porque cambiar hábitos arraigados toma tiempo.",
+   "options": [
+    "3 meses",
+    "1 semana",
+    "10 días",
+    "5 años"
+   ],
+   "answer": 0,
+   "explain": "A ella le costó unos 4 meses dejar el ritmo de turista que quiere aprovechar cada hora. Si no puedes tanto, Pablo propone un sabático de la hiperconexión, como un mes sin redes."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Gabriela, ¿qué es lo que realmente importa cuando vuelves a caer en un mal hábito?",
+   "options": [
+    "No caer nunca más",
+    "Culparte hasta que no se repita",
+    "Qué tan rápido vuelves a tu centro",
+    "Cambiarte de ciudad"
+   ],
+   "answer": 2,
+   "explain": "La probabilidad de no recaer es cero. Como andar en bicicleta, con práctica cada vez vuelves más rápido."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo Gabriela baja un gran objetivo a la acción",
+   "items": [
+    "Definir el objetivo grande a 12 meses",
+    "Fijar resultados clave medibles (key results)",
+    "Definir iniciativas para cada resultado",
+    "Bajarlas a acciones semana a semana"
+   ],
+   "explain": "El vínculo entre el objetivo macro y el día a día es la clave para cumplir. El cómo puede cambiar; por eso la flexibilidad es fundamental."
+  },
+  {
+   "type": "tf",
+   "statement": "Para Gabriela, lo más importante de un plan es seguirlo al pie de la letra, escrito en piedra.",
+   "answer": false,
+   "explain": "Hay muchos caminos a Roma: enfócate en el qué quieres lograr y por qué, y adapta el cómo según la información que vas teniendo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada experiencia del sabático con lo que le dejó",
+   "pairs": [
+    [
+     "Retiro de silencio en Nepal",
+     "80 horas de meditación en 10 días"
+    ],
+    [
+     "Recorrer el sudeste asiático",
+     "Perspectiva de lo chico que somos"
+    ],
+    [
+     "Vender sus cosas y estar lejos",
+     "Practicar el desapego"
+    ]
+   ]
+  }
+ ],
+ "182": [
+  {
+   "type": "concept",
+   "title": "15 niveles, no un interruptor",
+   "body": "Morgan Housel propone que la independencia financiera no es 'la tengo o no la tengo', sino una **escalera de 15 niveles**: desde el nivel 0 (dependencia total) hasta el 15 (control total de tu tiempo). Lo importante es saber en qué rango estás y apuntar al **siguiente nivel razonable**, sin abandonar porque la meta final se ve lejos.",
+   "emoji": "🪜"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena estos niveles de independencia financiera de menor a mayor",
+   "items": [
+    "Dependencia de personas cercanas",
+    "Autosustento frágil",
+    "Ahorros para crisis mayores",
+    "Libertad para elegir trabajos",
+    "Control total del tiempo"
+   ],
+   "explain": "Primero dependes de otros, luego te sostienes al ras, después construyes colchones y recién entonces ganas libertad de elegir."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué nivel describe Francisco como el punto bisagra de la exponencialidad?",
+   "options": [
+    "Nivel 3: autosustento frágil",
+    "Nivel 6: ahorro para la jubilación y sin deuda de tarjeta",
+    "Nivel 11: ingresos pasivos relevantes",
+    "Nivel 14: independencia de opinión"
+   ],
+   "answer": 1,
+   "explain": "Desde ahí el interés compuesto juega a tu favor y dejas de pagar las tasas brutales de la tarjeta."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada nivel con su descripción",
+   "pairs": [
+    [
+     "Nivel 4",
+     "Ahorros para problemas comunes, como un remedio"
+    ],
+    [
+     "Nivel 7",
+     "Puedes rechazar malos trabajos o malos jefes"
+    ],
+    [
+     "Nivel 8",
+     "No sientes la necesidad de presumir"
+    ],
+    [
+     "Nivel 9",
+     "Evitas la mayoría de las deudas"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según el libro, la riqueza sin independencia es una forma única de pobreza.",
+   "answer": true,
+   "explain": "Puedes ganar mucho y llegar a las 11 de la noche a tu casa sin tiempo para tu salud ni tu familia. Lo que la gente admira es controlar tu tiempo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si no sabes en qué gastar para ser más feliz: prueba muchas cosas y ___.",
+   "options": [
+    "quédate con pocas",
+    "cómpralas todas",
+    "pídele opinión a tus seguidores",
+    "no gastes en ninguna"
+   ],
+   "answer": 0,
+   "explain": "Embudo amplio, filtro pequeño: experimentar te ayuda a descubrir lo que de verdad te gusta y a decir que no a lo demás."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿qué pasa mientras más susceptible eres a la publicidad?",
+   "options": [
+    "Encuentras mejores ofertas",
+    "Te sientes menos satisfecho con tu vida",
+    "Ahorras más porque comparas precios",
+    "No tiene ningún efecto"
+   ],
+   "answer": 1,
+   "explain": "Si no sabes lo que quieres, otro te lo vende. Tener una vara interna, no externa, hace que el marketing rebote más."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál de estas NO está en la lista de formas de ser miserable al gastar tu dinero?",
+   "options": [
+    "Perseguir estatus por sobre tu independencia",
+    "Hacer del dinero parte de tu identidad",
+    "Ahorrar tan extremo que nunca te das un gusto",
+    "Gastar conscientemente en lo que de verdad te importa"
+   ],
+   "answer": 3,
+   "explain": "Esa es justamente la meta: gastar mucho, pero en lo que realmente quieres. Los extremos, en cambio, llevan a la infelicidad."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio comentan que prepagar un crédito hipotecario puede tener sentido, porque da tranquilidad e independencia además de un retorno seguro.",
+   "answer": true,
+   "explain": "Con una tasa alrededor de UF + 5 equivale a un retorno seguro atractivo, y salir de la deuda te devuelve independencia. Depende de cada caso."
+  }
+ ],
+ "183": [
+  {
+   "type": "concept",
+   "title": "Una vida más profunda",
+   "body": "Cal Newport es profesor con doctorado del MIT y autor de **Deep Work**. Su filosofía: en un mundo cada vez más desconcentrado, quien logra concentrarse tiene una ventaja. Nuestro cerebro es malo para el multitasking; mientras menos cosas hagamos a la vez y más profundo vayamos, más rápido avanzamos, casi como el interés compuesto.",
+   "emoji": "🧠"
+  },
+  {
+   "type": "match",
+   "prompt": "Clasifica cada actividad",
+   "pairs": [
+    [
+     "Responder correos",
+     "Trabajo superficial"
+    ],
+    [
+     "Escribir 2 horas sin interrupciones",
+     "Trabajo profundo"
+    ],
+    [
+     "Caminar pensando en un problema",
+     "Caminata productiva"
+    ],
+    [
+     "4 horas con un cuaderno en una plaza",
+     "Pensamiento largo"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿qué es más eficiente?",
+   "options": [
+    "Trabajar 8 horas respondiendo todo al instante",
+    "Sentarse 3 a 4 horas al día en trabajo profundo",
+    "Tener reuniones todos los días para estar al tanto",
+    "Hacer varias tareas a la vez para avanzar en todas"
+   ],
+   "answer": 1,
+   "explain": "El trabajo superficial te cambia de contexto a cada rato. Unas pocas horas enfocadas rinden más que una jornada larga llena de interrupciones."
+  },
+  {
+   "type": "tf",
+   "statement": "El minimalismo digital consiste en usar la menor tecnología posible.",
+   "answer": false,
+   "explain": "Se trata de sumar solo la tecnología que mejora tu vida mirando el balance total, lo positivo y lo negativo. Pablo borró Instagram y TikTok porque en la suma ganó lo negativo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Quienes lograron el detox digital de 30 días definieron qué hacer con el tiempo libre, y muchas veces eligieron un ___.",
+   "options": [
+    "hobby físico",
+    "maratón de series",
+    "segundo celular",
+    "nuevo trabajo"
+   ],
+   "answer": 0,
+   "explain": "Si el tiempo liberado queda vacío, el teléfono vuelve a llenarlo. Algo con las manos, que te dé flow, hace mucho más fácil el cambio."
+  },
+  {
+   "type": "concept",
+   "title": "Habilidades antes que pasión",
+   "body": "En **So Good They Can't Ignore You**, Newport dice que 'sigue tu pasión' es un mal consejo. Muchas personas que aman su trabajo hoy hacen algo que a los 18 ni sabían que existía. Mejor construir **capital de carrera**: habilidades específicas y valiosas que resuelvan problemas que el mundo necesita.",
+   "emoji": "🛠️"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué es la brecha (the gap) de la que habla Ira Glass?",
+   "options": [
+    "La diferencia entre tu sueldo y el de tu jefe",
+    "El tiempo entre que estudias y consigues trabajo",
+    "El espacio entre tu buen gusto y lo que eres capaz de hacer hoy",
+    "La distancia entre tus gastos y tus ingresos"
+   ],
+   "answer": 2,
+   "explain": "Sabes reconocer lo bueno, pero lo que haces todavía no está a esa altura. La única forma de cerrar la brecha es hacer más, practicando."
+  },
+  {
+   "type": "tf",
+   "statement": "En la práctica deliberada, si practicar te resulta cómodo y fácil, es señal de que estás aprendiendo mucho.",
+   "answer": false,
+   "explain": "Es al revés: tiene que ser incómodo. El basquetbolista que solo lanza a 50 cm del aro no mejora nada."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino para construir capital de carrera según el episodio",
+   "items": [
+    "Definir qué significa ser bueno en tu campo",
+    "Practicar de forma deliberada para cerrar la brecha",
+    "Construir capital de carrera y que aparezcan más oportunidades",
+    "Decidir si priorizas llegar lejos en tu carrera o tu estilo de vida"
+   ],
+   "explain": "Primero defines la meta de calidad, luego practicas y, con el capital acumulado, ganas independencia para elegir tu camino."
+  }
+ ],
+ "184": [
+  {
+   "type": "concept",
+   "title": "Las reglas del juego del dinero",
+   "body": "Hay un orden lógico para usar tu próxima luca. Primero se juega a la **defensa**: que ninguna emergencia te saque del juego. Recién después se pasa al **ataque**: invertir para la independencia financiera. Hacerlo al revés, como invertir en cripto o comprar un depto sin fondo de emergencia, puede funcionar... hasta que algo sale mal.",
+   "emoji": "🎲"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es el 'paso cero', sin el cual no hay nada?",
+   "options": [
+    "Comprar un ETF global",
+    "Contratar un seguro de vida",
+    "Pagarte a ti primero: ahorrar el 10% de tu sueldo a principio de mes",
+    "Pedir un crédito hipotecario"
+   ],
+   "answer": 2,
+   "explain": "La idea viene de El hombre más rico de Babilonia. Todavía no se optimiza nada: basta con separarlo para que no se te vaya a fin de mes."
+  },
+  {
+   "type": "tf",
+   "statement": "El primer millón conviene tenerlo en un depósito a plazo a 30 días para ganarle algo más de interés.",
+   "answer": false,
+   "explain": "Si lo necesitas mañana, un depósito a 30 días no sirve. Tiene que estar líquido, por ejemplo en un money market, y sin riesgo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Junto al primer millón, el paso uno incluye contratar un seguro ___, que cubre enfermedades que cuestan cientos de millones y solo te hace pagar el deducible.",
+   "options": [
+    "catastrófico",
+    "con ahorro",
+    "automotriz",
+    "de viaje"
+   ],
+   "answer": 0,
+   "explain": "Es barato y reduce la probabilidad de quebrar. El primer millón te ayuda a pagar ese deducible."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena estos pasos de las reglas del juego",
+   "items": [
+    "Juntar tu primer millón y contratar un seguro catastrófico",
+    "Aprovechar si tu empleador iguala tu ahorro",
+    "Pagar las deudas caras",
+    "Armar el fondo de emergencia",
+    "Aprovechar el APV"
+   ],
+   "explain": "La lógica va por tasas: 100% a tu favor con el aporte del empleador, 30% en tu contra con deudas caras y luego 15% de beneficio del APV más el retorno del mercado."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada paso con su 'tasa' aproximada, según el episodio",
+   "pairs": [
+    [
+     "Aporte igualado del empleador",
+     "100% a tu favor"
+    ],
+    [
+     "Deudas caras de consumo",
+     "Cerca de 30% en tu contra"
+    ],
+    [
+     "APV régimen A",
+     "15% de bonificación del Estado"
+    ],
+    [
+     "Acciones en un buen año",
+     "Alrededor de 10%"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Ahorras $100.000 al mes ($1,2 millones al año) y tienes $10 millones invertidos. Según la regla del episodio, ¿en qué te conviene enfocarte?",
+   "options": [
+    "En elegir el mejor ETF del mundo",
+    "En rebalancear tu portafolio cada semana",
+    "En comprar tu casa propia",
+    "En ahorrar más y aumentar tus ingresos"
+   ],
+   "answer": 3,
+   "explain": "El 10% de tu portafolio ($1 millón) es menor que lo que ahorras en un año. Hasta que tu portafolio pese más, lo que mueve la aguja es ahorrar y ganar más."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, el fondo de emergencia podría ser más cercano a 1 o 2 meses si consideras lo que ya tienes en el seguro de cesantía (AFC).",
+   "answer": true,
+   "explain": "Ese saldo se acumula solo mientras trabajas. Ojo: llega en partes y se demora, así que igual necesitas plata disponible al día siguiente."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué comprar la casa propia queda recién en el paso 11?",
+   "options": [
+    "Porque las casas siempre pierden valor",
+    "Porque concentra tu patrimonio en un activo poco líquido y trae costos y tiempo, como contribuciones y mantenciones",
+    "Porque está prohibido comprar antes de los 40",
+    "Porque arrendar siempre es mejor"
+   ],
+   "answer": 1,
+   "explain": "Si te pasa algo sin fondo de emergencia ni seguros, podrías tener que vender con descuento y demorarte meses. Por eso va después de muchos checks."
+  }
+ ],
+ "185": [
+  {
+   "type": "concept",
+   "title": "El inversionista estoico",
+   "body": "El estoicismo parte de una idea simple: **distinguir lo que puedes controlar de lo que no**. En tus finanzas controlas cuánto ganas, cuánto gastas y cuánto ahorras; no controlas los mercados, las noticias ni quién gana una elección. El inversionista estoico se preocupa del **proceso**, no de tener el mejor retorno del año.",
+   "emoji": "🏛️"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál de estas cosas SÍ está dentro de tu control financiero?",
+   "options": [
+    "Que el mercado suba este año",
+    "Cuánto de tu sueldo ahorras",
+    "Las noticias económicas de la semana",
+    "Quién será el próximo presidente de EE.UU."
+   ],
+   "answer": 1,
+   "explain": "Ingresos, gasto y ahorro dependen de ti. Mirando hacia atrás, eso es lo que realmente movió la aguja, no el ruido de las noticias."
+  },
+  {
+   "type": "tf",
+   "statement": "Si un amigo se hizo rico con Bitcoin, lo estoico es meter toda tu plata ahí para no quedarte afuera.",
+   "answer": false,
+   "explain": "No controlas si seguirá subiendo. Si quieres tenerlo, que sea una parte de un portafolio diversificado que no te haga sufrir. Como dicen en el episodio, la mejor respuesta al FOMO es 'no lo necesito'."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada disciplina estoica con su versión financiera",
+   "pairs": [
+    [
+     "Percepción",
+     "Interpretar una caída del mercado como algo normal"
+    ],
+    [
+     "Acción",
+     "Ahorrar, diversificar y cortar suscripciones"
+    ],
+    [
+     "Voluntad",
+     "Paciencia y aceptación ante lo que no controlas"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "Séneca hablaba de la ___: confiar en ti y en tu camino sin seguir las huellas del resto que corretean por todas partes.",
+   "options": [
+    "eutimia",
+    "euforia",
+    "empatía",
+    "entropía"
+   ],
+   "answer": 0,
+   "explain": "La eutimia es clave para mantener la disciplina los primeros meses, cuando parece que no pasa nada."
+  },
+  {
+   "type": "mc",
+   "prompt": "Un cliente de Francisco pregunta si vender todo cuando el mercado cae 3-4%. ¿Qué hace Francisco?",
+   "options": [
+    "Le dice que venda todo y se vaya a caja",
+    "Le recomienda comprar Bitcoin",
+    "Le cambia un poco más a renta fija, porque su perfil de riesgo es menor al que creía",
+    "Le dice que no mire nunca más su cuenta"
+   ],
+   "answer": 2,
+   "explain": "Las caídas chicas revelan tu verdadero perfil de riesgo. Es mejor adaptarse cuando cae 5% que cuando ya cayó 30%."
+  },
+  {
+   "type": "concept",
+   "title": "¿Para qué quieres la plata?",
+   "body": "Tener un objetivo no garantiza cumplirlo, pero no tenerlo garantiza que no lo cumplirás. En el episodio proponen la **planificación Odisea**: imagina 3 versiones de tus próximos 5 años: tu vida actual, un plan B si esa vida ya no fuera posible, y qué harías si el dinero y el estatus no importaran.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, para invertir bien hay que dedicarle al menos un par de horas diarias.",
+   "answer": false,
+   "explain": "Muchas veces mientras menos tiempo le dedicas, mejor inviertes, siempre que tengas un portafolio acorde a tu perfil, instrumentos eficientes y estés protegido. Ganarle al mercado es para muy pocos profesionales."
+  },
+  {
+   "type": "order",
+   "prompt": "Con un 10% anual promedio la plata se duplica cerca de cada 7 años. Ordena cómo crece $1 invertido en el tiempo",
+   "items": [
+    "Año 7: se duplica a $2",
+    "Año 14: llega a $4",
+    "Año 21: llega a $8",
+    "Año 28: llega a $16"
+   ],
+   "explain": "Los primeros 7 años no te cambian la vida, pero la exponencialidad aparece en las décadas siguientes. Por eso la paciencia (la voluntad) paga."
+  }
+ ],
+ "186": [
+  {
+   "type": "concept",
+   "title": "La ecuación del retiro",
+   "emoji": "🏖️",
+   "body": "Todos hablan de acumular, pero pocos de **desacumular**. La guía de J.P. Morgan divide el retiro en tres grupos: lo que **controlas** (ahorro, gasto, portafolio y tipo de cuenta), lo que controlas **a medias** (longevidad y años de trabajo) y lo que **no controlas** (retornos del mercado, impuestos y beneficios como la PGU). Enfócate en lo primero."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada variable con cuánto control tienes sobre ella",
+   "pairs": [
+    [
+     "Cuánto ahorras y gastas",
+     "Control total"
+    ],
+    [
+     "Cuántos años vas a vivir",
+     "Control parcial"
+    ],
+    [
+     "Retornos del mercado",
+     "Sin control"
+    ],
+    [
+     "Duración de tu empleo",
+     "Control a medias"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según la guía, mucha gente termina jubilándose antes de lo que esperaba, por ejemplo porque la empresa se achica o por problemas de salud.",
+   "answer": true,
+   "explain": "La edad esperada era cerca de 65 y la real cerca de 62; por eso conviene un colchón más grande al acercarse al retiro."
+  },
+  {
+   "type": "mc",
+   "prompt": "Si partes ahorrando desde cero a los 45 años, ¿cuánto de tu ingreso tendrías que ahorrar aproximadamente según la guía?",
+   "options": [
+    "Cerca de 25%",
+    "Cerca de 3%",
+    "Cerca de 7%",
+    "Cerca de 9%"
+   ],
+   "answer": 0,
+   "explain": "A los 25 bastaba cerca de 7% y a los 30 cerca de 9%; mientras más tarde partes, menos te ayuda el mercado y más te toca poner."
+  },
+  {
+   "type": "fill",
+   "sentence": "Alguien que parte ahorrando 3% y sube ___ cada año hasta llegar a 10% termina casi igual que quien ahorró 10% desde el inicio.",
+   "options": [
+    "5 puntos",
+    "0,1 punto",
+    "1 punto"
+   ],
+   "answer": 2,
+   "explain": "Es la lógica de 'Ahorra más mañana' (Save More Tomorrow): subir un poco con cada aumento de sueldo casi no se siente."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los tres baldes para financiar tu jubilación, del más corto al más largo plazo",
+   "items": [
+    "Balde 1: 2 a 3 años de gastos en money market o depósitos a plazo",
+    "Balde 2: 3 a 8 años de gastos en un portafolio conservador",
+    "Balde 3: el resto, invertido de forma agresiva para el largo plazo"
+   ],
+   "explain": "Vives del primer balde; si el mercado cae, no tocas el tercero y le das tiempo para recuperarse."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el gráfico del S&P 500, ¿por qué es tan caro salirse del mercado cuando cae fuerte?",
+   "options": [
+    "Porque el mercado nunca vuelve a subir",
+    "Porque el banco te castiga",
+    "Porque se pagan comisiones altísimas",
+    "Porque muchos de los mejores días ocurren muy cerca de los peores, y si sales te los pierdes"
+   ],
+   "answer": 3,
+   "explain": "Seis de los 10 mejores días ocurrieron dentro de dos semanas de los 10 peores; perdértelos puede dejarte con menos de la mitad."
+  },
+  {
+   "type": "concept",
+   "title": "PUSH: retirarte hacia algo",
+   "emoji": "🌱",
+   "body": "No basta saber de qué te retiras; importa **hacia qué** te retiras. La guía propone **PUSH**: **P**ropósito (una razón para levantarte), **U**sa tu tiempo, **S**ociabiliza y cuida tu **H**ealth (salud). Y con la plata, sé **flexible**: retira más en años buenos y menos en años malos (las 'barandas')."
+  },
+  {
+   "type": "tf",
+   "statement": "Cerca del retiro conviene tener un fondo de emergencia más grande, porque en la vejez pueden aparecer años con gastos inesperadamente altos, sobre todo en salud.",
+   "answer": true,
+   "explain": "La guía muestra que muchos hogares tienen años con gastos mucho mayores al promedio, y sin liquidez terminan endeudándose con tarjeta."
+  }
+ ],
+ "187": [
+  {
+   "type": "concept",
+   "title": "Algo grande está pasando",
+   "emoji": "🤖",
+   "body": "Tres documentos guían el episodio: el memo de **Howard Marks** sobre la IA, el ensayo **'Something Big Is Happening'** y el escenario a 2028 de **Citrini Research**. La idea central: los modelos dieron un salto hacia la **autonomía**, lo técnico se vuelve commodity y lo que más valor tendrá es **lo humano**. No te puedes quedar abajo."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los niveles de uso de IA que describen en el episodio",
+   "items": [
+    "Nivel 1: chatear con la IA",
+    "Nivel 2: la IA usa herramientas y hace tareas",
+    "Nivel 3: agentes autónomos que trabajan solos"
+   ],
+   "explain": "La mayoría está en el nivel 1; subir al 2 ya te da una ventaja enorme en tu pega."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada documento con su idea principal",
+   "pairs": [
+    [
+     "Memo de Howard Marks",
+     "Mantenerse al día con la IA como inversionista"
+    ],
+    [
+     "Something Big Is Happening",
+     "Los modelos ya se acercan al trabajo profesional"
+    ],
+    [
+     "Citrini Research",
+     "Escenario distópico mirando desde 2028"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "El reporte de Citrini representa lo que sus autores creen que va a pasar con mayor probabilidad.",
+   "answer": false,
+   "explain": "Se plantearon el 10-15% más pesimista de los escenarios; ellos venían siendo optimistas con la IA."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el memo de Marks, ¿importa si la IA es 'realmente' inteligente?",
+   "options": [
+    "Sí, si no crea algo 100% original no sirve",
+    "No tanto: lo que importa es que resuelva problemas y agregue valor económico",
+    "Sí, porque sin sentimientos no puede trabajar",
+    "No, porque nunca va a reemplazar ninguna tarea"
+   ],
+   "answer": 1,
+   "explain": "Marks la compara con la mejor banda tributo del mundo: combinar lo existente también es inteligencia si llega al resultado."
+  },
+  {
+   "type": "fill",
+   "sentence": "Nuestro cerebro tiende a proyectar las tendencias de forma lineal, pero la IA viene creciendo de forma ___.",
+   "options": [
+    "constante",
+    "cíclica",
+    "exponencial"
+   ],
+   "answer": 2,
+   "explain": "Por eso lo que viene se ve como una pared: si sigue así, nos va a seguir sorprendiendo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué 'tarea para la casa' proponen para empezar a usar la IA en serio?",
+   "options": [
+    "Pagar un modelo y dedicar un par de horas a pensar con él tu trabajo de forma estratégica",
+    "Esperar a que las empresas lo implementen",
+    "Usarla solo para resumir noticias",
+    "Instalar la versión gratis y preguntarle cosas como a Google"
+   ],
+   "answer": 0,
+   "feedback": [
+    "¡Bien! Usarla para estructurar tu trabajo y tus objetivos es subir de nivel.",
+    "Quedarte esperando es justo la actitud pasiva que critican.",
+    "Sirve, pero no cambia tu forma de trabajar.",
+    "Eso es quedarse en el nivel 1, y las versiones gratis suelen ir más atrás."
+   ],
+   "explain": "Con buen contexto y buenos prompts, la IA pasa de ser un buscador a un socio estratégico."
+  },
+  {
+   "type": "tf",
+   "statement": "En el ejemplo de Mariana, aprender por su cuenta y enseñar finanzas personales en su empresa la ayudó a destacar y a ser ascendida.",
+   "answer": true,
+   "explain": "Hacer cosas que nadie te pidió y aplicar lo que aprendes es hoy más fácil que nunca y te diferencia del resto."
+  }
+ ],
+ "188": [
+  {
+   "type": "concept",
+   "title": "GAIN is the game",
+   "emoji": "🧭",
+   "body": "Francisco resume sus aprendizajes con **GAIN**: **Generar, Ahorrar, Invertir y Navegar**. La industria financiera se fija casi solo en invertir (el mejor fondo, la cripto de moda), pero así medimos el éxito con **el tablero incorrecto**. La plata es un **habilitador**: la meta es tener lo **suficiente** para vivir bien."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada letra de GAIN con su significado",
+   "pairs": [
+    [
+     "G",
+     "Generar ingresos"
+    ],
+    [
+     "A",
+     "Ahorrar"
+    ],
+    [
+     "I",
+     "Invertir"
+    ],
+    [
+     "N",
+     "Navegar (acompañamiento y planificación)"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Francisco, ¿qué se correlaciona más con tu patrimonio futuro?",
+   "options": [
+    "Tener toda tu plata en Bitcoin",
+    "Cambiarte de fondo cada vez que cae el mercado",
+    "Encontrar el instrumento con 50 puntos base más de retorno",
+    "Tus ingresos, junto con una buena tasa de ahorro"
+   ],
+   "answer": 3,
+   "explain": "Por eso propone invertir en aprender y en tu capacidad de generar, en vez de obsesionarte con exprimir un poco más de rentabilidad."
+  },
+  {
+   "type": "fill",
+   "sentence": "Francisco dice que no necesita rentar 100% al año: con un retorno promedio de cerca de ___ anual le basta si genera y ahorra.",
+   "options": [
+    "2%",
+    "7%",
+    "25%",
+    "50%"
+   ],
+   "answer": 1,
+   "explain": "Si ahorras bien, no necesitas asumir riesgos de casino; perseguir retornos altísimos suele ser síntoma de ahorrar poco."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, el mayor éxito para uno de los cofundadores de Netflix fue haber construido la empresa sin separarse.",
+   "answer": true,
+   "explain": "Es el ejemplo de alguien que entendió el juego: la plata no compensa perder tu vida familiar."
+  },
+  {
+   "type": "concept",
+   "title": "Cambia tu identidad",
+   "emoji": "🦋",
+   "body": "La motivación de año nuevo dura poco. Los cambios duraderos llegan cuando **cambias tu identidad**: mientras no te conviertas en **ahorrador**, en lector o en deportista, vas a volver a lo de antes. Y mejor leer menos libros, pero **releerlos y aplicarlos**."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué plantea Francisco sobre la casa propia en la vejez?",
+   "options": [
+    "Hay que comprar una segunda vivienda para jubilar",
+    "Hay que dejarla siempre como herencia intacta",
+    "En algún momento (ej. a los 60-70) conviene evaluar venderla o usar una hipoteca revertida para convertirla en flujo",
+    "Nunca hay que comprar casa, solo arrendar"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Dicen que la segunda vivienda es para quien realmente le sobra la plata.",
+    "Justamente critica que el activo más caro de tu vida quede inmóvil hasta el final.",
+    "¡Eso! La idea es no quedarse con un activo gigante sin disfrutarlo cuando lo necesitas.",
+    "Aclaran que no es 'arrienda siempre': comprar casa puede tener un gran retorno emocional."
+   ],
+   "explain": "La desacumulación importa tanto como acumular: convertir activos en ingresos puede darte una vejez más tranquila."
+  },
+  {
+   "type": "tf",
+   "statement": "Para saber cómo estás financieramente, basta con fijarte en cuánto ganas.",
+   "answer": false,
+   "explain": "Hay que mirar el patrimonio (activos menos deudas) y los cinco tipos de riqueza: puedes ganar mucho y tener patrimonio cero."
+  },
+  {
+   "type": "mc",
+   "prompt": "En el ejercicio del libro de los cinco tipos de riqueza, te imaginas en tu cumpleaños 90 y te invitan a bailar. ¿Qué busca mostrarte?",
+   "options": [
+    "Que de nada sirve hacer todo bien en lo financiero si no cuidas tu cuerpo y tu salud",
+    "Que hay que invitar a más amigos",
+    "Que la jubilación debe ser a los 90",
+    "Que tienes que ahorrar más para la fiesta"
+   ],
+   "answer": 0,
+   "explain": "La riqueza física es parte del juego: la plata sirve para disfrutar etapas que no vuelven, y eso requiere un cuerpo que acompañe."
+  }
+ ],
+ "189": [
+  {
+   "type": "concept",
+   "title": "Siempre estás comunicando",
+   "emoji": "🎤",
+   "body": "Como dicen en el episodio, si no te haces cargo de cómo comunicas, **estás comunicando igual**. Según Consu, el **cómo** dices las cosas (cuerpo y voz) es la gran mayoría del mensaje, y casi todos los problemas para hablar en público parten del **miedo al juicio**."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Consu, ¿cuál es el origen del 90% de los problemas con los que llegan sus alumnos?",
+   "options": [
+    "Falta de conocimiento técnico",
+    "El miedo, sobre todo al juicio de los demás",
+    "Mala dicción",
+    "Falta de tiempo para preparar"
+   ],
+   "answer": 1,
+   "explain": "Miedo a equivocarte, a quedarte en blanco o a que piensen que no mereces estar ahí; por eso se trabaja desde adentro y desde el cuerpo."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la estructura simple de presentación que recomienda Consu",
+   "items": [
+    "Definir tu idea fuerza",
+    "Un inicio que enganche",
+    "Un desarrollo con tres ideas clave",
+    "Un cierre con llamado a la acción o aprendizaje",
+    "Ensayar en voz alta incorporando el cuerpo"
+   ],
+   "explain": "Todo parte de una sola idea central; la estructura la refuerza y el ensayo con el cuerpo te da seguridad."
+  },
+  {
+   "type": "tf",
+   "statement": "Para conectar con un grupo, lo ideal es hacer un barrido rápido con la mirada por toda la sala.",
+   "answer": false,
+   "explain": "Es mejor mirar a las personas una a una, alternando, para conectar de verdad en vez de pasar la vista por encima."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada técnica con su beneficio",
+   "pairs": [
+    [
+     "Pies plantados del talón a la punta",
+     "Da presencia y evita bambolearte"
+    ],
+    [
+     "Pedir que te expliquen con sus palabras",
+     "Confirma que te entendieron"
+    ],
+    [
+     "Terminar la frase hacia abajo",
+     "Muestra que terminaste la idea"
+    ],
+    [
+     "Partir el feedback por lo que hizo bien",
+     "Abre la oreja y da seguridad"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "De los cuatro pilares de la voz (pausas, volumen, entonación y ritmo), Consu recomienda partir por el ___.",
+   "options": [
+    "ritmo",
+    "tono grave",
+    "volumen"
+   ],
+   "answer": 0,
+   "explain": "Si el ritmo no funciona, todo lo demás pasa a segundo plano: o suena lento como noticiario o nadie alcanza a procesar."
+  },
+  {
+   "type": "concept",
+   "title": "Historias: datos con alma",
+   "emoji": "📖",
+   "body": "El storytelling hace que la gente se emocione y te recuerde. Consu cita a Brené Brown: las historias son **datos con alma**. Una historia personal genera el efecto 'si él pudo, quizás yo también', y eso hace que tu mensaje se quede."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tienes que dar una charla y te pone nervioso. ¿Qué tip de Consu te sirve para hacer tuyo el texto?",
+   "options": [
+    "No prepararte para sonar espontáneo",
+    "Leerlo directo de las láminas",
+    "Repetirlo en voz alta mientras haces cosas de la casa, como lavar la loza",
+    "Memorizarlo palabra por palabra la noche anterior"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Postergar la preparación es justamente lo que más nervios genera.",
+    "Leer láminas con mucho texto desconecta al público.",
+    "¡Exacto! Repetirlo en voz alta en tareas cotidianas lo hace tuyo, sin sonar leído.",
+    "Memorizar a última hora aumenta los nervios y suena recitado."
+   ],
+   "explain": "La idea es que el mensaje te salga natural; practicarlo en voz alta muchas veces lo logra mejor que memorizar."
+  },
+  {
+   "type": "tf",
+   "statement": "Consu recomienda que la ropa sea como una extensión de tus virtudes: algo que te acomode y te haga sentir natural, adaptado al público.",
+   "answer": true,
+   "explain": "No se trata de disfrazarte, sino de verte preparado sin dejar de ser tú, según el contexto."
+  }
+ ],
+ "190": [
+  {
+   "type": "concept",
+   "title": "El 10% que te lleva al 1%",
+   "emoji": "🐺",
+   "body": "Ser el mejor del mundo en algo es casi imposible, pero ser del **10% superior** en varias áreas (deporte, alimentación, IA, ahorro...) es alcanzable. La **intersección** de varios 10% te deja en el 1%. Y lo difícil no es la teoría: es **pasar a la acción**."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las etapas del trimestre de Manada 10%",
+   "items": [
+    "Mes 1: energía (agua, sueño, ejercicio, hábitos)",
+    "Mes 2: foco y menos distracciones (relación con el teléfono)",
+    "Mes 3: un proyecto personal"
+   ],
+   "explain": "Primero sumas energía, luego quitas lo que te diluye y recién ahí empujas un proyecto con foco."
+  },
+  {
+   "type": "mc",
+   "prompt": "Una persona de la Manada quería partir con cinco hábitos a la vez. ¿Qué le recomendaron?",
+   "options": [
+    "Partir solo con uno y mantenerlo hasta fin de mes",
+    "Elegir los dos más difíciles primero",
+    "Esperar a febrero para empezar",
+    "Hacerlos todos para aprovechar la motivación de enero"
+   ],
+   "answer": 0,
+   "feedback": [
+    "¡Bien! Partir simple, aunque parezca muy fácil, hace que el hábito sobreviva a las semanas difíciles.",
+    "Empezar por lo más difícil suele terminar en abandono.",
+    "Postergar no ayuda; la idea es partir, pero en chico.",
+    "La motivación de las primeras semanas se acaba; muchos objetivos mueren a mediados de enero."
+   ],
+   "explain": "En la semana tres o cuatro llegan los imprevistos; un solo hábito simple es lo que alcanzas a sostener."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según la frase del episodio: 1 punto por la idea, 10 por el diseño y 100 por la ___.",
+   "options": [
+    "ejecución",
+    "investigación",
+    "planificación",
+    "inspiración"
+   ],
+   "answer": 0,
+   "explain": "Hoy la información está a un prompt de distancia; lo que marca la diferencia es hacerlo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada parte del modelo de 'Switch' con lo que representa",
+   "pairs": [
+    [
+     "Jinete",
+     "La parte racional"
+    ],
+    [
+     "Elefante",
+     "La parte emocional"
+    ],
+    [
+     "Camino",
+     "Las circunstancias o el entorno"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, los hábitos se sostienen mejor cuando pasan a ser parte de tu identidad (por ejemplo, 'soy deportista').",
+   "answer": true,
+   "explain": "Si solo 'tratas' de hacer algo, es una lucha diaria; cuando es parte de quién eres, deja de ser una batalla."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué consejo de Stephen King se menciona para escribir un libro?",
+   "options": [
+    "Tener todo el libro planificado antes de escribir una línea",
+    "Esperar a tener inspiración",
+    "Cerrar la puerta y ponerse una meta diaria de palabras (500 a 1.000 si estás empezando)",
+    "Escribir solo los fines de semana"
+   ],
+   "answer": 2,
+   "explain": "Una meta diaria pequeña y constante por unos tres meses convierte un objetivo gigante en algo alcanzable."
+  },
+  {
+   "type": "tf",
+   "statement": "Para los conductores, una audiencia y una comunidad son lo mismo.",
+   "answer": false,
+   "explain": "En una audiencia el mensaje va de uno a muchos; es comunidad cuando los miembros empiezan a conectarse entre ellos."
+  }
+ ],
+ "191": [
+  {
+   "type": "concept",
+   "title": "Más felicidad, menos infelicidad",
+   "emoji": "😊",
+   "body": "David Fischman plantea que ser feliz es **rentable**: la gente más feliz tiende a ser más sana, con mejores relaciones y más ingresos. Pero hay **dos ejes**: sumar estrategias de felicidad (gratitud, propósito, relaciones, talentos) y **restar infelicidad**, trabajando las heridas de la niñez que se nos salen con la gente que más queremos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Fischman, ¿qué ejercicio simple antes de dormir aumenta la felicidad?",
+   "options": [
+    "Meditar 30 minutos en silencio",
+    "Planificar la agenda del día siguiente",
+    "Revisar tus metas financieras del mes",
+    "Escribir tres cosas por las que te sientes agradecido ese día"
+   ],
+   "answer": 3,
+   "explain": "El diario de gratitud entrena a tu cabeza a fijarse en lo positivo, lo que suma más afecto positivo a tu día."
+  },
+  {
+   "type": "fill",
+   "sentence": "Para Fischman, tener talento en algo significa que eres bueno haciéndolo y que además ___.",
+   "options": [
+    "te pagan bien por eso",
+    "te encanta",
+    "nadie más lo sabe hacer"
+   ],
+   "answer": 1,
+   "explain": "Puedes ser muy bueno en algo que odias (como hacer flujos de caja); trabajar en tus talentos requiere las dos cosas."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, una vez que tienes tus necesidades cubiertas, más dinero sigue aumentando tu felicidad sin límite.",
+   "answer": false,
+   "explain": "Pasado cierto nivel, lo que da el dinero es libertad; perseguir más y más sin un número definido termina esclavizándote."
+  },
+  {
+   "type": "mc",
+   "prompt": "Un empresario te dice que quiere 'más y más plata'. ¿Qué le recomendaría Fischman?",
+   "options": [
+    "Invertir todo en activos de alto riesgo",
+    "Diversificar en más negocios para crecer más rápido",
+    "Definir una cifra concreta que le dé la renta para su estilo de vida y, al lograrla, enfocarse en servir y vivir",
+    "Trabajar hasta los 90 años para asegurar a su familia"
+   ],
+   "answer": 2,
+   "feedback": [
+    "El riesgo no tiene nada que ver con la idea de 'tener suficiente'.",
+    "Crecer no es el problema; el problema es no tener un punto de llegada.",
+    "¡Eso! Un número definido te da libertad; una meta indefinida hacia arriba te esclaviza.",
+    "Justamente critica a quienes nunca paran de querer más."
+   ],
+   "explain": "Ponerle número a tu meta te permite saber cuándo ya tienes suficiente y usar tu energía en lo que importa."
+  },
+  {
+   "type": "concept",
+   "title": "El niño interior se nota",
+   "emoji": "🧒",
+   "body": "Las heridas de la niñez quedan guardadas y **se gatillan** en el presente: en la pareja, con los hijos y en el trabajo. Como dicen en el episodio, es parecido a salir de las deudas antes de invertir: **lo negativo te arrastra más rápido** de lo que lo positivo te hace crecer."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada lugar con la pista que te da sobre lo que tienes que trabajar",
+   "pairs": [
+    [
+     "Pareja",
+     "Es el espejo donde más salen tus traumas"
+    ],
+    [
+     "Trabajo",
+     "Las evaluaciones 360° de tu equipo"
+    ],
+    [
+     "Hijos",
+     "Sus conductas difíciles pueden reflejarte"
+    ],
+    [
+     "Amistades",
+     "Ver si tienes con quién mostrarte vulnerable"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "El estudio longitudinal de Harvard que se menciona encontró que las relaciones son el principal predictor de la felicidad.",
+   "answer": true,
+   "explain": "Es el estudio más largo sobre el tema y muestra que los vínculos cercanos y sanos pesan más que casi cualquier otra cosa."
+  }
+ ],
+ "192": [
+  {
+   "type": "concept",
+   "title": "Cerebro frito por IA",
+   "body": "Pablo y Francisco hablan del **AI brain fry**: la fatiga de esperar respuestas de modelos, supervisar agentes y vivir interrumpido. Como dicen en el episodio, la IA puede ser como una **tarjeta de crédito ilimitada**: la pasas y la pasas, pero **la cuenta mental llega**. La propuesta es usarla de forma **deliberada**.",
+   "emoji": "🧠"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué propone Cal Newport como equivalente cerebral de los 10.000 pasos diarios?",
+   "options": [
+    "Ver 10 videos educativos",
+    "Leer 10 páginas de un libro al día",
+    "Meditar 10 minutos al despertar",
+    "Usar 10 herramientas de IA"
+   ],
+   "answer": 1,
+   "explain": "Diez páginas diarias en vez de media hora de scroll te ayudan a recuperar la concentración y, sin mucho esfuerzo, suman cerca de un libro al mes."
+  },
+  {
+   "type": "fill",
+   "sentence": "En la dieta de contenido, TikTok es como un ___: te da ganas de más, pero después de una bolsa entera te sientes pésimo.",
+   "options": [
+    "plato de ensalada",
+    "dorito",
+    "vaso de agua",
+    "libro"
+   ],
+   "answer": 1,
+   "explain": "El contenido ultraprocesado entretiene en el momento pero deja culpa. Busca contenido más nutritivo: documentales, textos largos o libros."
+  },
+  {
+   "type": "tf",
+   "statement": "Una regla del episodio es no usar el teléfono en la primera ni en la última hora del día.",
+   "answer": true,
+   "explain": "Así partes el día como tú quieres y no como te lo dicta un correo, y evitas los reels en la cama."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el modelo 10-80-10 para trabajar con IA:",
+   "items": [
+    "Tú haces el 10% inicial: pensar el problema",
+    "Delegas el 80% del medio en la IA",
+    "Tú haces el 10% final: revisar y darle tu toque"
+   ],
+   "explain": "El inicio es lo que te hace pensar y el final es lo que te hace único. La IA te ayuda en el medio a ser más eficiente."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuántas herramientas de IA recomiendan usar a la vez para no quemarte?",
+   "options": [
+    "Todas las que salgan, para no quedarte atrás",
+    "Ninguna, es mejor esperar",
+    "Dos o tres, bien aprendidas",
+    "Solo las versiones gratis de muchas"
+   ],
+   "answer": 2,
+   "explain": "Usar muchas herramientas en paralelo aumenta la fatiga. Con dos o tres bien aprendidas automatizas lo repetitivo sin dejar de pensar."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con su descripción:",
+   "pairs": [
+    [
+     "AI brain fry",
+     "Fatiga mental por exceso de IA"
+    ],
+    [
+     "Dieta de contenido",
+     "Elegir contenido nutritivo"
+    ],
+    [
+     "Trabajo profundo",
+     "Concentración sin interrupciones"
+    ],
+    [
+     "Mix de habilidades",
+     "Ser más difícil de reemplazar"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, conviene delegar en la IA justamente las habilidades que más valoras, como escribir.",
+   "answer": false,
+   "explain": "Si delegas lo que valoras, pierdes qué tan bueno eres en eso. Pablo, por ejemplo, decidió seguir escribiendo él mismo."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el estudio de Microsoft que citan, ¿cada cuánto te interrumpen en promedio en la oficina?",
+   "options": [
+    "Cada 2 minutos",
+    "Cada 30 minutos",
+    "Cada 2 horas",
+    "Una vez al día"
+   ],
+   "answer": 0,
+   "explain": "Con interrupciones tan seguidas es casi imposible pensar a fondo. Por eso hay que agendar y proteger bloques de trabajo profundo."
+  }
+ ],
+ "193": [
+  {
+   "type": "concept",
+   "title": "Primero la energía",
+   "body": "Mariana Bennett explica que cambiar hábitos requiere **energía**: el cerebro gasta cerca del **25% del metabolismo basal**. Por eso un buen proceso parte por **dormir mejor**, luego busca **claridad** sobre tu porqué y recién después suma cambios chicos, **un paso a la vez**.",
+   "emoji": "😴"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las etapas del proceso de cambio de hábitos que propone Mariana:",
+   "items": [
+    "Recuperar energía base, partiendo por el sueño",
+    "Desarrollar claridad sobre por qué quieres cambiar",
+    "Hacer un cambio pequeño y concreto (ej.: el desayuno)",
+    "Usar ese impulso para sumar el siguiente hábito"
+   ],
+   "explain": "Sin energía cuesta cambiar, y sin un porqué el cambio no dura. Los pasos chicos te dan impulso para seguir."
+  },
+  {
+   "type": "tf",
+   "statement": "Si alguien dice que duerme bien pero despierta cansado, según Mariana probablemente no está durmiendo bien.",
+   "answer": true,
+   "explain": "Mucha gente se acostumbra a andar cansada y lo cree normal. Despertar cansado es una señal de que el descanso no está funcionando."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál de estos tips para dormir mejor menciona Mariana?",
+   "options": [
+    "Revisar el correo en la cama para dejar todo listo",
+    "Dejar el celular al menos media hora antes y ponerle filtro blanco y negro o rojo",
+    "Usar luz blanca fuerte en la noche",
+    "Hacer ejercicio intenso justo antes de acostarte"
+   ],
+   "answer": 1,
+   "explain": "La luz y los estímulos le dicen al cuerpo que siga activo. Bajar luces y quitarle color a la pantalla reduce la dopamina y ayuda a soltar el día."
+  },
+  {
+   "type": "fill",
+   "sentence": "En vez de pasar una dieta completa, Mariana parte con un cambio chico, como cambiar el ___ por uno más nutritivo durante una semana.",
+   "options": [
+    "almuerzo del domingo",
+    "desayuno",
+    "postre",
+    "agua"
+   ],
+   "answer": 1,
+   "explain": "Si te pasan todo de una, el cerebro elige no hacerlo. Un cambio pequeño y concreto es más fácil de cumplir y te motiva a seguir."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada necesidad con el especialista que Mariana sugiere para ayudarte:",
+   "pairs": [
+    [
+     "Entender tu mundo interno",
+     "Psicólogo"
+    ],
+    [
+     "Decisiones laborales",
+     "Coach laboral"
+    ],
+    [
+     "Mejorar lo que comes",
+     "Nutricionista"
+    ],
+    [
+     "Trabajar el cuerpo",
+     "Entrenador personal"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué aprendió Mariana de las personas centenarias sobre las relaciones?",
+   "options": [
+    "Que basta con un par de relaciones profundas con quien compartir tu día",
+    "Que hay que tener muchísimos amigos",
+    "Que es mejor vivir aislado para evitar el estrés",
+    "Que solo importa la familia directa"
+   ],
+   "answer": 0,
+   "explain": "Contarle lo que te pasa a alguien cercano genera corregulación y baja el estrés. La profundidad importa más que la cantidad."
+  },
+  {
+   "type": "tf",
+   "statement": "Para Mariana, el dinero debe ser el objetivo principal en la vida.",
+   "answer": false,
+   "explain": "Para ella, el dinero es un vehículo para vivir la vida que quieres. Sin definir cuánto es suficiente, puedes caer en la inercia de generar más y más."
+  }
+ ],
+ "194": [
+  {
+   "type": "concept",
+   "title": "El guía de guías",
+   "body": "Para Pablo, **Tim Ferriss** es la persona más influyente de su carrera. No porque sea un genio, sino porque **te muestra caminos**: personas, libros e ideas que vale la pena explorar. Un buen guía te abre 'hoyos de conejo' que te cambian la forma de pensar.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué recomienda Ferriss decir cuando alguien te cuenta algo interesante en una conversación?",
+   "options": [
+    "Contar una historia tuya parecida",
+    "Cambiar de tema para no aburrir",
+    "'Cuéntame más'",
+    "Dar tu opinión de inmediato"
+   ],
+   "answer": 2,
+   "explain": "Tendemos a responder con algo nuestro, pero 'cuéntame más' le abre la puerta a la otra persona para compartir lo realmente interesante."
+  },
+  {
+   "type": "tf",
+   "statement": "En La semana laboral de 4 horas, Ferriss propone guardar todo el tiempo libre para cuando te jubiles.",
+   "answer": false,
+   "explain": "Propone lo contrario: tomar mini retiros a lo largo de la vida, cuando tu cuerpo aún te acompaña, aunque eso signifique trabajar unos años más al final."
+  },
+  {
+   "type": "fill",
+   "sentence": "Ferriss llama ___ a decidir conscientemente qué noticias e información ignorar para cuidar tu atención.",
+   "options": [
+    "ignorancia selectiva",
+    "ayuno digital",
+    "minimalismo",
+    "procrastinación"
+   ],
+   "answer": 0,
+   "explain": "No puedes estar al tanto de todo. Elegir a qué no prestar atención te deja energía para lo que sí te importa."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada invitado o autor con la idea que Pablo destaca:",
+   "pairs": [
+    [
+     "Boyd Varty",
+     "Buscar la siguiente pista, como un rastreador"
+    ],
+    [
+     "Steven Pressfield",
+     "La resistencia que te frena al crear"
+    ],
+    [
+     "Derek Sivers",
+     "Hay muchas formas de vivir: elige la tuya"
+    ],
+    [
+     "Viktor Frankl",
+     "Tener un porqué para vivir"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos del ejercicio de fear setting (definir tus miedos):",
+   "items": [
+    "Identifica la decisión difícil que te da miedo (ej.: renunciar)",
+    "Escribe en papel el peor escenario posible",
+    "Anota qué podrías hacer si ese escenario realmente pasa",
+    "Revisa el miedo ya aterrizado y nota la calma que te da"
+   ],
+   "explain": "Pasar un miedo del subconsciente al papel lo vuelve concreto. Al ver que tienes opciones, la ansiedad baja."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la única pregunta que hacen los creadores de Exploding Kittens cuando alguien prueba un juego nuevo?",
+   "options": [
+    "¿Te gustó?",
+    "¿Qué mejorarías?",
+    "¿Te reíste?",
+    "¿Jugarías de nuevo?"
+   ],
+   "answer": 3,
+   "explain": "Una sola pregunta simple mide lo que importa: si la gente quiere volver. Si dicen que no, hay que mejorar algo."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el artículo de Ferriss que comenta Pablo, el crecimiento personal deja de ser una trampa cuando lo enfocas en los demás.",
+   "answer": true,
+   "explain": "Optimizarte solo por optimizar puede volverse una trampa. Mejorar para tu pareja, tus hijos o tu comunidad le da sentido."
+  }
+ ],
+ "195": [
+  {
+   "type": "concept",
+   "title": "Una empresa nueva cada año",
+   "body": "Marcio Gómez lleva más de 15 años en Nvidia y dice que no se aburre porque **cada año es una compañía distinta**. La cultura es **plana**, se **comparte la información** y se trabaja rápido pero eficiente. Para él, la IA **recién está partiendo** y lo clave es aprender a trabajar con ella.",
+   "emoji": "💻"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuánto vendió Nvidia aproximadamente en 2010 y en 2025, según Marcio?",
+   "options": [
+    "1.000 y 10.000 millones de dólares",
+    "10.000 y 115.000 millones de dólares",
+    "50.000 y 500.000 millones de dólares",
+    "Siempre cerca de 20.000 millones de dólares"
+   ],
+   "answer": 1,
+   "explain": "Según Marcio, ese crecimiento no fue por casualidad: llevaban desde 2010 desarrollando software y hardware para muchas industrias, no solo videojuegos."
+  },
+  {
+   "type": "tf",
+   "statement": "En Nvidia, según Marcio, la regla es trabajar la mayor cantidad de horas posible para seguirle el ritmo a la demanda.",
+   "answer": false,
+   "explain": "Marcio dice que no trabajan más de 40 horas semanales: la idea es ser muy efectivo, entregar resultados y tener tiempo para la familia."
+  },
+  {
+   "type": "fill",
+   "sentence": "El lema interno 'speed of light' significa hacer las cosas muy rápido, pero también de forma ___.",
+   "options": [
+    "eficiente",
+    "secreta",
+    "improvisada",
+    "individual"
+   ],
+   "answer": 0,
+   "explain": "La velocidad sin eficiencia es solo ruido. Por eso le preguntan de dónde viene la información y qué van a hacer con ella."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada práctica de Nvidia con su descripción:",
+   "pairs": [
+    [
+     "Estructura plana",
+     "Cualquiera puede escribirle al CEO"
+    ],
+    [
+     "Global days off",
+     "Dos días libres extra por trimestre"
+    ],
+    [
+     "Visión de 1 a 2 años",
+     "Plazo realista en tecnología"
+    ],
+    [
+     "Programa Inception",
+     "Apoyo a startups de IA"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué porcentaje de su potencial dice Marcio que Nvidia está entregando hoy?",
+   "options": [
+    "Entre 20% y 25%",
+    "Cerca del 50%",
+    "Alrededor del 90%",
+    "El 100%"
+   ],
+   "answer": 0,
+   "explain": "Según él, el principal reto es que falta gente capacitada para aprovechar la tecnología. Por eso dice que todo esto 'recién está partiendo'."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la historia que cuenta Marcio sobre cómo Nvidia llegó a la IA:",
+   "items": [
+    "Nvidia se enfoca en computación gráfica y videojuegos",
+    "En 2012 unos alumnos de Toronto ganan una competencia de imágenes usando una tarjeta de videojuegos y CUDA",
+    "En 2016 Nvidia lanza su primera supercomputadora para IA",
+    "Desde 2022, con ChatGPT, todo el mundo empieza a mirar a Nvidia"
+   ],
+   "explain": "Lo que parece un boom repentino fue un proceso de años. Como dice Marcio, la innovación es una jornada, no algo que pasa de un año para otro."
+  },
+  {
+   "type": "tf",
+   "statement": "Marcio ve la IA como un copiloto que lo ayuda (por ejemplo, a priorizar correos o investigar), pero cree que el criterio humano sigue siendo clave con los clientes.",
+   "answer": true,
+   "explain": "La IA te ahorra tiempo en tareas de información, pero entender lo que necesita cada persona sigue siendo trabajo humano. Por eso hay que aprender a trabajar con ella."
+  }
+ ],
+ "196": [
+  {
+   "type": "concept",
+   "title": "Inversión parental",
+   "body": "Felipe Lecannelier habla de **inversión parental**: el tiempo, la presencia y los recursos que dedicas a tus hijos. Igual que en finanzas, **no es de una vez**: hay que seguir invirtiendo toda la vida. Y lo más importante: **el vínculo es primero, la información después**.",
+   "emoji": "👨‍👧"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿por qué no basta con decirle a un niño lo que tiene que hacer?",
+   "options": [
+    "Porque los niños no entienden palabras hasta los 7 años",
+    "Porque procesan la forma y la acción (tono, lo que haces) más que el contenido",
+    "Porque solo aprenden en el colegio",
+    "Porque las instrucciones deben venir por escrito"
+   ],
+   "answer": 1,
+   "explain": "Si dices 'te quiero' en un tono plano, el niño capta la forma. Por eso, si quieres que lea, lo que sirve es que te vea leyendo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Ante una pataleta, el 'mensaje de la presencia' dice que no debes ___ ni alejar al niño de ti.",
+   "options": [
+    "abrazarlo",
+    "alejarte",
+    "hablarle",
+    "mirarlo"
+   ],
+   "answer": 1,
+   "explain": "Quedarte presente, aunque no sepas qué hacer, le enseña que cuando algo le pasa puede acudir a ti. Esa es la prueba de oro de la crianza según Felipe."
+  },
+  {
+   "type": "tf",
+   "statement": "Para Felipe, la sobreprotección es una forma de proteger mejor a los hijos.",
+   "answer": false,
+   "explain": "Para él, la sobreprotección es desprotección: le transmite al niño que es frágil. Mejor dejarlo explorar y ser su consuelo cuando se cae."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué espaciamiento entre hijos menciona Felipe como recomendación para que haya menos competencia entre hermanos?",
+   "options": [
+    "3 años",
+    "1 año",
+    "6 años",
+    "No importa el espaciamiento"
+   ],
+   "answer": 0,
+   "explain": "Cerca de los 3 años el hijo mayor ya puede entender que el hermanito es más pequeño y que no compiten por el cariño."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con su significado:",
+   "pairs": [
+    [
+     "Inversión parental",
+     "Tiempo y presencia dedicados a tus hijos"
+    ],
+    [
+     "Sobreprotección",
+     "Limitar la exploración por miedo del adulto"
+    ],
+    [
+     "Mensaje de la seguridad",
+     "Si te vuelve a pasar, ven a mí"
+    ],
+    [
+     "Vínculo primero",
+     "Confianza antes de enseñar"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según los estudios que menciona Felipe, las notas del colegio predicen solo alrededor de un 10% del éxito en la vida adulta.",
+   "answer": true,
+   "explain": "Él plantea que la crianza pesa mucho más que las notas. Obsesionarse con el puntaje puede hacerte olvidar lo que más importa."
+  },
+  {
+   "type": "mc",
+   "prompt": "Francisco quiere enseñarle a su hija sobre plata preguntándole si compran el café o lo ahorran para el viaje. ¿Qué le recomienda Felipe pensar?",
+   "options": [
+    "Que eso es demasiado temprano y hay que esperar a la adolescencia",
+    "Que le pase una mesada fija",
+    "Ponerse en el lugar de su hija: qué ve ella que le importa a su papá en el día a día",
+    "Que la inscriba en un curso de finanzas"
+   ],
+   "answer": 2,
+   "explain": "El cerebro del niño toma lo que más se repite en su entorno. Lo que tu hijo aprende de plata depende de lo que te ve priorizar y de cómo lo vives."
+  }
+ ],
+ "197": [
+  {
+   "type": "concept",
+   "title": "Un salto que no fue tan salto",
+   "body": "Nicole pasó de **odontóloga especialista** a **DJ de matrimonios**, pero no renunció de un día para otro. Practicó por años como hobby, soltó jornadas de dentista **una a una** y mantuvo un sueldo fijo mientras la música crecía. Como se resume en el episodio: **paciente con el resultado, impaciente con la acción**.",
+   "emoji": "🎧"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué fue lo primero que le chocó a Nicole al salir a trabajar como dentista general?",
+   "options": [
+    "Que había demasiados pacientes y poca competencia",
+    "Que solo podía trabajar en el sistema público",
+    "Que la universidad no le había enseñado nada técnico",
+    "Que el trabajo real era muy distinto a lo que imaginaba y el sueldo inicial era más bajo que el de amigos de otras carreras"
+   ],
+   "answer": 3,
+   "explain": "La vida laboral trae jefes, metas y presión comercial que no se ven en la universidad. Por eso vale la pena averiguar cómo es el trabajo real antes de elegir una carrera."
+  },
+  {
+   "type": "tf",
+   "statement": "La coach laboral le recomendó a Nicole acelerar y ponerse metas más exigentes para descubrir lo que quería.",
+   "answer": false,
+   "explain": "Fue al revés: le pidió bajar el ritmo y contar su historia lento. Para saber lo que de verdad quieres, primero tienes que frenar y conectar contigo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Además de bajar el ritmo, otra técnica que la ayudó fue ___ sus pensamientos en los ratos muertos entre pacientes.",
+   "options": [
+    "grabar en video",
+    "escribir",
+    "publicar en redes",
+    "ignorar"
+   ],
+   "answer": 1,
+   "explain": "Escribir (journaling) deja fluir las ideas y te ayuda a notar qué te hace vibrar. Así Nicole se dio cuenta de que la música siempre estaba en sus momentos más felices."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo fue la transición de Nicole de dentista a DJ:",
+   "items": [
+    "Toma un curso de DJ como hobby y lo deja en pausa por falta de tiempo",
+    "Vuelve a practicar en casa y toca en cumpleaños de amigas",
+    "Libera los jueves en la tarde para tomar eventos de marca",
+    "En pandemia practica a diario y luego va soltando jornadas de dentista",
+    "La música pasa a ser su ingreso principal y se enfoca en matrimonios"
+   ],
+   "explain": "Cada paso fue pequeño y probado antes del siguiente. Así el cambio se sintió menos como un salto al vacío y más como un camino con paracaídas."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué le dio estabilidad financiera durante la pandemia, cuando cerraron las clínicas?",
+   "options": [
+    "Un crédito de consumo",
+    "Los eventos masivos, que siguieron funcionando",
+    "Sus clases en la universidad, su único sueldo fijo",
+    "Vender sus equipos de DJ"
+   ],
+   "answer": 2,
+   "explain": "Tener un ingreso fijo mientras exploras algo nuevo te da tranquilidad para desarrollarlo sin desesperarte por plata."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada hábito profesional de Nicole con lo que le aportó:",
+   "pairs": [
+    [
+     "Llegar una hora antes",
+     "Fama de DJ puntual"
+    ],
+    [
+     "Planificar cada set",
+     "Menos nervios y mejor resultado"
+    ],
+    [
+     "No tomar en los matrimonios",
+     "Concentración total"
+    ],
+    [
+     "Reuniones previas con los novios",
+     "Conexión con el cliente"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según Nicole, trabajar en matrimonios le dio más estabilidad financiera porque se reservan con mucha anticipación.",
+   "answer": true,
+   "explain": "Con fechas agendadas hasta con un año de anticipación puede planificar sus ingresos. Saber qué va a entrar te da calma y tiempo para hacer bien la pega."
+  }
+ ],
+ "198": [
+  {
+   "type": "concept",
+   "title": "Los 5 errores que nos estresan",
+   "body": "En un congreso médico, Pablo presentó los cinco errores financieros más típicos, que aplican a casi todos: **no ahorrar, no invertir, no prepararse para el retiro, sucumbir ante los vendedores y pagar demasiados impuestos**. Ganar mucha plata no te salva: en Chile, incluso en el grupo de mayores ingresos, la gran mayoría no logra ahorrar.",
+   "emoji": "😰"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los cinco errores tal como Pablo los presentó.",
+   "items": [
+    "No ahorrar",
+    "No invertir",
+    "No prepararse para el retiro",
+    "Sucumbir ante los vendedores",
+    "Pagar demasiados impuestos"
+   ],
+   "explain": "Van en cadena: sin ahorro no hay qué invertir, y sin inversión es difícil llegar bien al retiro."
+  },
+  {
+   "type": "tf",
+   "statement": "Si estás empezando a trabajar, da lo mismo formar el hábito del ahorro porque después vas a ganar más.",
+   "answer": false,
+   "explain": "La teoría dice que al inicio puedes invertir en tu capital humano, pero con un asterisco: si nunca formas el hábito, quedas mucho peor. Aunque sean 5 o 10 lucas, el hábito es lo que habilita todo lo demás."
+  },
+  {
+   "type": "mc",
+   "prompt": "Una doctora gana $9 millones al mes, pero cotiza solo hasta el tope imponible (unos $3,5 millones). ¿Qué riesgo destaca Pablo?",
+   "options": [
+    "Que su AFP le cobrará más comisión",
+    "Que su pensión puede ser una fracción muy pequeña de lo que ganaba y el ajuste de vida será doloroso",
+    "Que no podrá pedir un crédito hipotecario",
+    "Ninguno: la AFP cubre todo automáticamente"
+   ],
+   "answer": 1,
+   "explain": "Por eso quienes ganan sobre el tope necesitan complementar con APV o depósito convenido: ajustar el estilo de vida hacia abajo es de lo que menos nos gusta."
+  },
+  {
+   "type": "fill",
+   "sentence": "El mensaje sobre los seguros con ahorro es: seguros por un lado, ___ por el otro.",
+   "options": [
+    "deudas",
+    "ahorro",
+    "tarjetas",
+    "arriendos"
+   ],
+   "answer": 1,
+   "explain": "Los productos que mezclan ambos suelen ser caros; justamente por eso pueden financiar una fuerza de venta tan potente."
+  },
+  {
+   "type": "mc",
+   "prompt": "Un «asesor» te ofrece un producto con mucho entusiasmo. ¿Qué pregunta clave recomienda hacerle Pablo?",
+   "options": [
+    "¿Cuánto ha rentado el último mes?",
+    "¿Cómo ganas tú?",
+    "¿Cuántos clientes tienes?",
+    "¿Es el producto más popular?"
+   ],
+   "answer": 1,
+   "feedback": [
+    "La rentabilidad de un mes dice poco y no revela conflictos de interés.",
+    "¡Exacto! Si su ingreso viene del producto que te vende, no te está asesorando: te está vendiendo.",
+    "Tener muchos clientes no dice nada sobre si el producto es caro.",
+    "Que algo sea popular no lo hace barato ni adecuado para ti."
+   ],
+   "explain": "Mientras más ganas, más expuesto estás a vendedores; saber de dónde viene su pago te ayuda a detectar el conflicto de interés."
+  },
+  {
+   "type": "tf",
+   "statement": "Para hacer APV tienes que comprometerte a depositar todos los meses y solo puedes hacerlo en tu AFP.",
+   "answer": false,
+   "explain": "Es un mito: puedes aportar cuando quieras y lo que quieras, y hacerlo también en fondos mutuos, fondos de inversión o corredoras."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada activo con cómo lo evaluó Pablo en el «semáforo» de una entrevista.",
+   "pairs": [
+    [
+     "APV",
+     "De los más verdes"
+    ],
+    [
+     "Oro",
+     "Amarillo, por su menor retorno de largo plazo"
+    ],
+    [
+     "Casa propia",
+     "Verde si complementa otras platas líquidas"
+    ],
+    [
+     "Invertir en uno mismo",
+     "Verde: capital humano"
+    ]
+   ]
+  },
+  {
+   "type": "concept",
+   "title": "Primero, no salirse del juego",
+   "body": "La casa propia puede estar bien y tiene retorno emocional, pero en las reglas del juego del dinero va **después** del fondo de emergencia y el APV. Si es lo primero que haces, quedas sin liquidez, muy endeudado y sin diversificación. Y al final de la vida toca **desacumular**: el dinero ahorrado está para vivirlo, con un buen colchón de seguridad.",
+   "emoji": "🏠"
+  }
+ ],
+ "199": [
+  {
+   "type": "concept",
+   "title": "Donde las papas queman",
+   "body": "Fernando Alex fue el único sudamericano en la conferencia de semiconductores más importante del mundo. Volvió con una idea clara: la inteligencia artificial está cambiando el mundo, pero su avance está frenado por **cuellos de botella físicos**. Y para ganarle al mercado eligiendo acciones, hay que estar metido en la industria todo el día, no leyendo titulares.",
+   "emoji": "💾"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo se preparó Fernando para la conferencia, desde la preparación hasta la cancha.",
+   "items": [
+    "Tomar clases de inglés para ganar confianza",
+    "Estudiar la agenda y elegir a quiénes quería conocer",
+    "Preparar un speech de presentación y un set de preguntas",
+    "En la conferencia, improvisar dentro de ese marco"
+   ],
+   "explain": "La improvisación funciona mejor cuando tienes una estructura previa, como un futbolista que ya sabe qué hacer cuando recibe la pelota."
+  },
+  {
+   "type": "tf",
+   "statement": "Según la conversación, para que alguien te crea primero hay que generar empatía y confianza; la parte racional viene después.",
+   "answer": true,
+   "explain": "Decir que venía de Chile fue su gancho: generaba curiosidad y cercanía antes de hablar de semiconductores."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada cuello de botella con su explicación.",
+   "pairs": [
+    [
+     "Memoria",
+     "No hay fábricas suficientes para la demanda"
+    ],
+    [
+     "Advanced packaging",
+     "Juntar chips y memoria en una misma placa"
+    ],
+    [
+     "Óptica",
+     "Transmitir datos con luz en los data centers"
+    ],
+    [
+     "Refrigeración",
+     "Los chips se calientan y enfriarlos requiere energía"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el cuello de botella de la memoria no se resuelve rápido?",
+   "options": [
+    "Porque nadie quiere comprar memoria",
+    "Porque una fábrica nueva se demora años en estar funcionando",
+    "Porque la memoria está prohibida en varios países",
+    "Porque los chips ya no necesitan memoria"
+   ],
+   "answer": 1,
+   "explain": "Una fábrica tarda dos o tres años en escalar; las anunciadas recién operarían a fines de 2027, y para entonces la demanda será aún mayor."
+  },
+  {
+   "type": "tf",
+   "statement": "La industria de semiconductores está integrada verticalmente: una sola empresa diseña, fabrica y hace las máquinas.",
+   "answer": false,
+   "explain": "Es lo contrario: unas diseñan, otras fabrican y otras hacen el equipamiento. Por eso la industria depende tanto de la cooperación."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según lo conversado, como China tiene poco equipamiento de punta pero mucha energía, su estrategia probable es ___ para ponerse a la par.",
+   "options": [
+    "comprarle las máquinas a ASML",
+    "dejar de desarrollar IA",
+    "enchufar muchos más chips de menor gama, gastando más energía",
+    "copiar el software de Occidente"
+   ],
+   "answer": 2,
+   "explain": "Un chip de alta gama sirve para gastar menos energía; si la energía no es problema, puedes compensar con cantidad, aunque sea más ineficiente."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu amigo ve que estas acciones subieron muchísimo y quiere esperar una caída para entrar. ¿Qué advierte Fernando?",
+   "options": [
+    "Que siempre conviene esperar la corrección",
+    "Que es mejor seguir las señales de un influencer",
+    "Que es un sector sin futuro",
+    "Que esperando la corrección te puedes quedar 30-50% abajo; lo clave es si la tesis de largo plazo se mantiene"
+   ],
+   "answer": 3,
+   "feedback": [
+    "Adivinar el momento de entrada es muy difícil y puede costar caro.",
+    "En el episodio piden explícitamente no creerles a quienes venden señales.",
+    "Fernando cree justo lo contrario: el mundo no tiene otra forma de almacenar y procesar datos.",
+    "¡Eso! La pregunta es si crees que el mundo será cada vez más digital, no el precio de esta semana."
+   ],
+   "explain": "No es una recomendación de inversión: la idea es mirar la tendencia de largo plazo como una parte del portafolio, no intentar adivinar el corto plazo."
+  }
+ ],
+ "200": [
+  {
+   "type": "concept",
+   "title": "De la base al instinto animal",
+   "body": "En 200 capítulos, Pablo y Francisco pasaron de hablar de finanzas a hablar de **diseñar la vida que quieres vivir**. Primero se arma la base con las reglas del juego del dinero; desde ahí te sientes seguro para tomar riesgos y decisiones. Después toca salir del piloto automático y escuchar tu instinto: lo que de verdad te hace feliz.",
+   "emoji": "🐾"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué idea de Jim Collins sobre la relación entre las cosas que hacemos y el dinero se comenta en el episodio?",
+   "options": [
+    "Que hay que trabajar siempre más para ganar más",
+    "Que primero hacemos cosas para generar dinero, pero después hay que dar vuelta la flecha y usar el dinero para hacer lo que queremos",
+    "Que el dinero no importa en absoluto",
+    "Que conviene jubilar lo antes posible"
+   ],
+   "answer": 1,
+   "explain": "Ojo: eso funciona una vez cubierta la base (ahorro, fondo de emergencia, jubilación); sin ella, el estrés financiero no te deja tranquilo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según la idea de Mel Robbins que comentan, cuando sientes el impulso de hacer algo, date ___ para actuar.",
+   "options": [
+    "5 segundos",
+    "una semana",
+    "un mes",
+    "5 minutos"
+   ],
+   "answer": 0,
+   "explain": "Si no actúas rápido, el piloto automático gana. Ese sesgo a la acción es uno de los grandes aprendizajes de los 200 capítulos."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos del ejercicio para definir tus objetivos de vida.",
+   "items": [
+    "Escribe tu lista de objetivos",
+    "Al día siguiente, oblígate a duplicar la lista",
+    "Ordénala con las categorías de los cinco tipos de riqueza",
+    "Recién ahí compárala con la lista maestra",
+    "Refina y quédate con los más importantes"
+   ],
+   "explain": "No hay que partir mirando la lista maestra: primero haz tu propia pega, porque somos malos para definir objetivos y la lista ajena nos puede sesgar."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el paper de Ben Felix que citan, la felicidad llega sobre todo por motivaciones extrínsecas, como un mejor auto o una casa más grande.",
+   "answer": false,
+   "explain": "Es al revés: el crecimiento personal, las relaciones y la comunidad son lo que realmente importa, aunque solemos asociarlos menos con la felicidad."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto del episodio con su significado.",
+   "pairs": [
+    [
+     "Misogi",
+     "Gran desafío que marca tu año"
+    ],
+    [
+     "Rocas",
+     "Metas accionables trimestrales"
+    ],
+    [
+     "Suficiente",
+     "Límite para no querer siempre más"
+    ],
+    [
+     "Trabajo opcional",
+     "Trabajar porque quieres, no porque debes"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Pablo dice que va a correr una maratón. ¿Por qué le hace sentido?",
+   "options": [
+    "Para ganar una medalla y mostrarla",
+    "Porque alguien se lo exigió",
+    "Porque disfruta el proceso de entrenar y correr, no solo cruzar la meta",
+    "Porque lo necesita para su trabajo"
+   ],
+   "answer": 2,
+   "explain": "Un buen objetivo te inspira y te hace disfrutar el camino. Al principio cuesta (el «valle de la muerte»), y acompañado es más fácil cruzarlo."
+  },
+  {
+   "type": "tf",
+   "statement": "Un sesgo que comentan es creer que ya cambiamos mucho en el pasado, pero que la persona que somos hoy seguirá igual para siempre.",
+   "answer": true,
+   "explain": "Por eso ninguna decisión «resuelve» la vida para siempre: hay que seguir jugando y equivocarse en la dirección correcta."
+  }
+ ],
+ "201": [
+  {
+   "type": "concept",
+   "title": "Tu superpoder escondido",
+   "body": "Pasamos **un tercio del día durmiendo**, y no es solo descanso: en el sueño se consolida la memoria, se regulan hormonas y el cerebro se limpia. Dormir mal te deja cansado, con más hambre y hasta te lleva a tomar peores decisiones, incluidas las financieras. Como dicen en el episodio, el sueño es como tu superpoder.",
+   "emoji": "😴"
+  },
+  {
+   "type": "tf",
+   "statement": "Estar cansado todo el día es normal si tienes una vida ocupada; no vale la pena consultar.",
+   "answer": false,
+   "explain": "Trinidad insiste en no normalizar el cansancio: si se mantiene por semanas, es una señal para ver a un especialista."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la principal señal de alerta de la apnea del sueño según Trinidad?",
+   "options": [
+    "Soñar mucho",
+    "Dormir con la ventana abierta",
+    "Despertar con hambre",
+    "Roncar"
+   ],
+   "answer": 3,
+   "explain": "El slogan de su clínica es «roncar no es normal», ni en adultos ni en niños: el ronquido indica que el aire no pasa bien. Y como quien lo sufre no lo nota, muchas veces lo detecta otra persona."
+  },
+  {
+   "type": "fill",
+   "sentence": "Para no afectar la calidad del sueño, lo ideal es no tomar café después de las ___.",
+   "options": [
+    "9 de la mañana",
+    "3 de la tarde",
+    "8 de la noche",
+    "12 de la noche"
+   ],
+   "answer": 1,
+   "explain": "Aunque te quedes dormido igual, la cafeína altera la proporción y calidad de las etapas del sueño."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada hábito con la recomendación del episodio.",
+   "pairs": [
+    [
+     "Temperatura de la pieza",
+     "Alrededor de 18 °C"
+    ],
+    [
+     "Horas de sueño",
+     "Entre 7 y 8"
+    ],
+    [
+     "Siesta",
+     "Corta, cerca de media hora"
+    ],
+    [
+     "Deporte nocturno",
+     "No en la hora antes de dormir"
+    ],
+    [
+     "Última comida",
+     "Liviana, una hora antes"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Son las 3 de la mañana, despertaste y llevas rato sin poder dormir. ¿Qué recomienda Trinidad?",
+   "options": [
+    "Quedarte en la cama dándote vueltas hasta que llegue el sueño",
+    "Revisar el celular para distraerte",
+    "Salir de la cama y leer un libro hasta que vuelva el sueño",
+    "Tomar un café para pasar la noche"
+   ],
+   "answer": 2,
+   "feedback": [
+    "Eso genera más ansiedad y frustración, y hace más difícil volver a dormir.",
+    "Las pantallas son justamente lo que hay que evitar.",
+    "¡Bien! Es como repetir tu rutina para que el cuerpo se tranquilice de nuevo.",
+    "La cafeína solo empeora la calidad del sueño."
+   ],
+   "explain": "Romper con la ansiedad de estar en la cama sin dormir ayuda a que el cuerpo se «resetee»."
+  },
+  {
+   "type": "tf",
+   "statement": "Trinidad recomienda que las personas con insomnio monitoreen cada noche su sueño con un reloj inteligente.",
+   "answer": false,
+   "explain": "Para quienes tienen insomnio, medir el sueño puede generar más angustia y empeorar el cuadro; en ellos recomiendan mejor técnicas de relajación."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino de un paciente para diagnosticar y tratar un trastorno del sueño.",
+   "items": [
+    "Consulta de evaluación con un médico",
+    "Estudio del sueño (polisomnografía) durmiendo una noche en la clínica",
+    "Revisión del resultado con un especialista",
+    "Tratamiento según el diagnóstico"
+   ],
+   "explain": "El diagnóstico va primero: el tratamiento (bajar de peso, un dispositivo mandibular o CPAP) depende del tipo y la gravedad del trastorno."
+  },
+  {
+   "type": "tf",
+   "statement": "Si tomas alcohol puedes roncar aunque no tengas apnea, y quienes sí tienen apnea empeoran con él.",
+   "answer": true,
+   "explain": "El alcohol relaja la musculatura, incluida la lengua, que se va hacia atrás y obstruye el paso del aire."
+  }
+ ],
+ "202": [
+  {
+   "type": "concept",
+   "title": "Crecer hacia los lados",
+   "body": "Tere eligió no subirse al trampolín corporativo que te lanza rápido hacia arriba pero **te limita hacia los lados**. En cambio, fue creciendo de a poco y en horizontal, con varios trabajos y emprendimientos. Así ganó la libertad de vivir temporadas en otros países con su familia, a cambio de algo de estabilidad.",
+   "emoji": "🌍"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Tere, ¿cuál es la diferencia entre creatividad e innovación?",
+   "options": [
+    "Son lo mismo con distinto nombre",
+    "La creatividad es de artistas y la innovación de empresas",
+    "La innovación es tener muchas ideas y la creatividad elegir una",
+    "La creatividad es el mundo de las ideas y la innovación es ejecutarlas para que tengan impacto"
+   ],
+   "answer": 3,
+   "explain": "Por eso valora el sesgo a la acción: de 100 ideas quizás funcionan una o dos, pero solo si las llevas a la práctica."
+  },
+  {
+   "type": "tf",
+   "statement": "Para Tere, trabajar remoto significa simplemente no ir nunca a la oficina.",
+   "answer": false,
+   "explain": "Para ella, trabajo remoto es que la pega se pueda hacer desde cualquier lugar: a ratos vas a la oficina y a ratos no."
+  },
+  {
+   "type": "fill",
+   "sentence": "Tere tiene varios trabajos a la vez para poner los huevos en distintas canastas: si uno falla, tiene otros por donde ___.",
+   "options": [
+    "salir jugando",
+    "pedir un crédito",
+    "renunciar a todo",
+    "cobrar el seguro"
+   ],
+   "answer": 0,
+   "explain": "Diversificar las fuentes de trabajo funciona como diversificar inversiones: te da margen para decidir y no depender de una sola cosa."
+  },
+  {
+   "type": "tf",
+   "statement": "El primer emprendimiento de Tere, muy ligado a eventos y con inventario, le dio toda la libertad que buscaba.",
+   "answer": false,
+   "explain": "Fue al revés: la amarró por completo, trabajando fines de semana, noches y feriados. El emprendimiento también está idealizado; depende mucho de si es digital o presencial."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu amiga Cata quiere pedirle a su jefe trabajar seis meses desde otro país, pero le da miedo. ¿Qué le diría Tere?",
+   "options": [
+    "Que renuncie y parta sin avisar",
+    "Que toque la puerta y pregunte: en el peor caso le dicen que no",
+    "Que espere a que sus hijos sean grandes",
+    "Que eso solo lo pueden hacer quienes tienen mucha plata"
+   ],
+   "answer": 1,
+   "feedback": [
+    "Tere no dice eso: ella sugiere compaginar, no quemar las naves.",
+    "¡Exacto! Ella pensó que su jefe le diría que no y resultó bien.",
+    "Tere dice que ese miedo suele ser del adulto; los niños se adaptan, cada uno a su ritmo.",
+    "Ella rechaza esa idea: dice que no se trata de la plata, sino de poder trabajar desde cualquier lugar."
+   ],
+   "explain": "Muchas veces el freno es un prejuicio que nos ponemos nosotros mismos, no una negativa real."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea de Tere con lo que significa.",
+   "pairs": [
+    [
+     "Viajero vs turista",
+     "Vivir el lugar y su cultura"
+    ],
+    [
+     "Catapulta corporativa",
+     "Sube rápido pero limita a los lados"
+    ],
+    [
+     "Ciclos de 4 años",
+     "Momentos en que ella se mueve"
+    ],
+    [
+     "El bichito",
+     "Voz interna que no hay que callar"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "De todas las habilidades para el futuro que nombra Tere, ¿cuál considera la más importante?",
+   "options": [
+    "Memorizar mucha información",
+    "Ser muy estricta para ganarse el respeto",
+    "Las ganas de seguir aprendiendo siempre",
+    "Tener un solo trabajo estable"
+   ],
+   "answer": 2,
+   "explain": "Junto a idiomas, IA, trabajo en equipo y humildad, destaca ser «aprendices permanentes»; y como profesora aprendió que ser brígida no sirve: se aprende más pasándolo bien."
+  }
+ ],
+ "203": [
+  {
+   "type": "concept",
+   "title": "El mapa de la vocación",
+   "body": "Nacho propone no mezclar palabras que usamos como si fueran lo mismo. Un **hobby** te entretiene, una **pasión** te mueve el corazón, un **don** es algo para lo que naciste bueno, la **profesión** es lo que el mercado te paga, la **vocación** está por encima de todo eso y el **propósito** se descubre recién al final del camino. Ponerle el nombre correcto a cada cosa baja harto la ansiedad de elegir.",
+   "emoji": "🗺️"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los peldaños del mapa de Nacho, del más chico al más grande.",
+   "items": [
+    "Hobby",
+    "Pasión",
+    "Profesión",
+    "Vocación",
+    "Propósito"
+   ],
+   "explain": "Cada peldaño suma algo: la profesión agrega que alguien te pague, la vocación agrupa varias herramientas, y el propósito solo se ve mirando hacia atrás."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Nacho, ¿qué define a una profesión?",
+   "options": [
+    "Lo que más te apasiona hacer",
+    "Aquello por lo que el mercado está dispuesto a pagarte",
+    "El talento con que naciste",
+    "El sentido final de tu vida"
+   ],
+   "answer": 1,
+   "explain": "Por eso les dice a los de cuarto medio que están tomando una decisión profesional, no vocacional: la vocación se va armando con los años."
+  },
+  {
+   "type": "tf",
+   "statement": "El primer consejo de Nacho para quien quiere emprender es renunciar de inmediato, aunque no tenga ningún proyecto.",
+   "answer": false,
+   "explain": "Él lo hizo y vio cómo bajaba su cuenta sin tener ideas. Recomienda dar el salto con algo ya en movimiento, como un spin-off de lo que haces."
+  },
+  {
+   "type": "fill",
+   "sentence": "La frase favorita que Nacho toma de La guía para la vida del rastreador de leones es: «No sé dónde voy, pero sé exactamente ___».",
+   "options": [
+    "cuánto voy a ganar",
+    "cómo llegar",
+    "a quién seguir",
+    "cuándo parar"
+   ],
+   "answer": 1,
+   "explain": "La idea es que, si confías en tus herramientas, vas a saber reaccionar pase lo que pase con el experimento."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada animal espiritual de Nacho con la razón que dio.",
+   "pairs": [
+    [
+     "Pulpo",
+     "Hace muchas cosas a la vez"
+    ],
+    [
+     "Camaleón",
+     "Se transforma e imita a otros"
+    ],
+    [
+     "Picaflor",
+     "Salta rápido de un tema a otro"
+    ],
+    [
+     "Mariposa",
+     "Domina algo, dice suficiente y sigue"
+    ]
+   ]
+  },
+  {
+   "type": "concept",
+   "title": "Llévate completo al trabajo",
+   "body": "Aunque tu pega actual no sea la de tus sueños, puedes destacarte ahí mismo poniendo lo que eres: tu humor, tu dibujo, tu forma de atender. Como dicen en el episodio, hay poca competencia entre quienes realmente se preguntan **cómo hacer el extra**. Eso trae visibilidad y nuevas oportunidades para dar el salto.",
+   "emoji": "🧰"
+  },
+  {
+   "type": "mc",
+   "prompt": "Estás pensando cambiarte a una industria nueva. ¿Qué te recomendaría Nacho hacer primero?",
+   "options": [
+    "Estudiar un MBA antes de mover un dedo",
+    "Renunciar para tener tiempo de pensar",
+    "Pedirle 10-15 minutos a alguien que ya tenga ese cargo",
+    "Esperar a sentirte 100% preparado técnicamente"
+   ],
+   "answer": 2,
+   "feedback": [
+    "No es necesario partir por ahí: hay información más rápida y gratis.",
+    "Renunciar sin plan fue justamente lo que él no recomienda.",
+    "¡Eso! A la gente le encanta hablar de su pega y te puedes ahorrar experimentos fallidos.",
+    "Para él pesa más la confianza en tus capacidades que la preparación técnica."
+   ],
+   "explain": "Conversar con quien ya está en el cargo es como tener la biblioteca más grande del mundo disponible: solo hay que atreverse a pedir."
+  },
+  {
+   "type": "tf",
+   "statement": "Para ser un multifacético exitoso, Nacho organiza su tiempo en bloques (por ejemplo, mañanas de escritor) en vez de picotear todo a la vez.",
+   "answer": true,
+   "explain": "Cambiar de contexto constantemente cansa el cerebro; por eso incluso se fue a otro país a escribir su libro sin reuniones ni consultas."
+  }
+ ],
+ "204": [
+  {
+   "type": "concept",
+   "title": "La suerte se sale a buscar",
+   "body": "Pablo conoció a Rip Reeves gracias a una entrada ganada en un sorteo y a un correo que se atrevió a mandar después. Rip llegó a Wall Street sin contactos, llamando empresas de la guía telefónica durante años. Como dicen en el episodio, **uno se busca su fortuna y crea su propia suerte**.",
+   "emoji": "🐯"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo encontraba Rip empresas a las que postular en Nueva York?",
+   "options": [
+    "A través de LinkedIn",
+    "Por contactos de su familia en Wall Street",
+    "Anotando empresas del Wall Street Journal y buscándolas en la guía telefónica",
+    "Con una agencia de empleo de su universidad"
+   ],
+   "answer": 2,
+   "explain": "Sin internet ni contactos, fue un esfuerzo metódico: por dos años y medio llamó a cada empresa que aparecía en el diario."
+  },
+  {
+   "type": "tf",
+   "statement": "En su viaje a Nueva York, los bancos comerciales rechazaron a Rip, pero las firmas de ventas y trading lo quisieron contratar.",
+   "answer": true,
+   "explain": "Para unos era demasiado poco convencional; para otros, su determinación y cómo lo logró solo eran justo lo que buscaban."
+  },
+  {
+   "type": "mc",
+   "prompt": "Al terminar el programa de Salomon Brothers, ¿cómo eligió Rip su área?",
+   "options": [
+    "Buscó un grupo de personas que invirtieran en él y lo apoyaran",
+    "Eligió el área que estaba más de moda en el mercado",
+    "Eligió la que pagaba el bono más alto",
+    "Dejó que la empresa decidiera por él"
+   ],
+   "answer": 0,
+   "explain": "Sus compañeros elegían lo popular del momento. Rip prefirió mentores que le enseñaran a ser buen profesional y buena persona."
+  },
+  {
+   "type": "fill",
+   "sentence": "Lo que está de moda hoy no necesariamente lo estará mañana: en la vida, como en las inversiones, todo ocurre en ___.",
+   "options": [
+    "ciclos",
+    "línea recta",
+    "secreto"
+   ],
+   "answer": 0,
+   "explain": "Rip lo vivió: el área hipotecaria pasó de ser lo más popular a algo que nadie quería tocar en pocos años."
+  },
+  {
+   "type": "tf",
+   "statement": "Rip dice que con los años su tolerancia al riesgo bajó mucho.",
+   "answer": false,
+   "explain": "Él cree que su tolerancia no cambió; lo que ganó es la capacidad de definir y cuantificar con precisión qué riesgos quiere asumir."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada inversionista con lo que debe considerar, según Rip",
+   "pairs": [
+    [
+     "Inversionista minorista",
+     "Es su propia junta y su propio regulador"
+    ],
+    [
+     "Aseguradora",
+     "Necesita liquidez para pagar siniestros"
+    ],
+    [
+     "Persona jubilada",
+     "Busca que la cartera genere ingresos"
+    ],
+    [
+     "Inversionista institucional",
+     "Debe cumplir con reguladores y clasificadoras"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino de Rip hacia Wall Street",
+   "items": [
+    "Toma su primer curso de inversiones y descubre su vocación",
+    "Entra al MBA para ganar tiempo y planificar",
+    "Llama durante años a empresas de Nueva York",
+    "Viaja en las vacaciones de Mardi Gras con entrevistas agendadas",
+    "Entra al programa de formación de Salomon Brothers"
+   ],
+   "explain": "No hubo atajo: la oportunidad llegó después de años de esfuerzo metódico y muchos 'no'."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es el consejo final de Rip para quien quiere abrirse camino?",
+   "options": [
+    "Esperar a tener el currículum perfecto antes de postular",
+    "Solo postular donde ya conoces a alguien",
+    "Tener perseverancia y fe en uno mismo, y acostumbrarse a que te digan que no",
+    "Estudiar solo en las universidades más famosas"
+   ],
+   "answer": 2,
+   "explain": "Rip no tenía notas ni currículum especiales: era cocinero, mesero y salvavidas. Lo que marcó la diferencia fue su determinación."
+  }
+ ],
+ "205": [
+  {
+   "type": "concept",
+   "title": "Colaborar con las máquinas",
+   "body": "Tras visitar Silicon Valley, Fernando Gómez cree que en los próximos 10 a 15 años veremos más **colaboración que sustitución** entre humanos y máquinas. Las máquinas son cada vez mejores resolviendo problemas 'verticales', pero la **creatividad** para relacionar cosas y dar las instrucciones sigue siendo humana.",
+   "emoji": "🤖"
+  },
+  {
+   "type": "fill",
+   "sentence": "Según Fernando, no te va a reemplazar la inteligencia artificial, sino un ___ que sabe usarla.",
+   "options": [
+    "robot",
+    "humano",
+    "algoritmo"
+   ],
+   "answer": 1,
+   "explain": "Aprender a usar estas herramientas es una de las habilidades más valiosas que puedes desarrollar hoy."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué ilustra el ejemplo de las maletas con ruedas?",
+   "options": [
+    "Que la tecnología siempre llega rápido",
+    "El pensamiento horizontal: relacionar cosas que aparentemente no tienen relación",
+    "Que los robots nunca se cansan",
+    "Que el transporte es un mal negocio"
+   ],
+   "answer": 1,
+   "explain": "La rueda y la maleta existían hace siglos, pero juntarlas tomó muchísimo tiempo. Ese tipo de creatividad es difícil que a una máquina se le ocurra sola."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada tecnología con cómo la explica Fernando",
+   "pairs": [
+    [
+     "CPU",
+     "Procesa tareas una tras otra"
+    ],
+    [
+     "GPU",
+     "Procesa muchas tareas en paralelo"
+    ],
+    [
+     "Computación cuántica",
+     "Complemento para logística, fármacos y criptografía"
+    ],
+    [
+     "TPU de Google",
+     "Abarata entrenar sus propios modelos"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el ejemplo de Fernando sobre por qué la productividad no necesariamente destruye empleo",
+   "items": [
+    "Una empresa tiene 4 personas en contabilidad",
+    "Con ayuda del software necesita solo 2",
+    "La mayor riqueza lleva a crear otra empresa",
+    "La nueva empresa contrata a las otras 2"
+   ],
+   "explain": "Más productividad significa más riqueza y más negocios, que necesitan gente. El gran desafío es la transición para quienes se ven afectados."
+  },
+  {
+   "type": "tf",
+   "statement": "Según las empresas visitadas, masificar autos autónomos y drones hoy es principalmente un problema tecnológico.",
+   "answer": false,
+   "explain": "Le dijeron que la tecnología ya está; el freno es sobre todo regulatorio y social, como el temor a perder empleos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Si los datos del mundo crecen cerca de 28% al año, ¿cada cuánto se duplican aproximadamente?",
+   "options": [
+    "Cada año",
+    "Cada 3 años",
+    "Cada 10 años",
+    "Cada 20 años"
+   ],
+   "answer": 1,
+   "explain": "Por eso en 9 años habría unas 8 veces más datos, lo que exige mucha más infraestructura, aunque la tecnología se vuelva más eficiente."
+  },
+  {
+   "type": "mc",
+   "prompt": "Si hubiera una burbuja en la IA, ¿dónde cree Fernando que estaría más probablemente?",
+   "options": [
+    "En las empresas de energía",
+    "En los fabricantes de chips",
+    "En los modelos fundacionales con valorizaciones muy altas",
+    "En los hiperescaladores como Google"
+   ],
+   "answer": 2,
+   "explain": "Buena parte de la cadena (chips, hiperescaladores, energía) transa a múltiplos de 10 a 28 veces, mientras que las valorizaciones de algunos modelos exigen crecimientos muy desafiantes."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que, si la IA te da miedo, tener una parte de tu portafolio invertida en ella puede servir como cobertura.",
+   "answer": true,
+   "explain": "Si el escenario es que unos pocos se quedan con mucha riqueza, ser dueño de un pedacito de esas empresas te protege. Ojo: no es recomendación de inversión, cada uno hace su análisis."
+  }
+ ],
+ "206": [
+  {
+   "type": "concept",
+   "title": "No predigas el futuro: elígelo",
+   "body": "Para Patricio Jottar, los líderes no son predictores del futuro: **eligen uno** entre muchos posibles y lo construyen con su equipo. Y elegir es sobre todo **renunciar**: si tienes 10 caminos y eliges uno, dejas nueve. Como dicen en el episodio, quien lo quiere todo termina sin nada.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "tf",
+   "statement": "Para Jottar, elegir un futuro implica necesariamente renunciar a otros.",
+   "answer": true,
+   "explain": "Querer tener todas las opciones abiertas lleva a no avanzar en ninguna, tanto en la vida como en las empresas."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según la 'matemática' de la excelencia de CCU, ¿cuánto vale un trabajo hecho al 99%?",
+   "options": [
+    "99",
+    "90",
+    "40",
+    "0"
+   ],
+   "answer": 2,
+   "explain": "Ese último 1% vale oro (60 puntos). Equivocarse tratando de llegar al 100 es humano; conformarse con el 99 teniendo el 100 a la vista es mediocridad."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada caso de la regla 10-80-10 con qué hacer",
+   "pairs": [
+    [
+     "Jefe: 10% indelegable",
+     "Lo haces tú mismo"
+    ],
+    [
+     "Jefe: 80% en duda",
+     "Delega y exige"
+    ],
+    [
+     "Colaborador: 10% crítico",
+     "Le preguntas a tu jefe"
+    ],
+    [
+     "Colaborador: 80% en duda",
+     "No preguntes, hazlo"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es, según Jottar, la única condición realmente necesaria (sine qua non) del liderazgo?",
+   "options": [
+    "Tener el mejor currículum",
+    "Querer a tu gente y buscar su bien",
+    "Controlar cada detalle del trabajo",
+    "Nunca cometer errores"
+   ],
+   "answer": 1,
+   "explain": "Puedes liderar a mucha gente por poco tiempo sin quererla, pero no por mucho tiempo: sin cariño no hay confianza."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo se construye una visión según Jottar",
+   "items": [
+    "Juntar las miradas diversas del equipo",
+    "Elegir un futuro y renunciar a los demás",
+    "Compartir la visión con toda la organización",
+    "Ejecutar con excelencia y ajustar en el camino"
+   ],
+   "explain": "La visión no es un secreto del jefe: si no la entiende la gente, no mueve ninguna voluntad. Y toda idea se perfecciona haciéndola."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según el empresario citado en la conversación, una idea vale 1 punto, con un plan vale 10 y ejecutada vale ___.",
+   "options": [
+    "20",
+    "50",
+    "100"
+   ],
+   "answer": 2,
+   "explain": "Todos creen tener grandes ideas; lo difícil y valioso es llevarlas a la práctica, algo que casi siempre se subestima."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué quiere decir Jottar con 'pegarle palito a los gatitos chicos'?",
+   "options": [
+    "Esperar la gran oportunidad sin distraerse",
+    "Hacer bien el trabajo de cada día, para estar listo cuando pase la gran oportunidad",
+    "Tomar todos los riesgos posibles",
+    "Evitar las tareas pequeñas"
+   ],
+   "answer": 1,
+   "explain": "Puedes pasarte la vida esperando el 'gato grande'. La suerte se gestiona con trabajo bien hecho, detalles y relaciones genuinas."
+  },
+  {
+   "type": "tf",
+   "statement": "Jottar usa su memoria para recordar todos sus pendientes y así no necesita listas.",
+   "answer": false,
+   "explain": "Es al revés: anota todos sus pendientes para irse tranquilo a la casa, y usa la memoria para los números clave de la compañía, que le ayudan a conectar ideas."
+  }
+ ],
+ "207": [
+  {
+   "type": "concept",
+   "title": "La tarjeta como seguro, no como billetera",
+   "body": "En una urgencia en el extranjero, a Francisco lo salvó el orden: **seguro de viaje**, **cupo disponible** en sus tarjetas y un **colchón de emergencia** para pagarlas completas. Como dicen en el episodio, conviene ver la tarjeta de crédito como un seguro en vez de algo para usar todos los días.",
+   "emoji": "🏥"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué pregunta aprendió Francisco a hacer siempre al contratar un seguro de salud para viajar?",
+   "options": [
+    "Si el seguro incluye millas aéreas",
+    "Si puede pagarlo en cuotas sin interés",
+    "Si cubre la pérdida de equipaje",
+    "En qué hospitales puede atenderse sin pagar, y cómo son sus reseñas"
+   ],
+   "answer": 3,
+   "explain": "El seguro lo mandó a un hospital muy precario. Saber de antemano qué clínicas cubre y cómo están evaluadas evita decidir a ciegas en plena crisis."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, lo riesgoso de tener un cupo alto en la tarjeta no es el cupo en sí, sino no saber manejarlo.",
+   "answer": true,
+   "explain": "Mientras no lo uses y te sepas controlar, el cupo es capacidad de pago disponible. Conseguirlo en plena emergencia, en cambio, es mucho más difícil."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si no pagas el total facturado, te metes en problemas: la deuda de tarjeta de crédito es de las más ___ que existen.",
+   "options": [
+    "baratas",
+    "caras",
+    "estables"
+   ],
+   "answer": 1,
+   "explain": "En el episodio se recuerda que la tasa máxima convencional ronda el 40% anual. Úsala como puente, no como financiamiento."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué Francisco valoró tener su plata en activos financieros y no solo en propiedades?",
+   "options": [
+    "Porque se pueden vender en pocos días para pagar la tarjeta",
+    "Porque nunca bajan de valor",
+    "Porque no pagan impuestos",
+    "Porque el seguro los reembolsa"
+   ],
+   "answer": 0,
+   "explain": "Es liquidez: si todo estuviera en inmobiliario, tendría que vender apurado, a mal precio y sin alcanzar a tener la plata a tiempo."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la secuencia que le permitió a Francisco enfrentar la urgencia sin estrés financiero",
+   "items": [
+    "Contratar un seguro de viaje antes de salir",
+    "Pagar la atención con el cupo de la tarjeta de crédito",
+    "Pagar la tarjeta completa con el colchón de emergencia",
+    "Recibir el reembolso del seguro"
+   ],
+   "explain": "Cada pieza cubre un momento distinto: el seguro asume el costo final, la tarjeta da liquidez inmediata y el colchón evita pagar intereses."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada situación con lo que se plantea en el episodio",
+   "pairs": [
+    [
+     "Índice de tranquilidad bajo 70",
+     "Seguir el paso a paso de las reglas del juego"
+    ],
+    [
+     "Sobre 80 y vida compleja",
+     "Aquí sí suma una planificación"
+    ],
+    [
+     "Estudio de Vanguard",
+     "Un asesor agrega cerca de 3% por disciplina"
+    ],
+    [
+     "Esperar a que el mercado caiga",
+     "Perderse una subida de 30%"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Para Pablo, una planificación financiera consiste en juntarse una vez y que te digan en qué fondos invertir.",
+   "answer": false,
+   "explain": "Eso es solo armar un portafolio. Una planificación integra inversiones, seguros, impuestos y herencia con los objetivos de tu vida."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿En cuál de estas situaciones, según Pablo, más vale la pena conversar una planificación?",
+   "options": [
+    "Cuando recién empiezas a ahorrar y aún tienes deudas caras",
+    "Cuando no tienes fondo de emergencia",
+    "Cuando recibes una herencia o vendes tu negocio y no sabes qué hacer con esa plata",
+    "Cuando quieres elegir la mejor tarjeta de crédito"
+   ],
+   "answer": 2,
+   "explain": "Con un patrimonio mayor o una vida más compleja, un error sale caro. Si estás empezando, lo que hay que hacer es bastante evidente: subir el ahorro, pagar deudas caras y armar el colchón."
+  }
+ ],
+ "208": [
+  {
+   "type": "concept",
+   "title": "Tortuga para invertir, pingüino para crear",
+   "body": "En el episodio se usan dos animales: la **tortuga**, que avanza lento pero constante en inversiones y hábitos, y el **primer pingüino**, que se tira al agua a tomar riesgos para construir algo nuevo. La clave es saber dónde ser cada uno: lo fome en tu plata, lo audaz en tu trabajo.",
+   "emoji": "🐢"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál es la diferencia entre construir riqueza y mantenerla?",
+   "options": [
+    "Construir requiere adrenalina; mantenerla funciona mejor mientras más aburrido sea",
+    "Ambas requieren estar mirando la pantalla todo el día",
+    "Mantenerla requiere trading activo para no perder",
+    "Construirla depende solo de la suerte"
+   ],
+   "answer": 0,
+   "explain": "Pedir más pega o emprender es donde tomas riesgo. Al invertir, las estrategias activas suelen fallar: por eso se menciona que la mayoría de quienes hacen trading pierde plata."
+  },
+  {
+   "type": "tf",
+   "statement": "En el tenis amateur, la mayoría de los puntos se pierden por errores propios más que ganarse con golpes espectaculares.",
+   "answer": true,
+   "explain": "Se menciona que en amateurs cerca del 80% de los puntos se pierden. En finanzas pasa igual: gana el más consistente, no el más brillante."
+  },
+  {
+   "type": "fill",
+   "sentence": "Para calmar al cerebro que pide emoción, se propone separar un pequeño ___ (2 a 10%) y dejar la parte estructural en algo fome.",
+   "options": [
+    "play money",
+    "crédito de consumo",
+    "fondo de emergencia"
+   ],
+   "answer": 0,
+   "explain": "Es una forma de 'hackear' tu cerebro: te entretienes con una parte chica sin arriesgar el plan de largo plazo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada imagen del episodio con su significado",
+   "pairs": [
+    [
+     "Tortuga",
+     "Constancia en inversiones y hábitos"
+    ],
+    [
+     "Liebre",
+     "Atajo rápido que quizás se cae en el camino"
+    ],
+    [
+     "Primer pingüino",
+     "Atreverse a tomar un riesgo para crear algo"
+    ],
+    [
+     "Flywheel",
+     "Rueda que gana impulso con los años"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué es importante definir tu 'suficiente'?",
+   "options": [
+    "Porque así el banco te da mejores tasas",
+    "Porque te obliga a gastar todo lo que ganas",
+    "Porque sin él siempre vas a querer un poquito más, como Rockefeller",
+    "Porque te permite dejar de ahorrar para siempre"
+   ],
+   "answer": 2,
+   "explain": "Si no sabes qué quieres hacer y cuánto cuesta, entras en un círculo de querer más sin ser feliz. Muchas veces tu día ideal cuesta menos de lo que crees."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo ser un 'primer pingüino' sin que te coman",
+   "items": [
+    "Armar tus colchones de emergencia",
+    "Partir el proyecto compatibilizándolo con tu trabajo",
+    "Tirarte al agua y probar la idea",
+    "Aprender de lo que salga mal y seguir"
+   ],
+   "explain": "El riesgo vale la pena cuando es asimétrico: puedes perder algunas horas o quedar como el que se equivocó, pero sin arriesgar lo que te mantiene en el juego."
+  },
+  {
+   "type": "tf",
+   "statement": "Si tus finanzas están en negativo, es mejor no revisarlas para no desmotivarte.",
+   "answer": false,
+   "explain": "El mensaje final de la entrevista es 'cuéntate la verdad': revisa tus números para saber dónde estás parado, sobre todo si estás en negativo."
+  },
+  {
+   "type": "mc",
+   "prompt": "En la metáfora del iceberg de la riqueza, ¿qué está bajo el agua?",
+   "options": [
+    "El auto y la casa que muestras",
+    "Tus valores, tu cultura, tu constancia y ser buena gente",
+    "Tu saldo en la cuenta corriente",
+    "Tus seguidores en redes sociales"
+   ],
+   "answer": 1,
+   "explain": "Lo visible (plata, estado físico) se sostiene en lo que no se ve: si cuidas el proceso, la punta del iceberg se ve robusta."
+  }
+ ],
+ "209": [
+  {
+   "type": "concept",
+   "title": "Tu arriendo es tu mejor simulador",
+   "body": "Antes de comprar, Francisco se puso dos reglas. **Uno:** que el dividendo sea parecido al arriendo que ya paga cómodo hace tiempo. **Dos:** que después de pagar el pie le queden **uno o dos años de gastos** en instrumentos líquidos, por si se queda sin pega. Ojo: el dividendo no es todo lo que pagarás como dueño.",
+   "emoji": "🏠"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la primera regla que se puso Francisco para comprar su casa?",
+   "options": [
+    "Comprar la propiedad más cara que el banco le apruebe",
+    "Que el dividendo sea parecido al arriendo que ya paga cómodo",
+    "Esperar a que bajen las tasas antes de cotizar",
+    "Pagar un dividendo del doble del arriendo, porque es inversión"
+   ],
+   "answer": 1,
+   "explain": "Si llevas tiempo pagando cierto arriendo y además ahorras, ya comprobaste que ese monto te cabe en el presupuesto. Saltar a un dividendo mucho mayor es invitar al estrés financiero."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Pablo, el dividendo es todo lo que vas a gastar al ser dueño de tu casa.",
+   "answer": false,
+   "explain": "El arriendo es el techo y el dividendo es el piso: también vienen contribuciones, arreglos y gastos que vas a querer hacer, como armar la pieza de los niños."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con su rol en la compra de una casa",
+   "pairs": [
+    [
+     "Arriendo",
+     "Techo de tu gasto en vivienda"
+    ],
+    [
+     "Dividendo",
+     "Piso de tu gasto como dueño"
+    ],
+    [
+     "Contribuciones y arreglos",
+     "Costos extra de ser propietario"
+    ],
+    [
+     "Fondo de seguridad",
+     "Pagar el dividendo si pierdes la pega"
+    ]
+   ]
+  },
+  {
+   "type": "fill",
+   "sentence": "Después de pagar el pie, Francisco quiere tener entre uno y dos ___ de gastos de vida en instrumentos líquidos.",
+   "options": [
+    "años",
+    "meses",
+    "semanas"
+   ],
+   "answer": 0,
+   "explain": "La idea es poder seguir pagando el dividendo mientras encuentras otro trabajo, para no arriesgar la propiedad en la que pusiste un tremendo pie."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué Francisco pensaba en 2 años de gastos (y no 1) si esa plata estaba en acciones?",
+   "options": [
+    "Porque las acciones siempre rinden menos que la renta fija",
+    "Porque el banco se lo exige para aprobar el crédito",
+    "Porque así puede comprar un segundo departamento",
+    "Porque las acciones pueden caer fuerte y no quieres verte obligado a vender en la caída"
+   ],
+   "answer": 3,
+   "explain": "Con renta fija bastaría un año; con acciones, que pueden caer 50% o más, necesitas más margen. Por eso Pablo sugiere derechamente bajar el riesgo de esa bolsa."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo Francisco pensó la compra de su casa",
+   "items": [
+    "Mirar cuánto paga hoy de arriendo cómodo",
+    "Fijar un dividendo objetivo parecido a ese arriendo",
+    "Calcular en el simulador el pie necesario",
+    "Sumar uno o dos años de gastos líquidos para después del pie",
+    "Decidir si espera por algo más caro o compra antes algo más modesto"
+   ],
+   "explain": "Partir por lo que ya sabes que puedes pagar, y no por lo que te presta el banco, te lleva a una decisión más tranquila y consciente."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según Pablo, ¿cuál es el camino que muchas personas siguen al buscar casa y que las deja 'al filo del peligro'?",
+   "options": [
+    "Arrendar por varios años antes de comprar",
+    "Partir de cuánto les presta el banco según su sueldo",
+    "Consultar con un planificador financiero",
+    "Ahorrar un pie grande antes de cotizar"
+   ],
+   "answer": 1,
+   "explain": "Si el banco te presta X y buscas una casa de X, terminas con la propiedad más cara posible y muy poco margen ante imprevistos."
+  },
+  {
+   "type": "tf",
+   "statement": "Pablo concluye que la IA aporta más valor cuando la usas para que te haga preguntas y te haga trabajar a ti, que cuando le pides todo el resultado con poco input.",
+   "answer": true,
+   "explain": "Con poco input la IA suele darte respuestas pobres o complacientes; en cambio, si te cuestiona (como la habilidad 'Grill Me'), afinas tus propias ideas."
+  }
+ ],
+ "210": [
+  {
+   "type": "concept",
+   "title": "El mismo dulce, otro empaque",
+   "body": "Una **stablecoin** es la representación digital de un activo real, casi siempre el **dólar** (como USDC o USDT). No es para especular: vale lo mismo que un dólar. Su gracia es que viaja como los datos por internet, igual que las cartas pasaron a ser emails. Como dicen en el episodio, son **los nuevos rieles del dinero**.",
+   "emoji": "💵"
+  },
+  {
+   "type": "mc",
+   "prompt": "Un amigo quiere comprar stablecoins 'para pegarse la pasada como con Bitcoin'. ¿Qué le responderías según Tomás?",
+   "options": [
+    "Buena idea, suben igual que Bitcoin",
+    "Es básicamente como comprar dólares: su precio sigue al dólar",
+    "Solo conviene si compras USDT",
+    "Es imposible comprarlas en Chile"
+   ],
+   "answer": 1,
+   "explain": "Una stablecoin atada al dólar replica su valor. Puedes ganar o perder por el tipo de cambio, pero no es una apuesta como Bitcoin."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada término con su significado",
+   "pairs": [
+    [
+     "SWIFT",
+     "Rieles bancarios tradicionales"
+    ],
+    [
+     "On-ramp",
+     "Pasar de pesos o dólares a stablecoins"
+    ],
+    [
+     "Off-ramp",
+     "Volver de stablecoins a moneda local"
+    ],
+    [
+     "Billetera fría",
+     "Guardar cripto fuera de brokers"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Según Tomás, el año pasado se movió con stablecoins un volumen similar al de los pagos con tarjeta de Visa y Mastercard.",
+   "answer": true,
+   "explain": "Ojo: gran parte es arbitraje; él estima que cerca de un 20% corresponde a casos de uso reales, como remesas y pagos entre empresas."
+  },
+  {
+   "type": "fill",
+   "sentence": "El negocio de Circle es recibir dólares reales, emitir USDC uno a uno, poner esos dólares a rendir y ganarse el ___.",
+   "options": [
+    "spread",
+    "arriendo",
+    "dividendo de Bitcoin",
+    "impuesto"
+   ],
+   "answer": 0,
+   "explain": "Es un modelo simple: capta dólares, los invierte en instrumentos líquidos y se queda con la diferencia. Por eso han aparecido competidores que traspasan parte de ese rendimiento al usuario."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el USDT se volvió de uso cotidiano en Bolivia?",
+   "options": [
+    "Porque el gobierno lo impuso por ley",
+    "Porque había escasez de dólares y el USDT simplificó el acceso a ellos",
+    "Porque sube más que el dólar",
+    "Porque no tiene respaldo"
+   ],
+   "answer": 1,
+   "explain": "Nació de una necesidad real, no de un impulso oficial como el de Bitcoin en El Salvador, y por eso 'prendió' más."
+  },
+  {
+   "type": "tf",
+   "statement": "Hoy las stablecoins cuentan con un seguro estatal equivalente al de los depósitos bancarios tradicionales.",
+   "answer": false,
+   "explain": "Según Tomás, hoy ese resguardo depende de seguros privados; se espera que la regulación empareje la cancha con el tiempo."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tomás tiene Bitcoin. ¿Cómo lo trata dentro de su portafolio?",
+   "options": [
+    "Tiene toda su plata en Bitcoin",
+    "Como un activo principalmente especulativo, sin pasar del 20%",
+    "Como su fondo de emergencia",
+    "Como si fuera una stablecoin"
+   ],
+   "answer": 1,
+   "explain": "Él mismo dice que tener todo en Bitcoin sería un riesgo gigantesco. Limitar su peso es clave cuando un activo es tan volátil."
+  }
+ ],
+ "211": [
+  {
+   "type": "concept",
+   "title": "Agentes que trabajan y activos que no se ven",
+   "body": "Un agente de IA pasa de 'pregunta y respuesta' a **'objetivo y solución'**. Para que funcione necesita **contexto, herramientas y habilidades**. En la otra mitad del episodio, la historia del tata de Francisco muestra que puedes ser **rico en patrimonio pero pobre en liquidez**, y que la emoción pesa mucho en las decisiones inmobiliarias.",
+   "emoji": "🔑"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los tres ingredientes de un buen agente, tal como los explica Pablo",
+   "items": [
+    "Contexto: quién eres y cómo te comunicas",
+    "Herramientas: acceso a las apps que necesita",
+    "Habilidades: procesos repetitivos bien definidos"
+   ],
+   "explain": "Es como un nuevo compañero de trabajo: sin contexto ni computador no puede hacer bien la pega, y los procesos claros le permiten repetirla."
+  },
+  {
+   "type": "tf",
+   "statement": "El bono pie es un descuento real que hace que el departamento te salga más barato.",
+   "answer": false,
+   "explain": "Como se dice en el episodio, el bono pie infla artificialmente el precio para que el banco te preste más. No es un regalo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué argumento usó Francisco para que su tata considerara vender la casa?",
+   "options": [
+    "Que la casa iba a perder todo su valor",
+    "Que la independencia hoy está en tener plata líquida para imprevistos",
+    "Que así podría comprar más departamentos",
+    "Que el mercado inmobiliario iba a repuntar"
+   ],
+   "answer": 1,
+   "explain": "A cierta edad, imprevistos como una clínica requieren liquidez. Además le ofreció un puente por si el arrendatario se iba, quitándole un miedo concreto."
+  },
+  {
+   "type": "fill",
+   "sentence": "Mucha gente compra departamentos por ___: una foto con las llaves se ve, pero el patrimonio en una app de inversiones no.",
+   "options": [
+    "estatus",
+    "rentabilidad garantizada",
+    "liquidez",
+    "impuestos"
+   ],
+   "answer": 0,
+   "explain": "La inversión inmobiliaria es muy visible, y eso empuja decisiones emocionales aunque los números no siempre acompañen."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con su significado según el episodio",
+   "pairs": [
+    [
+     "Plata de juego",
+     "5-10% para experimentar"
+    ],
+    [
+     "Parte estructural",
+     "Fondos baratos y eficientes"
+    ],
+    [
+     "Arriendo garantizado",
+     "Beneficio que se acaba y te toca vender"
+    ],
+    [
+     "MCP",
+     "Conecta tus apps con el modelo de IA"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Tener un departamento comprado con deuda significa que tu patrimonio creció en todo el valor de la propiedad.",
+   "answer": false,
+   "explain": "Una cosa son los activos y otra el patrimonio: si debes casi todo, tu patrimonio no ha cambiado mucho aunque sientas que eres más rico."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué aprendió Jack Raines, el autor que menciona Pablo, tras invertir su plata de retiro en SPACs?",
+   "options": [
+    "Que había encontrado la fórmula para ser millonario",
+    "Que perder la mitad de lo ganado se siente terrible y no quería repetirlo",
+    "Que había que doblar la apuesta siempre",
+    "Que las SPACs son la mejor inversión de largo plazo"
+   ],
+   "answer": 1,
+   "explain": "Aprender equivocándose está bien, pero con montos que no te saquen del juego."
+  }
+ ],
+ "212": [
+  {
+   "type": "concept",
+   "title": "Revisa, pregunta y reclama",
+   "body": "Francisco sentía que su devolución de impuestos no cuadraba con su APV y su crédito hipotecario. Fue al SII con argumentos y le devolvieron **el doble**. La lección: **no confíes 100% en nadie**, ni en la AFP, ni en el SII, ni en la IA. Tener conocimientos básicos te permite hacer las preguntas correctas.",
+   "emoji": "🧾"
+  },
+  {
+   "type": "tf",
+   "statement": "Según lo que Pablo encontró en la ley, si no tienes ninguna cotización obligatoria no obtienes beneficio tributario por hacer APV.",
+   "answer": true,
+   "explain": "Al principio le dijeron lo contrario desde la AFP; por eso fue a la fuente original, la ley, y al final la AFP le dio la razón."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el SII bloqueó la emisión de boletas de Pablo?",
+   "options": [
+    "Por no declarar su sueldo",
+    "Por un descalce de un peso entre dos números de su declaración",
+    "Por hacer APV en dos instituciones",
+    "Por vivir en el extranjero"
+   ],
+   "answer": 1,
+   "explain": "Un error mínimo puede tener consecuencias grandes, como no poder emitir boletas. Revisar con alguien con experiencia ayuda a resolverlo."
+  },
+  {
+   "type": "fill",
+   "sentence": "El APV rebaja tu impuesto global ___ hoy, y lo pagas después cuando retiras al jubilar.",
+   "options": [
+    "complementario",
+    "de segunda categoría",
+    "al valor agregado",
+    "territorial"
+   ],
+   "answer": 0,
+   "explain": "Si hoy estás en un tramo marginal alto (30-40%) y al jubilar estarás en uno más bajo, postergar ese impuesto te deja invertir más plata."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada instrumento o idea con su característica",
+   "pairs": [
+    [
+     "APV",
+     "Ahorras impuestos hoy, pagas al retirar"
+    ],
+    [
+     "107 de la LIR",
+     "Pagas hoy, las ganancias salen libres"
+    ],
+    [
+     "Cuenta Roth (EE.UU.)",
+     "Equivalente gringo del 107"
+    ],
+    [
+     "Valle del ahorro",
+     "Etapa con poca capacidad de ahorrar"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuándo pierde fuerza el APV frente al 107, según el episodio?",
+   "options": [
+    "Cuando al jubilar tendrás ingresos parecidos a los de hoy",
+    "Cuando tienes un sueldo alto hoy",
+    "Cuando tu meta es la jubilación",
+    "Nunca, el APV siempre gana"
+   ],
+   "answer": 0,
+   "explain": "Si hoy y al jubilar estás en el mismo tramo, te ahorras impuestos hoy pero los pagas igual después. Por eso es muy caso a caso."
+  },
+  {
+   "type": "tf",
+   "statement": "El beneficio del 107 suele ser más relevante en acciones que en depósitos a plazo o renta fija.",
+   "answer": true,
+   "explain": "En Chile las ganancias se ajustan por inflación, y en renta fija los retornos reales son bajos, así que el impuesto que te ahorras es menor. En acciones puede ser gigante."
+  },
+  {
+   "type": "mc",
+   "prompt": "Pablo abre dos chats: uno para preguntar por qué invertir en Nvidia y otro para preguntar por qué no. ¿Qué quiere mostrar?",
+   "options": [
+    "Que la IA siempre acierta",
+    "Que Nvidia es mala inversión",
+    "Que la IA tiende a reforzar lo que tú ya crees según cómo preguntes",
+    "Que no hay que usar IA para invertir"
+   ],
+   "answer": 2,
+   "explain": "Ambos chats le darán argumentos convincentes. La herramienta sirve, pero necesitas criterio propio para usarla bien."
+  }
+ ],
+ "213": [
+  {
+   "type": "concept",
+   "title": "Sistemas simples, decisiones con números",
+   "body": "Pablo ordena sus finanzas con **cuentas separadas y montos fijos**, y dedica unos 10 minutos al mes a revisarlas. Francisco muestra que vender un departamento **no es rocket science**: poner un precio con datos, calcular cuánto te rentó de verdad y seguir un checklist de documentos.",
+   "emoji": "🏠"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos que propone Francisco para ponerle precio a tu departamento",
+   "items": [
+    "Pedirle a la IA propiedades similares a la tuya",
+    "Contrastar con precios reales de transacción, no solo los publicados",
+    "Calcular la TIR de tu inversión con todo lo que pusiste",
+    "Publicar cerca del precio de mercado, en la parte alta del rango"
+   ],
+   "explain": "Los precios publicados son expectativas; con precios reales y tu TIR pasas de UF abstractas a una rentabilidad con la que te sientas cómodo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué le pasó a Francisco cuando le quedó mucha plata con destino definido en su cuenta corriente?",
+   "options": [
+    "Se olvidó de pagar sus cuentas",
+    "Aumentaron sus ganas de gastar, aunque sabía que esa plata ya tenía dueño",
+    "La invirtió toda de inmediato en su APV",
+    "Nada, su sistema lo protegió"
+   ],
+   "answer": 1,
+   "explain": "Ver un saldo más grande da una falsa sensación de abundancia. Por eso conviene mover esa plata a donde corresponde, con nombre y objetivo."
+  },
+  {
+   "type": "fill",
+   "sentence": "La idea de Warren Buffett que citan es: primero ___ y después gasta lo que sobra.",
+   "options": [
+    "ahorra",
+    "invierte en cripto",
+    "paga la tarjeta",
+    "compra una propiedad"
+   ],
+   "answer": 0,
+   "explain": "Si ahorras después de gastar, probablemente no quede nada. Invertir la ecuación hace del ahorro algo automático."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, en una propiedad de 5.000 UF, ¿cuánto puede costar pagarle ~2% a un corredor?",
+   "options": [
+    "Unos $400 mil",
+    "Unos 4 millones de pesos",
+    "Unos 40 millones de pesos",
+    "Nada, lo paga el comprador"
+   ],
+   "answer": 1,
+   "explain": "Para decidir, compara esa comisión con cuánto vale tu hora y cuánto tiempo te tomaría mostrar y negociar tú mismo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada documento con dónde se obtiene, según el episodio",
+   "pairs": [
+    [
+     "Hipotecas y gravámenes",
+     "Conservador de Bienes Raíces"
+    ],
+    [
+     "Deuda de contribuciones",
+     "Servicio de Impuestos Internos"
+    ],
+    [
+     "Certificado de número",
+     "Dirección de Obras"
+    ],
+    [
+     "Copia de la escritura",
+     "Tu banco, la notaría o el Conservador"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Si tu departamento ha rentado poco, lo racional es mantenerlo porque lo que ya perdiste tiene que recuperarse.",
+   "answer": false,
+   "explain": "Eso es costo hundido. Lo que pasó no garantiza un repunte; hay que decidir mirando hacia adelante y comparar contra otras alternativas."
+  },
+  {
+   "type": "tf",
+   "statement": "La reflexión de la Luli fue que mientras más atrasas la compra de la casa para tu familia, menos tiempo la vas a disfrutar.",
+   "answer": true,
+   "explain": "Si compras para vivir la etapa con hijos chicos, atrasarte acorta esa ventana. Es otro argumento para no esperar a la casa 'perfecta'."
+  }
+ ],
+ "214": [
+  {
+   "type": "concept",
+   "title": "Historia + números",
+   "body": "Pablo pasó de quedar sin ingresos en EE.UU. a hacer clases de acciones en LSU. En su clase, parte por el **storytelling**: invertir no son solo planillas, también es entender la historia de una empresa y ver si **calza con sus números**. Si puedes explicar en qué inviertes, es menos probable que salgas arrancando cuando el precio cae.",
+   "emoji": "📖"
+  },
+  {
+   "type": "mc",
+   "prompt": "Siguiendo a Charlie Munger, ¿qué hizo Pablo cuando no encontraba trabajo?",
+   "options": [
+    "Aceptó el primer trabajo que le ofrecieron",
+    "Invirtió el problema: se preguntó cuál sería su trabajo ideal",
+    "Volvió a Chile de inmediato",
+    "Dejó de postular y esperó a que mejorara el mercado"
+   ],
+   "answer": 1,
+   "explain": "Invertir el problema cambia la pregunta. Así llegó a un rol en Colossus, la productora de uno de sus podcasts favoritos."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada sigla con su significado",
+   "pairs": [
+    [
+     "CFA",
+     "Analista financiero certificado"
+    ],
+    [
+     "CFP",
+     "Planificador financiero certificado"
+    ],
+    [
+     "DCF",
+     "Valorización por flujo de caja descontado"
+    ],
+    [
+     "EBITDA ajustado",
+     "Métrica donde se puede meter cualquier cosa"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino de Pablo tal como lo cuenta",
+   "items": [
+    "Renuncia a su trabajo en noviembre de 2022",
+    "Entra a Colossus con un rol part-time mal pagado",
+    "Pasa a contractor y luego se termina el acuerdo",
+    "Descubre la planificación financiera y se certifica como CFP",
+    "Conoce a un profesor en una conferencia y termina enseñando en LSU"
+   ],
+   "explain": "La historia funciona porque tiene causalidad: cada caída lo empujó al siguiente paso."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según Matthew Dicks, una buena historia necesita que algo esté en juego, suspenso, humor y ___.",
+   "options": [
+    "sorpresa",
+    "datos",
+    "un final feliz",
+    "muchos personajes"
+   ],
+   "answer": 0,
+   "explain": "Esos cuatro pilares, más la causalidad ('pero', 'por eso'), distinguen una historia de una simple narración de hechos."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se dice que hoy es más fácil que en tiempos de Benjamin Graham encontrar empresas subvaluadas.",
+   "answer": false,
+   "explain": "Antes había grandes asimetrías de información; hoy hay 'tiburones' con más datos, analistas y tecnología, así que ese juego es muy difícil para un inversionista común."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué ejemplo usó Pablo para mostrar una narrativa que no cuadraba con los números?",
+   "options": [
+    "Apple en 1997",
+    "El iPhone en 2007",
+    "SpaceX y su IPO, con utilidad negativa",
+    "Nvidia"
+   ],
+   "answer": 2,
+   "explain": "La narrativa de SpaceX es enorme, pero la utilidad era negativa. Apple, en cambio, fue ejemplo de historia que después se mezcló bien con los números."
+  },
+  {
+   "type": "tf",
+   "statement": "Pablo permite usar IA en su curso, pero exige que los alumnos puedan defender cada texto y número que presenten.",
+   "answer": true,
+   "explain": "La idea es que la IA ayude a pensar mejor y a hacer lo aburrido, sin reemplazar el propio razonamiento."
+  }
+ ],
+ "215": [
+  {
+   "type": "concept",
+   "title": "La IA sabe las reglas, no tu vida",
+   "body": "Un estudio simuló la vida financiera de personas que seguían consejos de modelos de IA. Resultado: la IA da muy buenos consejos base (**ahorra, invierte a largo plazo, busca productos baratos**), pero falla en situaciones específicas y depende mucho de **cómo preguntes**. La recomendación del episodio: úsala harto, pero revisa lo que te entrega.",
+   "emoji": "🤖"
+  },
+  {
+   "type": "mc",
+   "prompt": "En el estudio, ¿qué le recomendaba la IA a alguien que se quedaba sin trabajo?",
+   "options": [
+    "Usar su fondo de emergencia para cubrir el periodo",
+    "Recortar sus gastos en un 80%",
+    "Pedir un crédito de consumo de inmediato",
+    "Vender todas sus inversiones"
+   ],
+   "answer": 1,
+   "explain": "Matemáticamente recortar puede cuadrar, pero humanamente no tiene sentido si armaste un fondo de emergencia justo para ese momento."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el estudio, la IA solía mencionar la importancia de la liquidez mucho más seguido de lo que la mencionaban los propios participantes.",
+   "answer": true,
+   "explain": "Solo cerca del 6% de los participantes hablaba de liquidez, pero la IA la destacaba en el 83% de los casos. Es un buen ejemplo de consejo base útil."
+  },
+  {
+   "type": "fill",
+   "sentence": "Al planificar con IA, Pablo notó que dejó constante el gasto de un auto cada 5 años, sin ajustarlo por ___.",
+   "options": [
+    "inflación",
+    "impuestos",
+    "comisiones",
+    "el tipo de cambio"
+   ],
+   "answer": 0,
+   "explain": "Un gasto futuro sin ajustar por inflación queda subestimado; alguien con conocimiento específico lo detecta, alguien sin él probablemente no."
+  },
+  {
+   "type": "concept",
+   "title": "Ojo con las fuentes",
+   "body": "La IA se alimenta de blogs, foros y sitios bien posicionados. En el episodio, un modelo tomó una comisión mal publicada en un blog y concluyó que el fondo más barato era el más caro. Moraleja: **confía, pero verifica** en la fuente oficial.",
+   "emoji": "🔍"
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu plan necesita un 6-7% anual y las acciones rentaron 30%. ¿Qué haría un buen acompañamiento que la IA suele no hacer por defecto?",
+   "options": [
+    "Dejar correr todo, porque va ganando",
+    "Mover todo a acciones para aprovechar la racha",
+    "Rebalancear: sacar un poco de acciones y llevarlo a otras partes del portafolio",
+    "Cambiarse a cripto"
+   ],
+   "answer": 2,
+   "explain": "No necesitas el 30%, necesitas el 6-7%. Rebalancear devuelve el riesgo a lo que tu plan pide; la IA suele decirte dónde va tu próxima luca, no qué hacer con lo que ya tienes."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con su explicación",
+   "pairs": [
+    [
+     "Buen prompt",
+     "Mejor respuesta de la IA"
+    ],
+    [
+     "Conocimiento específico",
+     "Te permite detectar errores"
+    ],
+    [
+     "Fondo de emergencia",
+     "Colchón para quedarte sin pega"
+    ],
+    [
+     "Antifrágil",
+     "Sale mejor parado de lo inesperado"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "En el estudio, la IA daba las mismas sugerencias sin importar quién preguntaba.",
+   "answer": false,
+   "explain": "Las recomendaciones cambiaban según el perfil: los hombres preguntaban más por crecimiento y cripto, terminaban invirtiendo más agresivo y con un patrimonio 5-10% mayor. La IA también tiene sesgos."
+  }
+ ]
+}
