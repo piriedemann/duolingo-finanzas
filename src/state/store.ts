@@ -157,8 +157,13 @@ export function resetState() {
 
 function subscribe(l: () => void) {
   listeners.add(l)
-  return () => listeners.delete(l)
+  return () => {
+    listeners.delete(l)
+  }
 }
+
+/** Suscribirse a cambios del estado fuera de React (p. ej. sincronizar la liga) */
+export const subscribeStore = subscribe
 
 export function useStore<T>(sel: (s: State) => T): T {
   return useSyncExternalStore(subscribe, () => sel(state))

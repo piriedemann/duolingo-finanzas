@@ -1,0 +1,37 @@
+-- Animalingo · liga semanal con jugadores reales
+-- Ejecutar en Supabase → SQL Editor. Además, habilitar "Anonymous sign-ins" en
+-- Authentication → Sign In / Providers.
+
+create table if not exists public.players (
+  id          uuid primary key references auth.users (id) on delete cascade,
+  name        text not null default 'Anónimo' check (char_length(name) between 1 and 20),
+  xp          integer not null default 0 check (xp >= 0),
+  week_start  date not null,
+  week_xp     integer not null default 0 check (week_xp >= 0),
+  streak      integer not null default 0 check (streak >= 0),
+  updated_at  timestamptz not null default now()
+);
+
+create index if not exists players_week_idx on public.players (week_start, week_xp desc);
+
+alter table public.players enable row level security;
+
+-- Cualquiera (incluso sin sesión) puede leer la liga.
+drop policy if exists "players_read" on public.players;
+create policy "players_read" on public.players
+  for select using (true);
+
+-- Cada jugador (sesión anónima o con login) solo puede crear y editar su propia fila.
+drop policy if exists "players_insert_own" on public.players;
+create policy "players_insert_own" on public.players
+  for insert to authenticated with check (auth.uid() = id);
+
+drop policy if exists "players_update_own" on public.players;
+create policy "players_update_own" on public.players
+  for update to authenticated using (auth.uid() = id) with check (auth.uid() = id);
+
+-- Mantenimiento (opcional): cada navegador nuevo crea un usuario anónimo. Para no acumular
+-- filas abandonadas, ejecutar de vez en cuando (o programar con pg_cron):
+--   delete from auth.users
+--   where is_anonymous and last_sign_in_at < now() - interval '60 days';
+-- La fila en public.players se borra sola (on delete cascade).

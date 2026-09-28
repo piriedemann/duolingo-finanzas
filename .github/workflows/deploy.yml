@@ -23,6 +23,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          # Repo → Settings → Secrets and variables → Actions. Sin ellas, la liga queda en modo local.
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       # publica dist/ en la rama gh-pages (GitHub Pages sirve esa rama)
       - uses: peaceiris/actions-gh-pages@v4
         with:

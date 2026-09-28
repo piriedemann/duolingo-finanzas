@@ -5,7 +5,8 @@ import { Learn } from './pages/Learn'
 import { LessonPage, PracticePage, QuizPage } from './pages/LessonPage'
 import { EpisodeDetail, Episodes } from './pages/Episodes'
 import { Tools } from './pages/Tools'
-import { League, useLeague } from './pages/League'
+import { League } from './pages/League'
+import { useLeague } from './lib/leaderboard'
 import { Profile } from './pages/Profile'
 import { Onboarding } from './pages/Onboarding'
 import { Quests } from './components/Quests'
@@ -200,20 +201,22 @@ function PracticeCard() {
 }
 
 function LeagueMini() {
-  const list = useLeague()
+  const { list, status } = useLeague()
   const pos = list.findIndex((x) => x.me)
   const around = list.slice(Math.max(0, pos - 1), pos + 2)
   return (
     <a className="card league-mini" href="#/liga">
       <div className="card-label">Liga semanal · Bronce</div>
       {around.map((x) => (
-        <div key={x.name} className={'league-row small' + (x.me ? ' me' : '')}>
+        <div key={x.id} className={'league-row small' + (x.me ? ' me' : '')}>
           <span className="rank">{list.indexOf(x) + 1}</span>
           <span className="avatar">{x.name[0]}</span>
           <span className="grow">{x.name}</span>
-          <span className="muted">{x.xp} XP</span>
+          <span className="muted">{x.weekXp} XP</span>
         </div>
       ))}
+      {status === 'ok' && list.length === 1 && <div className="muted small">Aún nadie más esta semana. Invita a tu equipo.</div>}
+      {status === 'local' && <div className="muted small">Liga en modo local.</div>}
     </a>
   )
 }
