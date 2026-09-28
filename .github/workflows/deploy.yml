@@ -2,7 +2,7 @@ name: Deploy a GitHub Pages
 
 on:
   push:
-    branches: [main, claude/wizardly-bohr-pj0ief]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
