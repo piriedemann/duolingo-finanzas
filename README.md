@@ -54,6 +54,22 @@ en `players` y su lugar en la liga. Falta solo guardar el estado completo de `sr
 > Lo que se publica es el nombre elegido en el onboarding y el XP; cualquiera que abra la liga lo ve. Al ser
 > un prototipo sin validación en servidor, un jugador con conocimientos técnicos podría inflar su XP.
 
+## Talleres: módulo especial (`#/taller`)
+
+Para talleres en vivo hay un link separado, con su propia entrada por apodo y sin el resto de la app:
+`https://piriedemann.github.io/duolingo-finanzas/#/taller`. Hoy está configurado para el taller con
+Fundación Educación 2020 (1 de octubre 2026): contenido y fechas en `src/data/workshop/e2020.ts`.
+
+- Cada participante entra con un apodo (queda en la misma sesión anónima de Supabase) y responde los módulos
+  cuando el facilitador lo indica. Los enunciados no nombran el concepto: se revela en la última pregunta.
+- **Panel del facilitador** en `#/taller/panel`: cuántos entraron, cuántos terminaron cada módulo y el % de
+  acierto por pregunta (solo primer intento), actualizado cada 5 s. Las preguntas con menos de 60% se marcan.
+  El link no tiene clave: no lo compartas con el grupo.
+- **Desafío de una semana**: ranking de los participantes del taller por XP ganado entre las fechas del desafío
+  (columna `challenge_xp`). Cuenta todo lo que hagan en Animalingo, no solo el taller.
+- Requiere volver a ejecutar `supabase/schema.sql` (agrega `cohort`, `challenge_xp` y la tabla
+  `workshop_answers`; es idempotente). Sin eso, la app base sigue funcionando pero el panel y el ranking no.
+
 ## Transcripts → lecciones
 
 `scripts/generate-from-transcripts.ts` lee `transcripts/index.json` + `transcripts/*.txt` y usa la API de Claude para generar

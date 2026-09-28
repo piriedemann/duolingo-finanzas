@@ -35,3 +35,34 @@ create policy "players_update_own" on public.players
 --   delete from auth.users
 --   where is_anonymous and last_sign_in_at < now() - interval '60 days';
 -- La fila en public.players se borra sola (on delete cascade).
+
+-- ---------- Talleres (módulo especial, p. ej. Educación 2020) ----------
+-- Idempotente: se puede volver a ejecutar el archivo completo sobre un proyecto existente.
+
+alter table public.players add column if not exists cohort text;
+alter table public.players add column if not exists challenge_xp integer not null default 0;
+create index if not exists players_cohort_idx on public.players (cohort, challenge_xp desc);
+
+-- Primer intento de cada pregunta de cada participante; el panel del facilitador lo agrega en vivo.
+create table if not exists public.workshop_answers (
+  id          bigint generated always as identity primary key,
+  user_id     uuid not null references auth.users (id) on delete cascade,
+  workshop    text not null,
+  module      text not null,
+  question    integer not null,
+  correct     boolean not null,
+  created_at  timestamptz not null default now(),
+  unique (user_id, workshop, module, question)
+);
+
+create index if not exists workshop_answers_ws_idx on public.workshop_answers (workshop, module, question);
+
+alter table public.workshop_answers enable row level security;
+
+drop policy if exists "workshop_answers_read" on public.workshop_answers;
+create policy "workshop_answers_read" on public.workshop_answers
+  for select using (true);
+
+drop policy if exists "workshop_answers_insert_own" on public.workshop_answers;
+create policy "workshop_answers_insert_own" on public.workshop_answers
+  for insert to authenticated with check (auth.uid() = user_id);

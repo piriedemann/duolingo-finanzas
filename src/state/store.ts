@@ -43,6 +43,10 @@ export interface State {
   perfectToday: number
   chests: string[]
   quizzes: Record<string, number>
+  /** grupo al que pertenece (p. ej. taller 'e2020'); se publica en la liga */
+  cohort: string | null
+  /** módulos de taller completados: id → mejor precisión */
+  workshop: Record<string, number>
 }
 
 export const today = (d = new Date()) => {
@@ -81,6 +85,8 @@ const initial = (): State => ({
   perfectToday: 0,
   chests: [],
   quizzes: {},
+  cohort: null,
+  workshop: {},
 })
 
 function load(): State {
@@ -322,6 +328,31 @@ export function completeQuiz(id: string, accuracy: number, xp: number) {
       lessonsToday: next.lessonsToday + 1,
       perfectToday: next.perfectToday + (accuracy === 1 ? 1 : 0),
       quizzes: { ...next.quizzes, [id]: Math.max(s.quizzes[id] ?? 0, accuracy) },
+    }
+  })
+}
+
+/* ---------- taller ---------- */
+
+/** Entrar a un taller con apodo: deja la app lista sin pasar por el onboarding normal */
+export function joinWorkshop(name: string, cohort: string) {
+  setState((s) => ({
+    ...s,
+    onboarded: true,
+    name: name.trim(),
+    goal: s.goal || 'Taller de educación financiera',
+    cohort,
+  }))
+}
+
+export function completeWorkshopModule(id: string, accuracy: number, xp: number) {
+  setState((s) => {
+    const next = addXp(s, xp)
+    return {
+      ...next,
+      lessonsToday: next.lessonsToday + 1,
+      perfectToday: next.perfectToday + (accuracy === 1 ? 1 : 0),
+      workshop: { ...next.workshop, [id]: Math.max(next.workshop[id] ?? 0, accuracy) },
     }
   })
 }

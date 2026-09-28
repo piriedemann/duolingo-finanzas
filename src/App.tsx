@@ -9,6 +9,7 @@ import { League } from './pages/League'
 import { useLeague } from './lib/leaderboard'
 import { Profile } from './pages/Profile'
 import { Onboarding } from './pages/Onboarding'
+import { Workshop } from './pages/Workshop'
 import { Quests } from './components/Quests'
 import { Calculator, ChevronRight, Coins, Flame, Headphones, Heart, Home, RotateCcw, Trophy, User, Zap } from './components/Icons'
 import { sfx } from './lib/sound'
@@ -38,6 +39,8 @@ export default function App() {
   const onboarded = useStore((s) => s.onboarded)
   const [page, arg] = route
 
+  // módulo especial de talleres: link separado, con su propia entrada por apodo
+  if (page === 'taller') return <Workshop sub={arg} />
   if (!onboarded) return <Onboarding />
   if (page === 'leccion' && arg) return <LessonPage id={arg} key={arg} />
   if (page === 'practica') return <PracticePage />

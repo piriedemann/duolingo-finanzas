@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { supabase } from './supabase'
 import { getState, subscribeStore, today } from '../state/store'
+import { WORKSHOP } from '../data/workshop/e2020'
 
 /**
  * Liga semanal con gente real.
@@ -15,7 +16,16 @@ export interface Player {
   name: string
   weekXp: number
   xp: number
+  /** XP ganado durante el desafío del taller (si pertenece a uno) */
+  challengeXp: number
   me: boolean
+}
+
+/** XP sumado entre dos fechas inclusivas (YYYY-MM-DD) */
+export function xpBetween(xpByDay: Record<string, number>, from: string, to: string) {
+  let sum = 0
+  for (const [day, xp] of Object.entries(xpByDay)) if (day >= from && day <= to) sum += xp
+  return sum
 }
 
 export type LeagueStatus = 'local' | 'loading' | 'ok' | 'error'
@@ -90,6 +100,8 @@ function myRow() {
     week_start: weekKey(),
     week_xp: weeklyXp(s.xpByDay),
     streak: s.streak,
+    cohort: s.cohort,
+    challenge_xp: s.cohort ? xpBetween(s.xpByDay, WORKSHOP.challengeStart, WORKSHOP.challengeEnd) : 0,
   }
 }
 
@@ -100,7 +112,13 @@ async function pushMe() {
   const row = myRow()
   const key = JSON.stringify(row)
   if (key === lastPushed) return
-  const { error } = await supabase.from('players').upsert({ id, ...row, updated_at: new Date().toISOString() })
+  let { error } = await supabase.from('players').upsert({ id, ...row, updated_at: new Date().toISOString() })
+  if (error && /column/i.test(error.message)) {
+    // esquema sin las columnas del taller (falta correr supabase/schema.sql): publicar solo lo básico
+    const { cohort, challenge_xp, ...legacy } = row
+    void cohort, challenge_xp
+    ;({ error } = await supabase.from('players').upsert({ id, ...legacy, updated_at: new Date().toISOString() }))
+  }
   if (error) {
     console.warn('[liga] no se pudo publicar el XP', error.message)
     return
@@ -128,43 +146,55 @@ export function startLeagueSync() {
 
 function me(): Player {
   const s = getState()
-  return { id: userId ?? 'me', name: s.name.trim() || 'Tú', weekXp: weeklyXp(s.xpByDay), xp: s.xp, me: true }
+  return {
+    id: userId ?? 'me',
+    name: s.name.trim() || 'Tú',
+    weekXp: weeklyXp(s.xpByDay),
+    xp: s.xp,
+    challengeXp: xpBetween(s.xpByDay, WORKSHOP.challengeStart, WORKSHOP.challengeEnd),
+    me: true,
+  }
 }
 
-export async function fetchLeague(): Promise<Player[]> {
+/**
+ * Liga semanal (sin cohort) o ranking del desafío de un taller (con cohort: solo esos
+ * jugadores, ordenados por el XP ganado durante las fechas del desafío).
+ */
+export async function fetchLeague(cohort?: string): Promise<Player[]> {
   if (!supabase) return [me()]
   const id = await ensureSession()
-  const { data, error } = await supabase
-    .from('players')
-    .select('id,name,xp,week_xp')
-    .eq('week_start', weekKey())
-    .order('week_xp', { ascending: false })
-    .limit(MAX_ROWS)
+  const base = supabase.from('players').select('id,name,xp,week_xp,challenge_xp')
+  const q = cohort
+    ? base.eq('cohort', cohort).order('challenge_xp', { ascending: false })
+    : base.eq('week_start', weekKey()).order('week_xp', { ascending: false })
+  const { data, error } = await q.limit(MAX_ROWS)
   if (error) throw error
   const mine = me()
   const list: Player[] = (data ?? []).map((r) =>
-    r.id === id ? mine : { id: r.id, name: r.name, weekXp: r.week_xp, xp: r.xp, me: false },
+    r.id === id ? mine : { id: r.id, name: r.name, weekXp: r.week_xp, xp: r.xp, challengeXp: r.challenge_xp ?? 0, me: false },
   )
   // mi fila local siempre es la más fresca; si aún no está publicada, la agregamos igual
-  if (!list.some((p) => p.me)) list.push(mine)
-  return list.sort(byXp)
+  const inCohort = !cohort || getState().cohort === cohort
+  if (inCohort && !list.some((p) => p.me)) list.push(mine)
+  return list.sort(cohort ? byChallenge : byXp)
 }
 
 const byXp = (a: Player, b: Player) => b.weekXp - a.weekXp || a.name.localeCompare(b.name)
+const byChallenge = (a: Player, b: Player) => b.challengeXp - a.challengeXp || a.name.localeCompare(b.name)
 
-export function useLeague() {
+export function useLeague(cohort?: string) {
   const [list, setList] = useState<Player[]>(() => [me()])
   const [status, setStatus] = useState<LeagueStatus>(supabase ? 'loading' : 'local')
 
   const refresh = useCallback(async () => {
     try {
-      setList(await fetchLeague())
+      setList(await fetchLeague(cohort))
       setStatus('ok')
     } catch (e) {
       console.warn('[liga] no se pudo cargar', e)
       setStatus((s) => (s === 'ok' ? s : 'error'))
     }
-  }, [])
+  }, [cohort])
 
   useEffect(() => {
     // modo local: solo mi fila, actualizada con el estado
@@ -174,13 +204,13 @@ export function useLeague() {
     const onSync = () => void refresh()
     syncListeners.add(onSync)
     // mientras llega la sincronización, reflejar mi XP local al instante
-    const unsubStore = subscribeStore(() => setList((l) => l.map((p) => (p.me ? me() : p)).sort(byXp)))
+    const unsubStore = subscribeStore(() => setList((l) => l.map((p) => (p.me ? me() : p)).sort(cohort ? byChallenge : byXp)))
     return () => {
       clearInterval(t)
       syncListeners.delete(onSync)
       unsubStore()
     }
-  }, [refresh])
+  }, [refresh, cohort])
 
   return { list, status, refresh }
 }

@@ -27,14 +27,20 @@ export function LessonPlayer({
   items,
   color,
   practice = false,
+  label,
   onExit,
   onFinish,
+  onAnswer,
 }: {
   items: QueueItem[]
   color: string
   practice?: boolean
+  /** texto en la esquina superior derecha cuando no hay vidas (modo práctica) */
+  label?: string
   onExit: () => void
   onFinish: (r: LessonResult) => void
+  /** se llama una vez por ejercicio con el resultado del primer intento */
+  onAnswer?: (item: QueueItem, correct: boolean) => void
 }) {
   const hearts = useStore((s) => s.hearts)
   const lucas = useStore((s) => s.lucas)
@@ -95,9 +101,12 @@ export function LessonPlayer({
 
   const check = () => {
     if (!canCheck(ex, answer)) return
+    const first = !firstTry.current.has(key)
     if (grade(ex, answer)) {
+      if (first) onAnswer?.(cur, true)
       markCorrect()
     } else {
+      if (first) onAnswer?.(cur, false)
       setStatus('wrong')
       setCombo(0)
       sfx.wrong()
@@ -143,7 +152,7 @@ export function LessonPlayer({
           {combo >= 3 && <span className="combo">{combo} seguidas</span>}
         </div>
         <div className="hearts" title="Vidas">
-          {practice ? <span className="muted small">Repaso</span> : <><Heart size={18} /> {hearts}</>}
+          {practice ? <span className="muted small">{label ?? 'Repaso'}</span> : <><Heart size={18} /> {hearts}</>}
         </div>
       </header>
 
@@ -159,6 +168,7 @@ export function LessonPlayer({
           seed={pos * 31 + cur.exIndex}
           onMatchDone={(errors) => {
             if (errors >= 2) mistakes.current.set(key, cur)
+            onAnswer?.(cur, errors < 2)
             markCorrect()
           }}
         />
@@ -178,6 +188,7 @@ export function LessonPlayer({
                 {isGradable(ex) && (
                   <button className="btn ghost hide-mobile" onClick={() => {
                     // saltar cuenta como error, sin perder vida
+                    if (!firstTry.current.has(key)) onAnswer?.(cur, false)
                     mistakes.current.set(key, cur)
                     next()
                   }}>

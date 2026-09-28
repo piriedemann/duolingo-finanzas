@@ -120,7 +120,7 @@ export function PracticePage() {
   )
 }
 
-function Results({
+export function Results({
   result,
   color,
   onContinue,
