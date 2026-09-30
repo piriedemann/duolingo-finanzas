@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
-import type { Exercise, MatchPairs, NumberEstimate, OrderSteps } from '../data/types'
-import { fmtNum, richText, shuffle } from '../lib/util'
+import type { Exercise, MatchPairs, OrderSteps } from '../data/types'
+import { richText, shuffle } from '../lib/util'
 import { sfx } from '../lib/sound'
 
 export type Answer = number | boolean | string[] | null
@@ -10,18 +10,12 @@ export function isGradable(ex: Exercise) {
 }
 
 export function initialAnswer(ex: Exercise): Answer {
-  if (ex.type === 'number') return snap(ex, (ex.min + ex.max) / 2)
   if (ex.type === 'order') return []
   return null
 }
 
-function snap(ex: NumberEstimate, v: number) {
-  return Math.round((v - ex.min) / ex.step) * ex.step + ex.min
-}
-
 export function canCheck(ex: Exercise, a: Answer) {
   if (ex.type === 'order') return Array.isArray(a) && a.length === ex.items.length
-  if (ex.type === 'number') return typeof a === 'number'
   return a !== null
 }
 
@@ -32,8 +26,6 @@ export function grade(ex: Exercise, a: Answer): boolean {
       return a === ex.answer
     case 'tf':
       return a === ex.answer
-    case 'number':
-      return typeof a === 'number' && Math.abs(a - ex.answer) <= ex.tolerance
     case 'order':
       return Array.isArray(a) && a.every((x, i) => x === ex.items[i])
     default:
@@ -49,8 +41,6 @@ export function correctText(ex: Exercise): string {
       return ex.sentence.replace('___', ex.options[ex.answer])
     case 'tf':
       return ex.answer ? 'Verdadero' : 'Falso'
-    case 'number':
-      return fmtNum(ex.answer, ex.unit)
     case 'order':
       return ex.items.map((x, i) => `${i + 1}. ${x}`).join('  ')
     default:
@@ -129,8 +119,6 @@ export function ExerciseView(p: Props) {
           </div>
         </>
       )
-    case 'number':
-      return <NumberView {...p} ex={ex} />
     case 'order':
       return <OrderView {...p} ex={ex} />
     case 'match':
@@ -160,40 +148,6 @@ function Options({ options, answer, setAnswer, locked, chips }: Props & { option
         </button>
       ))}
     </div>
-  )
-}
-
-function NumberView({ ex, answer, setAnswer, locked }: Props & { ex: NumberEstimate }) {
-  const v = typeof answer === 'number' ? answer : ex.min
-  return (
-    <>
-      <Prompt text={ex.prompt} />
-      <div className="number-box">
-        <div className="number-value">{fmtNum(v, ex.unit)}</div>
-        <input
-          type="range"
-          min={ex.min}
-          max={ex.max}
-          step={ex.step}
-          value={v}
-          disabled={locked}
-          onChange={(e) => setAnswer(Number(e.target.value))}
-        />
-        <div className="number-scale">
-          <span>{fmtNum(ex.min, ex.unit)}</span>
-          <span>{fmtNum(ex.max, ex.unit)}</span>
-        </div>
-        <div className="number-steps">
-          <button className="btn small ghost" disabled={locked || v <= ex.min} onClick={() => setAnswer(Math.max(ex.min, v - ex.step))}>
-            −
-          </button>
-          <span className="muted">Margen aceptado ±{fmtNum(ex.tolerance, ex.unit)}</span>
-          <button className="btn small ghost" disabled={locked || v >= ex.max} onClick={() => setAnswer(Math.min(ex.max, v + ex.step))}>
-            +
-          </button>
-        </div>
-      </div>
-    </>
   )
 }
 
@@ -238,68 +192,74 @@ function OrderView({ ex, answer, setAnswer, locked, seed }: Props & { ex: OrderS
 }
 
 function MatchView({ ex, seed, onMatchDone }: Props & { ex: MatchPairs }) {
-  const left = useMemo(() => shuffle(ex.pairs.map((p) => p[0]), seed), [ex, seed])
-  const right = useMemo(() => shuffle(ex.pairs.map((p) => p[1]), seed + 7), [ex, seed])
-  const [selL, setSelL] = useState<string | null>(null)
-  const [selR, setSelR] = useState<string | null>(null)
-  const [done, setDone] = useState<string[]>([])
-  const [bad, setBad] = useState<string[]>([])
+  // Se trabaja con índices, no con textos: dos tarjetas pueden tener el mismo texto
+  // (ej. dos gastos que son "Necesidad (50%)") y deben resolverse por separado.
+  const left = useMemo(() => shuffle(ex.pairs.map((_, i) => i), seed), [ex, seed])
+  const right = useMemo(() => shuffle(ex.pairs.map((_, i) => i), seed + 7), [ex, seed])
+  const [selL, setSelL] = useState<number | null>(null)
+  const [selR, setSelR] = useState<number | null>(null)
+  const [doneL, setDoneL] = useState<number[]>([])
+  const [doneR, setDoneR] = useState<number[]>([])
+  const [bad, setBad] = useState<{ l: number; r: number } | null>(null)
   const [errors, setErrors] = useState(0)
 
-  const attempt = (l: string | null, r: string | null) => {
-    if (!l || !r) return
-    const ok = ex.pairs.some((p) => p[0] === l && p[1] === r)
+  const attempt = (l: number | null, r: number | null) => {
+    if (l === null || r === null) return
+    const [lText] = ex.pairs[l]
+    const rText = ex.pairs[r][1]
+    const ok = ex.pairs.some((p) => p[0] === lText && p[1] === rText)
     if (ok) {
       sfx.correct()
-      const nd = [...done, l, r]
-      setDone(nd)
-      if (nd.length === ex.pairs.length * 2) setTimeout(() => onMatchDone?.(errors), 350)
+      const nl = [...doneL, l]
+      setDoneL(nl)
+      setDoneR([...doneR, r])
+      if (nl.length === ex.pairs.length) setTimeout(() => onMatchDone?.(errors), 350)
     } else {
       sfx.wrong()
       setErrors((e) => e + 1)
-      setBad([l, r])
-      setTimeout(() => setBad([]), 500)
+      setBad({ l, r })
+      setTimeout(() => setBad(null), 500)
     }
     setSelL(null)
     setSelR(null)
   }
 
-  const cls = (x: string, sel: string | null) =>
-    'match-item' + (done.includes(x) ? ' done' : '') + (sel === x ? ' selected' : '') + (bad.includes(x) ? ' bad' : '')
+  const cls = (isDone: boolean, isSel: boolean, isBad: boolean) =>
+    'match-item' + (isDone ? ' done' : '') + (isSel ? ' selected' : '') + (isBad ? ' bad' : '')
 
   return (
     <>
       <Prompt text={ex.prompt} />
       <div className="match-grid">
         <div className="match-col">
-          {left.map((l) => (
+          {left.map((i) => (
             <button
-              key={l}
-              className={cls(l, selL)}
-              disabled={done.includes(l)}
+              key={i}
+              className={cls(doneL.includes(i), selL === i, bad?.l === i)}
+              disabled={doneL.includes(i)}
               onClick={() => {
                 sfx.tap()
-                setSelL(l)
-                attempt(l, selR)
+                setSelL(i)
+                attempt(i, selR)
               }}
             >
-              {l}
+              {ex.pairs[i][0]}
             </button>
           ))}
         </div>
         <div className="match-col">
-          {right.map((r) => (
+          {right.map((i) => (
             <button
-              key={r}
-              className={cls(r, selR)}
-              disabled={done.includes(r)}
+              key={i}
+              className={cls(doneR.includes(i), selR === i, bad?.r === i)}
+              disabled={doneR.includes(i)}
               onClick={() => {
                 sfx.tap()
-                setSelR(r)
-                attempt(selL, r)
+                setSelR(i)
+                attempt(selL, i)
               }}
             >
-              {r}
+              {ex.pairs[i][1]}
             </button>
           ))}
         </div>

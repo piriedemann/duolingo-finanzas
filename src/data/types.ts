@@ -61,19 +61,6 @@ export interface OrderSteps {
   explain: string
 }
 
-/** Estimar un número con un slider */
-export interface NumberEstimate {
-  type: 'number'
-  prompt: string
-  min: number
-  max: number
-  step: number
-  answer: number
-  tolerance: number // diferencia absoluta aceptada
-  unit?: string // '$', '%', 'años', etc.
-  explain: string
-}
-
 export type Exercise =
   | ConceptCard
   | MultipleChoice
@@ -81,7 +68,6 @@ export type Exercise =
   | FillBlank
   | MatchPairs
   | OrderSteps
-  | NumberEstimate
 
 export interface Lesson {
   id: string // único global, ej. 'hormiga-1'

@@ -50,17 +50,6 @@ export const MODULES: WorkshopModule[] = [
         explain: 'Serán los mismos $100.000, pero comprarán menos porque los precios habrán subido. La plata quieta pierde valor.',
       },
       {
-        type: 'number',
-        prompt: 'Si los precios suben un 4% al año, ¿cuánto costará dentro de un año algo que hoy vale $10.000?',
-        min: 9000,
-        max: 12000,
-        step: 100,
-        answer: 10400,
-        tolerance: 100,
-        unit: '$',
-        explain: '$10.000 más el 4% ($400) = $10.400. Parece poco, pero se repite todos los años y se acumula.',
-      },
-      {
         type: 'mc',
         prompt: 'Recibes la segunda cuota del aporte en octubre y parte la vas a usar en marzo. ¿Qué opción protege mejor esa plata mientras tanto?',
         options: [
@@ -148,17 +137,6 @@ export const MODULES: WorkshopModule[] = [
         options: ['Casilla 11', 'Casilla 32', 'Casilla 64', 'Nunca: faltan casillas'],
         answer: 0,
         explain: '1, 2, 4, 8, 16… en la casilla 11 ya son 1.024 millones. Nuestro cerebro no está hecho para imaginar ese crecimiento.',
-      },
-      {
-        type: 'number',
-        prompt: 'Guardas una moneda de cada 10 que te llegan. Si en un mes te entran $300.000, ¿cuánto guardas ese mes?',
-        min: 0,
-        max: 100000,
-        step: 5000,
-        answer: 30000,
-        tolerance: 0,
-        unit: '$',
-        explain: 'Una de cada diez: $30.000. Poco, pero siempre. Ese hábito es el que se multiplica con el tiempo.',
       },
       {
         type: 'tf',
