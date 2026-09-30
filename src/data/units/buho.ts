@@ -61,17 +61,6 @@ export const unit: Unit = {
           body: 'Cuando te suben el sueldo y tus gastos suben igual (mejor depto, más delivery, auto nuevo), eso es **inflación del estilo de vida**. No es malo darse gustos, pero si cada aumento se lo come el gasto, tu ahorro nunca crece.',
         },
         {
-          type: 'number',
-          prompt: 'Cami ganaba $900.000 y le suben a $1.100.000. Decide ahorrar la MITAD del aumento. ¿Cuánto ahorra extra al año?',
-          min: 0,
-          max: 2400000,
-          step: 50000,
-          answer: 1200000,
-          tolerance: 100000,
-          unit: '$',
-          explain: 'El aumento es $200.000; la mitad son $100.000 al mes, y por 12 meses suma $1.200.000. Disfruta una parte, ahorra otra.',
-        },
-        {
           type: 'match',
           prompt: 'Une cada situación con lo que realmente es:',
           pairs: [
@@ -211,17 +200,6 @@ export const unit: Unit = {
           statement: 'Tener un fondo de emergencia te da más libertad para tomar decisiones laborales.',
           answer: true,
           explain: 'Con un colchón puedes negociar, renunciar a un mal ambiente o buscar algo mejor sin desesperarte.',
-        },
-        {
-          type: 'number',
-          prompt: 'Pía gasta $800.000 al mes y tiene $4.000.000 ahorrados. ¿Cuántos meses de libertad le compra ese ahorro si dejara de tener ingresos?',
-          min: 0,
-          max: 12,
-          step: 1,
-          answer: 5,
-          tolerance: 0,
-          unit: 'meses',
-          explain: '$4.000.000 / $800.000 = 5 meses. Pensar el ahorro en "meses de vida" ayuda a valorarlo como tiempo, no solo como plata.',
         },
         {
           type: 'fill',

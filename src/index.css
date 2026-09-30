@@ -228,10 +228,6 @@ svg { flex-shrink: 0; }
 .concept h2 { font-size: 1.75rem; margin-bottom: 16px; }
 .concept p { font-size: 1.08rem; line-height: 1.65; color: var(--ink-2); }
 .concept strong { color: var(--ink); font-weight: 600; background: linear-gradient(transparent 62%, color-mix(in srgb, var(--unit, var(--accent)) 22%, transparent) 62%); }
-.number-box { border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; text-align: center; background: var(--panel); }
-.number-value { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 14px; font-variant-numeric: tabular-nums; }
-.number-scale, .number-steps { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; color: var(--muted); }
-.number-steps { margin-top: 14px; }
 .order-slots { min-height: 64px; border-top: 1px dashed var(--line-dark); border-bottom: 1px dashed var(--line-dark); padding: 12px 0; margin-bottom: 18px; display: flex; flex-direction: column; gap: 8px; }
 .order-pool { display: flex; flex-direction: column; gap: 8px; }
 .order-item { text-align: left; border: 1px solid var(--line-dark); border-radius: 10px; background: var(--panel); padding: 11px 14px; font-weight: 500; font-size: .96rem; cursor: pointer; display: flex; gap: 10px; align-items: center; }
