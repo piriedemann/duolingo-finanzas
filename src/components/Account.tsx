@@ -117,7 +117,10 @@ export function AccountPanel({ returnTo }: { returnTo: string }) {
         </form>
       )}
       {(err ?? (status === 'error' ? error : null)) && <p className="small danger-text">{err ?? error}</p>}
-      <p className="muted small">Sin contraseñas. Tu progreso queda en tu cuenta y lo recuperas en cualquier teléfono o computador.</p>
+      <p className="muted small">
+        Sin contraseñas. Tu progreso queda en tu cuenta y lo recuperas en cualquier teléfono o computador.{' '}
+        <a href="privacidad.html">Política de privacidad</a>
+      </p>
     </div>
   )
 }

@@ -99,7 +99,10 @@ export default function App() {
             </a>
           ))}
         </nav>
-        <div className="sidebar-foot muted small">Prototipo educativo basado en el podcast Animales Financieros. No es asesoría financiera.</div>
+        <div className="sidebar-foot muted small">
+          Prototipo educativo basado en el podcast Animales Financieros. No es asesoría financiera.{' '}
+          <a href="privacidad.html">Privacidad</a>
+        </div>
       </aside>
       <div className="main-col">
         <div className="mobile-top">
