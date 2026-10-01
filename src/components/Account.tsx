@@ -5,6 +5,8 @@ import { useStore } from '../state/store'
 import { User, X } from './Icons'
 
 const HIDE_NUDGE = 'animalingo:hide-save-nudge'
+// El login por correo necesita SMTP propio en Supabase (plantilla con código). Se activa con VITE_AUTH_EMAIL=1.
+const EMAIL_LOGIN = import.meta.env.VITE_AUTH_EMAIL === '1'
 
 /** Iniciar sesión / estado de la cuenta. Se usa en Perfil y en la bienvenida. */
 export function AccountPanel({ returnTo }: { returnTo: string }) {
@@ -73,8 +75,8 @@ export function AccountPanel({ returnTo }: { returnTo: string }) {
       <button className="btn wide google" disabled={busy} onClick={() => void run(() => signInWithGoogle(returnTo))}>
         <GoogleMark /> Continuar con Google
       </button>
-      <div className="or">o con tu correo</div>
-      {!sent ? (
+      {EMAIL_LOGIN && <div className="or">o con tu correo</div>}
+      {!EMAIL_LOGIN ? null : !sent ? (
         <form onSubmit={send}>
           <input
             className="search"

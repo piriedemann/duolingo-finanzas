@@ -60,10 +60,12 @@ Dos formas de entrar, sin contraseñas:
 - **Google**: en Supabase, *Authentication → Sign In / Providers → Google*, con un Client ID/Secret creado en
   [Google Cloud Console](https://console.cloud.google.com/apis/credentials) (tipo "Web application", con la URL de
   callback que muestra Supabase como *Authorized redirect URI*).
-- **Código por correo**: *Authentication → Sign In / Providers → Email* habilitado. Para que llegue un código de 6
-  dígitos en vez de un link, en *Authentication → Email Templates → Magic Link* usa `{{ .Token }}` en el cuerpo.
-  El correo integrado de Supabase permite muy pocos envíos por hora; para un taller con mucha gente conviene
-  configurar un SMTP propio (*Project Settings → Authentication → SMTP*) o usar Google.
+- **Código por correo** (opcional, apagado por defecto): requiere SMTP propio en Supabase, porque el correo
+  integrado permite solo 2 envíos por hora y, en proyectos gratuitos creados desde junio de 2026, no deja editar
+  las plantillas. Pasos: configurar SMTP (*Project Settings → Authentication → SMTP Settings*; Resend o Brevo
+  tienen planes gratis), subir el límite en *Authentication → Rate Limits*, en *Authentication → Emails → Magic
+  Link* poner `{{ .Token }}` en el cuerpo para que llegue un código de 6 dígitos, y activar la opción en la app con
+  `VITE_AUTH_EMAIL=1` (en GitHub: *Settings → Secrets and variables → Actions → Variables*).
 
 En ambos casos:
 
