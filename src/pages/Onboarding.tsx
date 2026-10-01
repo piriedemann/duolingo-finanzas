@@ -4,6 +4,9 @@ import { SHOW } from '../data/episodes'
 import { go } from '../lib/util'
 import { Brand } from '../App'
 import { ArrowLeft } from '../components/Icons'
+import { AccountPanel } from '../components/Account'
+import { useAccount } from '../lib/account'
+import { cloudEnabled } from '../lib/supabase'
 
 const GOALS = [
   'Ordenar mis gastos y empezar a ahorrar',
@@ -25,6 +28,7 @@ export function Onboarding() {
   const [goal, setGoal] = useState('')
   const [daily, setDaily] = useState(30)
   const [name, setName] = useState('')
+  const { account, status } = useAccount()
 
   const finish = () => {
     setState((s) => ({ ...s, onboarded: true, goal, dailyGoal: daily, name: name.trim() }))
@@ -47,7 +51,39 @@ export function Onboarding() {
         <button className="btn primary wide" onClick={() => setStep(1)}>
           Comenzar
         </button>
+        {cloudEnabled && (
+          <button className="btn ghost wide" onClick={() => setStep(-1)}>
+            {status === 'syncing' ? 'Cargando tu progreso…' : '¿Ya tienes cuenta? Inicia sesión'}
+          </button>
+        )}
         <p className="muted small">"{SHOW.tagline}"</p>
+        <p className="muted small">
+          Sin registro ni descarga. <a href="acerca.html">Acerca de Animalingo</a> · <a href="privacidad.html">Política de privacidad</a>
+        </p>
+      </div>
+    )
+  }
+
+  if (step === -1) {
+    // si la cuenta ya tiene progreso, el estado pasa a onboarded y App muestra la app sola
+    return (
+      <div className="onboard">
+        <div className="onboard-top">
+          <button className="icon-btn" onClick={() => setStep(0)} aria-label="Atrás">
+            <ArrowLeft size={22} />
+          </button>
+        </div>
+        <h2 className="onboard-q">Recupera tu progreso</h2>
+        {account && status !== 'syncing' ? (
+          <>
+            <p className="muted">Esta cuenta todavía no tiene progreso guardado. Completa estos pasos y quedará asociado a ella.</p>
+            <button className="btn primary wide" onClick={() => setStep(1)}>
+              Continuar
+            </button>
+          </>
+        ) : (
+          <AccountPanel returnTo="#/aprender" />
+        )}
       </div>
     )
   }
