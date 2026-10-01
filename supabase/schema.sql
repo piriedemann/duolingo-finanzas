@@ -66,3 +66,31 @@ create policy "workshop_answers_read" on public.workshop_answers
 drop policy if exists "workshop_answers_insert_own" on public.workshop_answers;
 create policy "workshop_answers_insert_own" on public.workshop_answers
   for insert to authenticated with check (auth.uid() = user_id);
+
+-- ---------- Cuentas y progreso en la nube ----------
+-- Idempotente. Además, en el panel de Supabase:
+--   · Authentication → Sign In / Providers: habilitar Google (Client ID/Secret de Google Cloud)
+--     y/o Email. Para recibir un código en vez de un link, en Authentication → Email Templates →
+--     Magic Link usar {{ .Token }} en el cuerpo del correo.
+--   · Authentication → URL Configuration: Site URL y Redirect URLs con la URL de la app
+--     (p. ej. https://piriedemann.github.io/duolingo-finanzas/).
+
+create table if not exists public.progress (
+  user_id     uuid primary key references auth.users (id) on delete cascade,
+  state       jsonb not null,
+  updated_at  timestamptz not null default now()
+);
+
+alter table public.progress enable row level security;
+
+-- Solo cuentas reales (no anónimas) y solo su propia fila: nadie más puede leerla ni escribirla.
+drop policy if exists "progress_own" on public.progress;
+create policy "progress_own" on public.progress
+  for all to authenticated
+  using (auth.uid() = user_id and coalesce((auth.jwt() ->> 'is_anonymous')::boolean, false) = false)
+  with check (auth.uid() = user_id and coalesce((auth.jwt() ->> 'is_anonymous')::boolean, false) = false);
+
+-- Al iniciar sesión, el jugador borra su fila anónima de la liga para no aparecer dos veces.
+drop policy if exists "players_delete_own" on public.players;
+create policy "players_delete_own" on public.players
+  for delete to authenticated using (auth.uid() = id);

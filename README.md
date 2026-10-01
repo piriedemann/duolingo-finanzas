@@ -13,6 +13,8 @@ basado en el contenido del podcast chileno [Animales Financieros](https://www.an
   tienda (recargar vidas, protector de racha) y práctica de errores.
 - **Liga semanal con gente real**: cada jugador publica su XP semanal en Supabase (sesión anónima guardada en el
   navegador, sin registro) y la liga muestra a quienes jugaron esta semana. Ver [Liga real](#liga-real-supabase).
+- **Cuenta opcional** (Google o código por correo) para guardar el progreso y recuperarlo en cualquier dispositivo.
+  Ver [Cuentas](#cuentas-login-y-progreso-en-la-nube).
 - **Episodios**: catálogo buscable del podcast con ideas clave en tarjetas, link a Spotify y conexión con la unidad relacionada.
 - **Herramientas**: simulador de interés compuesto, presupuesto 50/30/20, fondo de emergencia y la trampa del pago mínimo.
 - Mascota **Chanchi** 🐷, sonidos, confeti, modo oscuro, responsive (móvil y escritorio). Progreso guardado en `localStorage`.
@@ -26,7 +28,7 @@ npm run dev      # http://localhost:5173
 npm run build    # genera dist/
 ```
 
-Stack: Vite + React + TypeScript. El único backend es Supabase para la liga (opcional). Deploy automático a GitHub Pages
+Stack: Vite + React + TypeScript. El único backend es Supabase, opcional, para la liga y las cuentas. Deploy automático a GitHub Pages
 (rama `gh-pages`) con `.github/workflows/deploy.yml`.
 
 ## Liga real (Supabase)
@@ -46,10 +48,32 @@ Cómo funciona: `src/lib/leaderboard.ts` crea la sesión anónima, publica `name
 vez que cambia el estado (con debounce) y lee la tabla cada 30 s mientras la liga está abierta. Las políticas RLS
 permiten leer a todos y escribir solo la fila propia (`auth.uid() = id`). La anon key es pública por diseño.
 
-Siguiente paso natural: **login para guardar el progreso**. Con Supabase Auth, la sesión anónima se vincula a un
-email o cuenta de Google (`supabase.auth.updateUser` / `linkIdentity`) y el jugador conserva su mismo `id`, su fila
-en `players` y su lugar en la liga. Falta solo guardar el estado completo de `src/state/store.ts` en una columna
-`progress` y restaurarlo al iniciar sesión en otro dispositivo.
+## Cuentas (login) y progreso en la nube
+
+Con Supabase configurado, cualquier persona puede iniciar sesión desde **Perfil → Cuenta** (o desde "¿Ya tienes
+cuenta?" en la bienvenida) y su progreso queda guardado en la tabla `progress`, asociado a su cuenta. Al entrar
+desde otro teléfono o computador, se baja ese progreso y se mezcla con el local: se conserva el que tenga más XP y se
+unen lecciones completadas, logros, episodios escuchados y quizzes. Desde ahí, cada cambio se sube con debounce.
+
+Dos formas de entrar, sin contraseñas:
+
+- **Google**: en Supabase, *Authentication → Sign In / Providers → Google*, con un Client ID/Secret creado en
+  [Google Cloud Console](https://console.cloud.google.com/apis/credentials) (tipo "Web application", con la URL de
+  callback que muestra Supabase como *Authorized redirect URI*).
+- **Código por correo**: *Authentication → Sign In / Providers → Email* habilitado. Para que llegue un código de 6
+  dígitos en vez de un link, en *Authentication → Email Templates → Magic Link* usa `{{ .Token }}` en el cuerpo.
+  El correo integrado de Supabase permite muy pocos envíos por hora; para un taller con mucha gente conviene
+  configurar un SMTP propio (*Project Settings → Authentication → SMTP*) o usar Google.
+
+En ambos casos:
+
+1. Vuelve a ejecutar `supabase/schema.sql` (crea `progress` y la política para borrar la fila anónima de la liga).
+2. En *Authentication → URL Configuration*, pon la URL de la app como *Site URL* y agrégala a *Redirect URLs*
+   (producción: `https://piriedemann.github.io/duolingo-finanzas/`; local: `http://localhost:5173/`).
+
+Al iniciar sesión, la sesión anónima del navegador se reemplaza por la de la cuenta: la fila anónima se borra de
+`players` y el XP se publica con el id de la cuenta. "Cerrar sesión" deja el dispositivo en cero (el progreso sigue
+en la cuenta). Sin iniciar sesión, todo funciona igual que antes: progreso en el navegador y liga con sesión anónima.
 
 > Lo que se publica es el nombre elegido en el onboarding y el XP; cualquiera que abra la liga lo ve. Al ser
 > un prototipo sin validación en servidor, un jugador con conocimientos técnicos podría inflar su XP.

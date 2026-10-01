@@ -11,6 +11,7 @@ import { Profile } from './pages/Profile'
 import { Onboarding } from './pages/Onboarding'
 import { Workshop } from './pages/Workshop'
 import { Quests } from './components/Quests'
+import { SaveProgressCard } from './components/Account'
 import { Calculator, ChevronRight, Coins, Flame, Headphones, Heart, Home, RotateCcw, Trophy, User, Zap } from './components/Icons'
 import { sfx } from './lib/sound'
 
@@ -75,6 +76,7 @@ export default function App() {
         <>
           <div className="mobile-only mobile-panel">
             <DailyGoal />
+            <SaveProgressCard />
             <PracticeCard />
           </div>
           <Learn />
@@ -109,6 +111,7 @@ export default function App() {
       <aside className="rightbar">
         <TopStats />
         <DailyGoal />
+        <SaveProgressCard />
         <PracticeCard />
         <Quests />
         <LeagueMini />

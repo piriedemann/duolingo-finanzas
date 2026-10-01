@@ -158,6 +158,8 @@ svg { flex-shrink: 0; }
   .mobile-panel .card { padding: 12px; }
   .mobile-panel .goal-card svg { width: 48px; height: 48px; }
   .mobile-panel > :only-child { grid-column: span 2; }
+  .mobile-panel .save-card { grid-column: span 2; }
+  .mobile-panel .save-card .card-label { font-size: .95rem; }
 }
 
 /* ---------- aprender ---------- */
@@ -497,3 +499,16 @@ input[type='range']:disabled { opacity: .6; }
   .ws-q { grid-template-columns: 1fr; gap: 6px; }
   .ws-q-num { text-align: left; }
 }
+
+/* cuenta / login */
+.account { display: flex; flex-direction: column; gap: 12px; }
+.account form { display: flex; flex-direction: column; gap: 10px; }
+.account-row { display: flex; align-items: center; gap: 12px; }
+.account p { margin: 0; }
+.btn.google { background: var(--panel); border-color: var(--line-dark); gap: 10px; }
+.or { text-align: center; color: var(--muted); font-size: .85rem; }
+.search.code { text-align: center; letter-spacing: .3em; font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.save-card { display: grid; grid-template-columns: 38px 1fr auto; gap: 8px 12px; align-items: center; }
+.save-card .btn { grid-column: 2; justify-self: start; }
+.save-card .icon-btn { grid-column: 3; grid-row: 1; align-self: start; }
+.save-card .card-label { margin-bottom: 2px; color: var(--ink); text-transform: none; letter-spacing: 0; font-size: .95rem; }

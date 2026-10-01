@@ -1,9 +1,12 @@
 import { ACHIEVEMENTS, buyFreeze, refillHearts, resetState, setState, today, useStore, MAX_HEARTS } from '../state/store'
 import { ALL_LESSONS } from '../data/units'
 import { Coins, Crown, Flame, Heart, Snowflake, Target, Zap, BookOpen } from '../components/Icons'
+import { AccountPanel } from '../components/Account'
+import { useAccount } from '../lib/account'
 
 export function Profile() {
   const s = useStore((s) => s)
+  const { account } = useAccount()
   const done = Object.keys(s.completed).length
   // últimos 7 días de XP
   const days = Array.from({ length: 7 }, (_, i) => {
@@ -20,6 +23,11 @@ export function Profile() {
           <h1>{s.name || 'Animal financiero'}</h1>
           <p className="muted">Meta: {s.goal || 'aprender'} · {s.dailyGoal} XP diarios</p>
         </div>
+      </div>
+
+      <h2 className="section-title">Cuenta</h2>
+      <div className="card">
+        <AccountPanel returnTo="#/perfil" />
       </div>
 
       <h2 className="section-title">Estadísticas</h2>
@@ -93,7 +101,7 @@ export function Profile() {
         <button
           className="btn ghost danger-text"
           onClick={() => {
-            if (confirm('¿Borrar todo tu progreso?')) resetState()
+            if (confirm(account ? '¿Borrar todo tu progreso? También se borra de tu cuenta.' : '¿Borrar todo tu progreso?')) resetState()
           }}
         >
           Reiniciar progreso
