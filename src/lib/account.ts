@@ -146,7 +146,7 @@ export async function syncNow() {
   setStatus('syncing')
   try {
     const cloud = await pull()
-    if (account !== acc) return // cerró sesión mientras tanto
+    if (account?.id !== acc.id) return // cerró sesión mientras tanto
     const local = getState()
     let merged = cloud ? mergeState(local, cloud) : local
     if (!merged.name && acc.name) merged = { ...merged, name: acc.name.slice(0, 20) }
@@ -206,7 +206,9 @@ export function startCloudSync() {
   client.auth.onAuthStateChange((_event, session) => {
     const next = accountFrom(session)
     const changed = next?.id !== account?.id
-    account = next
+    // Supabase emite varios eventos para la misma sesión (INITIAL_SESSION, SIGNED_IN, TOKEN_REFRESHED):
+    // conservar el mismo objeto si la cuenta no cambió, para no interrumpir una sincronización en curso.
+    if (changed) account = next
     onAuthChanged(session?.user.id ?? null)
     if (!next) {
       // sin cuenta (o sesión anónima): conservar un error visible, si lo había

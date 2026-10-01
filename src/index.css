@@ -504,6 +504,8 @@ input[type='range']:disabled { opacity: .6; }
 .account { display: flex; flex-direction: column; gap: 12px; }
 .account form { display: flex; flex-direction: column; gap: 10px; }
 .account-row { display: flex; align-items: center; gap: 12px; }
+.account-status { display: flex; align-items: center; gap: 5px; margin-top: 2px; }
+.account-status svg { flex-shrink: 0; }
 .account p { margin: 0; }
 .btn.google { background: var(--panel); border-color: var(--line-dark); gap: 10px; }
 .or { text-align: center; color: var(--muted); font-size: .85rem; }

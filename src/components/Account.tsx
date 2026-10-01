@@ -2,7 +2,7 @@ import { useState, useSyncExternalStore, type FormEvent } from 'react'
 import { sendEmailCode, signInWithGoogle, signOut, useAccount, verifyEmailCode } from '../lib/account'
 import { cloudEnabled } from '../lib/supabase'
 import { useStore } from '../state/store'
-import { User, X } from './Icons'
+import { Check, User, X } from './Icons'
 
 const HIDE_NUDGE = 'animalingo:hide-save-nudge'
 // El login por correo necesita SMTP propio en Supabase (plantilla con código). Se activa con VITE_AUTH_EMAIL=1.
@@ -24,14 +24,22 @@ export function AccountPanel({ returnTo }: { returnTo: string }) {
   if (account) {
     const label = account.email ?? account.name ?? 'Tu cuenta'
     const line =
-      status === 'syncing' ? 'Sincronizando…' : status === 'error' ? error : 'Progreso guardado en tu cuenta. Entra con ella desde cualquier dispositivo.'
+      status === 'syncing'
+        ? 'Sincronizando…'
+        : status === 'error'
+          ? error
+          : 'Cuenta conectada. Tu progreso se guarda solo y lo recuperas en cualquier dispositivo.'
+    const tone = status === 'error' ? 'danger-text' : status === 'ok' ? 'ok-text' : 'muted'
     return (
       <div className="account">
         <div className="account-row">
           <span className="avatar">{label[0].toUpperCase()}</span>
           <div className="grow">
             <strong>{label}</strong>
-            <div className={'small ' + (status === 'error' ? 'danger-text' : 'muted')}>{line}</div>
+            <div className={'small account-status ' + tone}>
+              {status === 'ok' && <Check size={15} strokeWidth={2.5} />}
+              <span>{line}</span>
+            </div>
           </div>
         </div>
         <button
