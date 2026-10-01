@@ -6,7 +6,7 @@ export function confetti(duration = 2200) {
   c.height = innerHeight
   document.body.appendChild(c)
   const g = c.getContext('2d')!
-  const colors = ['#58cc02', '#ffc800', '#ff4b4b', '#1cb0f6', '#ce82ff', '#ff9600']
+  const colors = ['#e0671f', '#f2b23c', '#b8433a', '#2e6b86', '#3a7d5c', '#f8d9a0']
   const ps = Array.from({ length: 140 }, () => ({
     x: innerWidth / 2 + (Math.random() - 0.5) * 200,
     y: innerHeight / 3,

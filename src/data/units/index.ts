@@ -11,15 +11,15 @@ import { unit as aguila } from './aguila'
 
 // Paleta sobria por unidad (sobrescribe los colores de cada archivo)
 const PALETTE: Record<string, [string, string]> = {
-  hormiga: ['#2f6f4f', '#245a3f'],
-  abeja: ['#a8741a', '#8a5f13'],
-  ardilla: ['#a85a2a', '#8c4a21'],
-  zorro: ['#a8433a', '#8a352e'],
-  tortuga: ['#2c6a86', '#22566d'],
-  toro: ['#5b4f96', '#4a407c'],
-  buho: ['#35527f', '#2a4266'],
-  elefante: ['#5a6472', '#48505c'],
-  aguila: ['#1f7a6b', '#186357'],
+  hormiga: ['#8a5a32', '#70482a'],
+  abeja: ['#c28a14', '#a07210'],
+  ardilla: ['#b5602a', '#94491f'],
+  zorro: ['#a94a2d', '#8c3b23'],
+  tortuga: ['#3a7d5c', '#2e6449'],
+  toro: ['#7d3a4a', '#652e3b'],
+  buho: ['#44527a', '#364262'],
+  elefante: ['#6b6f78', '#555962'],
+  aguila: ['#2e6b86', '#24566c'],
 }
 
 export const UNITS: Unit[] = [hormiga, abeja, ardilla, zorro, tortuga, toro, buho, elefante, aguila].map((u) =>
