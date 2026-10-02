@@ -5,10 +5,10 @@ import { ArrowLeft } from '../components/Icons'
 import { CreditCard, PieChart, ShieldCheck, TrendingUp } from 'lucide-react'
 
 const TOOLS = [
-  { id: 'interes', Icon: TrendingUp, title: 'Simulador de interés compuesto', desc: '¿Cuánto crece tu plata si la dejas trabajar?', color: '#2e6b86' },
-  { id: 'presupuesto', Icon: PieChart, title: 'Presupuesto 50/30/20', desc: 'Reparte tu sueldo líquido en 3 celdas.', color: '#b8862a' },
-  { id: 'emergencia', Icon: ShieldCheck, title: 'Fondo de emergencia', desc: 'Cuánto necesitas y cuándo lo tendrás.', color: '#b5602a' },
-  { id: 'deuda', Icon: CreditCard, title: 'La trampa del pago mínimo', desc: 'Cuánto cuesta de verdad pagar el mínimo.', color: '#b8433a' },
+  { id: 'interes', Icon: TrendingUp, title: 'Simulador de interés compuesto', desc: '¿Cuánto crece tu plata si la dejas trabajar?', color: '#1447e6' },
+  { id: 'presupuesto', Icon: PieChart, title: 'Presupuesto 50/30/20', desc: 'Reparte tu sueldo líquido en 3 celdas.', color: '#c9930a' },
+  { id: 'emergencia', Icon: ShieldCheck, title: 'Fondo de emergencia', desc: 'Cuánto necesitas y cuándo lo tendrás.', color: '#c2410c' },
+  { id: 'deuda', Icon: CreditCard, title: 'La trampa del pago mínimo', desc: 'Cuánto cuesta de verdad pagar el mínimo.', color: '#d62828' },
 ]
 
 export function Tools({ id }: { id?: string }) {
@@ -188,9 +188,9 @@ function Compound() {
 function Budget() {
   const [income, setIncome] = useState(900_000)
   const parts = [
-    { label: 'Necesidades', pct: 50, emoji: 'N', desc: 'Arriendo, cuentas, supermercado, transporte', color: '#2e6b86' },
-    { label: 'Gustos', pct: 30, emoji: 'G', desc: 'Salidas, delivery, streaming, ropa', color: '#7d3a4a' },
-    { label: 'Ahorro e inversión', pct: 20, emoji: 'A', desc: 'Fondo de emergencia, metas, inversión', color: '#3a7d5c' },
+    { label: 'Necesidades', pct: 50, emoji: 'N', desc: 'Arriendo, cuentas, supermercado, transporte', color: '#1447e6' },
+    { label: 'Gustos', pct: 30, emoji: 'G', desc: 'Salidas, delivery, streaming, ropa', color: '#8a4f7a' },
+    { label: 'Ahorro e inversión', pct: 20, emoji: 'A', desc: 'Fondo de emergencia, metas, inversión', color: '#2f7d5a' },
   ]
   return (
     <div className="tool-layout">

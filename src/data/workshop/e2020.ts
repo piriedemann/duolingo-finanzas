@@ -34,7 +34,7 @@ export const MODULES: WorkshopModule[] = [
     emoji: '🎈',
     title: 'Módulo 1: La luca de antes',
     concept: 'Inflación',
-    color: '#b8433a',
+    color: '#d62828',
     exercises: [
       {
         type: 'mc',
@@ -77,7 +77,7 @@ export const MODULES: WorkshopModule[] = [
     emoji: '🧺',
     title: 'Módulo 2: Una sola canasta',
     concept: 'Diversificación',
-    color: '#b8862a',
+    color: '#c9930a',
     exercises: [
       {
         type: 'mc',
@@ -129,7 +129,7 @@ export const MODULES: WorkshopModule[] = [
     emoji: '♟️',
     title: 'Módulo 3: El tablero de ajedrez',
     concept: 'Interés compuesto',
-    color: '#3a7d5c',
+    color: '#2f7d5a',
     exercises: [
       {
         type: 'mc',
