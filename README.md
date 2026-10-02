@@ -108,15 +108,35 @@ resumen, ideas clave y un quiz por episodio en `src/data/generated/`. `transcrip
 ANTHROPIC_API_KEY=... node scripts/generate-from-transcripts.ts   # incremental; --only 70,92 --force
 ```
 
-### Actualización semanal automática
+### Actualización automática
 
-`.github/workflows/content.yml` corre todos los jueves (y a mano desde *Actions*): baja solo las transcripciones de
-episodios que aún no tienen quiz (`fetch_transcripts.mjs --skip-generated`), genera el contenido nuevo, verifica que la
-app compile, hace commit en `main` y lanza el deploy. Si no hay capítulos nuevos, termina sin cambios. Un episodio
-cuya transcripción todavía no está publicada en el Estudio se salta y se vuelve a intentar la semana siguiente.
+`.github/workflows/content.yml` baja solo las transcripciones de episodios que aún no tienen quiz
+(`fetch_transcripts.mjs --skip-generated`), genera el contenido nuevo, verifica que la app compile, hace commit en
+`main` y lanza el deploy. Si no hay capítulos nuevos, termina sin cambios. Se ejecuta de tres formas:
+
+- **Aviso desde Mundo** (la vía normal): cuando la automatización de mundo.animalesfinancieros.com termina de guardar
+  una transcripción, llama a GitHub y el workflow parte al instante.
+- **Todos los jueves**, como respaldo por si un aviso se pierde.
+- **A mano**, desde la pestaña *Actions*.
 
 Necesita tres secretos en *Settings → Secrets and variables → Actions*: `AF_EMAIL` y `AF_PASSWORD` (cuenta del
-Estudio de Animales Financieros) y `ANTHROPIC_API_KEY`.
+Estudio con la que el script entra a leer las transcripciones) y `ANTHROPIC_API_KEY`.
+
+**Configurar el aviso en Mundo.** Crear un token de grano fino en GitHub (*Settings → Developer settings → Personal
+access tokens → Fine-grained*), con acceso solo al repo `piriedemann/duolingo-finanzas` y permiso *Contents: Read and
+write* (es lo que GitHub exige para `repository_dispatch`). Guardarlo como secreto en Mundo y, al final del job que
+descarga una transcripción, hacer:
+
+```bash
+curl -sS -X POST https://api.github.com/repos/piriedemann/duolingo-finanzas/dispatches \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  -d '{"event_type":"transcript-ready","client_payload":{"numbers":[216]}}'
+```
+
+GitHub responde `204` sin cuerpo. El `event_type` tiene que ser exactamente `transcript-ready`; el `client_payload` es
+informativo (queda en el log del workflow) y puede ir vacío: el workflow siempre baja todo lo que falte, no solo lo
+avisado. Varios avisos seguidos se encolan y no se pisan.
 
 ## Contenido
 

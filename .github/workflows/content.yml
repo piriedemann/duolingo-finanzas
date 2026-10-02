@@ -1,11 +1,14 @@
 name: Capítulos nuevos del podcast
 
-# Cada semana baja las transcripciones nuevas del Estudio de Animales Financieros, genera
-# resumen, ideas clave y quiz con la API de Claude, y publica el resultado en main.
+# Baja las transcripciones nuevas del Estudio de Animales Financieros, genera resumen, ideas
+# clave y quiz con la API de Claude, y publica el resultado en main.
+# Se dispara cuando la automatización de mundo.animalesfinancieros.com avisa que guardó una
+# transcripción (repository_dispatch, ver README), todos los jueves como respaldo, o a mano.
 # Secretos (Settings → Secrets and variables → Actions): AF_EMAIL, AF_PASSWORD, ANTHROPIC_API_KEY.
-# También se puede lanzar a mano desde la pestaña Actions.
 
 on:
+  repository_dispatch:
+    types: [transcript-ready]
   schedule:
     - cron: '0 13 * * 4' # jueves 13:00 UTC (9:00 en Chile)
   workflow_dispatch:
@@ -30,6 +33,13 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
+      - name: Origen de la ejecución
+        run: |
+          echo "Disparado por: ${{ github.event_name }}"
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo 'Aviso de Mundo: ${{ toJSON(github.event.client_payload) }}'
+          fi
 
       - name: Bajar transcripciones nuevas
         run: node scripts/fetch_transcripts.mjs --skip-generated
