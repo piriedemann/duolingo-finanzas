@@ -108,6 +108,16 @@ resumen, ideas clave y un quiz por episodio en `src/data/generated/`. `transcrip
 ANTHROPIC_API_KEY=... node scripts/generate-from-transcripts.ts   # incremental; --only 70,92 --force
 ```
 
+### Actualización semanal automática
+
+`.github/workflows/content.yml` corre todos los jueves (y a mano desde *Actions*): baja solo las transcripciones de
+episodios que aún no tienen quiz (`fetch_transcripts.mjs --skip-generated`), genera el contenido nuevo, verifica que la
+app compile, hace commit en `main` y lanza el deploy. Si no hay capítulos nuevos, termina sin cambios. Un episodio
+cuya transcripción todavía no está publicada en el Estudio se salta y se vuelve a intentar la semana siguiente.
+
+Necesita tres secretos en *Settings → Secrets and variables → Actions*: `AF_EMAIL` y `AF_PASSWORD` (cuenta del
+Estudio de Animales Financieros) y `ANTHROPIC_API_KEY`.
+
 ## Contenido
 
 - `src/data/units/*.ts`: lecciones por unidad (tipos en `src/data/types.ts`, guía de estilo en `research/CONTENT_BRIEF.md`).

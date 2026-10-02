@@ -1,0 +1,76 @@
+name: Capítulos nuevos del podcast
+
+# Cada semana baja las transcripciones nuevas del Estudio de Animales Financieros, genera
+# resumen, ideas clave y quiz con la API de Claude, y publica el resultado en main.
+# Secretos (Settings → Secrets and variables → Actions): AF_EMAIL, AF_PASSWORD, ANTHROPIC_API_KEY.
+# También se puede lanzar a mano desde la pestaña Actions.
+
+on:
+  schedule:
+    - cron: '0 13 * * 4' # jueves 13:00 UTC (9:00 en Chile)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write # para lanzar el deploy al terminar
+
+concurrency:
+  group: content
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Bajar transcripciones nuevas
+        run: node scripts/fetch_transcripts.mjs --skip-generated
+        env:
+          AF_EMAIL: ${{ secrets.AF_EMAIL }}
+          AF_PASSWORD: ${{ secrets.AF_PASSWORD }}
+
+      - name: Generar resumen, ideas clave y quiz
+        run: node scripts/generate-from-transcripts.ts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: ¿Hay contenido nuevo?
+        id: changes
+        run: |
+          if git diff --quiet -- src/data/generated; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Sin capítulos nuevos esta semana."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- src/data/generated
+          fi
+
+      # si el JSON nuevo rompiera la app, no se publica
+      - name: Verificar que la app compila
+        if: steps.changes.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Publicar en main
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/generated
+          nuevos=$(git diff --cached -U0 -- src/data/generated/episodes.json | grep -oE '^\+ *"number": [0-9]+' | grep -oE '[0-9]+$' | sort -n | tr '\n' ' ' || true)
+          git commit -m "Capítulos nuevos del podcast: ${nuevos:-actualización}" -m "Generado automáticamente por .github/workflows/content.yml"
+          git push origin HEAD:main
+
+      # los pushes hechos con GITHUB_TOKEN no disparan otros workflows: lanzar el deploy a mano
+      - name: Desplegar a GitHub Pages
+        if: steps.changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
