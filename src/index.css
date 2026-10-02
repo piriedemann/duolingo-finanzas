@@ -103,7 +103,7 @@ svg { flex-shrink: 0; }
 .sidebar { position: sticky; top: 0; height: 100dvh; border-right: 1px solid var(--line); padding: 22px 14px; display: flex; flex-direction: column; gap: 26px; }
 .brand-link { color: inherit; padding: 0 8px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; }
-.brand-mark { width: 36px; height: 36px; border-radius: 10px; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; font-family: var(--serif); font-weight: 600; font-size: 1.25rem; }
+.brand-mark { width: 36px; height: 36px; border-radius: 50%; display: block; object-fit: contain; flex-shrink: 0; }
 .brand-text { display: flex; flex-direction: column; font-family: var(--serif); font-weight: 600; font-size: 1.2rem; line-height: 1.1; color: var(--ink); }
 .brand-text small { font-family: 'Inter', sans-serif; font-weight: 500; font-size: .7rem; color: var(--muted); letter-spacing: .02em; }
 .sidebar nav { display: flex; flex-direction: column; gap: 2px; }
@@ -137,7 +137,7 @@ svg { flex-shrink: 0; }
   .mobile-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 16px; }
   .mobile-top .brand-text small { display: none; }
   .mobile-top .brand-text { font-size: 1.05rem; }
-  .mobile-top .brand-mark { width: 30px; height: 30px; font-size: 1.05rem; }
+  .mobile-top .brand-mark { width: 30px; height: 30px; }
   .mobile-top .topstats { gap: 12px; }
   .content { padding: 20px 16px 100px; }
   .bottomnav { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 30; background: var(--panel); border-top: 1px solid var(--line); justify-content: space-around; padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); }
@@ -416,6 +416,7 @@ svg { flex-shrink: 0; }
 /* onboarding */
 .onboard { max-width: 540px; margin: 0 auto; min-height: 100dvh; padding: 24px 20px 40px; display: flex; flex-direction: column; gap: 14px; }
 .onboard.welcome { justify-content: center; gap: 18px; }
+.onboard.welcome .brand-mark { width: 96px; height: 96px; }
 .hero-title { font-size: 2.6rem; line-height: 1.1; margin: 18px 0 0; }
 .lead { font-size: 1.1rem; color: var(--ink-2); margin: 0; }
 .hero-points { margin: 0; padding: 0 0 0 18px; color: var(--ink-2); display: flex; flex-direction: column; gap: 6px; }
