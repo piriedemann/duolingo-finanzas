@@ -7,8 +7,8 @@ import { WORKSHOP } from '../data/workshop/e2020'
  * Liga semanal con gente real.
  *
  * Cada jugador recibe una sesión anónima de Supabase (guardada en el navegador) y publica su XP
- * en la tabla `players`. La liga lee esa tabla. Cuando se agreguen logins, la misma sesión anónima
- * se puede vincular a un email/Google y el jugador conserva su id y su progreso.
+ * en la tabla `players`. La liga lee esa tabla. Al iniciar sesión (ver lib/account.ts) la sesión
+ * pasa a ser la de la cuenta: la fila anónima se borra y el XP se publica con el id de la cuenta.
  */
 
 export interface Player {
@@ -64,6 +64,20 @@ let sessionPromise: Promise<string | null> | null = null
 
 export function getUserId() {
   return userId
+}
+
+/** La sesión cambió (login, logout o sesión anónima nueva): republicar con el id nuevo. */
+export function onAuthChanged(id: string | null) {
+  if (id === userId) return
+  userId = id
+  sessionPromise = id ? Promise.resolve(id) : null
+  lastPushed = ''
+  if (id) void pushMe()
+}
+
+/** Obliga a volver a publicar la fila en el próximo cambio (p. ej. tras borrarla). */
+export function markLeagueDirty() {
+  lastPushed = ''
 }
 
 export function ensureSession(): Promise<string | null> {

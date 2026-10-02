@@ -27,6 +27,8 @@ jobs:
           # Repo → Settings → Secrets and variables → Actions. Sin ellas, la liga queda en modo local.
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          # Variable (no secreto): Settings → Secrets and variables → Actions → Variables. "1" muestra el login por correo.
+          VITE_AUTH_EMAIL: ${{ vars.VITE_AUTH_EMAIL }}
       # publica dist/ en la rama gh-pages (GitHub Pages sirve esa rama)
       - uses: peaceiris/actions-gh-pages@v4
         with:
