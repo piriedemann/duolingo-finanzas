@@ -16,6 +16,9 @@ basado en el contenido del podcast chileno [Animales Financieros](https://www.an
 - **Cuenta opcional** (Google o código por correo) para guardar el progreso y recuperarlo en cualquier dispositivo.
   Ver [Cuentas](#cuentas-login-y-progreso-en-la-nube).
 - **Episodios**: catálogo buscable del podcast con ideas clave en tarjetas, link a Spotify y conexión con la unidad relacionada.
+- **Capítulos del mes**: arriba de Episodios, los capítulos publicados este mes y los puntos que llevas en sus quizzes
+  (mejor resultado de cada uno: 8 por completarlo, 12 si es perfecto). Base para una competencia mensual que cuente
+  solo esos capítulos; el mejor XP por quiz queda en `quizXp` y se calcula con `pointsFor` en `src/state/store.ts`.
 - **Herramientas**: simulador de interés compuesto, presupuesto 50/30/20, fondo de emergencia y la trampa del pago mínimo.
 - Mascota **Chanchi** 🐷, sonidos, confeti, modo oscuro, responsive (móvil y escritorio). Progreso guardado en `localStorage`.
 - **Modo demo** (Perfil → Ajustes) para desbloquear todas las lecciones al mostrarla.

@@ -76,3 +76,48 @@ export const spotifySearch = (e: Episode) =>
 
 /** Quiz de un episodio: el generado desde el transcript tiene prioridad */
 export const quizFor = (id: string): Exercise[] | undefined => GENERATED_QUIZZES[id] ?? EPISODE_QUIZZES[id]
+
+/* ---------- capítulos del mes ---------- */
+
+/** Clave de mes YYYY-MM (hora local) */
+export const monthKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`
+
+/** Nombre del mes en español, ej. 'octubre 2026' (con año solo si no es el actual) */
+export function monthLabel(key: string, withYear = false) {
+  const [y, m] = key.split('-').map(Number)
+  const name = new Date(y, m - 1, 15).toLocaleDateString('es-CL', { month: 'long' })
+  return withYear || y !== new Date().getFullYear() ? `${name} ${y}` : name
+}
+
+/** Episodios publicados en un mes (los que no tienen fecha no cuentan), del más reciente al más antiguo */
+export const episodesOfMonth = (key: string) => EPISODES.filter((e) => e.date?.startsWith(key))
+
+export interface MonthEpisodes {
+  /** mes que se muestra (YYYY-MM) */
+  key: string
+  /** mes calendario actual (YYYY-MM) */
+  current: string
+  episodes: EpisodeX[]
+  /** true cuando el mes actual aún no tiene capítulos y se muestra el último mes con episodios */
+  fallback: boolean
+}
+
+/**
+ * Capítulos del mes en curso. Si todavía no se ha cargado ninguno (típico a comienzos de mes),
+ * se muestra el último mes que sí tiene, marcado como `fallback`.
+ */
+export function currentMonthEpisodes(now = new Date()): MonthEpisodes {
+  const current = monthKey(now)
+  const episodes = episodesOfMonth(current)
+  if (episodes.length) return { key: current, current, episodes, fallback: false }
+  const last = EPISODES.filter((e) => e.date && e.date.slice(0, 7) < current)
+    .map((e) => e.date!.slice(0, 7))
+    .sort()
+    .pop()
+  if (!last) return { key: current, current, episodes: [], fallback: false }
+  return { key: last, current, episodes: episodesOfMonth(last), fallback: true }
+}
+
+/** Fecha corta para listas, ej. '15 sep' */
+export const shortDate = (iso: string) =>
+  new Date(iso + 'T12:00:00').toLocaleDateString('es-CL', { day: 'numeric', month: 'short' }).replace('.', '')

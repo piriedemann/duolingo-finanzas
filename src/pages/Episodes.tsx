@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react'
-import { CATEGORY_LABEL, CATEGORY_UNIT, EPISODES, quizFor, spotifySearch } from '../data/episodes'
+import { CATEGORY_LABEL, CATEGORY_UNIT, EPISODES, currentMonthEpisodes, monthLabel, quizFor, shortDate, spotifySearch } from '../data/episodes'
 import type { Category } from '../data/types'
 import { UNITS } from '../data/units'
-import { markListened, useStore } from '../state/store'
+import { markListened, pointsFor, quizPoints, quizXpFor, useStore } from '../state/store'
 import { go } from '../lib/util'
-import { ArrowLeft, Check, Crown, Headphones, Mic, Play } from '../components/Icons'
+import { ArrowLeft, Calendar, Check, Crown, Headphones, Mic, Play, Zap } from '../components/Icons'
 
 export function Episodes() {
   const listened = useStore((s) => s.listened)
@@ -42,6 +42,8 @@ export function Episodes() {
           </button>
         ))}
       </div>
+      {q === '' && cat === 'all' && <MonthEpisodes />}
+      {q === '' && cat === 'all' && <h2 className="section-title">Todos los episodios</h2>}
       {list.length === 0 && (
         <div className="center-page">
           <p className="muted">No hay episodios que coincidan.</p>
@@ -66,6 +68,82 @@ export function Episodes() {
         })}
       </div>
     </div>
+  )
+}
+
+/**
+ * Capítulos del mes: los episodios publicados este mes y los puntos que llevas en sus quizzes.
+ * Es la base de la competencia mensual: solo cuentan estos capítulos, no todo el catálogo.
+ */
+export function MonthEpisodes() {
+  const s = useStore((s) => s)
+  const month = useMemo(() => currentMonthEpisodes(), [])
+  if (!month.episodes.length) return null
+  const ids = month.episodes.map((e) => e.id)
+  const points = pointsFor(s, ids)
+  const maxPoints = ids.length * quizXpFor(1)
+  const played = ids.filter((id) => s.quizzes?.[id] !== undefined).length
+  const next = month.episodes.find((e) => s.quizzes?.[e.id] === undefined && quizFor(e.id))
+  return (
+    <section className="month" id="capitulos-del-mes">
+      <div className="card month-head">
+        <span className="icon-chip big">
+          <Calendar size={20} />
+        </span>
+        <div className="grow">
+          <div className="card-label">Capítulos del mes</div>
+          <h2 className="month-title">{monthLabel(month.key)}</h2>
+          <div className="muted small">
+            {month.fallback
+              ? `Aún no hay capítulos de ${monthLabel(month.current)}. Mientras tanto, los de ${monthLabel(month.key)}.`
+              : `${ids.length} ${ids.length === 1 ? 'capítulo' : 'capítulos'} · quiz hecho en ${played} de ${ids.length}`}
+          </div>
+        </div>
+        <div className="month-points" title="Suma del mejor resultado en el quiz de cada capítulo del mes">
+          <strong>
+            <Zap size={16} /> {points}
+          </strong>
+          <span className="muted small">de {maxPoints} pts</span>
+        </div>
+      </div>
+      <div className="bar thin month-bar">
+        <div className="bar-fill" style={{ width: `${maxPoints ? (points / maxPoints) * 100 : 0}%` }} />
+      </div>
+      <div className="ep-list">
+        {month.episodes.map((e) => {
+          const score = s.quizzes?.[e.id]
+          const pts = quizPoints(s, e.id)
+          return (
+            <button key={e.id} className={'ep-card' + (next?.id === e.id ? ' next' : '')} onClick={() => go('episodio/' + e.id)}>
+              <div className="ep-num">{e.number !== null ? e.number : <Mic size={18} />}</div>
+              <div className="ep-main">
+                <div className="ep-title">{e.title}</div>
+                {e.guest && <div className="ep-guest">con {e.guest}</div>}
+                <div className="ep-cat">
+                  {e.date && shortDate(e.date)} · {CATEGORY_LABEL[e.category]}
+                </div>
+              </div>
+              <div className="ep-points">
+                {score !== undefined ? (
+                  <>
+                    <strong>{pts} pts</strong>
+                    <span className="muted small">{score === 1 ? <Crown size={14} /> : <Check size={14} />} {Math.round(score * 100)}%</span>
+                  </>
+                ) : quizFor(e.id) ? (
+                  <span className={'step-cta' + (next?.id === e.id ? ' primary' : '')}>Jugar · +{quizXpFor(1)}</span>
+                ) : (
+                  <span className="muted small">Sin quiz</span>
+                )}
+              </div>
+            </button>
+          )
+        })}
+      </div>
+      <p className="muted small">
+        Los puntos del mes suman el mejor resultado de cada quiz: {quizXpFor(0)} por completarlo y {quizXpFor(1)} si es perfecto.
+        Repetir un quiz solo cuenta si mejoras.
+      </p>
+    </section>
   )
 }
 

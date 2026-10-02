@@ -103,6 +103,7 @@ export function mergeState(local: State, cloudPartial: Partial<State>): State {
     achievements: union(base.achievements, other.achievements),
     chests: union(base.chests, other.chests),
     quizzes: maxMap(base.quizzes, other.quizzes),
+    quizXp: maxMap(base.quizXp, other.quizXp),
     workshop: maxMap(base.workshop, other.workshop),
     questsClaimed: base.questsDay === other.questsDay ? union(base.questsClaimed, other.questsClaimed) : base.questsClaimed,
   }

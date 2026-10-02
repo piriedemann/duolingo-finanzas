@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { ALL_LESSONS, findLesson } from '../data/units'
 import { LessonPlayer, type LessonResult, type QueueItem } from '../components/LessonPlayer'
-import { completeLesson, completePractice, completeQuiz, getState, isLessonUnlocked, setState, MAX_HEARTS, useStore } from '../state/store'
+import { completeLesson, completePractice, completeQuiz, getState, isLessonUnlocked, quizXpFor, setState, MAX_HEARTS, useStore } from '../state/store'
 import { go } from '../lib/util'
 import { confetti } from '../lib/confetti'
 import { sfx } from '../lib/sound'
@@ -106,7 +106,7 @@ export function PracticePage() {
       practice
       onExit={() => go('aprender')}
       onFinish={(r) => {
-        const xp = 8 + (r.accuracy === 1 ? 4 : 0)
+        const xp = quizXpFor(r.accuracy)
         const failed = new Set(r.mistakes.map((m) => `${m.lessonId}:${m.exIndex}`))
         completePractice(
           xp,
@@ -206,7 +206,7 @@ export function QuizPage({ id }: { id: string }) {
       color="#5b4f96"
       onExit={() => go('episodio/' + id)}
       onFinish={(r) => {
-        const xp = 8 + (r.accuracy === 1 ? 4 : 0)
+        const xp = quizXpFor(r.accuracy)
         completeQuiz(id, r.accuracy, xp)
         setResult({ ...r, xp })
       }}

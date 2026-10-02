@@ -43,6 +43,8 @@ export interface State {
   perfectToday: number
   chests: string[]
   quizzes: Record<string, number>
+  /** mejor XP obtenido en el quiz de cada episodio: id → XP (base de la competencia mensual) */
+  quizXp: Record<string, number>
   /** grupo al que pertenece (p. ej. taller 'e2020'); se publica en la liga */
   cohort: string | null
   /** módulos de taller completados: id → mejor precisión */
@@ -85,6 +87,7 @@ const initial = (): State => ({
   perfectToday: 0,
   chests: [],
   quizzes: {},
+  quizXp: {},
   cohort: null,
   workshop: {},
 })
@@ -318,6 +321,9 @@ export function isLessonUnlocked(s: State, index: number, orderedIds: string[]) 
   return !!s.completed[orderedIds[index - 1]]
 }
 
+/** XP que entrega el quiz de un episodio según la precisión (bono si es perfecto) */
+export const quizXpFor = (accuracy: number) => 8 + (accuracy === 1 ? 4 : 0)
+
 export function completeQuiz(id: string, accuracy: number, xp: number) {
   setState((s) => {
     const next = addXp(s, xp)
@@ -328,9 +334,24 @@ export function completeQuiz(id: string, accuracy: number, xp: number) {
       lessonsToday: next.lessonsToday + 1,
       perfectToday: next.perfectToday + (accuracy === 1 ? 1 : 0),
       quizzes: { ...next.quizzes, [id]: Math.max(s.quizzes[id] ?? 0, accuracy) },
+      quizXp: { ...(next.quizXp ?? {}), [id]: Math.max(s.quizXp?.[id] ?? 0, xp) },
     }
   })
 }
+
+/**
+ * Puntos de un episodio: el mejor XP logrado en su quiz. Para quizzes jugados antes de que
+ * se guardara el XP, se calcula desde la mejor precisión registrada.
+ */
+export function quizPoints(s: State, episodeId: string) {
+  const saved = s.quizXp?.[episodeId]
+  if (saved !== undefined) return saved
+  const acc = s.quizzes?.[episodeId]
+  return acc === undefined ? 0 : quizXpFor(acc)
+}
+
+/** Puntos sumados en los quizzes de un conjunto de episodios (p. ej. los capítulos del mes) */
+export const pointsFor = (s: State, episodeIds: string[]) => episodeIds.reduce((sum, id) => sum + quizPoints(s, id), 0)
 
 /* ---------- taller ---------- */
 

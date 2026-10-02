@@ -25,4 +25,5 @@ export {
   Mic,
   Sparkles,
   Snowflake,
+  Calendar,
 } from 'lucide-react'
