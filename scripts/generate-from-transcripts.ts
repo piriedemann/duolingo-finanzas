@@ -72,11 +72,13 @@ async function main() {
   const onlyArg = args[args.indexOf('--only') + 1]
   const only = args.includes('--only') ? new Set(onlyArg.split(',')) : null
 
-  const index = readJson<{ number: number | null; title: string; guest?: string | null; date?: string | null; file: string }[]>(
-    path.join(ROOT, 'transcripts/index.json'),
-    [],
-  )
-  if (!index.length) throw new Error('No hay transcripts/index.json')
+  const INDEX = path.join(ROOT, 'transcripts/index.json')
+  if (!fs.existsSync(INDEX)) throw new Error('No hay transcripts/index.json (correr scripts/fetch_transcripts.mjs)')
+  const index = readJson<{ number: number | null; title: string; guest?: string | null; date?: string | null; file: string }[]>(INDEX, [])
+  if (!index.length) {
+    console.log('Nada que generar: el índice de transcripts está vacío')
+    return
+  }
   fs.mkdirSync(OUT_DIR, { recursive: true })
   const episodes = readJson<Record<string, unknown>[]>(EP_OUT, [])
   const quizzes = readJson<Record<string, unknown>>(QZ_OUT, {})
@@ -133,4 +135,7 @@ async function main() {
   }
 }
 
-main()
+main().catch((e) => {
+  console.error(e instanceof Error ? e.message : e)
+  process.exit(1)
+})

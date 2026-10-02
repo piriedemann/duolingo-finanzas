@@ -16,6 +16,9 @@ basado en el contenido del podcast chileno [Animales Financieros](https://www.an
 - **Cuenta opcional** (Google o código por correo) para guardar el progreso y recuperarlo en cualquier dispositivo.
   Ver [Cuentas](#cuentas-login-y-progreso-en-la-nube).
 - **Episodios**: catálogo buscable del podcast con ideas clave en tarjetas, link a Spotify y conexión con la unidad relacionada.
+- **Capítulos del mes**: arriba de Episodios, los capítulos publicados este mes y los puntos que llevas en sus quizzes
+  (mejor resultado de cada uno: 8 por completarlo, 12 si es perfecto). Base para una competencia mensual que cuente
+  solo esos capítulos; el mejor XP por quiz queda en `quizXp` y se calcula con `pointsFor` en `src/state/store.ts`.
 - **Herramientas**: simulador de interés compuesto, presupuesto 50/30/20, fondo de emergencia y la trampa del pago mínimo.
 - Mascota **Chanchi** 🐷, sonidos, confeti, modo oscuro, responsive (móvil y escritorio). Progreso guardado en `localStorage`.
 - **Modo demo** (Perfil → Ajustes) para desbloquear todas las lecciones al mostrarla.
@@ -104,6 +107,36 @@ resumen, ideas clave y un quiz por episodio en `src/data/generated/`. `transcrip
 ```bash
 ANTHROPIC_API_KEY=... node scripts/generate-from-transcripts.ts   # incremental; --only 70,92 --force
 ```
+
+### Actualización automática
+
+`.github/workflows/content.yml` baja solo las transcripciones de episodios que aún no tienen quiz
+(`fetch_transcripts.mjs --skip-generated`), genera el contenido nuevo, verifica que la app compile, hace commit en
+`main` y lanza el deploy. Si no hay capítulos nuevos, termina sin cambios. Se ejecuta de tres formas:
+
+- **Aviso desde Mundo** (la vía normal): cuando la automatización de mundo.animalesfinancieros.com termina de guardar
+  una transcripción, llama a GitHub y el workflow parte al instante.
+- **Todos los jueves**, como respaldo por si un aviso se pierde.
+- **A mano**, desde la pestaña *Actions*.
+
+Necesita tres secretos en *Settings → Secrets and variables → Actions*: `AF_EMAIL` y `AF_PASSWORD` (cuenta del
+Estudio con la que el script entra a leer las transcripciones) y `ANTHROPIC_API_KEY`.
+
+**Configurar el aviso en Mundo.** Crear un token de grano fino en GitHub (*Settings → Developer settings → Personal
+access tokens → Fine-grained*), con acceso solo al repo `piriedemann/duolingo-finanzas` y permiso *Contents: Read and
+write* (es lo que GitHub exige para `repository_dispatch`). Guardarlo como secreto en Mundo y, al final del job que
+descarga una transcripción, hacer:
+
+```bash
+curl -sS -X POST https://api.github.com/repos/piriedemann/duolingo-finanzas/dispatches \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  -d '{"event_type":"transcript-ready","client_payload":{"numbers":[216]}}'
+```
+
+GitHub responde `204` sin cuerpo. El `event_type` tiene que ser exactamente `transcript-ready`; el `client_payload` es
+informativo (queda en el log del workflow) y puede ir vacío: el workflow siempre baja todo lo que falte, no solo lo
+avisado. Varios avisos seguidos se encolan y no se pisan.
 
 ## Contenido
 
