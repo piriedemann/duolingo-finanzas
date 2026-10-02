@@ -17254,5 +17254,106 @@
    "answer": false,
    "explain": "Las recomendaciones cambiaban según el perfil: los hombres preguntaban más por crecimiento y cripto, terminaban invirtiendo más agresivo y con un patrimonio 5-10% mayor. La IA también tiene sesgos."
   }
+ ],
+ "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
+  {
+   "type": "concept",
+   "title": "CFA vs CFP: dos mundos distintos",
+   "body": "El **CFA** (Chartered Financial Analyst) es la certificación por excelencia del análisis financiero: renta fija, renta variable, portafolios, correlaciones. El **CFP** (Certified Financial Planner) toma esa teoría y la aplica a la vida de las personas: impuestos, leyes, seguros, jubilación y manejo de deudas. Son caminos complementarios, no sinónimos.",
+   "emoji": "🎓"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué hoy no se puede obtener la certificación CFP en Chile?",
+   "options": [
+    "Porque está prohibida por la CMF",
+    "Porque no existe un board del CFP en Chile",
+    "Porque exige tener el CFA primero",
+    "Porque solo se entrega en Estados Unidos"
+   ],
+   "answer": 1,
+   "explain": "El CFP se administra por país a través de boards locales; en Latinoamérica el único está en Colombia, así que sin board chileno no hay examen local."
+  },
+  {
+   "type": "tf",
+   "statement": "El estándar fiduciario significa que el asesor debe poner los intereses del cliente por delante de los propios, y no solo por buena voluntad, sino por ley.",
+   "answer": true,
+   "explain": "Es la base ética del CFP: romperlo —por ejemplo, vender un producto más caro que no es lo mejor para el cliente— puede costar la certificación."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si alguien ya tiene otra certificación como el CFA, puede tomar el ___ y saltarse los seis cursos de educación, que son la parte más cara.",
+   "options": [
+    "accelerated path",
+    "estándar fiduciario",
+    "curso Capstone",
+    "examen de 6 horas"
+   ],
+   "answer": 0,
+   "explain": "El camino acelerado reconoce estudios previos y evita el gasto de US$3.000 a US$5.000 de los seis cursos."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada elemento con lo que le corresponde según el episodio",
+   "pairs": [
+    [
+     "CFA",
+     "Certificación del análisis financiero: 3 exámenes muy técnicos"
+    ],
+    [
+     "CFP",
+     "Planificación financiera aplicada a la vida de las personas"
+    ],
+    [
+     "Capstone",
+     "Curso final que resume los seis módulos previos"
+    ],
+    [
+     "Estándar fiduciario",
+     "Poner los intereses del cliente antes que los propios, por ley"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino para obtener la certificación CFP según el episodio",
+   "items": [
+    "Tener un título de bachiller",
+    "Completar los seis cursos de educación (o usar el camino acelerado)",
+    "Hacer el curso del Capstone",
+    "Preparar y rendir el examen de 6 horas"
+   ],
+   "explain": "Primero la educación, luego el Capstone que integra todo y al final el examen con casos de estudio."
+  },
+  {
+   "type": "mc",
+   "prompt": "Un asesor recomienda a su cliente un fondo que cobra 2% de comisión cuando existe otro que invierte exactamente en lo mismo y cobra 1%. Según el código de ética del CFP, ¿qué puede pasar?",
+   "options": [
+    "Nada, es decisión libre del asesor",
+    "Le pueden quitar la certificación por romper el estándar fiduciario",
+    "Debe devolver solo la diferencia de comisión",
+    "Es correcto si el cliente firmó un contrato"
+   ],
+   "answer": 1,
+   "explain": "Cobrar el doble por el mismo producto no es lo mejor para el cliente, y el deber fiduciario es exigible, no opcional."
+  },
+  {
+   "type": "tf",
+   "statement": "El examen del CFP es principalmente de cálculo de correlaciones y valorización de renta fija.",
+   "answer": false,
+   "explain": "El examen se apoya mucho en casos de estudio: qué harías frente a la situación financiera concreta de una persona."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál fue la razón principal para seguir adelante con el CFP a pesar de tener que aprender leyes e impuestos de Estados Unidos?",
+   "options": [
+    "Porque el título sirve automáticamente en Chile",
+    "Porque existe un proceso ya escrito de cómo hacer planificación financiera y quiere traer esas buenas prácticas",
+    "Porque es más barato que el CFA",
+    "Porque permite cobrar comisiones más altas"
+   ],
+   "answer": 1,
+   "explain": "El valor está en el método: cómo setear objetivos, priorizar y acompañar al cliente, algo aplicable también en Chile y Latinoamérica."
+  }
  ]
 }
