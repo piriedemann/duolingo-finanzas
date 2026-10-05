@@ -73,7 +73,7 @@ create policy "workshop_answers_insert_own" on public.workshop_answers
 --     y/o Email. Para recibir un código en vez de un link, en Authentication → Email Templates →
 --     Magic Link usar {{ .Token }} en el cuerpo del correo.
 --   · Authentication → URL Configuration: Site URL y Redirect URLs con la URL de la app
---     (p. ej. https://piriedemann.github.io/duolingo-finanzas/).
+--     (https://fito.animalesfinancieros.com/).
 
 create table if not exists public.progress (
   user_id     uuid primary key references auth.users (id) on delete cascade,

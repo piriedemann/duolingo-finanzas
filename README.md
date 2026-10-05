@@ -51,6 +51,16 @@ Cómo funciona: `src/lib/leaderboard.ts` crea la sesión anónima, publica `name
 vez que cambia el estado (con debounce) y lee la tabla cada 30 s mientras la liga está abierta. Las políticas RLS
 permiten leer a todos y escribir solo la fila propia (`auth.uid() = id`). La anon key es pública por diseño.
 
+## Dominio
+
+La app vive en `https://fito.animalesfinancieros.com/`, un subdominio del sitio del podcast (Squarespace) apuntado a
+GitHub Pages: un registro `CNAME` con host `fito` y valor `piriedemann.github.io`, más el archivo `public/CNAME` que
+Vite copia al build y que GitHub Pages usa para asociar el dominio. HTTPS se activa en *Settings → Pages → Enforce
+HTTPS* una vez emitido el certificado. La dirección antigua (`piriedemann.github.io/duolingo-finanzas`) redirige sola.
+
+Al cambiar de dominio, el progreso guardado solo en el navegador (sin cuenta) no se traslada: localStorage es por
+dominio. Lo que está en una cuenta (Google) se recupera iniciando sesión en el dominio nuevo.
+
 ## Cuentas (login) y progreso en la nube
 
 Con Supabase configurado, cualquier persona puede iniciar sesión desde **Perfil → Cuenta** (o desde "¿Ya tienes
@@ -74,7 +84,7 @@ En ambos casos:
 
 1. Vuelve a ejecutar `supabase/schema.sql` (crea `progress` y la política para borrar la fila anónima de la liga).
 2. En *Authentication → URL Configuration*, pon la URL de la app como *Site URL* y agrégala a *Redirect URLs*
-   (producción: `https://piriedemann.github.io/duolingo-finanzas/`; local: `http://localhost:5173/`).
+   (producción: `https://fito.animalesfinancieros.com/`; local: `http://localhost:5173/`).
 
 Al iniciar sesión, la sesión anónima del navegador se reemplaza por la de la cuenta: la fila anónima se borra de
 `players` y el XP se publica con el id de la cuenta. "Cerrar sesión" deja el dispositivo en cero (el progreso sigue
@@ -86,7 +96,7 @@ en la cuenta). Sin iniciar sesión, todo funciona igual que antes: progreso en e
 ## Talleres: módulo especial (`#/taller`)
 
 Para talleres en vivo hay un link separado, con su propia entrada por apodo y sin el resto de la app:
-`https://piriedemann.github.io/duolingo-finanzas/#/taller`. Hoy está configurado para el taller con
+`https://fito.animalesfinancieros.com/#/taller`. Hoy está configurado para el taller con
 Fundación Educación 2020 (1 de octubre 2026): contenido y fechas en `src/data/workshop/e2020.ts`.
 
 - Cada participante entra con un apodo (queda en la misma sesión anónima de Supabase) y responde los módulos
