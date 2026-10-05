@@ -18179,5 +18179,314 @@
    "answer": 1,
    "explain": "Quienes viven de esto terminan invirtiendo de forma aburrida y simple; la complejidad rara vez agrega valor, y la diferencia está en para qué usan la plata."
   }
+ ],
+ "x-elige-bien-tu-apv-antes-que-termine-el-ano": [
+  {
+   "type": "concept",
+   "title": "El APV es plata que el Estado te ayuda a juntar",
+   "body": "En Chile, si no haces nada, tu pensión probablemente será mala. Pero si ahorras para tu jubilación, el Estado te ayuda vía **APV (Ahorro Previsional Voluntario)**. Hay dos regímenes principales: el **A**, donde el Estado te regala un **15%** de lo que ahorras, y el **B**, donde descuentas ese ahorro de tu base imponible y pagas menos impuestos hoy. Cuál te conviene depende casi totalmente de tu nivel de ingresos.",
+   "emoji": "🐣"
+  },
+  {
+   "type": "concept",
+   "title": "El impuesto global complementario es una escalera",
+   "body": "El error más común es creer que al pasar al siguiente tramo **todos** tus ingresos pasan a pagar esa tasa. No es así: tus primeros ~$10,4 millones al año (2025) pagan 0%, el tramo siguiente 4%, luego 8%, 13,5% y así. Cada pedazo de ingreso paga su propia tasa. Por eso tu **tasa efectiva** (el promedio) es siempre menor que tu **tasa marginal** (lo que paga el último peso que ganas).",
+   "emoji": "🪜"
+  },
+  {
+   "type": "mc",
+   "prompt": "Alguien ganó $10 millones el año 1 y $20 millones el año 2. ¿Cuánto impuesto paga el año 2?",
+   "options": [
+    "4% sobre los $20 millones completos",
+    "0% sobre los primeros ~$10 millones y 4% solo sobre la diferencia",
+    "0%, porque el tramo exento cubre todo",
+    "13,5% sobre los $20 millones"
+   ],
+   "answer": 1,
+   "explain": "El impuesto se construye por tramos: cada pedazo de ingreso tributa a su propia tasa, así que pasar de tramo nunca encarece el ingreso que ya estaba abajo."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, ahorrando solo el 10% obligatorio de los ingresos uno tardaría del orden de 50 años en alcanzar la independencia financiera.",
+   "answer": true,
+   "explain": "Ese es justamente el problema matemático: partiendo a los 25, serían 75 años, diez más que la edad legal de jubilación. Por eso el ahorro voluntario pesa tanto."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si ganas menos de 4 o 5 millones de pesos al mes, tu impuesto marginal máximo es 13,5%, así que te conviene el APV régimen ___.",
+   "options": [
+    "A",
+    "B",
+    "depósitos convenidos",
+    "ninguno"
+   ],
+   "answer": 0,
+   "explain": "El 15% que regala el Estado en el régimen A es mayor que cualquier ahorro de impuestos posible en esos tramos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Una persona gana $2 millones brutos al mes ($24 millones al año) y queda en el tramo marginal del 8%. ¿Qué le conviene?",
+   "options": [
+    "APV B, porque rebaja impuestos",
+    "APV A, porque el 15% del Estado supera su ahorro tributario del 8%",
+    "Depósitos convenidos, porque tienen el tope más alto",
+    "Da lo mismo, el beneficio es idéntico"
+   ],
+   "answer": 1,
+   "explain": "Mientras tu tasa marginal sea menor al 15%, la bonificación directa del régimen A rinde más que la rebaja de impuestos."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada instrumento con su característica mencionada en el episodio",
+   "pairs": [
+    [
+     "APV régimen A",
+     "El Estado te aporta un 15% de lo ahorrado; tope 6 UTM al año"
+    ],
+    [
+     "APV régimen B",
+     "Rebaja tu base imponible hoy; tope 600 UF al año"
+    ],
+    [
+     "Depósitos convenidos",
+     "Tope 900 UF y no puedes retirar antes de jubilar"
+    ],
+    [
+     "Fondo A de la AFP",
+     "El más riesgoso, pero igual tiene ~20% en activos conservadores"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "Si retiras tu APV A antes de jubilar, pierdes el 15% que te aportó el Estado.",
+   "answer": true,
+   "explain": "En el régimen B el castigo es distinto: pagas los impuestos que no pagaste más una sobretasa de entre 3% y 7%."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos para decidir qué APV te conviene, según el episodio",
+   "items": [
+    "Entender cómo funciona el impuesto global complementario y en qué tramo marginal estás",
+    "Revisar tu ahorro obligatorio en la AFP y el multifondo en que estás",
+    "Comparar el beneficio del 15% del régimen A con tu ahorro de impuestos del régimen B",
+    "Elegir dónde hacerlo: AFP, AGF o aseguradora, mirando costos y libertad de inversión"
+   ],
+   "explain": "Primero el diagnóstico (tu tramo y tu situación previsional), después la elección de régimen y recién al final la institución donde lo contratas."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál es la opción menos recomendada para hacer tu APV?",
+   "options": [
+    "Una AGF (administradora general de fondos)",
+    "Tu propia AFP",
+    "Una aseguradora, que suele venir con un seguro caro y opciones conservadoras"
+   ],
+   "answer": 2,
+   "explain": "Una diferencia de 1 o 2% de rentabilidad compuesta durante 20 o 25 años puede cambiar fuertemente el tamaño final de tu jubilación."
+  }
+ ],
+ "x-se-revienta-la-burbuja-de-la-ia": [
+  {
+   "type": "concept",
+   "title": "¿Burbuja o momento histórico?",
+   "body": "Una **burbuja** es cuando el precio de las cosas sube muy por sobre su valor real, empujado por la euforia o la avaricia. Con la IA hay argumentos para ambos lados: concentración y gastos enormes por un lado, empresas rentables y utilidades creciendo como nunca por el otro. Lo útil no es adivinar, sino **ajustar tu nivel de riesgo antes** de que pase algo.",
+   "emoji": "🫧"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuánto pesan hoy las 10 empresas más grandes dentro del S&P 500?",
+   "options": [
+    "Cerca de 10%",
+    "Cerca de 20%",
+    "Casi 40%",
+    "Más del 70%"
+   ],
+   "answer": 2,
+   "explain": "Esa concentración es aproximadamente el doble que en 2015: cuando pocas empresas mandan en el índice, un traspié de una te afecta a todos los que invierten en él."
+  },
+  {
+   "type": "tf",
+   "statement": "El múltiplo precio/utilidad mediano de hoy (≈30 veces) es más alto que el de diciembre de 1999, en plena burbuja puntocom (≈40 veces).",
+   "answer": false,
+   "explain": "Hoy es más bajo que en 1999, y además las utilidades están creciendo, lo que hace que las valorizaciones no se vean tan extremas como en la puntocom."
+  },
+  {
+   "type": "fill",
+   "sentence": "El 'triple digit test' consiste en vigilar que las ventas de IA sigan creciendo más de ___ al año respecto del año anterior.",
+   "options": [
+    "10%",
+    "50%",
+    "100%",
+    "500%"
+   ],
+   "answer": 2,
+   "explain": "Crecer a tres dígitos indica que la adopción sigue acelerando; cuando deje de ocurrir, será señal de que el negocio madura o que la euforia no tenía respaldo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con su descripción tal como se explicó en el episodio",
+   "pairs": [
+    [
+     "Capex",
+     "Gastos de capital que las empresas reportan a sus inversionistas"
+    ],
+    [
+     "Precio/utilidad",
+     "Valor de mercado dividido por las utilidades"
+    ],
+    [
+     "Magnificent 7",
+     "Amazon, Apple, Tesla, Nvidia, Meta, Google y Microsoft"
+    ],
+    [
+     "Acuerdos circulares",
+     "Empresas que se pasan plata entre ellas, como OpenAI, Oracle y Nvidia"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el episodio dice que es menos riesgoso que estas empresas financien sus inversiones en IA con efectivo y no con deuda?",
+   "options": [
+    "Porque el efectivo rinde más que la deuda",
+    "Porque si el proyecto fracasa, no quedan atrapadas pagando intereses",
+    "Porque la deuda está prohibida para empresas tecnológicas",
+    "Porque el efectivo no paga impuestos"
+   ],
+   "answer": 1,
+   "explain": "Con deuda, un proyecto que se va a cero te deja igual pagando intereses; con caja propia, la empresa sigue funcionando aunque la apuesta falle."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el razonamiento que propone el episodio para decidir qué hacer con tus inversiones",
+   "items": [
+    "Entender qué es una burbuja y qué dicen los datos de ambos lados",
+    "Mirar las señales: adopción, crecimiento de ventas y levantamiento de capital",
+    "Preguntarte si aguantarías una caída de 20% o 30% por varios años",
+    "Ajustar tu nivel de riesgo ahora, antes de que caiga el mercado"
+   ],
+   "explain": "La idea es decidir con información y en frío: reevaluar tu tolerancia al riesgo cuando todo está tranquilo, no en medio del pánico."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, las ventas del mundo de la IA pasaron de unos US$7.000 millones a más de US$60.000 millones en dos años.",
+   "answer": true,
+   "explain": "Ese salto es el principal argumento de que hay monetización real, a diferencia de la puntocom, donde muchas empresas ni siquiera tenían ventas."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la conclusión práctica del episodio para alguien que invierte a largo plazo?",
+   "options": [
+    "Vender todo y pasarse al oro antes de que reviente",
+    "Endeudarse para comprar más acciones de IA",
+    "Evaluar tu capacidad real de aguantar caídas y ajustar el riesgo según eso",
+    "Esperar a que un experto avise el día exacto del estallido"
+   ],
+   "answer": 2,
+   "explain": "Nadie sabe cuándo ni si revienta; lo que sí controlas es cuánto riesgo tomas y si podrás sostenerlo cuando las noticias sean feas."
+  }
+ ],
+ "x-ahorra-un-20-en-la-universidad-de-tus-hijos": [
+  {
+   "type": "concept",
+   "title": "Seguro con ahorro vs. ahorro con seguro",
+   "body": "Los productos que prometen \"pagar la universidad de tu hijo pase lo que pase\" mezclan **seguro e inversión** en un solo paquete. El problema: la parte de ahorro suele rendir poco, apenas la UF. Separar las dos cosas —contratar el seguro por un lado e invertir el resto por el otro— puede dejarte bastante más plata al final.",
+   "emoji": "🎓"
+  },
+  {
+   "type": "mc",
+   "prompt": "En el ejemplo del episodio, la póliza cobra 4,76 UF mensuales durante 18 años. ¿Cuánto suma todo lo pagado?",
+   "options": [
+    "Cerca de 1.028 UF",
+    "Cerca de 500 UF",
+    "Cerca de 2.500 UF",
+    "Cerca de 15.000 UF"
+   ],
+   "answer": 0,
+   "explain": "4,76 x 12 meses x 18 años da unas 1.028 UF, casi exactamente lo que el producto promete devolver: la rentabilidad real es básicamente la UF."
+  },
+  {
+   "type": "tf",
+   "statement": "En el seguro con ahorro del ejemplo, si todo sale bien el cliente recibe de vuelta mucho más de lo que aportó.",
+   "answer": false,
+   "explain": "Recibe alrededor de 1.000 UF, prácticamente lo mismo que puso. La gracia que te venden es la cobertura, no la rentabilidad."
+  },
+  {
+   "type": "fill",
+   "sentence": "Al armar el camino alternativo, primero se cotiza el ___ por separado y lo que sobra de la cuota mensual se invierte.",
+   "options": [
+    "seguro de vida e invalidez",
+    "crédito hipotecario",
+    "fondo de AFP",
+    "CAE"
+   ],
+   "answer": 0,
+   "explain": "La idea es replicar la misma cobertura (fallecimiento e invalidez dos tercios) a menor costo y destinar el resto a inversión."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada etapa del plazo con el nivel de riesgo y rentabilidad real que se usó en el ejemplo",
+   "pairs": [
+    [
+     "Años 1 al 10",
+     "Más riesgo: 6% real"
+    ],
+    [
+     "Años 11 al 15",
+     "Riesgo medio: 4% real"
+    ],
+    [
+     "Últimos 3 años",
+     "Riesgo casi cero: 1% real"
+    ],
+    [
+     "Promedio del período",
+     "Alrededor de 4,6% real"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué conviene bajar el riesgo en los últimos años antes de que tu hijo entre a la universidad?",
+   "options": [
+    "Porque necesitas la plata en una fecha fija y una caída del mercado justo ahí te deja corto",
+    "Porque después de 15 años las inversiones dejan de rendir",
+    "Porque los seguros obligan a vender todo",
+    "Porque la UF deja de ajustarse por inflación"
+   ],
+   "answer": 0,
+   "explain": "Cuando el plazo se acorta, no hay tiempo para recuperarse de una caída: la prioridad pasa de crecer a proteger lo acumulado."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el ejercicio del episodio, ¿cuánta diferencia a favor dejó el camino de \"ahorro con seguro\" si todo sale bien?",
+   "options": [
+    "Cerca de un 20% más, unas 200 UF (~$8 millones)",
+    "Exactamente lo mismo",
+    "Cerca de un 50% más",
+    "Un 5% menos"
+   ],
+   "answer": 0,
+   "explain": "Son unas tremendas vacaciones por varios años, simplemente por no elegir el camino más fácil."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos para evaluar si te conviene un seguro con ahorro universitario",
+   "items": [
+    "Pedir la póliza y ver la prima mensual, el plazo y el monto asegurado",
+    "Multiplicar la prima por los meses para ver cuánto pagarás en total",
+    "Cotizar por separado un seguro con la misma cobertura en varias aseguradoras",
+    "Proyectar cuánto rendiría invertir la diferencia según el plazo",
+    "Comparar ambos escenarios: si te pasa algo y si todo sale bien"
+   ],
+   "explain": "Hacer los números con tu propio caso es el punto de partida; cada familia tiene aranceles, carreras y beneficios distintos."
+  },
+  {
+   "type": "tf",
+   "statement": "Al cotizar el seguro por separado, las primas y coberturas eran prácticamente iguales en todas las aseguradoras.",
+   "answer": false,
+   "explain": "En el episodio las cotizaciones variaban: una prima anual rondaba las 14 UF y otra bajaba a 11,59 UF, con coberturas distintas. Cotizar en varias partes paga."
+  }
  ]
 }
