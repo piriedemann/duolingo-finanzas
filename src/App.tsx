@@ -14,6 +14,7 @@ import { Quests } from './components/Quests'
 import { SaveProgressCard } from './components/Account'
 import { Calculator, ChevronRight, Coins, Flame, Headphones, Heart, Home, RotateCcw, Trophy, User, Zap } from './components/Icons'
 import { sfx } from './lib/sound'
+import logo from './assets/logo.png'
 
 const NAV = [
   { id: 'aprender', label: 'Aprender', Icon: Home },
@@ -26,7 +27,7 @@ const NAV = [
 export function Brand() {
   return (
     <span className="brand">
-      <span className="brand-mark">A</span>
+      <img className="brand-mark" src={logo} alt="Animales Financieros" width={36} height={36} />
       <span className="brand-text">
         Animalingo
         <small>con Animales Financieros</small>

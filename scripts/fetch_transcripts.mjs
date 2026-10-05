@@ -3,7 +3,9 @@
  * (mundo.animalesfinancieros.com, app Rails con login por email+password) y los guarda
  * LOCALMENTE en transcripts/ (ignorado por git: es contenido privado, no se publica).
  *
- * Uso:  AF_EMAIL=... AF_PASSWORD=... NODE_USE_ENV_PROXY=1 node scripts/fetch_transcripts.mjs [--force]
+ * Uso:  AF_EMAIL=... AF_PASSWORD=... NODE_USE_ENV_PROXY=1 node scripts/fetch_transcripts.mjs [--force] [--skip-generated]
+ *   --skip-generated: no descarga (ni indexa) los episodios que ya tienen quiz en src/data/generated/quizzes.json.
+ *                     Lo usa el workflow semanal para bajar solo lo nuevo.
  *
  * Flujo:
  *   1. GET /session/new → cookie de sesión + csrf-token
@@ -25,6 +27,9 @@ if (!AF_EMAIL || !AF_PASSWORD) {
   process.exit(1)
 }
 const force = process.argv.includes('--force')
+const skipGenerated = process.argv.includes('--skip-generated')
+const GENERATED = path.join(process.cwd(), 'src/data/generated/quizzes.json')
+const generatedIds = new Set(skipGenerated && fs.existsSync(GENERATED) ? Object.keys(JSON.parse(fs.readFileSync(GENERATED, 'utf8'))) : [])
 
 const jar = new Map()
 const cookieHeader = () => [...jar].map(([k, v]) => `${k}=${v}`).join('; ')
@@ -91,9 +96,15 @@ async function main() {
 
   const index = []
   let missing = 0
+  let skipped = 0
   for (const ep of episodes) {
     const n = ep.number
     const file = `${n != null ? String(n).padStart(3, '0') : 'x'}-${slug(ep.title)}.txt`
+    // mismo id que usa generate-from-transcripts.ts: número, o nombre del archivo si no tiene
+    if (generatedIds.has(String(n ?? file.replace(/\.txt$/, '')))) {
+      skipped++
+      continue
+    }
     const fp = path.join(OUT, file)
     const guest = (ep.guests ?? []).map((g) => g.name ?? g).filter(Boolean).join(', ') || null
     const meta = { number: n, title: ep.title, guest, date: ep.publishedOn ?? null, file }
@@ -113,7 +124,7 @@ async function main() {
   }
   index.sort((a, b) => (a.number ?? 1e9) - (b.number ?? 1e9))
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(index, null, 1))
-  console.log(`✓ ${index.length} transcripts guardados, ${missing} episodios sin transcript`)
+  console.log(`✓ ${index.length} transcripts guardados, ${missing} episodios sin transcript${skipGenerated ? `, ${skipped} ya generados` : ''}`)
 }
 
 main().catch((e) => {
