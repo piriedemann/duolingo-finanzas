@@ -17255,6 +17255,108 @@
    "explain": "Las recomendaciones cambiaban según el perfil: los hombres preguntaban más por crecimiento y cripto, terminaban invirtiendo más agresivo y con un patrimonio 5-10% mayor. La IA también tiene sesgos."
   }
  ],
+ "217": [
+  {
+   "type": "concept",
+   "title": "Lo bueno es enemigo de lo extraordinario",
+   "body": "En *Good to Great*, Jim Collins estudió 25 años de datos con un equipo de 21 personas durante 5 años, y encontró solo **11 empresas** que pasaron de normales a extraordinarias. La gran idea: poca gente consigue una vida extraordinaria porque **es muy fácil conformarse con una vida medianamente buena**. Y como dicen en el episodio, estos principios no solo sirven para empresas: sirven para tu carrera y tus finanzas.",
+   "emoji": "🚀"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la característica central de un líder de nivel 5 según el libro?",
+   "options": [
+    "Carisma de superestrella y presencia constante en los medios",
+    "Humildad personal combinada con una voluntad profesional feroz",
+    "Capacidad de tomar todas las decisiones solo y rápido",
+    "Pagar los mejores sueldos del mercado para retener talento"
+   ],
+   "answer": 1,
+   "explain": "Su ambición está puesta en algo más grande que ellos mismos: la empresa. Por eso en el episodio dicen que casi nadie conoce los nombres de esos CEOs."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el estudio, la estructura y el monto de las compensaciones explican buena parte del salto de bueno a extraordinario.",
+   "answer": false,
+   "explain": "Fue uno de los 'perros que no ladran': la plata sirve para que la gente adecuada no se baje del bus, no para motivar a la gente equivocada."
+  },
+  {
+   "type": "fill",
+   "sentence": "El segundo principio de la gente disciplinada es: primero ___, después qué.",
+   "options": [
+    "cuánto",
+    "quién",
+    "cuándo",
+    "dónde"
+   ],
+   "answer": 1,
+   "explain": "Si la gente correcta está en el bus y en el asiento correcto, el rumbo se puede corregir; con la gente equivocada, ni el mejor rumbo te salva."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con su explicación",
+   "pairs": [
+    [
+     "Líder nivel 5",
+     "Humilde y ambicioso, pero por la organización, no por su ego"
+    ],
+    [
+     "Perro que no ladra",
+     "Lo que NO aparece en los datos y también enseña algo"
+    ],
+    [
+     "Flywheel (la rueda)",
+     "Modelo que se itera siempre, no se resuelve una sola vez"
+    ],
+    [
+     "Rigurosos, no despiadados",
+     "Si dudas al contratar, no contrates; sigue buscando"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Philip Morris tenía 99% de su negocio en EE.UU. y 1% internacional. ¿Qué hizo con su persona más capaz?",
+   "options": [
+    "La dejó a cargo del negocio grande de EE.UU. para proteger el core",
+    "La puso a liderar el negocio internacional del 1%",
+    "La despidió para reducir costos",
+    "La ascendió a gerente general para que no se fuera"
+   ],
+   "answer": 1,
+   "explain": "La regla es poner a las mejores personas donde están las oportunidades, no donde están los problemas. Cinco años después ese negocio la rompió."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los niveles de liderazgo según el libro, del 1 al 5",
+   "items": [
+    "Individuo altamente capaz: aporta talento y buenos hábitos",
+    "Miembro de equipo que contribuye a los objetivos del grupo",
+    "Gerente competente: organiza personas y recursos",
+    "Líder efectivo: genera compromiso con una visión clara",
+    "Ejecutivo nivel 5: construye grandeza duradera"
+   ],
+   "explain": "La pirámide es acumulativa: cada nivel supone los anteriores, y el 5 agrega humildad con ambición puesta en algo más grande que uno mismo."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio comparan a los Marines: reclutan gente que ya comparte sus valores y recién después la forman.",
+   "answer": true,
+   "explain": "Es la misma lógica de 'primero quién': los valores son difíciles de instalar, las habilidades técnicas se enseñan."
+  },
+  {
+   "type": "mc",
+   "prompt": "Llevado a tus finanzas personales, ¿qué conclusión sacan los conductores del libro?",
+   "options": [
+    "Que conviene buscar acciones sueltas de empresas tipo 'good to great'",
+    "Que enfocarse en lo que uno es bueno y mirar las oportunidades hacia adelante sube tus ingresos a largo plazo",
+    "Que hay que cambiarse de fondo según el ciclo económico",
+    "Que la pasión siempre debe mandar sobre el talento"
+   ],
+   "answer": 1,
+   "explain": "Ellos mismos echan agua fría sobre invertir en acciones sueltas: varias de las 11 empresas luego quebraron. Lo que más se correlaciona con tu patrimonio es cuánto ganas y cuánto ahorras."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",

@@ -3035,5 +3035,22 @@
   ],
   "category": "carrera_ingresos",
   "confidence": "high"
+ },
+ {
+  "number": 217,
+  "title": "Good to Great 1",
+  "guest": null,
+  "date": "2026-09-29",
+  "summary": "Francisco y Pablo comentan el primer tercio del libro \"Good to Great\" de Jim Collins: cómo un equipo de 21 investigadores, durante 5 años y 25 años de datos, identificó 11 empresas que pasaron de buenas a extraordinarias. Revisan los dos primeros principios de la 'gente disciplinada': el líder de nivel 5 y el principio de 'primero quién, después qué'. Aterrizan todo a la vida personal y profesional: lo bueno es enemigo de lo extraordinario, y mejorar el capital humano es lo que más se correlaciona con generar patrimonio a largo plazo.",
+  "takeaways": [
+   "Lo bueno es enemigo de lo extraordinario: es fácil conformarse con una vida medianamente buena, y por eso poca gente llega a una vida extraordinaria.",
+   "El líder de nivel 5 combina humildad personal con una voluntad profesional feroz: su ambición está puesta en la empresa, no en sí mismo; los mejores son los que uno nunca escuchó nombrar.",
+   "Primero quién, después qué: sube a la gente correcta al bus y siéntala en el asiento correcto antes de definir el rumbo, porque la gente correcta se adapta mejor a un mundo cambiante.",
+   "La compensación no explica la transformación: la plata sirve para que la gente adecuada no se baje del bus, no para motivar a la gente equivocada. Bajo mercado sí duele; sobre cierto punto, pagar más no mueve la aguja.",
+   "Sé riguroso pero no despiadado: si dudas al contratar, no contrates y sigue buscando; y antes de despedir, pregúntate '¿lo volvería a contratar?' y '¿me amargaría o me aliviaría si se bajara del bus?'.",
+   "Pon a tus mejores personas donde están las oportunidades, no donde están los problemas (caso Philip Morris y su negocio internacional del 1%). Lo mismo aplica a tu carrera: enfócate en lo que eres bueno y mira hacia adelante, no hacia tu pasado."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
  }
 ]
