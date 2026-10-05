@@ -1,4 +1,4 @@
-# 🐷 Animalingo
+# 🐷 Fito Finanzas
 
 **Duolingo × Animales Financieros**: un prototipo de app para aprender finanzas personales jugando,
 basado en el contenido del podcast chileno [Animales Financieros](https://www.animalesfinancieros.com/).
@@ -105,7 +105,7 @@ Fundación Educación 2020 (1 de octubre 2026): contenido y fechas en `src/data/
   acierto por pregunta (solo primer intento), actualizado cada 5 s. Las preguntas con menos de 60% se marcan.
   El link no tiene clave: no lo compartas con el grupo.
 - **Desafío de una semana**: ranking de los participantes del taller por XP ganado entre las fechas del desafío
-  (columna `challenge_xp`). Cuenta todo lo que hagan en Animalingo, no solo el taller.
+  (columna `challenge_xp`). Cuenta todo lo que hagan en Fito Finanzas, no solo el taller.
 - Requiere volver a ejecutar `supabase/schema.sql` (agrega `cohort`, `challenge_xp` y la tabla
   `workshop_answers`; es idempotente). Sin eso, la app base sigue funcionando pero el panel y el ranking no.
 
