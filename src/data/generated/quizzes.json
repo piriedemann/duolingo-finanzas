@@ -17571,5 +17571,613 @@
    "answer": 1,
    "explain": "El valor está en el método: cómo setear objetivos, priorizar y acompañar al cliente, algo aplicable también en Chile y Latinoamérica."
   }
+ ],
+ "x-parte-en-los-colegios-pero-no-termina-nunca": [
+  {
+   "type": "concept",
+   "title": "La educación financiera parte mucho antes de invertir",
+   "body": "En el episodio se plantea que gran parte del contenido financiero disponible hoy apunta a **inversiones**, cuando la mayoría de las personas todavía necesita lo anterior: **presupuesto, tasas de interés y liquidez**. En Chile, cerca de **un tercio** declara ser capaz de ahorrar, y de esos la gran mayoría no llega ni al 10% de su sueldo. Primero el piso, después el techo.",
+   "emoji": "🧱"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las prioridades de aprendizaje financiero según lo planteado en el episodio",
+   "items": [
+    "Armar un presupuesto: saber cuánto entra y en qué gasto",
+    "Entender tasas de interés y que un peso hoy vale más que un peso mañana",
+    "Tener liquidez / un fondo de emergencia",
+    "Invertir en instrumentos como ETFs o APV"
+   ],
+   "explain": "El orden importa: invertir sin presupuesto ni colchón de emergencia es construir el techo antes que los cimientos."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el consejo que se comenta en el episodio, ¿con qué deberías cubrir tus gastos permanentes?",
+   "options": [
+    "Con tus ingresos permanentes",
+    "Con el bono de fin de año",
+    "Con la línea de crédito mientras ordenas tus cuentas",
+    "Con lo que sobre después de los gastos variables"
+   ],
+   "answer": 0,
+   "explain": "Si calzas lo fijo con lo fijo, un mes sin bono o sin pega extra no te desarma el presupuesto completo."
+  },
+  {
+   "type": "tf",
+   "statement": "Según las cifras mencionadas en el episodio, más del 40% de la gente en Chile registra morosidad.",
+   "answer": true,
+   "explain": "La morosidad masiva muestra que el problema no es solo de conocimiento: mucha gente queda ahogada sin saber cómo salir."
+  },
+  {
+   "type": "fill",
+   "sentence": "Sin entender la ___ no sabes cuánto puede crecer tu plata ni cuánto te puede quitar una deuda.",
+   "options": [
+    "tasa de interés",
+    "bolsa de comercio",
+    "inflación importada",
+    "prima de riesgo"
+   ],
+   "answer": 0,
+   "explain": "La tasa de interés aparece en todos lados: tarjeta, crédito de consumo, línea de crédito y también en lo que ahorras."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con su idea central tal como se discute en el episodio",
+   "pairs": [
+    [
+     "Gasto hormiga",
+     "Cafés y pedidos chicos que al sumarlos al mes son mucha plata"
+    ],
+    [
+     "Liquidez",
+     "Tener plata disponible para cubrir un imprevisto"
+    ],
+    [
+     "Diversificación",
+     "No dejar todo tu patrimonio en un solo tipo de instrumento"
+    ],
+    [
+     "Presupuesto",
+     "Saber cuánto entra, cuánto sale y en qué se va"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Tener la casa propia y además un fondo inmobiliario, ¿es estar bien diversificado?",
+   "options": [
+    "Sí, son dos instrumentos distintos",
+    "No necesariamente: ambos dependen del mismo sector",
+    "Sí, porque uno es físico y el otro financiero",
+    "Solo si el fondo paga dividendos"
+   ],
+   "answer": 1,
+   "explain": "Diversificar no es tener varios productos, es tener exposiciones que no se muevan todas juntas ante el mismo golpe."
+  },
+  {
+   "type": "tf",
+   "statement": "Comprar algo en cuotas es seguro siempre que hoy te alcance para pagar la primera cuota.",
+   "answer": false,
+   "explain": "La cuota de hoy convive con las cuotas que tomes en los próximos meses: lo que hay que proyectar es el total comprometido."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la \"bandera de lucha\" que plantea la invitada para la educación financiera en Chile?",
+   "options": [
+    "Que todos aprendan a elegir acciones",
+    "Partir lo más chicos posible, desde el colegio, y masificar los conceptos en lenguaje simple",
+    "Prohibir las tarjetas de crédito de retail",
+    "Que la banca publique más informes técnicos"
+   ],
+   "answer": 1,
+   "explain": "Muchas iniciativas quedan en un nivel alto y se diluyen; el desafío es llegar temprano y a quienes no tienen background financiero."
+  }
+ ],
+ "x-la-meritocracia-existe": [
+  {
+   "type": "concept",
+   "title": "El esfuerzo que se convierte en valor",
+   "body": "La gran idea del episodio: **el esfuerzo sirve cuando se traduce en valor**, no cuando solo cansa. Si te paras en la calle a pegarle al suelo con una picota vas a sudar harto, pero nadie te va a pagar por eso. La pregunta útil no es \"¿me esforcé?\", sino \"¿esto creó algo que otros valoran?\".",
+   "emoji": "⛏️"
+  },
+  {
+   "type": "concept",
+   "title": "Compárate con tu yo de ayer",
+   "body": "Pensar \"¿para qué me esfuerzo si nunca voy a ser Elon Musk o Andrónico Luksic?\" es medirse en el **absoluto**. En el episodio proponen medirse en el **relativo**: ¿cómo estoy respecto a mi yo de hace una semana, un año, dos años? Que Luksic tenga más o menos no hace que tu vida sea mejor.",
+   "emoji": "📏"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál de estos es un ejemplo de esfuerzo que NO se traduce en valor?",
+   "options": [
+    "Quedarte una hora extra para resolver bien un servicio a un cliente",
+    "Pegarle al suelo con una picota en la calle hasta sacar caluga",
+    "Hacerle ver a alguien que puede confiar en ti para un trabajo",
+    "Crear una conexión con una persona que mañana puede ser tu jefe"
+   ],
+   "answer": 1,
+   "explain": "El episodio usa la picota justamente como imagen de esfuerzo bruto: hay cansancio y hasta riesgo de lesión, pero cero conversión en valor."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que, como existe la desigualdad y los pitutos, la meritocracia simplemente no existe.",
+   "answer": false,
+   "explain": "El argumento es el contrario: igual que la justicia o la democracia, es un sistema humano imperfecto y perfectible; sus vicios no la anulan, muestran qué mejorar."
+  },
+  {
+   "type": "fill",
+   "sentence": "La capacidad de transformar esfuerzo en valor es distinta según tu situación, pero salvo condiciones extremas ese factor siempre es ___.",
+   "options": [
+    "exactamente cero",
+    "distinto de cero",
+    "igual para todos",
+    "imposible de modelar"
+   ],
+   "answer": 1,
+   "explain": "Que una probabilidad sea baja no es lo mismo que sea cero: mientras no sea cero, existe un camino hacia una mejor situación."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con lo que significa en el episodio",
+   "pairs": [
+    [
+     "Agent-based modeling",
+     "Simular personas (agentes) con reglas que interactúan en un entorno"
+    ],
+    [
+     "Comportamiento emergente",
+     "Patrones sociales que surgen de reglas simples de cada agente"
+    ],
+    [
+     "Apalancamiento del esfuerzo",
+     "Factores que amplifican cuánto valor saca cada persona del mismo esfuerzo"
+    ],
+    [
+     "Pegajosidad de la pobreza",
+     "Cuando llegas justo a fin de mes es más difícil convertir esfuerzo en valor"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué, según el invitado, modelar la sociedad con ecuaciones diferenciales (tipo Black-Scholes) tiene límites?",
+   "options": [
+    "Porque asumen fluidos continuos y homogéneos, y las personas son unidades discretas y muy distintas entre sí",
+    "Porque las matemáticas no sirven para fenómenos sociales",
+    "Porque no existen computadores capaces de resolverlas",
+    "Porque el interés compuesto no se puede modelar"
+   ],
+   "answer": 0,
+   "explain": "No puedes tener 1,5 seres humanos ni suponer que todos son partículas idénticas; por eso los agentes permiten universos heterogéneos y redes."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la lógica del argumento del episodio",
+   "items": [
+    "Pones esfuerzo de forma constante y perseverante",
+    "Canalizas ese esfuerzo en algo que crea valor para otros",
+    "Ese valor se traduce en oportunidades, confianza y capital (financiero, social, intelectual)",
+    "El interés compuesto acumula esas mejoras en el largo plazo",
+    "Tu nivel de vida sube respecto a tu propio punto de partida"
+   ],
+   "explain": "El salto no es de un día para otro: la secuencia es esfuerzo → valor → oportunidades → acumulación compuesta → mejora real."
+  },
+  {
+   "type": "tf",
+   "statement": "Para el invitado, 'progresar' significa necesariamente hacerse millonario o jubilarse a los 35.",
+   "answer": false,
+   "explain": "Su ejemplo es un obrero cuyo hijo va a la universidad y termina trabajando de lunes a viernes en vez de lunes a domingo: eso también es ascenso social."
+  }
+ ],
+ "x-en-wall-street-pasan-cosas-raras-todo-el-tiempo": [
+  {
+   "type": "concept",
+   "title": "Cuando la deuda te saca del juego",
+   "body": "Un fondo pasó de manejar **US$45.000 millones** a unos US$10.000-15.000 millones en semanas. ¿La receta? Crecer rápido, concentrado en inteligencia artificial y con **deuda de 3 a 4 veces** su capital. Cuando los precios bajaron, los bancos pidieron garantías y tuvo que vender a la fuerza. La lección para nosotros: en los mercados, sobrevivir importa más que ir rápido.",
+   "emoji": "🦈"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué es un 'margin call' según lo que se explica en el episodio?",
+   "options": [
+    "Cuando el banco que te prestó plata te exige más garantía porque los precios cayeron",
+    "Una llamada del corredor para ofrecerte nuevas acciones",
+    "Un impuesto que se cobra cuando vendes con ganancia",
+    "Un crédito extra que te dan cuando tu portafolio sube"
+   ],
+   "answer": 0,
+   "explain": "El prestamista necesita cubrirse si tu garantía pierde valor; si no puedes aportar más, te liquidan las posiciones justo cuando todo está barato."
+  },
+  {
+   "type": "tf",
+   "statement": "Si un adivino infalible te dijera que un activo sube de 100 a 120-130 en 12 meses, lo racional sería endeudarse todo lo que te presten.",
+   "answer": false,
+   "explain": "En el episodio se menciona que el límite razonable ronda 3 a 1: la volatilidad del camino puede quebrarte antes de llegar al resultado final."
+  },
+  {
+   "type": "fill",
+   "sentence": "Cuando varios hedge funds 'huelen sangre', se van ___ para apostar a que las acciones caigan aún más y presionar al que está forzado a vender.",
+   "options": [
+    "cortos",
+    "largos",
+    "al efectivo",
+    "a bonos"
+   ],
+   "answer": 0,
+   "explain": "Irse corto es apostar a la baja; esa presión obliga al apalancado a liquidar, y ahí los cortos se cubren con ganancia."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la secuencia de la espiral que se describe en el episodio",
+   "items": [
+    "El fondo crece rápido con deuda de 3 a 4 veces y concentrado en IA",
+    "Los precios de las acciones de IA empiezan a caer",
+    "Los bancos piden garantías adicionales (margin calls)",
+    "El fondo se ve forzado a vender su parte líquida y presiona más los precios",
+    "Otro fondo le compra toda la posición con un 10% de descuento"
+   ],
+   "explain": "Cada eslabón alimenta al siguiente: el apalancamiento convierte una caída normal de mercado en una crisis de sobrevivencia."
+  },
+  {
+   "type": "concept",
+   "title": "Pregunta quién está al lado tuyo",
+   "body": "Un aprendizaje adicional del episodio: **revisar quiénes son los otros inversionistas del fondo**. En este caso no había inversionistas institucionales; eran principalmente personas del mundo tech viviendo una euforia. Hacer esa pega aburrida de due diligence sube tus probabilidades de éxito en el largo plazo.",
+   "emoji": "🔍"
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada concepto con su descripción",
+   "pairs": [
+    [
+     "Leverage",
+     "Endeudarse para invertir más de lo que tienes"
+    ],
+    [
+     "Margin call",
+     "Exigencia de más garantía cuando caen los precios"
+    ],
+    [
+     "Irse corto",
+     "Apostar a que un activo va a bajar"
+    ],
+    [
+     "Due diligence",
+     "Investigar a fondo antes de entregar tu plata"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿por qué es tan caro asustarse y vender en medio de una caída?",
+   "options": [
+    "Porque te pierdes también el rebote y los días de grandes saltos",
+    "Porque vender acciones está prohibido durante una corrección",
+    "Porque los bancos te cobran una multa por vender",
+    "Porque siempre conviene mantener cualquier inversión para siempre"
+   ],
+   "answer": 0,
+   "explain": "Perderse unos pocos días de grandes alzas cambia radicalmente el retorno de largo plazo: pierdes para abajo y pierdes para arriba."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se concluye que el mercado es 100% eficiente en el día a día.",
+   "answer": false,
+   "explain": "Se plantea justo lo contrario: en el corto plazo pasan cosas raras y hay jugadores con ventajas; en el largo plazo el mercado tiende a ser mucho más eficiente."
+  },
+  {
+   "type": "fill",
+   "sentence": "La invitación final es hacerlo '___ posible' en los mercados: sin deuda, con horizonte largo y planificando cuánto necesitas rentar.",
+   "options": [
+    "lo más fome",
+    "lo más entretenido",
+    "lo más rápido",
+    "lo más concentrado"
+   ],
+   "answer": 0,
+   "explain": "La emoción y la euforia son las que llevan a endeudarse y a hacer timing; lo aburrido es justamente lo que te mantiene en el juego."
+  }
+ ],
+ "x-las-redes-sociales-te-frien-el-cerebro-a-proposito": [
+  {
+   "type": "concept",
+   "title": "Tu atención también es plata",
+   "body": "Josefa borró Instagram, Facebook y TikTok y lo planteó como un **experimento de 3 meses**, no como una decisión para siempre. La clave del episodio: las apps están diseñadas por la gente más inteligente del mundo para darte **dopamina de corto plazo** y dejarte pegado. Recuperar tu atención es recuperar tiempo, concentración y capital humano.",
+   "emoji": "🧠"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿con qué se comparan Instagram y TikTok por su diseño?",
+   "options": [
+    "Con una biblioteca pública",
+    "Con las máquinas tragamonedas de los casinos",
+    "Con un canal de televisión abierta",
+    "Con un diario de papel"
+   ],
+   "answer": 1,
+   "explain": "La lógica es la misma: recompensas impredecibles que te hacen seguir bajando para buscar el próximo golpe de dopamina."
+  },
+  {
+   "type": "tf",
+   "statement": "Josefa dejó las redes de golpe y para siempre, sin darse la opción de volver atrás.",
+   "answer": false,
+   "explain": "Lo formuló como un experimento acotado: si no resultaba, reinstalaba y listo. Esa salida de emergencia es justamente lo que hace fácil partir."
+  },
+  {
+   "type": "fill",
+   "sentence": "El episodio propone cambiar la dopamina de corto plazo por la gratificación de ___, como volver a leer libros o enfrentar desafíos con mejor actitud.",
+   "options": [
+    "largo plazo",
+    "consumo inmediato",
+    "notificaciones",
+    "scroll infinito"
+   ],
+   "answer": 0,
+   "explain": "Es el mismo músculo que usas para ahorrar e invertir: posponer la recompensa hoy para que valga más mañana."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada efecto que menciona Josefa con lo que pasó al dejar las redes",
+   "pairs": [
+    [
+     "Concentración",
+     "Volvió a leer libros completos y disfrutarlos"
+    ],
+    [
+     "Amistades cercanas",
+     "Se acercaron más y le contaban las cosas directamente"
+    ],
+    [
+     "Pareja",
+     "Conversan más y él también desinstaló las apps"
+    ],
+    [
+     "Primeros días",
+     "Sentía 'cravings' y buscaba la app que ya no estaba"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el experimento tal como lo cuenta Josefa en el episodio",
+   "items": [
+    "Investigar y notar que las redes le quitaban tiempo sin darle valor",
+    "Borrar Instagram como primer paso",
+    "A las dos o tres semanas, eliminar también Facebook y TikTok",
+    "Evaluar a los 3 meses y decidir seguir",
+    "A los 6 meses concluir que simplemente no las necesita"
+   ],
+   "explain": "Empezar chico y revisar en fechas definidas convierte un cambio enorme en una serie de decisiones pequeñas y reversibles."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu amigo quiere bajarle al teléfono pero dice que solo no puede. ¿Qué recomienda el episodio?",
+   "options": [
+    "Esperar a sentirse motivado por su cuenta",
+    "Hacerlo en grupo o con un amigo, aunque sea por una semana",
+    "Borrar todas las apps del teléfono de una sola vez y nunca hablar del tema",
+    "Reemplazar Instagram por otra app parecida"
+   ],
+   "answer": 1,
+   "explain": "El apoyo social reemplaza la recompensa que daba la app y además te deja a alguien a quien rendirle cuentas."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que, si igual vas a ver pantallas, es mejor que sea algo compartido (como ver YouTube en la tele en pareja) que permita conversar después.",
+   "answer": true,
+   "explain": "El problema no es solo la pantalla, sino el consumo solitario e infinito diseñado para que nunca salgas de ahí."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál es la conexión que hace el episodio entre estos experimentos y tu plata?",
+   "options": [
+    "Dejar redes sociales te hace ahorrar en el plan de datos",
+    "Atreverse a experimentos cultiva tu capital humano, y eso ayuda a ganar más y ordenar tu vida financiera",
+    "Las redes sociales son la principal causa de deudas en Chile",
+    "Sin redes no te llegan ofertas y gastas menos"
+   ],
+   "answer": 1,
+   "explain": "El cierre del episodio apunta a eso: ordenar hábitos y capital humano es la base para ahorrar, invertir y, al final, ser más feliz."
+  }
+ ],
+ "x-habla-esto-con-tus-papas-antes-de-que-sea-tarde": [
+  {
+   "type": "concept",
+   "title": "La conversación que nadie quiere tener",
+   "body": "Nadie quiere hablar de **muerte, invalidez o demencia**. Pero el episodio recuerda que un **82% de los adultos sobre 65 años** va a necesitar algún tipo de asistencia en su vejez. Lo peor no es la conversación incómoda: es nunca tenerla y que la situación llegue igual. La propuesta son dos etapas: primero el **inventario**, después la **conversación**.",
+   "emoji": "🗂️"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuáles son las dos etapas para hacerse cargo de este tema?",
+   "options": [
+    "Contratar un abogado y luego un seguro de vida",
+    "Juntar toda la información en un inventario y luego preparar la conversación",
+    "Abrir una cuenta conjunta y repartir la herencia",
+    "Hacer un testamento y avisarle solo al hijo mayor"
+   ],
+   "answer": 1,
+   "explain": "Llegar a la conversación con los documentos ya ordenados evita que la charla se convierta en una lluvia de dudas sin respuesta."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada sección de la carpeta con lo que va dentro",
+   "pairs": [
+    [
+     "Cuentas e inversiones",
+     "Cuentas bancarias, AFP, APV, corredoras, propiedades e hipotecario"
+    ],
+    [
+     "Seguros y protección",
+     "Seguro de vida con sus beneficiarios, Isapre o Fonasa"
+    ],
+    [
+     "Documentos legales",
+     "Poder notarial, voluntades anticipadas, testamento"
+    ],
+    [
+     "Acceso digital",
+     "Cómo entrar al correo electrónico y a las distintas cuentas"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "El episodio recomienda tener el documento con todas las claves guardado en el computador para no perderlo.",
+   "answer": false,
+   "explain": "Justamente se sugiere imprimirlo y guardarlo bajo llave: un archivo digital con todas las claves es un riesgo enorme si alguien accede al equipo."
+  },
+  {
+   "type": "fill",
+   "sentence": "El documento que permite que los hijos tomen decisiones a nombre de los papás es el ___.",
+   "options": [
+    "poder notarial",
+    "certificado de nacimiento",
+    "contrato de arriendo",
+    "finiquito"
+   ],
+   "answer": 0,
+   "explain": "Sin ese poder firmado a tiempo, habilitar a alguien para administrar las finanzas de otra persona puede tomar trámites de años."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿De qué se hacen cargo las voluntades anticipadas?",
+   "options": [
+    "Del reparto de los bienes entre los herederos",
+    "De las decisiones médicas de la persona",
+    "Del pago de los créditos pendientes",
+    "De quién administra las inversiones"
+   ],
+   "answer": 1,
+   "explain": "Lo médico y lo patrimonial se documentan por separado: una cosa es quién decide sobre tu salud y otra quién administra tu plata."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los cuatro grandes temas de la conversación, tal como se plantean en el episodio",
+   "items": [
+    "¿Quién va a tomar las decisiones?",
+    "El plan de cuidado a largo plazo",
+    "¿Quién va a manejar el patrimonio?",
+    "Los últimos deseos"
+   ],
+   "explain": "Partir por quién decide ordena todo lo demás, y dejar los últimos deseos por escrito evita que la familia tenga que adivinar."
+  },
+  {
+   "type": "mc",
+   "prompt": "Tu mamá puede pensar que le hablas de esto porque andas detrás de la herencia. Según el episodio, ¿cómo conviene abordarlo?",
+   "options": [
+    "Mandarle un WhatsApp rápido con la lista de documentos",
+    "Aprovechar 30 minutos antes de un almuerzo familiar",
+    "Avisarle antes, darse un espacio largo de tiempo y partir diciendo que lo haces porque la quieres y quieres que esté tranquila",
+    "Pedirle directamente las claves de sus cuentas para administrarlas tú"
+   ],
+   "answer": 2,
+   "explain": "El encuadre emocional y el tiempo son parte del método: si la otra persona se siente cuidada y no presionada, la conversación avanza."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se cuenta el caso de una cuenta desconocida con US$50.000 que estuvo a punto de ser donada porque a nadie le avisaron que existía.",
+   "answer": true,
+   "explain": "Es el ejemplo perfecto de por qué el inventario importa: una cuenta que nadie sabe que existe es casi una cuenta perdida."
+  }
+ ],
+ "x-5-asesores-financieros-revelan-sus-portafolios": [
+  {
+   "type": "concept",
+   "title": "Las finanzas personales son más personales que financieras",
+   "body": "Cuando a 25 asesores financieros les preguntaron **\"¿qué haces con tu dinero?\"**, casi todos respondieron con una historia, no con su cartera. En lo técnico eran repetitivos (fondos indexados baratos y aportes automáticos), pero sus vidas financieras eran completamente distintas: una cabaña familiar, los estudios de los hijos, cambiarse de carrera. El dinero es un medio; tú defines para qué.",
+   "emoji": "🧭"
+  },
+  {
+   "type": "mc",
+   "prompt": "Morgan Housel pagó por completo su crédito hipotecario aunque tenía una tasa muy baja. ¿Cómo describe él esa decisión?",
+   "options": [
+    "Su mejor decisión financiera y también la más rentable",
+    "Su peor decisión financiera, pero su mejor decisión de dinero",
+    "Un error del que se arrepiente hasta hoy",
+    "Una decisión que tomó porque la tasa iba a subir"
+   ],
+   "answer": 1,
+   "explain": "Matemáticamente conviene mantener una deuda muy barata e invertir, pero él priorizó la independencia de levantarse y hacer lo que quiera con su tiempo. Rentabilidad y tranquilidad no siempre apuntan al mismo lado."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los baldes de Christine Benz desde el más líquido y de corto plazo al de más largo plazo",
+   "items": [
+    "1 a 2 años de gastos en instrumentos de muy bajo riesgo",
+    "Mediano plazo (3 a 7 años) en bonos y deuda",
+    "Balde de crecimiento, prácticamente todo en acciones"
+   ],
+   "explain": "Separar la plata por horizonte evita tener que vender acciones justo cuando el mercado va mal: lo de corto plazo ya está guardado en algo estable."
+  },
+  {
+   "type": "tf",
+   "statement": "Christine Benz dice que su portafolio es el óptimo: tiene los fondos más baratos y tributariamente más eficientes del mercado.",
+   "answer": false,
+   "explain": "Ella reconoce que no es óptimo y está tranquila igual, porque lo que mueve la aguja son las decisiones grandes: en qué tipo de activo inviertes y aportar todos los meses de forma automática."
+  },
+  {
+   "type": "fill",
+   "sentence": "Para Carolyn McClanahan, lo más importante para lograr la independencia financiera no es tener el mejor portafolio, sino tu nivel de ___.",
+   "options": [
+    "gasto",
+    "rentabilidad",
+    "endeudamiento",
+    "sueldo"
+   ],
+   "answer": 0,
+   "explain": "Controlar el gasto le permitió sobrevivir años de pocos ingresos al cambiarse de la medicina a la planificación financiera, sin endeudarse ni estresarse."
+  },
+  {
+   "type": "match",
+   "prompt": "Une a cada asesor con la idea que lo define en el episodio",
+   "pairs": [
+    [
+     "Morgan Housel",
+     "El dinero compra independencia: casa pagada y agenda libre"
+    ],
+    [
+     "Joshua Brown",
+     "Su mayor activo es su casa; además 30% de su empresa y acciones de marcas que ama"
+    ],
+    [
+     "Bob Seawright",
+     "La cabaña familiar: mala inversión en números, impagable en recuerdos"
+    ],
+    [
+     "Carolyn McClanahan",
+     "La mejor inversión es en uno mismo: aprender, cuerpo y mente"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Joshua Brown tiene una parte pequeña de su cartera en acciones individuales de empresas de las que es fan (Apple, Amazon, Shake Shack). ¿Para qué le sirve ese truco mental?",
+   "options": [
+    "Para superar la rentabilidad del mercado todos los años",
+    "Para mantenerse invertido en los periodos malos del mercado",
+    "Para pagar menos impuestos que con fondos indexados",
+    "Para reemplazar su portafolio de jubilación"
+   ],
+   "answer": 1,
+   "explain": "Cuando los mercados caen, va a comerse una hamburguesa a Shake Shack y recuerda por qué compró. La conducta —no vender en pánico— suele importar más que la selección de acciones."
+  },
+  {
+   "type": "tf",
+   "statement": "Bob Seawright dice que la cabaña familiar era financieramente un desastre: cara de mantener, con impuestos y usada pocas semanas al año.",
+   "answer": true,
+   "explain": "Y aun así no la cambiaría por nada. Hay gastos que no se justifican en una planilla pero sí en la vida que quieres construir."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué patrón se repite en la parte técnica de cómo invierten estos asesores?",
+   "options": [
+    "Acciones individuales elegidas con análisis profundo",
+    "Fondos indexados baratos, eficientes en impuestos y prioridad a los vehículos de jubilación",
+    "Cripto y activos alternativos para diversificar",
+    "Depósitos a plazo renovados cada mes"
+   ],
+   "answer": 1,
+   "explain": "Quienes viven de esto terminan invirtiendo de forma aburrida y simple; la complejidad rara vez agrega valor, y la diferencia está en para qué usan la plata."
+  }
  ]
 }

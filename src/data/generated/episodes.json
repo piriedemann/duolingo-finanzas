@@ -3070,5 +3070,109 @@
   ],
   "category": "emprendimiento",
   "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "Parte en los colegios, pero no termina nunca",
+  "guest": null,
+  "date": "2026-09-03",
+  "summary": "Conversación con Pamela Ausener, que estuvo más de un año al aire en el programa radial \"El fin del dinero\", sobre el estado de la educación financiera en Chile. Se discute por qué el país está al debe (menos de un tercio maneja conceptos básicos, más del 40% registra morosidad) y en qué orden habría que aprender: presupuesto y tasas de interés mucho antes que inversiones. La bandera final: partir desde el colegio y masificar el lenguaje simple.",
+  "takeaways": [
+   "Antes de pensar en ETFs o APV, lo primero es armar un presupuesto: saber cuánto entra, cuánto sale y en qué se te va la plata (ojo con el gasto hormiga).",
+   "Regla simple y potente: los gastos permanentes se cubren con ingresos permanentes; lo extra (bonos, ingresos puntuales) no debería financiar compromisos fijos.",
+   "Entender la tasa de interés es clave: sin eso no sabes cuánto puede crecer tu plata ni cuánto te puede quitar una deuda, y las tasas de tarjeta, crédito de consumo y línea de crédito son muy distintas entre sí.",
+   "Comprar en cuotas sin presupuestar es riesgoso: hoy te alcanza para la cuota, pero en tres o cuatro meses puedes tener otras cuotas encima.",
+   "El concepto de liquidez (tener un fondo de emergencia disponible) está mucho menos internalizado que el de diversificación, y la gente suele creer que está diversificada por tener dos instrumentos parecidos.",
+   "La educación financiera debería partir en el colegio, incluso con cosas simples como una mesada y juegos donde haya que ahorrar o pedir un préstamo que tiene costo."
+  ],
+  "category": "presupuesto",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "La meritocracia existe",
+  "guest": null,
+  "date": "2026-08-20",
+  "summary": "Francisco conversa con Dietmar Krause, ingeniero que trabaja en Microsoll... (Microsoft) y fanático de la modelación, sobre su reel viral \"el pobre es pobre porque quiere\". Usando modelación basada en agentes (agent-based modeling), muestra que aunque el punto de partida y la suerte importan, la probabilidad de que el esfuerzo se convierta en valor casi nunca es cero, y que combinada con el interés compuesto permite mejorar tu situación en el tiempo. La invitación es dejar de compararse con Andrónico Luksic o Elon Musk y compararse con tu yo de hace un año.",
+  "takeaways": [
+   "No midas tu progreso en términos absolutos (vs. los más ricos), sino en relativo: compárate con tu yo de hace una semana, un año o dos.",
+   "Esfuerzo no es trabajo bruto: picotear el suelo cansa pero no crea valor. El esfuerzo sirve cuando se canaliza en algo que se traduce en valor para otros.",
+   "El múltiplo del esfuerzo es distinto según tu punto de partida (hay apalancamiento y 'pegajosidad' de la pobreza), pero salvo condiciones extremas ese factor es distinto de cero.",
+   "La meritocracia, como la justicia o la democracia, es un sistema humano imperfecto y perfectible: que tenga vicios y pitutos no significa que no exista.",
+   "Esfuerzo canalizado + interés compuesto en el largo plazo produce resultados enormes; el problema es que nuestro cerebro piensa en corto plazo.",
+   "El progreso no es necesariamente hacerse millonario: que tu hijo estudie y trabaje de lunes a viernes en vez de lunes a domingo también es ascenso social."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "En Wall Street pasan cosas raras todo el tiempo",
+  "guest": null,
+  "date": "2026-08-13",
+  "summary": "Minicapítulo donde Francisco y Fernando Gómez comentan el caso del fondo Situational Awareness, que pasó de manejar unos US$45.000 millones a cerca de US$10.000-15.000 millones en pocas semanas tras una caída de las acciones ligadas a inteligencia artificial. La historia muestra cómo el apalancamiento (deuda para invertir), los margin calls y otros fondos que 'huelen sangre' pueden destruir un portafolio en días. La conclusión: el inversionista común no puede ganar ese juego de corto plazo, y le conviene invertir aburrido, sin deuda y con mirada de largo plazo.",
+  "takeaways": [
+   "El leverage (endeudarse para invertir) puede funcionar un rato, pero tarde o temprano te saca del juego: si los precios caen, llegan los margin calls y te obligan a liquidar justo en el peor momento.",
+   "Aunque un 'mago' te garantizara que un activo sube de 100 a 120-130 en 12 meses, el máximo razonable de apalancamiento sería cerca de 3 a 1, porque la volatilidad del camino igual te puede quebrar.",
+   "En los mercados hay dinámicas y jugadores (hedge funds que se van cortos cuando huelen sangre) a los que no tenemos acceso ni información: meterse en el corto plazo es jugar un partido ajeno.",
+   "Caídas de 30%, 40% o más en acciones conocidas pasan seguido; si los fundamentos de las compañías no cambian, es mejor no hacerle timing al mercado.",
+   "Asustarse y vender abajo suele significar perder también el rebote: perderse los días de grandes saltos hace toda la diferencia en el largo plazo.",
+   "Antes de entregar tu plata a alguien, pregunta quiénes son los otros inversionistas y haz el 'due diligence' aunque suene fome: ahí se ve si hay respaldo institucional o pura euforia.",
+   "La concentración y la iliquidez agravan todo: tener parte del portafolio en activos ilíquidos obliga a vender justo lo líquido que está cayendo."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "Las redes sociales te fríen el cerebro a propósito",
+  "guest": null,
+  "date": "2026-08-06",
+  "summary": "Josefa España cuenta en esta nueva sección cómo en agosto del año pasado borró Instagram, Facebook y TikTok, y qué cambió en su concentración, sus amistades y su relación de pareja. Se conversa sobre cómo los algoritmos están diseñados como máquinas tragamonedas para darnos dopamina a corto plazo, y sobre el poder de hacer pequeños experimentos acotados en vez de cambios de 100%.",
+  "takeaways": [
+   "Plantea los cambios como un experimento con plazo (ej. 3 meses): si no funciona, vuelves atrás y no pasó nada.",
+   "Las redes como Instagram o TikTok están diseñadas como máquinas tragamonedas: te dan ráfagas de dopamina para dejarte pegado haciendo scroll.",
+   "Entrenar la dopamina de largo plazo (leer, concentrarte, tomar desafíos) rinde más que la gratificación instantánea.",
+   "Hacer el experimento en grupo o con un amigo lo hace más fácil y sostenible.",
+   "Menos redes no significa menos amigos: las conexiones que importan se vuelven más genuinas y presenciales.",
+   "Si vas a ver pantallas, que sea algo compartido (ver YouTube en la tele en pareja) que permita conversar después.",
+   "Atreverse a experimentos y ordenar tus hábitos cultiva tu capital humano, y eso termina impactando tu bolsillo y tu felicidad."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "Habla esto con tus papás antes de que sea tarde",
+  "guest": null,
+  "date": "2026-05-28",
+  "summary": "Inspirado en una charla de la conferencia de los Bogleheads, el episodio aborda cómo tener la conversación familiar incómoda sobre muerte, invalidez y demencia antes de que sea tarde. Propone dos etapas: armar un inventario con todos los documentos financieros, de seguros, legales y de acceso digital en una carpeta física guardada bajo llave, y luego preparar la conversación en torno a cuatro preguntas clave. El mensaje central: cuando estas cosas ya pasan, ya es muy tarde para organizarse.",
+  "takeaways": [
+   "Haz un inventario de tu vida financiera en una carpeta física con cuatro secciones: cuentas e inversiones, seguros y protección, documentos legales y acceso digital.",
+   "No guardes las claves en un documento del computador: imprime la carpeta, guárdala bajo llave y dile a tu familia dónde está.",
+   "Incluye cuentas bancarias, AFP, APV, corredoras, propiedades y créditos hipotecarios; seguros de vida con sus beneficiarios e Isapre o Fonasa.",
+   "Dos documentos legales clave: el poder notarial (para que alguien decida a tu nombre) y las voluntades anticipadas (decisiones médicas).",
+   "Prepara la conversación con cuatro preguntas: quién toma las decisiones, el plan de cuidado a largo plazo, quién maneja el patrimonio y los últimos deseos.",
+   "Avisa antes, reserva tiempo largo (no 30 minutos) y parte diciendo que lo haces por cariño y tranquilidad, no por la herencia."
+  ],
+  "category": "seguros_riesgo",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "5 Asesores Financieros Revelan Sus Portafolios",
+  "guest": null,
+  "date": "2026-05-21",
+  "summary": "El episodio recorre el libro \"How I Invest My Money\" (Joshua Brown y Brian Portnoy, ilustrado por Carl Richards), que pregunta a 25 asesores financieros en qué invierten ellos mismos. Se revisan cinco casos —Morgan Housel, Christine Benz, Joshua Brown, Bob Seawright y Carolyn McClanahan— y se destaca que casi todos invierten de forma simple (fondos indexados, baratos, automatizados), pero usan el dinero para historias de vida muy distintas. La conclusión: las finanzas personales tienen más de personales que de finanzas y el dinero es un medio, no un fin.",
+  "takeaways": [
+   "Define para qué quieres la plata antes de optimizar el portafolio: casi todos los asesores respondieron con una historia de vida, no con su asset allocation.",
+   "La simpleza gana: la mayoría invierte en fondos indexados baratos y tributariamente eficientes, priorizando los vehículos de jubilación.",
+   "Automatiza: Christine Benz programa transferencias apenas le llega el sueldo, porque lo importante es el tipo de activo y aportar todos los meses, no perseguir el fondo perfecto.",
+   "La estrategia de baldes ayuda a ordenar plazos: corto plazo (1-2 años de gastos) en instrumentos de muy bajo riesgo, mediano (3-7 años) en deuda, y el balde de crecimiento en acciones.",
+   "Una decisión puede ser mala financieramente y buenísima para tu vida: Housel prepagó su hipoteca a tasa baja para comprar independencia y tranquilidad.",
+   "Según Carolyn McClanahan, lo más decisivo para la independencia financiera es tu nivel de gasto, y la inversión de mayor retorno es invertir en uno mismo: aprender toda la vida y cuidar cuerpo y mente."
+  ],
+  "category": "inversion",
+  "confidence": "high"
  }
 ]
