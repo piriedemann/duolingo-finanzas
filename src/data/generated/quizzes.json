@@ -17255,6 +17255,120 @@
    "explain": "Las recomendaciones cambiaban según el perfil: los hombres preguntaban más por crecimiento y cripto, terminaban invirtiendo más agresivo y con un patrimonio 5-10% mayor. La IA también tiene sesgos."
   }
  ],
+ "216": [
+  {
+   "type": "concept",
+   "title": "El otro lado de la película",
+   "body": "Emprender se ve color de rosas desde afuera, pero el episodio muestra el otro lado: **2 años y 10 meses sin vender nada**, pagar sueldos con avances de la tarjeta de crédito y pedir prestado a todo el mundo. La historia de Trii —hoy con más de **800.000 clientes**— no fue un golpe de suerte, fue aguante, comunidad y ejecución.",
+   "emoji": "🐂"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿qué es un MVP y por qué Carlos dice que lo habría hecho distinto?",
+   "options": [
+    "Un producto mínimo viable: el más simple posible para probar si la idea funciona antes de gastar años y plata",
+    "Un plan de negocios de 50 páginas para convencer inversionistas",
+    "El monto mínimo que necesitas levantar antes de lanzar",
+    "Una versión premium del producto para los primeros clientes"
+   ],
+   "answer": 0,
+   "explain": "La gracia del MVP es obtener señales reales del mercado rápido. Trii invirtió casi 3 años y más de US$300.000 antes de saber si la idea funcionaba."
+  },
+  {
+   "type": "tf",
+   "statement": "La comunidad que creó Carlos en Facebook fue un éxito inmediato y desde el primer día participaba sola.",
+   "answer": false,
+   "explain": "Al principio él bloqueaba 3 horas diarias de su agenda para interactuar y 'hablaba contra una pared'; incluso su socio le decía que estaba perdiendo el tiempo. Recién después se sostuvo sola."
+  },
+  {
+   "type": "mc",
+   "prompt": "La bolsa de Colombia les pidió llegar a 1.000 cuentas antes de promocionarlos. En su escenario optimista estimaban 4 a 6 meses. ¿Cuánto demoraron en realidad gracias a la comunidad?",
+   "options": [
+    "4 días",
+    "4 semanas",
+    "4 meses",
+    "Nunca llegaron a 1.000"
+   ],
+   "answer": 0,
+   "explain": "El activo construido durante años sin ver resultados —la comunidad de 4.500 personas— se convirtió en tracción instantánea el día del lanzamiento."
+  },
+  {
+   "type": "fill",
+   "sentence": "Uno de los dichos de Y Combinator que menciona el episodio es 'haz cosas que no ___'.",
+   "options": [
+    "escalen",
+    "cuesten",
+    "sirvan",
+    "fallen"
+   ],
+   "answer": 0,
+   "explain": "Al inicio vale la pena hacer cosas manuales y poco elegantes —como repartir volantes impresos en conserjerías— porque te dan tus primeros clientes y aprendizajes."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada consejo sobre socios con su razón",
+   "pairs": [
+    [
+     "Emprende con gente impresionante",
+     "No con el más cómodo o tu mejor amigo por defecto"
+    ],
+    [
+     "Busca perfiles complementarios",
+     "Ellos eran dos ingenieros comerciales con el mismo perfil: un error"
+    ],
+    [
+     "Ten un founder técnico con acciones",
+     "Un proveedor contratado no tiene 'carne en el asador'"
+    ],
+    [
+     "Conócelos en sus malos días",
+     "Las peleas entre socios son una de las mayores causas de muerte de startups"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la secuencia que vivió Trii según el episodio",
+   "items": [
+    "Casi 3 años de desarrollo sin poder lanzar, financiándose con deuda personal",
+    "Construir una comunidad gratuita que llega a 4.500 personas",
+    "Lanzar la app y conseguir 1.000 cuentas en 4 días",
+    "Cerrar el primer mes con 10.000 cuentas y entrar a Y Combinator",
+    "Levantar una ronda semilla de US$4,5 millones y contratar equipo"
+   ],
+   "explain": "El 'empujón inicial' no vino de plata para marketing, sino de un activo construido a pulso durante los años en que parecía que no pasaba nada."
+  },
+  {
+   "type": "mc",
+   "prompt": "Carlos usa una analogía para explicar por qué invertir es de largo plazo. ¿Cuál es?",
+   "options": [
+    "Aceptamos 10-15 años de colegio, años de universidad y partir con sueldo bajo; ¿por qué esperaríamos saltarnos esa curva al invertir?",
+    "Es como un videojuego donde pasas de nivel cada semana",
+    "Es como un partido de fútbol: 90 minutos y se define",
+    "Es como comprar una casa: la decisión se toma una vez"
+   ],
+   "answer": 0,
+   "explain": "El inmediatismo —loterías, casinos, apuestas— choca con la lógica del interés compuesto, que necesita décadas para mostrar su fuerza."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, para invertir necesitas ser profesional de finanzas o bueno para las matemáticas.",
+   "answer": false,
+   "explain": "El usuario que más operaba en Trii su primer año era un vendedor ambulante sin formación profesional. Lo que sí hay que hacer es pagar el precio de educarse."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo plantea Carlos el rol del ego al emprender?",
+   "options": [
+    "Hay que eliminarlo por completo para poder aprender",
+    "Tiene una parte útil —creértela y creer que puedes— y otra que debes soltar cuando te corta el aprendizaje",
+    "Mientras más ego, más rápido creces",
+    "El ego solo importa cuando ya tienes una empresa grande"
+   ],
+   "answer": 1,
+   "explain": "El criterio que usa es simple: quédate con lo que te ayuda a crear y suelta lo que te impide escuchar, preguntar y crecer."
+  }
+ ],
  "217": [
   {
    "type": "concept",

@@ -3052,5 +3052,23 @@
   ],
   "category": "carrera_ingresos",
   "confidence": "high"
+ },
+ {
+  "number": 216,
+  "title": "El camino para pasar de una idea a tener 800.00 clientes",
+  "guest": null,
+  "date": "2026-09-22",
+  "summary": "Entrevista a Carlos Guayara, cofundador de Trii, la fintech colombiana de inversiones que hoy tiene más de 800.000 clientes. Cuenta los casi 3 años que tardaron en lanzar la app (pagando sueldos con avances de tarjeta de crédito), cómo construyó una comunidad en Facebook antes de tener producto, el paso por Y Combinator y los aprendizajes sobre socios, ego, disciplina y cómo educar a un inversionista principiante.",
+  "takeaways": [
+   "Antes de emprender, mira 'el otro lado de la película': dormir poco, ganar poco por mucho tiempo y sacrificios enormes; tiene que ser una decisión consciente.",
+   "Busca un MVP (producto mínimo viable) lo más simple y rápido posible para probar la tesis antes de gastar años y plata: hay empresas que partieron con una página web y un formulario.",
+   "Construir comunidad antes de lanzar puede ser tu canal de marketing gratis: la comunidad de Trii llegó a 4.500 personas orgánicas y les dio 1.000 cuentas en 4 días cuando lanzaron.",
+   "En Y Combinator les exigían 20 ideas de marketing y growth planeadas, ejecutadas y medidas por semana, sin dinero: la clave es 'haz cosas que no escalen' y perderle el miedo al error.",
+   "Elige socios que sean gente impresionante, complementaria a ti (no tu mejor amigo por comodidad) y que ya hayas visto en sus malos días; si es un producto tecnológico, necesitas un founder técnico con acciones.",
+   "Para el inversionista novato: invertir es a largo plazo (20-30 años, como la carrera académica y profesional), invertir es para todos, y aun así hay que pagar el precio de educarse.",
+   "Cuida tu mundo interno y tu entorno: deporte, meditación, coach y rodearte de gente con tus mismos sueños fue lo que permitió aguantar 2 años y 10 meses sin ingresos."
+  ],
+  "category": "emprendimiento",
+  "confidence": "high"
  }
 ]
