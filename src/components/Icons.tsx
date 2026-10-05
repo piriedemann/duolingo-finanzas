@@ -26,4 +26,6 @@ export {
   Sparkles,
   Snowflake,
   Calendar,
+  MoreHorizontal,
+  LogOut,
 } from 'lucide-react'

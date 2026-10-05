@@ -20,6 +20,7 @@
   --mauve: #b784a7;
   --gold: #c9930a;
   --gold-soft: #fbf0cf;
+  --green: #1f9d55;
   --red: #d62828;
   --red-soft: #fbe3e3;
   --blue: #1447e6;
@@ -40,7 +41,7 @@
     --bg: #0b0b0c; --panel: #1c1c1c; --soft: #23272f; --ink: #f8f8f8; --ink-2: #dcdcdc; --muted: #9a9a9a;
     --line: #2c2c2c; --line-dark: #3c3c3c; --accent: #fdb813; --accent-dark: #faad0d; --accent-soft: #33290f;
     --accent-text: #fdb813; --on-accent: #1c1c1c; --streak: #ffb347; --pink: #ffb3e0; --pink-soft: #3a2232; --mauve: #c99bbb;
-    --gold: #ffd966; --gold-soft: #332d14; --red: #ff6b6b; --red-soft: #3a1f1f; --blue: #7da2ff; --blue-soft: #151d36;
+    --gold: #ffd966; --gold-soft: #332d14; --green: #4ade80; --red: #ff6b6b; --red-soft: #3a1f1f; --blue: #7da2ff; --blue-soft: #151d36;
     --chart-a: #7da2ff; --chart-b: #fdb813; --shadow: none; color-scheme: dark;
   }
 }
@@ -48,7 +49,7 @@
   --bg: #0b0b0c; --panel: #1c1c1c; --soft: #23272f; --ink: #f8f8f8; --ink-2: #dcdcdc; --muted: #9a9a9a;
   --line: #2c2c2c; --line-dark: #3c3c3c; --accent: #fdb813; --accent-dark: #faad0d; --accent-soft: #33290f;
   --accent-text: #fdb813; --on-accent: #1c1c1c; --streak: #ffb347; --pink: #ffb3e0; --pink-soft: #3a2232; --mauve: #c99bbb;
-  --gold: #ffd966; --gold-soft: #332d14; --red: #ff6b6b; --red-soft: #3a1f1f; --blue: #7da2ff; --blue-soft: #151d36;
+  --gold: #ffd966; --gold-soft: #332d14; --green: #4ade80; --red: #ff6b6b; --red-soft: #3a1f1f; --blue: #7da2ff; --blue-soft: #151d36;
   --chart-a: #7da2ff; --chart-b: #fdb813; --shadow: none; color-scheme: dark;
 }
 
@@ -512,6 +513,11 @@ input[type='range']:disabled { opacity: .6; }
 .account-status { display: flex; align-items: center; gap: 5px; margin-top: 2px; }
 .account-status svg { flex-shrink: 0; }
 .account p { margin: 0; }
+.account-status .ok-icon { color: var(--green); }
+.menu-wrap { position: relative; align-self: flex-start; }
+.menu { position: absolute; right: 0; top: calc(100% + 4px); z-index: 20; min-width: 240px; padding: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 8px 24px rgba(28, 28, 28, 0.12); }
+.menu button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 12px; background: none; border: none; border-radius: 8px; font-size: .9rem; text-align: left; cursor: pointer; }
+.menu button:hover { background: var(--soft); }
 .btn.google { background: var(--panel); border-color: var(--line-dark); gap: 10px; }
 .or { text-align: center; color: var(--muted); font-size: .85rem; }
 .search.code { text-align: center; letter-spacing: .3em; font-size: 1.25rem; font-variant-numeric: tabular-nums; }
