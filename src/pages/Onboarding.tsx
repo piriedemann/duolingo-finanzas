@@ -58,7 +58,7 @@ export function Onboarding() {
         )}
         <p className="muted small">"{SHOW.tagline}"</p>
         <p className="muted small">
-          Sin registro ni descarga. <a href="acerca.html">Acerca de Animalingo</a> · <a href="privacidad.html">Política de privacidad</a>
+          Sin registro ni descarga. <a href="acerca.html">Acerca de Fito Finanzas</a> · <a href="privacidad.html">Política de privacidad</a>
         </p>
       </div>
     )

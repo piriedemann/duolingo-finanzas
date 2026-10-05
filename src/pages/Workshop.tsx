@@ -117,7 +117,7 @@ function Home() {
       <div className="card ws-more">
         <div className="card-label">Después del taller</div>
         <p className="muted small">
-          Animalingo completo tiene 27 lecciones, quizzes de más de 180 episodios del podcast y calculadoras. Todo lo que hagas ahí suma
+          Fito Finanzas completo tiene 27 lecciones, quizzes de más de 180 episodios del podcast y calculadoras. Todo lo que hagas ahí suma
           puntos al desafío.
         </p>
         <a className="btn primary wide" href="#/aprender">
@@ -139,7 +139,7 @@ function Challenge() {
         <div>
           <div className="card-label">Desafío de una semana</div>
           <strong>Quien más puntos junte gana {WORKSHOP.prize}</strong>
-          <div className="muted small">Del 1 al 8 de octubre. Cuentan las preguntas del taller y todo Animalingo.</div>
+          <div className="muted small">Del 1 al 8 de octubre. Cuentan las preguntas del taller y todo Fito Finanzas.</div>
         </div>
         <Trophy size={26} className="ws-trophy" />
       </div>

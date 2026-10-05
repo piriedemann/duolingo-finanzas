@@ -29,7 +29,7 @@ export function Brand() {
     <span className="brand">
       <img className="brand-mark" src={logo} alt="Animales Financieros" width={36} height={36} />
       <span className="brand-text">
-        Animalingo
+        Fito Finanzas
         <small>con Animales Financieros</small>
       </span>
     </span>
