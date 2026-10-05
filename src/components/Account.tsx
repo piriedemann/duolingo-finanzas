@@ -1,8 +1,8 @@
-import { useState, useSyncExternalStore, type FormEvent } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore, type FormEvent } from 'react'
 import { sendEmailCode, signInWithGoogle, signOut, useAccount, verifyEmailCode } from '../lib/account'
 import { cloudEnabled } from '../lib/supabase'
 import { useStore } from '../state/store'
-import { Check, User, X } from './Icons'
+import { Check, LogOut, MoreHorizontal, User, X } from './Icons'
 
 const HIDE_NUDGE = 'animalingo:hide-save-nudge'
 // El login por correo necesita SMTP propio en Supabase (plantilla con código). Se activa con VITE_AUTH_EMAIL=1.
@@ -28,8 +28,8 @@ export function AccountPanel({ returnTo }: { returnTo: string }) {
         ? 'Sincronizando…'
         : status === 'error'
           ? error
-          : 'Cuenta conectada. Tu progreso se guarda solo y lo recuperas en cualquier dispositivo.'
-    const tone = status === 'error' ? 'danger-text' : status === 'ok' ? 'ok-text' : 'muted'
+          : 'Conectada · tu progreso se guarda solo'
+    const tone = status === 'error' ? 'danger-text' : 'muted'
     return (
       <div className="account">
         <div className="account-row">
@@ -37,19 +37,12 @@ export function AccountPanel({ returnTo }: { returnTo: string }) {
           <div className="grow">
             <strong>{label}</strong>
             <div className={'small account-status ' + tone}>
-              {status === 'ok' && <Check size={15} strokeWidth={2.5} />}
+              {status === 'ok' && <Check className="ok-icon" size={15} strokeWidth={2.75} />}
               <span>{line}</span>
             </div>
           </div>
+          <AccountMenu />
         </div>
-        <button
-          className="btn ghost danger-text"
-          onClick={() => {
-            if (confirm('Tu progreso queda guardado en tu cuenta. Este dispositivo volverá a cero. ¿Cerrar sesión?')) void signOut()
-          }}
-        >
-          Cerrar sesión en este dispositivo
-        </button>
       </div>
     )
   }
@@ -181,6 +174,46 @@ export function SaveProgressCard() {
       <button className="icon-btn" aria-label="Ocultar" onClick={hideNudge}>
         <X size={16} />
       </button>
+    </div>
+  )
+}
+
+/** Menú "⋯" con las acciones poco frecuentes de la cuenta (cerrar sesión). */
+function AccountMenu() {
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!open) return
+    const onDown = (e: PointerEvent) => {
+      if (!ref.current?.contains(e.target as Node)) setOpen(false)
+    }
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false)
+    document.addEventListener('pointerdown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+  return (
+    <div className="menu-wrap" ref={ref}>
+      <button className="icon-btn" aria-label="Opciones de la cuenta" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+        <MoreHorizontal size={20} />
+      </button>
+      {open && (
+        <div className="menu" role="menu">
+          <button
+            role="menuitem"
+            className="danger-text"
+            onClick={() => {
+              setOpen(false)
+              if (confirm('Tu progreso queda guardado en tu cuenta. Este dispositivo volverá a cero. ¿Cerrar sesión?')) void signOut()
+            }}
+          >
+            <LogOut size={16} /> Cerrar sesión en este dispositivo
+          </button>
+        </div>
+      )}
     </div>
   )
 }
