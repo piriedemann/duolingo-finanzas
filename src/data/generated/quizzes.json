@@ -19000,5 +19000,308 @@
    "answer": 0,
    "explain": "El tiempo y la atención son recursos limitados: protegerlos de interrupciones comerciales es parte de administrar bien tu vida, igual que tu presupuesto."
   }
+ ],
+ "x-la-carta-de-renuncia-mas-valiosa-que-vas-a-leer": [
+  {
+   "type": "concept",
+   "title": "Confía en el proceso",
+   "body": "Sam Hinkie tomó a un equipo mediocre y lo hizo **el peor de la liga a propósito** para acumular elecciones de draft. Lo echaron antes de ver los frutos, pero su carta de renuncia quedó como un manual de pensamiento: **visión de largo plazo, humildad intelectual y pensar en probabilidades**. Lo mismo aplica a tu plata: lo que haces hoy quizás recién se nota en 3 o 5 años.",
+   "emoji": "🏀"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿En qué consistía la estrategia del \"tanqueo\" de Hinkie?",
+   "options": [
+    "Gastar todo el presupuesto en fichar estrellas caras de inmediato",
+    "Perder a propósito para tener mejores probabilidades de elegir primero en el draft",
+    "Cambiar de entrenador cada temporada hasta encontrar al indicado",
+    "Enfocarse solo en ganar partidos de playoff"
+   ],
+   "answer": 1,
+   "explain": "En la NBA los peores equipos de la temporada tienen las mejores probabilidades de elegir primero a los jóvenes talentos, así que perder hoy era una inversión en el futuro."
+  },
+  {
+   "type": "tf",
+   "statement": "Según la carta, basta con pensar distinto a la mayoría para obtener un gran desempeño.",
+   "answer": false,
+   "explain": "Howard Marks lo plantea como dos condiciones juntas: tener un punto de vista diferenciado de las masas Y que ese punto de vista sea correcto. Cualquier cosa menos no alcanza."
+  },
+  {
+   "type": "fill",
+   "sentence": "Una herramienta muy aplicable que propone el episodio es llevar un ___ de decisiones: anotar qué decidiste y por qué.",
+   "options": [
+    "diario",
+    "presupuesto",
+    "inventario",
+    "contrato"
+   ],
+   "answer": 0,
+   "explain": "Al releerlo meses o años después ves cómo cambiaron las circunstancias y cómo cambió tu propio criterio, lo que te vuelve mejor decisor."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿qué pasa cuando dices \"estoy invirtiendo en tecnología porque la inteligencia artificial está creciendo mucho\"?",
+   "options": [
+    "Es una visión contraria y diferenciada",
+    "Es una opinión con la que todos están de acuerdo y que ya está reflejada en los precios",
+    "Es imposible que esa inversión funcione",
+    "Es la mejor forma de pensar en probabilidades"
+   ],
+   "answer": 1,
+   "explain": "Si todo el mundo piensa igual, el precio ya incorpora esa información y desaparece la ventaja: no hay nada diferenciado en repetir el consenso."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el libro Superforecasting citado en el episodio, la mayoría de la gente maneja las probabilidades con solo tres configuraciones: va a pasar, no va a pasar y quizás.",
+   "answer": true,
+   "explain": "Pensar en grados de probabilidad (10%, 15%, 20%) en vez de blanco, negro o quizás permite tomar decisiones más finas bajo incertidumbre."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada principio de la carta con su idea central",
+   "pairs": [
+    [
+     "Humildad intelectual",
+     "Admitir lo que no sabemos y seguir aprendiendo"
+    ],
+    [
+     "Visión de largo plazo",
+     "Planificar en ciclos de 3 a 5 años, no de 1 o 2"
+    ],
+    [
+     "Mentalidad contraria",
+     "Pensar distinto a las masas y además tener razón"
+    ],
+    [
+     "Reverencia por la disrupción",
+     "Buscar saltos cualitativos, no mejoras marginales"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo describe el episodio el camino de la innovación",
+   "items": [
+    "Ser curioso y asumir que sabes poco",
+    "Partir lo antes posible y fracasar",
+    "Aguantar largos periodos siendo incomprendido",
+    "Abrir una puerta nueva: el posible adyacente"
+   ],
+   "explain": "Steven Johnson lo describe como un laberinto: cada puerta que abres revela nuevas puertas. Por eso la primera innovación rara vez es la gran cosa, pero cambia tu rumbo."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el episodio argumenta que el \"proceso\" fue un éxito aunque el equipo no salió campeón?",
+   "options": [
+    "Porque ganaron el campeonato en 2021",
+    "Porque echaron a Hinkie antes de tiempo y además influyó la mala suerte, como el tiro de Kawhi Leonard en 2019",
+    "Porque nunca volvieron a perder un partido",
+    "Porque la liga aprobó la estrategia desde el principio"
+   ],
+   "answer": 1,
+   "explain": "En decisiones bajo incertidumbre, el resultado no siempre refleja la calidad del proceso: la suerte y los factores externos pesan."
+  }
+ ],
+ "x-piensa-en-4k": [
+  {
+   "type": "concept",
+   "title": "Primero el tronco, después las hojas",
+   "body": "El conductor cuenta que vio una serie llena de filosofía y **no le quedó casi nada**, porque le faltaba la base. Por eso se dio un mes para aprender los fundamentos: el **tronco y las raíces** sobre los que después cuelgan historias, modelos y aprendizajes. Lo mismo aplica a cualquier tema (incluidas tus finanzas): sin fundamentos, los datos sueltos se te olvidan.",
+   "emoji": "🌳"
+  },
+  {
+   "type": "concept",
+   "title": "Las tres grandes ramas",
+   "body": "La palabra filosofía significa **amor a la sabiduría**, y se estudia para pensar mejor y entender mejor el mundo. Se divide en tres áreas: **metafísica** (la naturaleza de la realidad), **epistemología** (la naturaleza del conocimiento) y **teoría del valor**, que a su vez se parte en **ética** (hacer las cosas bien) y **estética** (lo bonito).",
+   "emoji": "🧠"
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada rama con la pregunta que intenta responder",
+   "pairs": [
+    [
+     "Metafísica",
+     "¿Qué es existir? ¿Qué es el ser?"
+    ],
+    [
+     "Epistemología",
+     "¿Qué es el conocimiento y cómo lo distingo de una opinión?"
+    ],
+    [
+     "Ética",
+     "¿Cómo deberíamos comportarnos? ¿Qué es lo correcto?"
+    ],
+    [
+     "Estética",
+     "¿Qué hace que algo sea bonito?"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "En el episodio se usa una analogía para explicar para qué sirve estudiar filosofía. ¿Cuál es?",
+   "options": [
+    "Una actualización de software: vives el mismo día, pero lo entiendes o disfrutas mejor",
+    "Una dieta: te quita lo que te sobra",
+    "Una inversión: te da retornos en dinero",
+    "Un seguro: te protege de errores"
+   ],
+   "answer": 0,
+   "explain": "La idea es que una nueva forma de pensar cambia cómo experimentas exactamente la misma realidad, sin que cambie nada externo."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena a estos filósofos según quién fue discípulo de quién (del maestro al último discípulo)",
+   "items": [
+    "Sócrates",
+    "Platón",
+    "Aristóteles"
+   ],
+   "explain": "El episodio los llama 'el trío dinámico': cada uno fue discípulo del anterior y entre los tres sentaron la base de cómo pensamos hasta hoy."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, Sócrates se hizo famoso por su método mayéutico, que consiste básicamente en preguntar y preguntar, como un niño de 4 o 5 años.",
+   "answer": true,
+   "explain": "De ahí viene el 'yo solo sé que nada sé': cuestionarlo todo y ser intelectualmente humilde."
+  },
+  {
+   "type": "fill",
+   "sentence": "En el episodio se compara a los sofistas de la antigua Grecia con quienes hoy te venden ___ prometiendo que sin pagar por su sabiduría no llegarás a la verdad.",
+   "options": [
+    "los cursos con la verdad",
+    "libros usados",
+    "entradas a museos",
+    "clases gratuitas"
+   ],
+   "answer": 0,
+   "explain": "La comparación sirve de filtro: desconfía de quien asegura tener la verdad única y te la cobra."
+  },
+  {
+   "type": "mc",
+   "prompt": "En la alegoría de la caverna de Platón, ¿qué pasa cuando el prisionero que escapó vuelve a contarle al resto lo que vio afuera?",
+   "options": [
+    "Todos lo siguen y salen juntos de la caverna",
+    "Se ríen de él y hasta piensan en asesinarlo porque creen que se volvió loco",
+    "Le piden pruebas y luego le creen",
+    "Lo nombran líder de la caverna"
+   ],
+   "answer": 1,
+   "explain": "El episodio sugiere que es una posible referencia al juicio de Sócrates: mostrar la realidad incomoda a quienes están cómodos con las sombras."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el 'promedio dorado' de Aristóteles, ¿qué virtud está en el punto medio entre el tacaño que no te invita ni una bebida y el extravagante que lo gasta todo?",
+   "options": [
+    "La prudencia",
+    "La generosidad",
+    "El coraje",
+    "La templanza"
+   ],
+   "answer": 1,
+   "explain": "La idea es evitar los excesos en ambos extremos; en plata, ni apretarse hasta no disfrutar nada ni gastar sin control."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, la virtud es algo que se logra una vez y queda para siempre.",
+   "answer": false,
+   "explain": "La virtud se elige y se practica todos los días: 'tu pasado no te define', importa lo que decides hacer hoy."
+  }
+ ],
+ "x-rankeando-los-5-libros-mas-populares-de-finanzas-personales": [
+  {
+   "type": "concept",
+   "title": "Un libro cuesta 10 horas de tu vida",
+   "body": "Leer un libro de finanzas toma en promedio **unas 10 horas**. Si eliges el libro equivocado, te puede mandar por el camino equivocado; y si te aburre y lo dejas a la mitad, nunca encuentras lo que buscabas. Por eso vale la pena saber qué entrega cada clásico **antes** de empezarlo.",
+   "emoji": "📚"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el ranking del episodio, desde el puesto 5 (menos favorito) hasta el puesto 1 (favorito)",
+   "items": [
+    "Padre rico, padre pobre",
+    "El millonario de la puerta de al lado",
+    "Te enseñaré a ser rico (Ramit Sethi)",
+    "El hombre más rico de Babilonia",
+    "Psicología del dinero / Cómo piensan los ricos (Morgan Housel)"
+   ],
+   "explain": "El ranking va del libro con más críticas al que resultó más fácil de leer y más regalado."
+  },
+  {
+   "type": "mc",
+   "prompt": "Según la definición simple que rescata el episodio de 'Padre rico, padre pobre', ¿qué es un activo?",
+   "options": [
+    "Todo lo que aparece a tu nombre en el registro civil",
+    "Algo que pone dinero en tu bolsillo",
+    "Cualquier propiedad, aunque te cueste plata mantenerla",
+    "Un ahorro que no puedes tocar"
+   ],
+   "answer": 1,
+   "explain": "No es técnicamente correcta, pero es útil: la casa propia aparece como activo y aun así mes a mes te saca plata en contribuciones, arreglos y dividendo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada libro con una de sus ideas centrales según el episodio",
+   "pairs": [
+    [
+     "Padre rico, padre pobre",
+     "El cuadrante del dinero: empleado, autoempleado, dueño e inversionista"
+    ],
+    [
+     "El millonario de la puerta de al lado",
+     "Los millonarios reales gastan mucho menos de lo que ganan"
+    ],
+    [
+     "Te enseñaré a ser rico",
+     "Deja de pelear por el café y negocia tu sueldo"
+    ],
+    [
+     "El hombre más rico de Babilonia",
+     "Ahorra una de cada 10 monedas que generes"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "El episodio defiende la idea de 'Padre rico, padre pobre' de que estudiar no sirve porque igual seguirás siendo empleado.",
+   "answer": false,
+   "explain": "Esa es una de las tres críticas principales: hay muchos estudios que muestran que a mayor nivel de educación suelen corresponder mayores ingresos."
+  },
+  {
+   "type": "concept",
+   "title": "Problemas chicos vs. problemas grandes",
+   "body": "Ramit Sethi se burla del consejo de dejar el café diario: eso es **pensar pequeño**. Su invitación es gastar más en lo que de verdad disfrutas y cortar sin piedad en lo que no te importa, pero sobre todo mover las palancas grandes: negociar el sueldo, comprar bien una casa y conseguir mejores tasas en seguros y gastos recurrentes.",
+   "emoji": "🎯"
+  },
+  {
+   "type": "fill",
+   "sentence": "La fórmula de 'El millonario de la puerta de al lado' estima tu patrimonio esperado multiplicando tu ingreso anual por tu ___ y dividiendo por 10.",
+   "options": [
+    "edad",
+    "años de estudio",
+    "número de hijos",
+    "antigüedad laboral"
+   ],
+   "answer": 0,
+   "explain": "La crítica a esa fórmula es que en los primeros años de trabajo es casi imposible alcanzar ese patrimonio, y después se hace mucho más fácil."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el episodio advierte sobre la estrategia inmobiliaria apalancada que propone Kiyosaki?",
+   "options": [
+    "Porque los arriendos nunca suben lo suficiente",
+    "Porque te endeudas cada vez más grande y si la propiedad no sube de valor (o la pierdes el arrendatario o el trabajo) el golpe es enorme",
+    "Porque comprar propiedades es ilegal para personas naturales",
+    "Porque los bancos no prestan para inversión"
+   ],
+   "answer": 1,
+   "explain": "Los primeros años del crédito hipotecario casi todo el pago se va al banco: si el inmueble no sube de precio quedas donde mismo, y si cae, duele fuerte."
+  },
+  {
+   "type": "tf",
+   "statement": "Según 'Psicología del dinero', cuando vemos a alguien en un auto caro admiramos al dueño.",
+   "answer": false,
+   "explain": "Housel plantea que nos imaginamos a nosotros mismos en ese auto: el dueño nos da lo mismo. El respeto real se gana con humildad, bondad y empatía."
+  }
  ]
 }
