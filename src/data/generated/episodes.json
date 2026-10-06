@@ -3226,5 +3226,91 @@
   ],
   "category": "seguros_riesgo",
   "confidence": "high"
+ },
+ {
+  "number": 218,
+  "title": "¿Se viene una crisis de deuda? Lo que ve Howard Marks",
+  "guest": null,
+  "date": "2026-10-06",
+  "summary": "El episodio comenta el tercer memo de Howard Marks sobre si se pueden \"derogar las leyes de la economía\", a propósito de las tasas largas de Estados Unidos en su nivel más alto en 19 años y del intento del tesoro americano de bajarlas artificialmente comprando bonos a 30 años. Los conductores explican qué es la curva de tasas, por qué precio y tasa de un bono se mueven al revés, y cómo todo esto llega a nuestro bolsillo vía hipotecas, inflación y exposición al dólar. Cierran con cómo armar un portafolio diversificado y resiliente en vez de intentar predecir la próxima crisis.",
+  "takeaways": [
+   "Las tasas cortas las maneja el banco central; las largas (10 y 30 años) las fija el mercado, y por eso intervenirlas suele durar poco: el tesoro americano compró bonos a 30 años y el efecto duró menos de un día.",
+   "Precio y tasa de un bono se mueven al revés: si sube la demanda y sube el precio, baja la tasa; si muchos venden (como las AFP con los retiros), bajan los precios y suben las tasas largas, que es lo que encareció los hipotecarios en Chile hasta UF+4 y algo.",
+   "Estados Unidos tiene un déficit fiscal de 6% anual y paga cerca de un millón de millones de dólares al año solo en intereses, más que su presupuesto de defensa; las únicas salidas reales son gastar menos o ganar más.",
+   "Pese al ruido, el dólar sigue siendo dominante: 89% de las transacciones cambiarias y 57% de las reservas oficiales declaradas, contra 2% del renminbi y menos de 1% de los criptoactivos.",
+   "Haz el ejercicio de mirar tus activos y ver en qué moneda están (pesos, UF o dólares): si eres dueño de tu casa o tienes hipotecario, estás muy expuesto a la UF y a la inflación chilena.",
+   "Nadie puede predecir la crisis: la pega hoy, con los mercados tranquilos, es estructurar un portafolio diversificado, con fondo de emergencia y renta fija calzada a tus gastos, para no vender la parte accionaria cuando venga la caída.",
+   "Ojo con el \"home country bias\": Chile pesa 0,6% del mercado global y mucha de tu exposición a acciones chilenas ya viene por la AFP; y un fondo global, aunque tenga miles de empresas, es ~70% Estados Unidos."
+  ],
+  "category": "inversion",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "La fórmula DEFINITIVA para Crear Riqueza (explicada en 10 minutos)",
+  "guest": null,
+  "date": "2025-08-30",
+  "summary": "Pablo explica la fórmula de riqueza de Naval Ravikant (del podcast 'How to Get Rich', 2019): conocimiento específico × palanca × juicio × responsabilidad × mercado, todo elevado por el tiempo. Como los factores se multiplican, fallar en uno anula el resultado. El episodio da ejemplos y tácticas concretas para desarrollar cada factor y cierra invitando a elegir el factor más débil y trabajarlo.",
+  "takeaways": [
+   "Identifica tu conocimiento específico: tareas que a ti se te dan fáciles y a otros les cuestan, recuerdos de infancia donde te felicitaron, y combinaciones raras de pasiones (el 'monopolio personal').",
+   "Usa palancas: labor, capital, código y medios. El código y los medios son 'sin permiso' —puedes partir un canal o una app hoy sin que nadie te autorice.",
+   "Mejora tu juicio con muchas iteraciones, piel en el juego (skin in the game) y tiempo sin interrupciones para pensar; juicio es conocer el efecto de largo plazo de tus acciones.",
+   "Toma riesgos firmando con tu nombre: la responsabilidad construye confianza, te hace menos reemplazable e influye en cómo te compensan.",
+   "Elige bien el mercado/carrera: el piso de tres patas es dónde trabajas, con quién trabajas y cuánto trabajas. Impaciencia con las acciones, paciencia con los resultados.",
+   "El sexto factor es el tiempo: es exponencial. Elige hoy el factor donde estás más débil y agenda media hora mañana para trabajarlo."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "4 Pasos Para una Vida Extraordinaria",
+  "guest": null,
+  "date": "2025-08-15",
+  "summary": "Pablo analiza la charla de Graham Weaver (fundador de Alpine Investments) en Stanford sobre cómo construir una \"vida asimétrica\": dejar de jugar a no perder y enfocarse en el lado bueno, donde el crecimiento puede ser exponencial. Repasa los cuatro principios que Weaver propone —hacer cosas difíciles, encontrar lo tuyo, hacerlo por décadas y escribir tu historia— y los conecta con ejemplos de inversión, hábitos y vida personal.",
+  "takeaways": [
+   "Deja de jugar a no perder: el downside está acotado (puedes perder lo invertido), pero el upside puede ser exponencial si apilas varias cualidades favorables.",
+   "Acostúmbrate a estar incómodo: todo lo que vale la pena está al otro lado de \"primero peor\" (una conversación difícil, renunciar, partir un hábito).",
+   "Mientras más veces tomas riesgos, menor es la caída inicial y menos miedo tienes: el miedo se reduce con repetición.",
+   "Encuentra \"tu cosa\", eso por lo que estás dispuesto a sufrir; si no lo haces, alguien que sí lo encontró te va a pasar por encima (ejemplo del negocio de etiquetas de Weaver, vendido a Trader Joe's).",
+   "En la fórmula del interés compuesto P(1+i)^n, lo más importante es la n: una tasa decente y un monto modesto, elevados a 20, 25 o 30 años, dan un resultado asimétrico.",
+   "Escribe tu historia: imagina a 5 años tu mejor escenario posible sin preocuparte del cómo, y trae ese objetivo al presente avanzando paso a paso."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "La Inteligencia Artificial te va a hacer ganas más dinero",
+  "guest": null,
+  "date": "2025-08-13",
+  "summary": "Episodio breve y optimista sobre el impacto de la inteligencia artificial en el trabajo y los sueldos. Tomando los argumentos del exCEO de Google Eric Schmidt, se plantea que la IA nos hará más productivos, aumentará las utilidades de las empresas y, con ello, los salarios, además de crear trabajos que hoy ni imaginamos. También se menciona que la IA puede compensar la crisis demográfica (menos jóvenes, menos fuerza laboral) sosteniendo la capacidad productiva.",
+  "takeaways": [
+   "No mires la IA solo como una amenaza de reemplazo: el argumento central es que aumenta tu productividad y, con ella, tu capacidad de generar ingresos.",
+   "Más productividad implica más utilidades para la empresa o startup donde trabajas, y eso abre espacio para que te paguen más.",
+   "La tecnología históricamente crea trabajos que antes no existían (como los centros de logística de Amazon o MercadoLibre); con IA pasará lo mismo.",
+   "La crisis demográfica (menos jóvenes, menos fuerza laboral) hace que la IA sea clave para sostener la capacidad productiva y evitar un colapso por el lado de la oferta.",
+   "No todos van a ganar: los que se benefician son quienes actúan ya y aprenden a usar la herramienta para producir más y ganar más.",
+   "El marco mental correcto no es humanos contra robots, sino humanos y robots trabajando juntos para generar más prosperidad."
+  ],
+  "category": "carrera_ingresos",
+  "confidence": "high"
+ },
+ {
+  "number": null,
+  "title": "El mejor hack de productividad",
+  "guest": null,
+  "date": "2025-08-06",
+  "summary": "Episodio corto y práctico donde se comparte un \"hack\" gratis de productividad: usar el registro \"No Molestar\" del SERNAC para bloquear llamadas, SMS y WhatsApps comerciales no deseados. El conductor muestra el paso a paso (entrar al Portal del Consumidor con Clave Única, ingresar el teléfono y bloquear empresas) y cuenta que tras unos 4 meses prácticamente dejaron de llamarlo. También menciona que si igual te llaman, puedes denunciar porque están infringiendo tu solicitud.",
+  "takeaways": [
+   "Entra al Portal del Consumidor del SERNAC con tu Clave Única y usa la sección \"No Molestar\" para registrar tu número.",
+   "Puedes elegir el tipo de bloqueo: llamadas, SMS y WhatsApp, y también pedir no ser contactado por correo electrónico.",
+   "Puedes bloquear empresas específicas que te molesten (bancos, AFP, retail) e ir agregando más a medida que te sigan llamando.",
+   "Si una empresa bloqueada te sigue contactando, puedes denunciarla ante el SERNAC: no lo pueden hacer sin tu permiso.",
+   "El efecto no es instantáneo: pueden pasar algunos días y seguirán llamando los comercios con los que sí tienes una relación vigente (por ejemplo, una deuda impaga).",
+   "Es gratis y toma minutos: menos interrupciones = más foco y tiempo para lo que importa."
+  ],
+  "category": "otros",
+  "confidence": "high"
  }
 ]

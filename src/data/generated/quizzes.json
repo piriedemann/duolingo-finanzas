@@ -17471,6 +17471,113 @@
    "explain": "Ellos mismos echan agua fría sobre invertir en acciones sueltas: varias de las 11 empresas luego quebraron. Lo que más se correlaciona con tu patrimonio es cuánto ganas y cuánto ahorras."
   }
  ],
+ "218": [
+  {
+   "type": "concept",
+   "title": "Las leyes de la economía no se derogan",
+   "body": "El memo de Howard Marks plantea que **no se pueden derogar las leyes de la economía**. El tesoro americano quiso bajar las tasas largas comprando bonos a 30 años, pero el efecto duró menos de un día. Como dicen en el episodio, fue como ponerle un pack de hielo en la frente a alguien profundamente resfriado: baja la fiebre un rato, pero la causa sigue ahí.",
+   "emoji": "🧊"
+  },
+  {
+   "type": "mc",
+   "prompt": "En un bono, si sube fuerte la demanda y por lo tanto su precio, ¿qué pasa con la tasa que paga?",
+   "options": [
+    "Baja, porque precio y tasa se mueven inversamente",
+    "Sube, porque hay más interesados",
+    "Se mantiene igual, la fija el banco central",
+    "Depende solo de la inflación del mes"
+   ],
+   "answer": 0,
+   "explain": "El cupón que paga el bono está fijo: si pagas más caro por ese mismo flujo, el retorno que obtienes es menor. Por eso precio y tasa van al revés."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena lo que pasó en Chile con los retiros de las AFP y las tasas largas",
+   "items": [
+    "Las AFP necesitan liquidez para pagar los retiros",
+    "Salen a vender sus bonos de largo plazo",
+    "Aumenta la oferta de bonos y caen sus precios",
+    "Suben las tasas largas y se encarece el crédito hipotecario"
+   ],
+   "explain": "Las AFP eran de los mayores compradores de bonos largos en Chile; al convertirse en vendedoras masivas, el mercado reaccionó encareciendo el costo de endeudarse a largo plazo."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, los intereses que paga Estados Unidos por su deuda son hoy mayores que todo su presupuesto de defensa.",
+   "answer": true,
+   "explain": "Pagan cerca de un millón de millones de dólares al año solo en intereses, lo que muestra el tamaño del problema fiscal aunque puedan imprimir su propia moneda."
+  },
+  {
+   "type": "fill",
+   "sentence": "Las tasas cortas las puede manipular el banco central, pero las tasas largas las determina ___.",
+   "options": [
+    "el mercado",
+    "el ministro de Hacienda",
+    "el FMI",
+    "la inflación del mes pasado"
+   ],
+   "answer": 0,
+   "explain": "No existe un banco central que fije la tasa a 10 o 30 años: ahí mandan la oferta y la demanda de quienes prestan y piden prestado."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada dato del episodio con su cifra",
+   "pairs": [
+    [
+     "Déficit fiscal anual de Estados Unidos",
+     "6%"
+    ],
+    [
+     "Transacciones cambiarias hechas en dólares",
+     "89%"
+    ],
+    [
+     "Reservas oficiales declaradas en dólares",
+     "57%"
+    ],
+    [
+     "Reservas oficiales en renminbi",
+     "2%"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Chile pesa cerca de 0,6% del mercado accionario mundial. Siguiendo el razonamiento del episodio (multiplicar por ~10 por el sesgo de país de origen), ¿cuánta exposición a acciones chilenas tendría sentido?",
+   "options": [
+    "Cerca de 6%",
+    "Cerca de 30%",
+    "Cerca de 50%",
+    "Cero, hay que salir de Chile"
+   ],
+   "answer": 0,
+   "explain": "El sesgo de país de origen se justifica porque tus gastos futuros son en tu moneda, pero en Chile buena parte de esa exposición ya te llega por la AFP."
+  },
+  {
+   "type": "tf",
+   "statement": "Un fondo global indexado con 4.000 compañías elimina el problema de la concentración.",
+   "answer": false,
+   "explain": "Al hacer doble clic, cerca del 70% está en Estados Unidos y las 10 mayores empresas pesan una parte enorme; diversificar de verdad cuesta más de lo que parece."
+  },
+  {
+   "type": "mc",
+   "prompt": "Frente a la pregunta \"¿se viene una crisis?\", ¿cuál es la postura que plantean en el episodio?",
+   "options": [
+    "Vender las acciones y pasarse a otra moneda antes de que estalle",
+    "Asumir que alguna crisis va a llegar sí o sí y preparar el portafolio ahora: fondo de emergencia, liquidez y diversificación",
+    "Esperar la señal de la curva de tasas invertida para salir justo a tiempo",
+    "Endeudarse mientras las tasas sigan altas"
+   ],
+   "answer": 1,
+   "explain": "Predecir el momento de la crisis es imposible; lo que sí controlas es la estructura de tu portafolio para no verte obligado a vender en el peor momento."
+  },
+  {
+   "type": "concept",
+   "title": "Invertir en acciones pide optimismo",
+   "body": "Cierran con algo simple: si tú no crees que el mundo va a seguir mejorando y que el humano le va a encontrar la vuelta, **no inviertas en acciones**, porque no vas a tolerar las caídas. El optimismo con fundamento es lo que te deja aguantar la volatilidad sin vender en el peor momento.",
+   "emoji": "🌱"
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",
@@ -18487,6 +18594,411 @@
    "statement": "Al cotizar el seguro por separado, las primas y coberturas eran prácticamente iguales en todas las aseguradoras.",
    "answer": false,
    "explain": "En el episodio las cotizaciones variaban: una prima anual rondaba las 14 UF y otra bajaba a 11,59 UF, con coberturas distintas. Cotizar en varias partes paga."
+  }
+ ],
+ "x-la-formula-definitiva-para-crear-riqueza-explicada-en-10-min": [
+  {
+   "type": "concept",
+   "title": "La fórmula de la riqueza",
+   "body": "Naval Ravikant propone que la riqueza nace de **conocimiento específico × palanca × juicio × responsabilidad × mercado**, todo elevado al **tiempo**. Ojo: los factores se **multiplican**, así que si fallas en uno, el resultado se cae. No es suerte pura: es un proceso repetible y estructurado.",
+   "emoji": "🧮"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué importa tanto que los factores de la fórmula se multipliquen en vez de sumarse?",
+   "options": [
+    "Porque así el resultado siempre es mayor",
+    "Porque si uno de los factores falla, todo el resultado se desploma",
+    "Porque permite ignorar los factores que no te gustan",
+    "Porque obliga a empezar siempre por el capital"
+   ],
+   "answer": 1,
+   "explain": "En una multiplicación, un factor cercano a cero arrastra todo el resultado: no sirve tener una gran palanca si tu juicio es malo."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada tipo de palanca con su descripción según Naval",
+   "pairs": [
+    [
+     "Labor",
+     "Contratar personas que trabajen para ti; la peor por su costo en tiempo y conflictos"
+    ],
+    [
+     "Capital",
+     "Dinero para invertir en un negocio o en ti mismo"
+    ],
+    [
+     "Código",
+     "Un programa replicable donde sumar un cliente más no cuesta un peso"
+    ],
+    [
+     "Medios",
+     "Videos y podcasts que llegan a muchas personas sin mayor costo por persona"
+    ]
+   ]
+  },
+  {
+   "type": "tf",
+   "statement": "El código y los medios son palancas 'sin permiso': puedes partir un canal de YouTube o armar una app sin que nadie te autorice.",
+   "answer": true,
+   "explain": "Labor y capital dependen de que alguien te contrate o te entregue dinero; código y medios los activas tú solo."
+  },
+  {
+   "type": "fill",
+   "sentence": "Según Naval, el juicio es la capacidad de tomar la decisión correcta con ___ y conocer el efecto de largo plazo de tus acciones.",
+   "options": [
+    "información limitada",
+    "toda la información disponible",
+    "ayuda de un asesor",
+    "mucho dinero de respaldo"
+   ],
+   "answer": 0,
+   "explain": "Casi nunca tendrás datos completos; por eso el juicio se entrena con iteraciones, piel en el juego y tiempo para pensar."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál de estas es una señal de MAL juicio mencionada en el episodio?",
+   "options": [
+    "Leer reportes y cartas a inversionistas",
+    "Cambiar de estrategia una y otra vez sin saber si está funcionando",
+    "Dedicar tiempo de la semana a pensar sin interrupciones",
+    "Tener algo que perder en tus decisiones"
+   ],
+   "answer": 1,
+   "explain": "Sorprenderte seguido, culpar siempre a terceros y zigzaguear sin medir resultados son síntomas de decisiones mal tomadas y repetidas."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo se detecta tu 'conocimiento específico'?",
+   "options": [
+    "Sacando un título universitario en el área de moda",
+    "Con un prompt bien hecho en ChatGPT",
+    "Notando tareas fáciles para ti y difíciles para otros, y combinando tus pasiones",
+    "Copiando la carrera de alguien exitoso"
+   ],
+   "answer": 2,
+   "explain": "El conocimiento específico no se enseña en la sala de clases: viene de curiosidad, experiencia y talento, y la magia está en la combinación de mundos distintos."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena las tres 'patas del piso' para elegir carrera, según se presentan en el episodio",
+   "items": [
+    "El área: dónde trabajas y dónde tienes ventaja",
+    "Con quién trabajas: encontrar las personas correctas",
+    "Qué tanto trabajas: impaciencia con las acciones, paciencia con los resultados"
+   ],
+   "explain": "Si falla una pata, se cae el piso completo: el área se elige desde tu conocimiento específico, pero sin la gente y el esfuerzo correctos no se sostiene."
+  },
+  {
+   "type": "tf",
+   "statement": "El sexto elemento de la fórmula —el más importante— es el tiempo, porque hace que el crecimiento sea exponencial.",
+   "answer": true,
+   "explain": "Al principio parece que nada cambia; recién con años de iteraciones los factores se componen, como el hombre que practicó la misma patada mil veces."
+  }
+ ],
+ "x-4-pasos-para-una-vida-extraordinaria": [
+  {
+   "type": "concept",
+   "title": "Vida asimétrica",
+   "body": "Graham Weaver cuenta que pasó buena parte de su vida **jugando a no perder**: buscaba inversiones donde era \"imposible perder plata\" (tres veces lo escribió a sus inversionistas... y las tres veces perdió). La idea de una vida asimétrica es otra: el lado malo está acotado, pero el lado bueno puede ser **exponencial**. En vez de blindarte contra la caída, apila cualidades que, si se cumplen, te disparan hacia arriba.",
+   "emoji": "📈"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿qué significa \"jugar a no perder\"?",
+   "options": [
+    "Diversificar bien tu cartera para controlar el riesgo",
+    "Enfocar todas tus decisiones en evitar el daño, lo que suele traer justo el resultado que temes",
+    "Invertir solo en instrumentos con garantía estatal",
+    "Ahorrar un porcentaje fijo del sueldo todos los meses"
+   ],
+   "answer": 1,
+   "explain": "La analogía del episodio es buscar pareja con la prioridad de que no te rompan el corazón: el foco en evitar la pérdida termina limitando el lado bueno."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se dice que en las inversiones el riesgo puede llevarse a cero si eliges bien.",
+   "answer": false,
+   "explain": "Se plantea que podemos controlar los riesgos, pero nunca serán cero: si las cosas salen mal, se puede perder plata. Por eso el foco está en el tamaño del upside."
+  },
+  {
+   "type": "fill",
+   "sentence": "Todo lo que vale la pena en la vida está al otro lado de ___.",
+   "options": [
+    "la suerte",
+    "primero peor",
+    "un buen sueldo",
+    "el ahorro automático"
+   ],
+   "answer": 1,
+   "explain": "Casi todo cambio relevante empeora al principio (una conversación incómoda, renunciar, partir un hábito) y recién después mejora por encima del punto inicial."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada principio de la vida asimétrica con su idea central",
+   "pairs": [
+    [
+     "Haz cosas difíciles",
+     "Estar cómodo con estar incómodo: primero peor, después mejor"
+    ],
+    [
+     "Encuentra tu cosa",
+     "Elegir por qué sufrir, como Weaver con su negocio de etiquetas"
+    ],
+    [
+     "Hazlo por décadas",
+     "La n del interés compuesto es lo que más pesa"
+    ],
+    [
+     "Escribe tu historia",
+     "Imaginar tu mejor escenario a 5 años y traerlo al presente"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "En la fórmula del interés compuesto P × (1 + i)^n, ¿qué variable dice Weaver que es, por lejos, la más importante?",
+   "options": [
+    "P, el monto inicial",
+    "i, la tasa de retorno",
+    "n, la cantidad de períodos",
+    "Las tres pesan igual"
+   ],
+   "answer": 2,
+   "explain": "Con una tasa decente y un monto modesto, elevar a 20, 25 o 30 años produce un resultado exponencial. El tiempo es la palanca que casi nadie usa completa."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la secuencia de un cambio importante, según el gráfico que muestra Weaver",
+   "items": [
+    "Tomas la decisión difícil (cambio de trabajo, hábito, conversación)",
+    "Al principio todo empeora: incertidumbre, miedo, incomodidad",
+    "Te vas adaptando y empiezas a mejorar",
+    "Terminas más arriba del punto donde estabas antes",
+    "Repites el ciclo y cada caída inicial se hace más pequeña"
+   ],
+   "explain": "Mientras más veces pasas por esa caída, menos miedo te da: te preparas para la incomodidad porque sabes que al otro lado vale la pena."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el ejercicio que le propuso su coach, hay que definir primero el \"cómo\" antes de imaginar el objetivo a 5 años.",
+   "answer": false,
+   "explain": "El ejercicio es justamente al revés: imaginar el mejor caso posible a 5 años sin preocuparse del cómo, porque esa restricción menos te abre la cabeza a ideas que en el día a día ni se te ocurren."
+  },
+  {
+   "type": "mc",
+   "prompt": "Weaver escucha a un colega emocionarse porque mejoró 0,1% el costo de su deuda. ¿Qué conclusión saca?",
+   "options": [
+    "Que es un detalle irrelevante y una pérdida de tiempo",
+    "Que esa persona encontró \"su cosa\" y por eso le va a pasar por encima",
+    "Que conviene copiar esa estrategia de deuda",
+    "Que los detalles solo importan en empresas grandes"
+   ],
+   "answer": 1,
+   "explain": "El punto es encontrar aquello por lo que estás dispuesto a sufrir y obsesionarte; desde afuera se ve absurdo, pero sostenido por décadas es lo que genera resultados asimétricos."
+  }
+ ],
+ "x-la-inteligencia-artificial-te-va-a-hacer-ganas-mas-dinero": [
+  {
+   "type": "concept",
+   "title": "La IA como palanca de ingresos",
+   "body": "El miedo típico es \"la inteligencia artificial me va a quitar la pega\". El episodio propone lo contrario: la IA te puede hacer **más productivo**, y más productividad significa más utilidades para la empresa donde trabajas y más espacio para que te paguen mejor. La carrera no es humanos **contra** robots, sino humanos **y** robots.",
+   "emoji": "🤖"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el argumento del episodio, ¿cuál es la cadena lógica por la que la IA subiría los sueldos?",
+   "options": [
+    "IA → más productividad → más utilidades para las empresas → pueden pagar más",
+    "IA → menos trabajadores → los pocos que quedan cobran más",
+    "IA → más inflación → los sueldos suben nominalmente",
+    "IA → el Estado obliga a repartir las ganancias"
+   ],
+   "answer": 0,
+   "explain": "El punto central es la productividad: si cada persona genera más valor, hay más 'última línea' que repartir.0 La crítica que el propio episodio reconoce es que las empresas podrían quedarse con todo."
+  },
+  {
+   "type": "tf",
+   "statement": "El episodio afirma que con la IA absolutamente todos van a salir ganando, hagan lo que hagan.",
+   "answer": false,
+   "explain": "Se dice explícitamente que no todos van a ganar: el beneficio es para quienes actúan ya y aprenden a usar la herramienta."
+  },
+  {
+   "type": "fill",
+   "sentence": "Los trabajos en centros de logística de Amazon o MercadoLibre parecen de toda la vida, pero en realidad fueron creados por la ___ de hace muy poco tiempo.",
+   "options": [
+    "crisis demográfica",
+    "disrupción tecnológica",
+    "regulación laboral",
+    "inflación"
+   ],
+   "answer": 1,
+   "explain": "Nuestro cerebro naturaliza lo reciente; eso nos impide ver que la tecnología sí crea categorías de empleo nuevas."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el episodio dice que la IA 'nos viene a salvar' frente a la crisis demográfica?",
+   "options": [
+    "Porque la IA va a hacer que la gente tenga más hijos",
+    "Porque con menos población y menor fuerza laboral, la IA mantiene y mejora la capacidad productiva",
+    "Porque la IA va a financiar las pensiones de los adultos mayores",
+    "Porque la IA va a reemplazar completamente a los trabajadores humanos"
+   ],
+   "answer": 1,
+   "explain": "Si cae la fuerza laboral y nadie compensa, se produce un colapso por el lado de la oferta; la IA ayuda a sostener la producción."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con su contenido",
+   "pairs": [
+    [
+     "Eric Schmidt",
+     "ExCEO de Google que da los argumentos optimistas sobre la IA"
+    ],
+    [
+     "Crisis demográfica",
+     "Muchos viejos, pocos jóvenes y menos fuerza laboral"
+    ],
+    [
+     "Trabajos nunca imaginados",
+     "Nuevas pegas que aparecerán gracias a la tecnología"
+    ],
+    [
+     "Humanos y robots",
+     "El marco mental que propone el episodio en vez de la competencia"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el 'círculo virtuoso' que describe el episodio",
+   "items": [
+    "Las personas aprenden a usar la IA como herramienta",
+    "Aumenta la productividad de cada trabajador",
+    "Las empresas y startups generan más utilidades",
+    "Hay espacio para pagar mejores sueldos y repartir más"
+   ],
+   "explain": "El argumento parte de la adopción individual de la herramienta, no de una mejora salarial que caiga del cielo."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, parte del problema es que nuestro cerebro no es capaz de procesar el crecimiento exponencial ni imaginar la nueva economía que puede despertar.",
+   "answer": true,
+   "explain": "Vemos los titulares de reemplazo porque son concretos, pero los empleos futuros aún no existen y por eso no los podemos visualizar."
+  },
+  {
+   "type": "mc",
+   "prompt": "Si quisieras aplicar hoy la idea del episodio a tu carrera, ¿qué sería lo más coherente?",
+   "options": [
+    "Esperar a ver cómo evoluciona la IA antes de mover un dedo",
+    "Empezar ya a aprender a usar herramientas de IA en tu trabajo actual para producir más",
+    "Cambiarte a un rubro donde nadie use tecnología",
+    "Pedir un aumento de sueldo argumentando que la IA subirá los salarios"
+   ],
+   "answer": 1,
+   "explain": "El episodio es claro: la ganancia se la llevan quienes actúan primero y convierten la herramienta en más producción."
+  }
+ ],
+ "x-el-mejor-hack-de-productividad": [
+  {
+   "type": "concept",
+   "title": "El hack gratis: \"No Molestar\" del SERNAC",
+   "body": "¿Te llaman todo el día ofreciéndote tarjetas, créditos o seguros que no pediste? En Chile existe el registro **No Molestar** del SERNAC: entras al Portal del Consumidor con tu **Clave Única**, inscribes tu número y bloqueas a las empresas que te molestan. Es **gratis**, toma minutos y te devuelve algo carísimo: foco y tiempo.",
+   "emoji": "📵"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Qué necesitas para entrar al Portal del Consumidor y usar \"No Molestar\"?",
+   "options": [
+    "Clave Única y tu RUT",
+    "Pagar una suscripción mensual",
+    "Ir presencialmente a una oficina del SERNAC",
+    "Tener cuenta en un banco"
+   ],
+   "answer": 0,
+   "explain": "El trámite es 100% online y gratuito: el acceso al portal se hace con Clave Única, el mismo acceso que usas para otros trámites del Estado."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, después de registrarte en \"No Molestar\" las llamadas comerciales se cortan de inmediato, el mismo día.",
+   "answer": false,
+   "explain": "En el video se menciona que pueden seguir llegando llamadas los días siguientes y recién después dejan de hacerlo; el bloqueo demora un poco en hacer efecto."
+  },
+  {
+   "type": "fill",
+   "sentence": "Al registrar una empresa en el sistema puedes pedir que no te contacten por llamadas, SMS ni ___.",
+   "options": [
+    "WhatsApp",
+    "carta certificada",
+    "visita a domicilio",
+    "radio"
+   ],
+   "answer": 0,
+   "explain": "El formulario permite marcar los canales de contacto: llamadas, SMS y WhatsApp. También existe la opción de bloquear el correo electrónico."
+  },
+  {
+   "type": "match",
+   "prompt": "Relaciona cada elemento del episodio con lo que es",
+   "pairs": [
+    [
+     "No Molestar",
+     "Registro del SERNAC para bloquear contacto comercial"
+    ],
+    [
+     "Clave Única",
+     "Lo que usas para entrar al Portal del Consumidor"
+    ],
+    [
+     "Truecaller",
+     "App que el conductor probó pero dejó de usar"
+    ],
+    [
+     "Denuncia al SERNAC",
+     "Lo que haces si igual te siguen llamando"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el paso a paso que muestra el episodio",
+   "items": [
+    "Entrar al Portal del Consumidor del SERNAC",
+    "Iniciar sesión con Clave Única",
+    "Ir a la sección \"No Molestar\" e ingresar tu teléfono",
+    "Agregar las empresas que quieres bloquear y marcar llamadas, SMS y WhatsApp",
+    "Si te siguen contactando, denunciarlas"
+   ],
+   "explain": "El trámite es secuencial y simple: ingresar, identificarte, registrar tu número, bloquear empresas y, si no respetan, denunciar."
+  },
+  {
+   "type": "mc",
+   "prompt": "En el episodio se comenta que algunas llamadas sí siguieron llegando. ¿De quiénes?",
+   "options": [
+    "De comercios con los que realmente tenía una relación, por ejemplo una cuenta impaga",
+    "De empresas extranjeras que el SERNAC no puede regular",
+    "De call centers que llaman desde celulares personales",
+    "De nadie: el bloqueo fue total"
+   ],
+   "answer": 0,
+   "explain": "El bloqueo apunta a la publicidad y ofertas no solicitadas; si tienes una deuda o contrato vigente, la empresa igual puede contactarte por ese tema."
+  },
+  {
+   "type": "tf",
+   "statement": "Si una empresa que bloqueaste te sigue llamando, puede ser sancionada.",
+   "answer": true,
+   "explain": "Contactarte después de que pediste no ser molestado infringe tus derechos como consumidor, y por eso el SERNAC recibe denuncias por esto."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué un episodio sobre bloquear llamadas aparece en un podcast de finanzas?",
+   "options": [
+    "Porque menos interrupciones significan más foco y tiempo, que es un recurso tan valioso como la plata",
+    "Porque bloquear llamadas te hace ganar dinero directamente",
+    "Porque el SERNAC paga por registrarte",
+    "Porque así te suben el límite de tu tarjeta de crédito"
+   ],
+   "answer": 0,
+   "explain": "El tiempo y la atención son recursos limitados: protegerlos de interrupciones comerciales es parte de administrar bien tu vida, igual que tu presupuesto."
   }
  ]
 }
