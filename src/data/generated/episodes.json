@@ -3365,5 +3365,22 @@
   ],
   "category": "mentalidad",
   "confidence": "high"
+ },
+ {
+  "number": 65,
+  "title": "Las tasas de interés más altas de tu vida, aprovéchalas",
+  "guest": null,
+  "date": "2023-10-31",
+  "summary": "Pablo y Francisco comentan el memo \"Further Thoughts on Sea Change\" de Howard Marks (el \"señor Marx\"), que plantea un cambio estructural en los mercados: tras 13 años de tasas en cero, la inflación post-COVID obligó a los bancos centrales a subir las tasas más rápido de la historia (en Chile hasta 10,5%), y eso cambia las reglas del juego. La conversación gira en torno a darle por primera vez un espacio relevante a la renta fija en el portafolio, sin abandonar las acciones, y a ajustar la asignación de activos según el horizonte de inversión.",
+  "takeaways": [
+   "Se acabó la \"plata gratis\": con tasas altas, instrumentos como depósitos a plazo y bonos ofrecen retornos que hace 3 años eran impensados, incluso corriendo menos riesgo.",
+   "Si antes tenías 0% en renta fija, hoy tiene sentido evaluar darle un espacio (10%, 20%) al portafolio: sube la expectativa de retorno y baja la volatilidad total.",
+   "El bono tiene un retorno \"contractual\" si lo mantienes hasta el vencimiento; si compras un fondo en el mercado secundario, su precio fluctúa con las tasas. Esto requiere horizonte de mediano plazo, no 3 meses.",
+   "Calza el horizonte con el instrumento: menos de 5 años conviene efectivo, depósitos o money market; 2-3 años, un fondo de bonos con duración similar; acciones desde 5 años en adelante.",
+   "Si todavía estás acumulando y te quedan 20-30 años invirtiendo, que los mercados caigan te conviene: compras más barato (salvo que la caída venga con recesión y pierdas la pega).",
+   "La tesis puede fallar: si vuelve una segunda ola de inflación, las tasas suben más y la renta fija lo pasa mal. Invertir es un juego de probabilidades, no de certezas."
+  ],
+  "category": "inversion",
+  "confidence": "high"
  }
 ]

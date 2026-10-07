@@ -3033,6 +3033,114 @@
    "explain": "Lo más importante es mantenerse en el juego: manejar el riesgo pesa más que el retorno, porque sin capital no te recuperas."
   }
  ],
+ "65": [
+  {
+   "type": "concept",
+   "title": "Se acabó la plata gratis",
+   "body": "Desde 2008 el mundo vivió **13 años con tasas de interés cerca de cero**: endeudarse era barato, ahorrar no rentaba nada y casi todo subía. Con la inflación post-COVID los bancos centrales subieron las tasas a toda velocidad, y eso es un **cambio estructural**: ahora la deuda y los depósitos vuelven a pagar algo interesante, pero la vida también se puso más difícil para las empresas endeudadas.",
+   "emoji": "🌊"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según lo conversado en el episodio, ¿hasta cuánto llegó a subir la tasa en Chile, bastante por encima de la de Estados Unidos?",
+   "options": [
+    "4,5%",
+    "10,5%",
+    "15%",
+    "2%"
+   ],
+   "answer": 1,
+   "explain": "La diferencia importa: con la tasa local tan arriba, los depósitos a plazo en Chile llegaron a ofrecer en torno a 9-10% anual, algo impensado durante la década anterior."
+  },
+  {
+   "type": "tf",
+   "statement": "Si compras un bono y lo mantienes hasta el vencimiento, tu retorno es \"contractual\": está pactado por escrito, a diferencia de una acción donde el precio depende de lo que el mercado quiera pagar.",
+   "answer": true,
+   "explain": "Esa es la gran diferencia de la renta fija: hay un contrato con cupones y devolución del capital, y si no te pagan entras en la fila de acreedores de la empresa."
+  },
+  {
+   "type": "tf",
+   "statement": "La renta fija es \"fija\" siempre, así que no puede caer de precio.",
+   "answer": false,
+   "explain": "Si vendes antes del vencimiento o inviertes vía un fondo que transa en el mercado secundario, el precio sube y baja con las tasas: por eso los bonos cayeron fuerte cuando las tasas subieron."
+  },
+  {
+   "type": "fill",
+   "sentence": "Si tu objetivo es en 2 o 3 años más, lo razonable es calzar la ___ de tu portafolio de bonos con ese plazo, en vez de jugar al high yield.",
+   "options": [
+    "duración",
+    "volatilidad",
+    "comisión",
+    "inflación"
+   ],
+   "answer": 0,
+   "explain": "Calzar duración con el horizonte es lo que hacen las instituciones para que un movimiento de tasas no te pille justo cuando necesitas la plata."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada horizonte de inversión con el tipo de instrumento que se mencionó como más adecuado",
+   "pairs": [
+    [
+     "Menos de 1 año",
+     "Depósito a plazo o fondo money market"
+    ],
+    [
+     "2 a 3 años",
+     "Fondo de bonos con duración similar"
+    ],
+    [
+     "5 años o más",
+     "Acciones / renta variable"
+    ],
+    [
+     "Objetivo del portafolio mixto",
+     "Buen retorno con menor volatilidad"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "Tienes 28 años, te quedan 30 años aportando mes a mes. El mercado cae 20%. Según lo conversado en el episodio, ¿cómo deberías mirarlo?",
+   "options": [
+    "Como una mala noticia: tu patrimonio vale menos hoy",
+    "Como una buena noticia: estás comprando más barato tus aportes futuros",
+    "Como señal de salir y volver cuando se recupere",
+    "Como irrelevante: los precios no afectan tus retornos"
+   ],
+   "answer": 1,
+   "explain": "Quien está en etapa de acumulación compra durante años; precios bajos mejoran su retorno futuro. Los que quieren que el mercado suba son quienes están por usar la plata."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena la secuencia de hechos que explica el cambio de marea que describe el memo",
+   "items": [
+    "Crisis financiera de 2008: la Fed lleva las tasas a cero",
+    "13 años de tasas bajas, deuda barata y activos subiendo",
+    "Llega el COVID y los gobiernos inundan la economía de dinero",
+    "Aparece la inflación y los bancos centrales suben las tasas rápido",
+    "Acciones y bonos caen en 2022 y la renta fija vuelve a pagar"
+   ],
+   "explain": "Entender la secuencia ayuda a ver por qué el entorno de hoy no es \"más de lo mismo\", sino un régimen distinto al que la mayoría conoció."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cuál fue el principal riesgo que los conductores identificaron para la tesis de cargarse más a renta fija?",
+   "options": [
+    "Que las empresas tecnológicas sigan subiendo",
+    "Que vuelva una segunda ola de inflación y las tasas sigan subiendo",
+    "Que bajen las comisiones de los fondos",
+    "Que el dólar se mantenga estable"
+   ],
+   "answer": 1,
+   "explain": "Las acciones pueden traspasar inflación vía precios; un bono con tasa pactada no, así que una nueva alza inflacionaria le pega doble."
+  },
+  {
+   "type": "concept",
+   "title": "Ojo con el conflicto de interés",
+   "body": "En el episodio se nota que quien escribe el memo se dedica justamente al mundo de la deuda, así que recomendar más renta fija le conviene. Eso no invalida la idea, pero sí recuerda algo clave: **siempre pregúntate qué gana quien te da el consejo**, y recuerda que invertir es un juego de probabilidades, no de certezas.",
+   "emoji": "🧐"
+  }
+ ],
  "66": [
   {
    "type": "concept",
