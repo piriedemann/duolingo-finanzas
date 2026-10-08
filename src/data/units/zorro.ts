@@ -190,16 +190,16 @@ export const unit: Unit = {
           explain: 'Cerrar deudas chicas rápido da sensación de avance, y eso ayuda a no abandonar el plan.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena los pasos para salir de deudas',
-          items: [
-            'Anotar todas tus deudas con monto y tasa',
-            'Dejar de sumar deuda nueva',
-            'Pagar el mínimo en todas',
-            'Poner todo lo extra en la deuda elegida (más cara o más chica)',
-            'Al terminar una, pasar ese pago a la siguiente',
+          type: 'mc',
+          prompt: 'Mientras pones todo lo extra en una sola deuda, ¿qué haces con las demás?',
+          options: [
+            'Pagar al menos el mínimo en todas, para no caer en mora',
+            'No pagarlas hasta terminar con la primera',
+            'Repartir lo extra en partes iguales entre todas',
+            'Cubrirlas con un avance en efectivo',
           ],
-          explain: 'Primero necesitas ver el panorama completo y frenar la sangría; después concentras la fuerza en una deuda a la vez.',
+          answer: 0,
+          explain: 'Bola de nieve y avalancha concentran lo extra en una deuda a la vez, pero el mínimo de las otras se paga igual: la mora suma intereses, cobranza y un registro en DICOM.',
         },
         {
           type: 'concept',

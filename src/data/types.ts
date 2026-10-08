@@ -53,21 +53,12 @@ export interface MatchPairs {
   pairs: [string, string][] // 3 a 5 pares
 }
 
-/** Ordenar pasos: items vienen en el orden correcto, la app los baraja */
-export interface OrderSteps {
-  type: 'order'
-  prompt: string
-  items: string[]
-  explain: string
-}
-
 export type Exercise =
   | ConceptCard
   | MultipleChoice
   | TrueFalse
   | FillBlank
   | MatchPairs
-  | OrderSteps
 
 export interface Lesson {
   id: string // único global, ej. 'hormiga-1'

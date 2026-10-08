@@ -158,16 +158,16 @@ export const unit: Unit = {
           body: '**Registrar tus gastos** es la base de todo presupuesto. Puedes usar una planilla, una app o revisar la cartola del banco. La meta no es juzgarte, es **ver la foto real** de a dónde se va tu plata.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena los pasos para armar tu primer presupuesto:',
-          items: [
-            'Calcular tu ingreso líquido mensual',
-            'Registrar tus gastos de un mes',
-            'Clasificar los gastos en categorías',
-            'Definir un monto límite para cada categoría',
-            'Revisar a fin de mes y ajustar',
+          type: 'mc',
+          prompt: 'Vas a armar tu primer presupuesto. ¿Qué necesitas saber antes de ponerle un límite a cada categoría?',
+          options: [
+            'Cuánto entra (tu ingreso líquido) y en qué se fue la plata el último mes',
+            'Cuánto gastan tus amigos en lo mismo',
+            'El cupo de tu tarjeta de crédito',
+            'Cuánto te gustaría ganar el próximo año',
           ],
-          explain: 'Primero sabes cuánto entra y cuánto sale; recién ahí puedes poner límites realistas y mejorar mes a mes.',
+          answer: 0,
+          explain: 'Un límite realista sale de tu foto real: lo que efectivamente entra y lo que efectivamente sale. Recién con eso tiene sentido ajustar y revisar mes a mes.',
         },
         {
           type: 'concept',

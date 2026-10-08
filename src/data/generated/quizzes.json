@@ -37,17 +37,6 @@
    "explain": "La renta vitalicia te paga todos los meses hasta que mueras. Quizás no es la decisión más rentable, pero es una decisión razonable que da tranquilidad."
   },
   {
-   "type": "order",
-   "prompt": "Ordena lo que recomiendan hacer con tu plata antes de lanzarte a gastar en experiencias",
-   "items": [
-    "Pagar las deudas caras",
-    "Armar tu colchón de emergencia",
-    "Ahorrar todos los meses para el largo plazo",
-    "Usar lo que queda para vivir experiencias"
-   ],
-   "explain": "El concepto de gastar en experiencias no es para quien está endeudado. Primero ordénate y después disfruta sin culpa."
-  },
-  {
    "type": "mc",
    "prompt": "¿A qué edad, en promedio, se recibe una herencia según lo que comentan del libro?",
    "options": [
@@ -166,17 +155,6 @@
    "explain": "Cuando caen bancos se restringe el crédito, y eso afecta el crecimiento, el empleo y, al final, a todos."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el ciclo básico del negocio bancario",
-   "items": [
-    "El banco capta depósitos y emite bonos",
-    "Presta esa plata a una tasa más alta",
-    "Gestiona el riesgo de que no le paguen",
-    "Gana con la diferencia entre ambas tasas"
-   ],
-   "explain": "El margen de interés neto es el motor del banco, pero solo funciona si sabe a quién prestarle y cuánto riesgo asumir."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál de estas es una regla del juego del episodio?",
    "options": [
@@ -265,17 +243,6 @@
    "statement": "Andrea cuenta que en la industria financiera los inversionistas institucionales chilenos, como los equipos de las AFP, son reconocidos como muy profesionales.",
    "answer": true,
    "explain": "Según ella, incluso los portfolio managers extranjeros quedaban impresionados con lo preparados que llegaban a las reuniones."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino que Andrea recomienda para ordenar tu plata",
-   "items": [
-    "Anota tus ingresos y gastos para tener un punto de partida",
-    "Aprende a ahorrar y arma tu colchón",
-    "Entiende en qué inviertes según tu perfil",
-    "Invierte a largo plazo sin creerle a los 'magos'"
-   ],
-   "explain": "Sin medir no puedes hacerte cargo, y sin ahorro no hay nada que invertir. Recién después tiene sentido elegir inversiones."
   }
  ],
  "36": [
@@ -354,17 +321,6 @@
    "statement": "Si quieres emprender con IA, el consejo del episodio es partir por la herramienta y después buscarle un problema que resolver.",
    "answer": false,
    "explain": "Es al revés: piensa en tu futuro cliente y en cómo solucionarle la vida, y usa la IA como el mejor trabajador que puedas tener."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la receta del episodio para no quedarte atrás con la IA",
-   "items": [
-    "Arma tu colchón y ahorra para el largo plazo",
-    "Empieza cada tarea probando una herramienta de IA",
-    "Revisa y moldea el resultado según lo que necesitas",
-    "Invierte en aprender nuevas habilidades a lo largo de tu carrera"
-   ],
-   "explain": "Tener ahorros te da la tranquilidad de poder parar a aprender algo nuevo. Así la tecnología se vuelve una aliada y no una amenaza."
   }
  ],
  "37": [
@@ -443,17 +399,6 @@
    "statement": "Según Marks, cuando pasan muchos años sin crisis, suele haber presión para relajar las regulaciones.",
    "answer": true,
    "explain": "En el episodio cuentan que el propio SVB hizo lobby para subir el umbral de regulación estricta. Cuando nada malo pasa, se olvidan las lecciones y se baja la guardia."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo se desencadenó la quiebra de SVB según el episodio",
-   "items": [
-    "Las startups depositan mucha plata en el banco",
-    "El banco la invierte en bonos del Tesoro con tasas muy bajas",
-    "La Fed sube las tasas muy rápido y los bonos pierden valor",
-    "Los clientes retiran su plata en masa y el banco debe vender con pérdida"
-   ],
-   "explain": "No fue un problema de créditos impagos, sino de tasas y liquidez: cuando todos pidieron su plata al mismo tiempo, las pérdidas se hicieron reales."
   }
  ],
  "38": [
@@ -526,17 +471,6 @@
    ],
    "answer": 2,
    "explain": "La teoría de cambio conecta el propósito con actividades, resultados e impactos medibles. Alinearlos a los 17 ODS permite comparar y reportar, y además tienen una evaluación externa."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino que propone el episodio para que tu plata tenga más impacto",
-   "items": [
-    "Hazte las preguntas incómodas antes de comprar",
-    "Vota con tus compras premiando a quienes lo hacen bien",
-    "Pregúntale a tu ejecutivo qué impacto tienen tus inversiones",
-    "Predica con el ejemplo en tu casa"
-   ],
-   "explain": "Todo parte por cuestionarse: ¿lo necesito?, ¿quién lo hizo? Después ese criterio se lleva a las compras, a las inversiones y a la familia."
   },
   {
    "type": "tf",
@@ -615,17 +549,6 @@
    ],
    "answer": 2,
    "explain": "Con la regla del 4% necesitas un saco más grande, y en muchos escenarios la plata dura décadas, así que es probable que te sobre. La renta vitalicia te cobra más, pero te ahorra ese exceso y la preocupación."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos del ejercicio que hicieron en el episodio",
-   "items": [
-    "Estimar tu expectativa de vida con un test online",
-    "Definir a qué edad dejarás de trabajar",
-    "Decidir cuánto querrás gastar al mes y ajustarlo por inflación",
-    "Calcular cuánto necesitas ahorrar y ajustar tus expectativas si no alcanza"
-   ],
-   "explain": "Primero necesitas el horizonte (cuánto vivirás y cuándo jubilas), luego la meta de gasto, y recién ahí puedes calcular el esfuerzo de ahorro."
   },
   {
    "type": "tf",
@@ -723,18 +646,6 @@
    "explain": "Un fondo de venture capital dura unos diez años y no puedes vender cuando quieras, como en la bolsa. Por eso hay que cuidar cuánto pesa dentro de tus inversiones."
   },
   {
-   "type": "order",
-   "prompt": "Ordena, a grandes rasgos, cómo Evelyn describe el proceso de un fondo:",
-   "items": [
-    "Recibir oportunidades, muchas por recomendación de otros emprendedores",
-    "Evaluar el equipo, la cultura y la calidad del negocio",
-    "Invertir en unas pocas compañías entre cientos que se revisan",
-    "Apoyarlas con contactos, reclutamiento y siguientes rondas",
-    "Buscar un exit para devolverle la plata a los inversionistas"
-   ],
-   "explain": "Evalúan alrededor de 500 compañías al año y a la mayoría le dicen que no. Además, el apoyo va más allá de la plata."
-  },
-  {
    "type": "tf",
    "statement": "Para Evelyn, la independencia financiera también tiene que ver con tener control: saber dónde está tu plata, qué comisiones pagas y a qué tasas te endeudas.",
    "answer": true,
@@ -816,17 +727,6 @@
    "statement": "Según el episodio, en el mundo real tienes pocos segundos para captar la atención, a diferencia de los largos trabajos que pedían en el colegio.",
    "answer": true,
    "explain": "Por eso hay que ir al hueso y ponerse en los zapatos del otro: ¿por qué le debería importar lo que le cuentas?"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el ejercicio que Pablo y Francisco recomiendan hacer con amigos o familia:",
-   "items": [
-    "Leer el artículo con calma",
-    "Elegir las lecciones que más te marcan",
-    "Conversarlas con otros y ver cómo cada uno las entiende distinto",
-    "Anotarlas y volver a revisarlas cada cierto tiempo"
-   ],
-   "explain": "Si no mantienes activas en tu mente las lecciones valiosas, se olvidan. Discutirlas además te abre a otras formas de ver el mundo."
   }
  ],
  "42": [
@@ -910,17 +810,6 @@
    "statement": "Según Marcela, las mujeres deberían construir su propio patrimonio, entre otras razones porque suelen vivir más años.",
    "answer": true,
    "explain": "Ella ha visto casos de mujeres que tras un divorcio quedan sin nada o con pensiones bajas por años sin aportar. Tener un fondo propio da seguridad."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las reglas del juego tal como las resumen al final del episodio:",
-   "items": [
-    "Infórmate, pero de todos lados",
-    "Cree en tu idea y deja que el interés compuesto haga el resto",
-    "Piensa a largo plazo y no creas en fórmulas mágicas",
-    "Lo perfecto es enemigo de lo bueno: ahorra, invierte y no te rompas la cabeza"
-   ],
-   "explain": "Como dicen, las finanzas son una carrera larga, más parecida a un Ironman que a un sprint."
   }
  ],
  "43": [
@@ -1089,17 +978,6 @@
    "explain": "Francisco recomienda armarlas cuando estás en una buena situación y de forma genuina, no transaccional. Las relaciones naturales terminan siendo mejores."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la historia de Jobs y la caligrafía tal como la cuentan:",
-   "items": [
-    "Deja la universidad porque sus padres gastaban todos sus ahorros en ella",
-    "Se queda yendo a clases que elige, como caligrafía",
-    "Diez años después diseña el Mac con varios tipos de letra",
-    "Mirando hacia atrás, conecta los puntos"
-   ],
-   "explain": "En ese momento la caligrafía parecía inútil. Solo con el tiempo se vio cómo esa curiosidad se transformó en algo único."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál fue el consejo que, según el episodio, más le costó aprender a Bill Gates?",
    "options": [
@@ -1195,16 +1073,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino que se sugiere en el episodio para alguien que recién parte:",
-   "items": [
-    "Partir con money market o depósitos a plazo, con poco riesgo",
-    "Ver que tu plata crece y ganar confianza",
-    "Seguir aprendiendo e ir sumando más riesgo de a poco"
-   ],
-   "explain": "Meter las manos en la masa con poco riesgo te enseña que el mercado puede hacer crecer tu plata, y eso te da confianza para dar los pasos siguientes."
-  },
-  {
    "type": "tf",
    "statement": "Según el libro que comentan al final, un buen predictor está dispuesto a cambiar completamente su visión y divide los problemas grandes en partes más chicas.",
    "answer": true,
@@ -1246,17 +1114,6 @@
    ],
    "answer": 0,
    "explain": "Una empresa puede anotar muchos ingresos, pero si la plata no entra de verdad a la caja, algo raro pasa."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el cálculo del flujo de caja libre usando el ejemplo del restaurante:",
-   "items": [
-    "Todo lo que entra en efectivo por vender hamburguesas",
-    "Menos lo que pagas en insumos, sueldos y capital de trabajo",
-    "Menos el capex: arreglar la plancha, el aire acondicionado y todo lo necesario para seguir operando",
-    "Lo que sobra es el flujo de caja libre, que el dueño puede repartir o usar para crecer"
-   ],
-   "explain": "Si no reinviertes en mantener el local, el negocio se desmorona. Solo lo que queda después de eso está realmente disponible para el dueño."
   },
   {
    "type": "mc",
@@ -1341,17 +1198,6 @@
    "statement": "Cuando Javier era gerente general de una agencia y ganaba muy bien, ahorraba una buena parte de su sueldo.",
    "answer": false,
    "explain": "Su estilo de vida subió al ritmo de su sueldo y gastaba casi todo. Por eso, al emprender, estuvo quemando sus ahorros a toda velocidad."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las etapas de la fórmula AIDA que debe seguir cualquier contenido",
-   "items": [
-    "Atención",
-    "Interés",
-    "Deseo",
-    "Acción"
-   ],
-   "explain": "Sin atención no pasa nada más: el dedo sigue de largo o el correo no se abre. Por eso lo primero es dominar el gancho."
   },
   {
    "type": "match",
@@ -1494,17 +1340,6 @@
    "explain": "Él cuenta que muchos buscan su propio beneficio y que incluso desconocen estos temas. Por eso insiste en la educación y en tener a alguien confiable al lado."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de Matías en el fútbol",
-   "items": [
-    "Jugar en el barrio, en San José de Maipo",
-    "Tercera División sin sueldo, trabajando en turnos",
-    "Unión Temuco",
-    "Campeón con Cobresal en 2015"
-   ],
-   "explain": "Un camino largo y con muchos \"no\". La constancia se parece a invertir: poner un poquito todos los días durante mucho tiempo."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cómo manejaba Matías la frustración después de un mal partido?",
    "options": [
@@ -1580,18 +1415,6 @@
    "statement": "En 2008, el equipo de Marks invirtió toda la plata disponible en una sola semana.",
    "answer": false,
    "explain": "Se demoraron varios meses en invertirla. Como nunca sabes cuándo es el piso, entrar de a poco te saca ese problema de la cabeza."
-  },
-  {
-   "type": "order",
-   "prompt": "Marks explica que un ciclo causa el siguiente. Ordena el ejemplo del coronavirus",
-   "items": [
-    "Un shock nos encierra y frena la economía",
-    "El mercado cae",
-    "Descubrimos nuevas formas de generar valor (teletrabajo, Zoom)",
-    "Los mercados vuelven a subir",
-    "Sube la inflación, suben las tasas y el mercado baja"
-   ],
-   "explain": "Los ciclos no solo se alternan: uno provoca el otro. Entenderlo te ayuda a no creer que lo de hoy durará para siempre."
   },
   {
    "type": "mc",
@@ -1711,17 +1534,6 @@
    "statement": "Según cuentan en el episodio, la palabra \"ahorro\" viene del árabe y se relaciona con la libertad.",
    "answer": true,
    "explain": "Se asocia a los esclavos que juntaban plata para comprar su libertad. Ahorrar, en el fondo, es ganar libertad."
-  },
-  {
-   "type": "order",
-   "prompt": "El gran aprendizaje de Francisco tras 50 episodios fue tener un plan. Ordena cómo aplicarlo",
-   "items": [
-    "Definir el objetivo",
-    "Armar un plan concreto para cumplirlo",
-    "Anticipar imprevistos (por ejemplo, dejar capítulos adelantados)",
-    "Ir mejorando el plan en el camino"
-   ],
-   "explain": "Sin plan, como en el gimnasio o la cocina, te aburres o te pierdes. Con plan, y ajustándolo, logras la constancia."
   }
  ],
  "51": [
@@ -1742,18 +1554,6 @@
    ],
    "answer": 1,
    "explain": "Si el valor que te da es mayor que el precio de mercado, la acción estaría barata; si es menor, estaría cara. Todo depende de los supuestos."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo Damodaran armó su análisis de NVIDIA",
-   "items": [
-    "Entender la industria de semiconductores",
-    "Analizar la empresa y sus apuestas de management",
-    "Preguntarse si la IA es un cambio incremental o revolucionario",
-    "Modelar cada segmento con sus supuestos",
-    "Simular escenarios y tomar una decisión"
-   ],
-   "explain": "Primero se entiende el contexto y después se ponen los números. Así el modelo cuenta una historia coherente."
   },
   {
    "type": "tf",
@@ -1920,18 +1720,6 @@
    ],
    "answer": 2,
    "explain": "La tasa de un crédito de consumo casi siempre es más alta que lo que esperas ganar. En loteos nuevos a veces el vendedor financia con pie y cuotas en UF."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos para evaluar un terreno de inversión",
-   "items": [
-    "Definir para qué lo quieres",
-    "Comparar su precio con terrenos similares de la zona",
-    "Revisar camino, servicios y cercanía a zonas en crecimiento",
-    "Verificar el rol y hacer un estudio de títulos",
-    "Comprar pensando en cómo lo vas a revender"
-   ],
-   "explain": "El mayor riesgo no es que el terreno se vaya a cero: es no poder venderlo cuando quieras. Por eso conviene lo más líquido y deseado."
   }
  ],
  "53": [
@@ -2010,17 +1798,6 @@
    "statement": "El famoso 10% anual que han rentado las acciones en el largo plazo no es magia: calza con que las utilidades de las empresas han crecido a un ritmo parecido.",
    "answer": true,
    "explain": "En el largo plazo, el mercado sigue a las utilidades. Por eso los reportes son la base sobre la que se construyen los mercados financieros."
-  },
-  {
-   "type": "order",
-   "prompt": "Según la frase de John Templeton que citan en el episodio, ordena las etapas de un mercado alcista",
-   "items": [
-    "Nace en el pesimismo",
-    "Crece en el escepticismo",
-    "Madura en el optimismo",
-    "Muere en la euforia"
-   ],
-   "explain": "La frase sirve para preguntarse en qué parte del ciclo estamos. Los reportes dan pistas con datos reales, más allá del ánimo del mercado."
   },
   {
    "type": "mc",
@@ -2106,17 +1883,6 @@
    "statement": "Nico publicó cientos de piezas de contenido antes de que un video se volviera viral.",
    "answer": true,
    "explain": "Fueron unas 500 publicaciones antes del primer viral. Detrás de un aparente éxito repentino hay mucha constancia."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino de mejora personal que propone Nico",
-   "items": [
-    "Definir para qué lo quieres hacer",
-    "Entender por qué lo haces (tu propósito)",
-    "Recién ahí elegir la táctica",
-    "Sostenerlo con rutinas diarias"
-   ],
-   "explain": "Si partes por la táctica, comprar equipos o libros se vuelve dopamina barata o una excusa. El para qué y el por qué le dan sentido a la rutina."
   },
   {
    "type": "fill",
@@ -2207,17 +1973,6 @@
    "explain": "Los primeros años son el mejor momento para cambiarse. La primera pega marca mucho el camino, así que conviene no casarse con ella si no es lo tuyo."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la cadena cuando una administradora quiere comprar dólares",
-   "items": [
-    "La administradora decide que quiere comprar dólares",
-    "Llama al corredor de bolsa",
-    "El corredor le pide precio al trader de su institución",
-    "El trader opera con bancos u otras instituciones"
-   ],
-   "explain": "Cada eslabón conecta a quien quiere comprar con donde está la liquidez. Por eso todas estas áreas existen y se necesitan."
-  },
-  {
    "type": "fill",
    "sentence": "Un tip de venta del libro del negociador del FBI es ___ lo que te dijo la otra persona antes de dar tu opinión.",
    "options": [
@@ -2304,17 +2059,6 @@
    ],
    "answer": 1,
    "explain": "Se construye de a poco con cada interacción. Por eso cuesta mucho armarla y muy poco perderla."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena una buena forma de pedir un aumento según el episodio",
-   "items": [
-    "Aportar valor real a la empresa",
-    "Conversar con tu jefe y decirle lo que quieres",
-    "Si no hay plata, negociar otras cosas como cursos o trabajo remoto",
-    "Seguir aportando para la próxima conversación"
-   ],
-   "explain": "Si no lo dices, tu jefe asume que estás conforme. Y aunque no haya plata, casi siempre hay algo que se puede negociar."
   },
   {
    "type": "fill",
@@ -2405,17 +2149,6 @@
    "explain": "Las diferencias de tasas influyen en el corto plazo. En el largo plazo, un país más competitivo tiende a tener una moneda más fuerte, como el franco suizo."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la idea de margen de seguridad de los value investors",
-   "items": [
-    "Estimar cuánto vale realmente una empresa",
-    "Verificar que tenga un foso o negocio difícil de copiar",
-    "Esperar a que el precio esté bastante bajo su valor",
-    "Comprar con disciplina y no dejarse llevar por el pánico"
-   ],
-   "explain": "Comprar algo que vale 100 a 70 te da un colchón si te equivocas. La disciplina emocional es lo que permite actuar cuando el resto tiene miedo."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué recomienda leer José Manuel para aprender de inversiones?",
    "options": [
@@ -2485,17 +2218,6 @@
      "El estilo recomendado para amateurs"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los criterios de un riesgo bien tomado, según cómo los presentan en el episodio",
-   "items": [
-    "Toma riesgos que entiendas",
-    "Toma riesgos que puedas analizar",
-    "Toma riesgos que puedas diversificar",
-    "Toma riesgos que te paguen lo justo por asumirlos"
-   ],
-   "explain": "Estos criterios separan el riesgo inteligente de la apuesta. Si no entiendes algo ni te pagan por el riesgo, estás apostando, no invirtiendo."
   },
   {
    "type": "mc",
@@ -2604,18 +2326,6 @@
    "explain": "Los dos caminos salieron muy parecidos. Depende de la tasa, de la valorización, del retorno de las acciones y de cómo quieres vivir."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos para comparar ambos caminos como lo hicieron en el Excel",
-   "items": [
-    "Definir el precio del departamento, el arriendo y las condiciones del crédito",
-    "Sumar todos los costos: pie, gastos, imprevistos y contribuciones",
-    "Calcular cuánto tienes que poner de tu bolsillo cada año",
-    "Invertir ese mismo flujo en acciones en el escenario alternativo",
-    "Comparar el patrimonio final de ambos caminos"
-   ],
-   "explain": "Para que la comparación sea justa, en ambos escenarios debes usar la misma plata. Así ves cuál camino deja más patrimonio con los mismos esfuerzos."
-  },
-  {
    "type": "fill",
    "sentence": "Lo mejor que se puede copiar de la inversión inmobiliaria es su disciplina: igual que el banco, que no perdona, tienes que ___.",
    "options": [
@@ -2704,18 +2414,6 @@
    "explain": "El software crítico tiene demanda predecible, altos costos de cambio y poder de precios. Quien vende un commodity depende de factores externos y compite casi solo por precio."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el proceso de inversión que describe Diego",
-   "items": [
-    "Desarrollar una hipótesis distinta a la del mercado",
-    "Testear la hipótesis estudiando el negocio y yendo a terreno",
-    "Comprar si el retorno esperado justifica el riesgo",
-    "Revisar la tesis cuando algo cambia o la acción cae fuerte",
-    "Vender si la tesis se rompe o aparece una mejor alternativa"
-   ],
-   "explain": "Un proceso repetible reduce los errores por emociones. Se vende por razones concretas (tesis rota o mejores oportunidades), no por el susto del día."
-  },
-  {
    "type": "fill",
    "sentence": "Si alguien no tiene la pasión ni el tiempo para analizar empresas, la recomendación del episodio es ___.",
    "options": [
@@ -2799,17 +2497,6 @@
    "statement": "Pancho mantiene una tasa de ahorro de alrededor de 20%, con meta de llegar a 30%, porque prefiere sostener un estilo de vida que le gusta.",
    "answer": true,
    "explain": "Sabe que otros ahorran 70% para ser libres antes, pero eligió su propio camino: cada uno debe elegir el suyo conscientemente."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el juego de la mesada que cuenta Pancho para enseñar a ahorrar a los niños:",
-   "items": [
-    "Se le da una mesada al niño",
-    "Lo que no se gasta en el mes, el papá o la mamá se lo duplica",
-    "Van al supermercado a comprar con lo ahorrado",
-    "Lo que no gasta en la compra se le vuelve a duplicar"
-   ],
-   "explain": "Así el niño entiende que ahorrar hace crecer la plata; la hija de la fundadora que se lo contó eligió una muñeca más chica para ahorrar."
   },
   {
    "type": "mc",
@@ -2912,17 +2599,6 @@
    ],
    "answer": 1,
    "explain": "En 10 años puedes estar entre muy bien y bastante mal; con horizontes más largos la dispersión se achica y el interés compuesto hace su magia."
-  },
-  {
-   "type": "order",
-   "prompt": "Según el ejercicio del episodio, ordena de MÁS a MENOS años necesarios para financiar tus gastos con tus ahorros:",
-   "items": [
-    "Ahorrar 10% del sueldo",
-    "Ahorrar 20% del sueldo",
-    "Ahorrar 30% del sueldo",
-    "Ahorrar 50% del sueldo"
-   ],
-   "explain": "Subir la tasa de ahorro acorta muchísimo el camino: con 20% hablan de unos 20 años y con 50% de alrededor de 8."
   }
  ],
  "63": [
@@ -3007,18 +2683,6 @@
    "statement": "El periodo que la gente mantiene un ETF en su portafolio bajó de casi 9 años en los 50 a unos pocos meses hoy, según un artículo que comentan.",
    "answer": true,
    "explain": "El instrumento puede ser perfecto, pero si lo compras y vendes seguido le metes tus sesgos al proceso."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos para armar un portafolio pasivo por tu cuenta, según la recapitulación del episodio:",
-   "items": [
-    "Define para qué y para cuándo quieres la plata",
-    "Conoce cuánta volatilidad aguantas para dormir tranquilo",
-    "Define tu allocation entre renta fija y renta variable",
-    "Elige instrumentos baratos y mantente invertido",
-    "Rebalancea más o menos una vez al año"
-   ],
-   "explain": "Primero van el objetivo y el riesgo; los instrumentos vienen al final y deben ser simples y de bajo costo."
   },
   {
    "type": "mc",
@@ -3111,18 +2775,6 @@
    "explain": "Quien está en etapa de acumulación compra durante años; precios bajos mejoran su retorno futuro. Los que quieren que el mercado suba son quienes están por usar la plata."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la secuencia de hechos que explica el cambio de marea que describe el memo",
-   "items": [
-    "Crisis financiera de 2008: la Fed lleva las tasas a cero",
-    "13 años de tasas bajas, deuda barata y activos subiendo",
-    "Llega el COVID y los gobiernos inundan la economía de dinero",
-    "Aparece la inflación y los bancos centrales suben las tasas rápido",
-    "Acciones y bonos caen en 2022 y la renta fija vuelve a pagar"
-   ],
-   "explain": "Entender la secuencia ayuda a ver por qué el entorno de hoy no es \"más de lo mismo\", sino un régimen distinto al que la mayoría conoció."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál fue el principal riesgo que los conductores identificaron para la tesis de cargarse más a renta fija?",
    "options": [
@@ -3213,17 +2865,6 @@
    "explain": "Él buscaba al emprendedor en cada asado o cumpleaños; los mentores aceleran el aprendizaje, pero hay que salir a buscarlos."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de François hacia el emprendimiento:",
-   "items": [
-    "Trabaja más de 7 años como empleado en la industria del vino",
-    "Renuncia en 2018 para fundar Float",
-    "Vive unos 6 meses de jornadas de 6:30 a medianoche",
-    "El negocio despega y arma un equipo en quien delegar"
-   ],
-   "explain": "Emprender puede dar libertad, pero la parte inicial suele ser intensa, con tus ahorros y tu tiempo en juego."
-  },
-  {
    "type": "tf",
    "statement": "Para François, emprender es para todos y cualquiera debería dejar su trabajo.",
    "answer": false,
@@ -3306,18 +2947,6 @@
    "title": "La curva J",
    "body": "Al partir un programa de alternativos, primero pones plata (**llamados de capital**) y recién después recibes **distribuciones**. Es como construir un edificio: pagas meses sin vender nada y al final llegan los ingresos. Ojo: el flujo de caja negativo al inicio no significa que estés perdiendo, porque lo invertido ya tiene valor.",
    "emoji": "📈"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena un checklist para evaluar a un manager de alternativos, según el orden en que lo cuenta Cristóbal:",
-   "items": [
-    "Ver cómo gana plata: comisión fija o carry, y cuánto invierte de su propio bolsillo",
-    "Revisar retornos y si son repetibles en el tiempo",
-    "Sacar los mejores y peores deals y ver si el retorno se mantiene",
-    "Analizar cómo crea valor en las empresas",
-    "Ver cuántas veces las ganancias cubren las pérdidas"
-   ],
-   "explain": "Más que la estrategia, en alternativos importa el manager: la mayor parte del resultado pasa por hacer bien ese análisis."
   },
   {
    "type": "mc",
@@ -3434,17 +3063,6 @@
    "explain": "Reconoce que en esa cuenta las probabilidades de perderlo todo son altas; por eso es poca plata y la mantiene aparte de su trading con reglas."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de Tomás como trader:",
-   "items": [
-    "Trabaja unos 12 años en la mesa de acciones de una corredora",
-    "Quiebra tres veces apostando fuerte y apalancado",
-    "Lee Market Wizards y descubre el manejo de riesgo",
-    "En Chicago, durante su MBA, empieza a vivir del trading"
-   ],
-   "explain": "Su método no vino de una fórmula mágica, sino de aprender de sus quiebras y ordenarse con reglas."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué dice Tomás sobre el trading como actividad?",
    "options": [
@@ -3551,17 +3169,6 @@
    ],
    "answer": 2,
    "explain": "El timing perfecto rendía algo más de 8% anual y el peor cerca de 7,4%: lo que realmente importa es invertir con constancia."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la historia del manager Jean-Marie Eveillard que cuentan en el episodio:",
-   "items": [
-    "Sigue su estilo value mientras el Nasdaq sube fuerte",
-    "Lo tratan de acabado y muchos inversionistas le sacan la plata",
-    "Estalla la burbuja .com en 2000",
-    "Le gana ampliamente al Nasdaq y lo premian como inversionista del año"
-   ],
-   "explain": "Aguantar una estrategia en la que confías puede hacerte ver como el que no sabe nada por años, hasta que el ciclo cambia."
   }
  ],
  "70": [
@@ -3570,18 +3177,6 @@
    "title": "Las reglas del juego del dinero",
    "body": "Manejar tu plata tiene un **orden**, tengas mucha o poca. Lo primero es **no quedar fuera del juego**: la gente que compra cripto o un depa para arrendar sin tener fondo de emergencia puede andar bien... hasta que algo sale mal. Por eso el plan parte con una mitad de **defensa** y recién después pasa al **ataque**, ordenando cada paso según las tasas de retorno a tu favor o en tu contra.",
    "emoji": "🎲"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los primeros pasos de la 'defensa' tal como los plantean en el episodio:",
-   "items": [
-    "Págate primero: separa un 10% de tu sueldo a principio de mes",
-    "Junta tu primer millón y contrata un seguro catastrófico",
-    "Aprovecha si tu empleador iguala tu ahorro",
-    "Sal de las deudas caras",
-    "Arma tu fondo de emergencia"
-   ],
-   "explain": "Primero construyes el hábito y un colchón 'anti game over'; luego tomas el retorno más alto (100% del match), eliminas el ~30% en contra de las deudas caras y recién después completas el fondo de emergencia, que toma más tiempo."
   },
   {
    "type": "mc",
@@ -3664,18 +3259,6 @@
      "10 veces"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ahora la segunda mitad (el 'ataque'). Ordena estos pasos como aparecen en el plan:",
-   "items": [
-    "Prepagar compras futuras, como un auto o las vacaciones",
-    "Armar el fondo 'chao jefe' (unos 12 meses de gastos)",
-    "Definir tu asset allocation según tus objetivos",
-    "Comprar la casa propia",
-    "Pensar en gastos para otros: universidad de los hijos, herencia"
-   ],
-   "explain": "La casa propia es la compra más importante de tu vida y te concentra en el mercado inmobiliario, por eso va tarde. Y como en el avión, primero te pones tu máscara de oxígeno y después ayudas a otros."
   }
  ],
  "71": [
@@ -3772,16 +3355,6 @@
    "statement": "Munger decía que quien no es capaz de aguantar una caída de 50% en sus acciones debe conformarse con retornos mediocres.",
    "answer": true,
    "explain": "Las caídas fuertes van a llegar. Quien vende en pánico se pierde la recuperación; el retorno de largo plazo de las acciones es el premio por aguantar."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las tres reglas de Munger para una carrera exitosa, tal como se presentan en el episodio",
-   "items": [
-    "No vendas nada que tú mismo no comprarías",
-    "No trabajes para nadie que no respetes y admires",
-    "Trabaja solo con gente con la que disfrutes"
-   ],
-   "explain": "Las tres apuntan a lo mismo: alinear tus incentivos y rodearte de personas que te hagan mejor. Tu primer jefe y tu entorno marcan tu carrera."
   }
  ],
  "72": [
@@ -3860,17 +3433,6 @@
      "Pagas poco y el resto sigue generando interés"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino que describe Benja para salir del sobreendeudamiento",
-   "items": [
-    "'Ir al doctor': ver todas tus deudas juntas y entenderlas",
-    "Reestructurar o consolidar para no caer en mora",
-    "Ajustar gastos durante un tiempo",
-    "Empezar a ahorrar para una meta de largo plazo"
-   ],
-   "explain": "Primero hay que diagnosticar. Luego se ataja la deuda (a veces alargando el plazo para bajar la cuota) y recién después viene construir patrimonio."
   },
   {
    "type": "tf",
@@ -4029,17 +3591,6 @@
    ],
    "answer": 0,
    "explain": "Invertir tiempo en entender el problema te permite gastar la poca plata que tienes en lo que de verdad mueve la aguja, en vez de derrocharla."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las rondas en que Conti prueba un pitch nuevo",
-   "items": [
-    "Ella misma, practicando internamente",
-    "Su familia, que detecta errores obvios sin herirle el ego",
-    "Amigos que conocen el tema y son más honestos",
-    "Alguien que nunca la ha escuchado, para ver si se entiende"
-   ],
-   "explain": "Cada ronda saca errores distintos. El desconocido es clave: si no puede repetir la idea con sus palabras, el mensaje no se transmitió."
   },
   {
    "type": "mc",
@@ -4356,16 +3907,6 @@
    "explain": "Él lo plantea como la condición sine qua non del liderazgo: si usas a las personas como peldaños, dejan de confiar en ti y, con el tiempo, no se dejan liderar."
   },
   {
-   "type": "order",
-   "prompt": "En la anécdota del empresario que puntuaba ideas, ordena de MENOR a MAYOR puntaje lo que alguien le traía:",
-   "items": [
-    "Una buena idea (1 punto)",
-    "La idea con un plan para llevarla a la práctica (10 puntos)",
-    "La idea ejecutada (100 puntos)"
-   ],
-   "explain": "Todos creen tener grandes ideas; lo escaso y difícil es ejecutarlas. Por eso la ejecución vale muchísimo más que la idea sola."
-  },
-  {
    "type": "mc",
    "prompt": "Con la expresión 'pegarle el palo al gato', ¿qué recomienda Jottar a los jóvenes?",
    "options": [
@@ -4490,17 +4031,6 @@
    "statement": "La historia que cuentan de Richard Branson es un ejemplo de quedarse esperando pacientemente el siguiente vuelo.",
    "answer": false,
    "explain": "Es al revés: varado en un aeropuerto, arrendó un avión y juntó a otros pasajeros. El ejemplo sirve para decir que hay que ser creativo e inventar soluciones, no quedarse pasivo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo, según los conductores, una relación sin interés se convierte en una red valiosa",
-   "items": [
-    "Compartes intereses y conversas sin buscar nada a cambio",
-    "Aportas valor: ayudas, conectas o compartes algo útil",
-    "La relación crece con el tiempo y se vuelve de confianza",
-    "Cuando necesitas ayuda, tu red responde"
-   ],
-   "explain": "El orden importa: primero se da y se construye confianza; la ayuda llega como consecuencia, no como transacción."
   }
  ],
  "79": [
@@ -4556,17 +4086,6 @@
      "Terminales tipo Bloomberg o Capital IQ"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el playbook de adquisiciones exitosas que describe Diego",
-   "items": [
-    "Tener una visión clara alineada con la estrategia",
-    "Identificar activos que hagan fit con la empresa",
-    "Comprar el mejor activo, el número uno, y armar la infraestructura base",
-    "Irle sumando adyacencias y nuevos productos"
-   ],
-   "explain": "Primero se arman las tuberías (datos, procesos) y después se suma más. Y siempre cuidando el fit cultural y entendiendo la regulación."
   },
   {
    "type": "mc",
@@ -4765,18 +4284,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo fue creciendo el encuentro de emprendedores que nació de un asado",
-   "items": [
-    "Un asado en su casa con unos 20 amigos",
-    "Un parque prestado por El Mercurio, con unas 500 personas",
-    "El quincho de 3M, con carpas y charlas",
-    "Un evento con apoyo de Corfo",
-    "Un gran parque de Santiago con decenas de miles de asistentes"
-   ],
-   "explain": "Creció paso a paso durante años, sumando gente que creyó en la idea. Es un trabajo de hormiga, no un golpe de suerte."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué piensa Daniel sobre el networking?",
    "options": [
@@ -4972,17 +4479,6 @@
    "explain": "Además, compartes la carga emocional de las decisiones de plata con alguien que no tiene conflictos de interés con tu familia ni tus amigos."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el proceso de planificación que describe Pablo",
-   "items": [
-    "Revisar tus ingresos, gastos, deudas e inversiones",
-    "Armar el plan",
-    "Revisar el plan juntos",
-    "Implementarlo y asegurarse de que hagas los cambios"
-   ],
-   "explain": "Saber qué hacer no basta: igual que con un personal trainer, tener a alguien que te empuje hace que de verdad lo hagas."
-  },
-  {
    "type": "tf",
    "statement": "En el episodio plantean que pedir ayuda a un profesional, como un psicólogo o un nutricionista, debería ser lo normal y no una señal de que tienes un problema.",
    "answer": true,
@@ -5078,17 +4574,6 @@
    "explain": "Quería enseñarles que las capacidades son un regalo, pero que el esfuerzo depende de ellos. Felicitar resultados sin mirar el esfuerzo es una mala educación."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los criterios que usa Fernando para analizar una tendencia de inversión, tal como los enumera",
-   "items": [
-    "Que sea permanente o dure muchas décadas",
-    "Seguir la plata: que vaya mucho dinero en esa dirección",
-    "Crecimiento exponencial que genere sorpresas positivas",
-    "La disciplina de mantenerse invertido y tolerar la volatilidad"
-   ],
-   "explain": "Vientos a favor de largo plazo, más dinero y creatividad humana, generan buenos negocios. Pero sin la disciplina de quedarte invertido no los capturas."
-  },
-  {
    "type": "mc",
    "prompt": "En la frase que cita Fernando, un punto va a la idea y diez a la planificación. ¿Qué se lleva cien puntos?",
    "options": [
@@ -5157,17 +4642,6 @@
    ],
    "answer": 0,
    "explain": "Si llenas tus días de reuniones, mails y urgencias, al mirar la agenda del mes puedes darte cuenta de que no avanzaste en nada relevante."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los horizontes que el invitado propone revisar en tu día a día, del más corto al más largo",
-   "items": [
-    "Esta semana",
-    "El próximo mes",
-    "Los próximos 6 meses",
-    "Los próximos 18 meses"
-   ],
-   "explain": "Tener conciencia de cómo repartes tu tiempo entre el corto, mediano y largo plazo es una forma de medir tu productividad. Mientras más alto es tu cargo, más pesa el largo plazo."
   },
   {
    "type": "mc",
@@ -5282,18 +4756,6 @@
    "statement": "Un problema de algunos fondos mutuos para emergencias es que el rescate se hace en horario hábil, así que el fin de semana podrías no tener la plata.",
    "answer": true,
    "explain": "Por eso buscaban combinar rentabilidad con liquidez inmediata: si te doblas el pie un sábado, necesitas la plata ese día."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las 'reglas del juego' que Francisco resume al final del episodio",
-   "items": [
-    "Ten mentores",
-    "Siéntate en la mesa",
-    "Planifica tus grandes gastos",
-    "Haz que tu plata crezca sin hacer nada",
-    "Guarda un pedacito en caja para las grandes oportunidades"
-   ],
-   "explain": "Es un buen checklist: primero tu desarrollo personal, luego ordenar gastos, después hacer rentar la plata sin perder liquidez para las oportunidades."
   }
  ],
  "87": [
@@ -5302,18 +4764,6 @@
    "title": "El ciclo del capital",
    "body": "**CapEx** es la plata que una empresa gasta hoy en activos que le darán beneficios por años, como máquinas o plantas. El problema: cuando la demanda sube, **todas** las empresas invierten al mismo tiempo, esa capacidad llega junta y el mercado se inunda. Como dicen en el episodio, la moraleja es **fijarte en la oferta y no en la demanda**.",
    "emoji": "🏭"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las etapas del ciclo del capital que describe el libro Capital Returns",
-   "items": [
-    "Sube la demanda y crecen los márgenes",
-    "Las empresas acumulan caja y confianza y aumentan su CapEx",
-    "La nueva capacidad entra al mercado toda al mismo tiempo",
-    "Bajan los precios y los retornos quedan bajo el costo de capital",
-    "Algunas quiebran o venden y quedan menos jugadores"
-   ],
-   "explain": "La expansión tiene un rezago: cuando la nueva producción llega, todos los competidores hicieron lo mismo y sobra oferta."
   },
   {
    "type": "mc",
@@ -5558,16 +5008,6 @@
    "explain": "Diversificar reduce el riesgo propio de cada activo sin sacrificar el premio por riesgo. En todo lo demás, más retorno implica más riesgo."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la evolución que describen en cómo miran las finanzas una inversión",
-   "items": [
-    "Solo se hablaba de retorno",
-    "Se sumó el riesgo: la relación riesgo-retorno",
-    "Hoy algunos agregan también el impacto"
-   ],
-   "explain": "Mirar solo el retorno es engañoso: dos inversiones con el mismo retorno pueden tener riesgos muy distintos."
-  },
-  {
    "type": "tf",
    "statement": "La mayoría de las veces que tomas un buen riesgo personal y fallas (un proyecto, una pregunta en una reunión), no pasa nada grave y aprendes algo.",
    "answer": true,
@@ -5640,16 +5080,6 @@
    ],
    "answer": 2,
    "explain": "Private equity, infraestructura o deuda privada de calidad exigen montos enormes. Vía fondo de pensiones accedes a los mejores gestores con costos de inversionista grande."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena del más conservador al más riesgoso lo que Francisco tiene en su propio portafolio",
-   "items": [
-    "Depósitos a plazo",
-    "Fondo C",
-    "Fondo B"
-   ],
-   "explain": "El depósito da un retorno conocido; el Fondo C mezcla más renta fija que variable, y el Fondo B tiene más acciones, con más volatilidad y más retorno esperado."
   },
   {
    "type": "tf",
@@ -5766,17 +5196,6 @@
    ],
    "answer": 1,
    "explain": "Mientras más temprano inviertes, más años tiene el interés compuesto para trabajar. Por eso el potencial cae rápido si esperas: a los 30 ronda 30 veces y a los 40 unas 10."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las edades de inicio según el potencial de multiplicar una luca invertida, de MAYOR a MENOR (según el episodio):",
-   "items": [
-    "A los 20 (≈ x80)",
-    "A los 25 (≈ x48)",
-    "A los 30 (≈ x30)",
-    "A los 40 (≈ x10)"
-   ],
-   "explain": "La curva baja de forma exponencial: cada año que postergas le quita tiempo al interés compuesto. Esperar solo 5 años puede reducir el potencial casi a la mitad."
   },
   {
    "type": "tf",
@@ -5932,17 +5351,6 @@
    "statement": "Invertir en inmobiliario con crédito hipotecario puede aumentar la rentabilidad, pero también el riesgo.",
    "answer": true,
    "explain": "La palanca amplifica: si todo va bien, ganas más sobre tu plata; si algo sale mal y no puedes pagar, el banco se queda con el activo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el razonamiento de Tomás sobre por qué podrían faltar departamentos nuevos en unos años",
-   "items": [
-    "Suben las tasas y las personas compran menos",
-    "Las inmobiliarias venden menos y compran pocos terrenos",
-    "Se inician pocos proyectos nuevos",
-    "Como construir toma de 2 a 4 años, luego faltan departamentos nuevos"
-   ],
-   "explain": "Hay un desfase entre lo que se decide hoy y lo que llega al mercado: por eso ellos miran la oferta futura al elegir dónde invertir."
   }
  ],
  "94": [
@@ -6021,17 +5429,6 @@
    "statement": "En el ejemplo de Monte Carlo, Pablo le recomendó a su cliente mantener todo en acciones de su empresa porque rentaban un poquito más.",
    "answer": false,
    "explain": "Esas acciones eran tan volátiles que en muchas simulaciones la plata llegaba a cero. Diversificar significaba rentar un poco menos, pero con una probabilidad mucho más alta de llegar tranquilo a la meta."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo describen el ciclo de la deuda en el memo de Marks:",
-   "items": [
-    "Las cosas van bien y la deuda parece ayudar a avanzar más rápido",
-    "La gente se entusiasma y toma cada vez más deuda",
-    "Llega una crisis y muchos dejan de pagar",
-    "Se deja de prestar y todos dicen que la deuda es lo peor"
-   ],
-   "explain": "En la euforia proyectamos que lo bueno seguirá para siempre. Ponerle números a los escenarios ayuda a sacar la emoción de la guata."
   },
   {
    "type": "mc",
@@ -6128,18 +5525,6 @@
    "explain": "Sin agua no había expedición. En un buen equipo cada rol es indispensable, aunque parezca menos visible."
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo avanzó el proyecto de Pachi:",
-   "items": [
-    "Imagina y escribe la expedición durante las quimios",
-    "Arma su equipo de preparación: entrenador, nutriólogo y kinesiólogo",
-    "Consigue el financiamiento completo",
-    "Sus hijas se suman a cargo de la logística y las comunicaciones",
-    "Llega a la cumbre del Everest"
-   ],
-   "explain": "Empezó a entrenar antes de tener la plata, porque no le daban los tiempos. Plan, disciplina y equipo fueron sumándose paso a paso."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál es la campaña simple que Pachi propone y que en el episodio comparan con el interés compuesto?",
    "options": [
@@ -6198,18 +5583,6 @@
      "PowerBook"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena estos hitos de la vida de Jobs:",
-   "items": [
-    "Funda Apple Computer en un garage",
-    "Lanza el Macintosh con el comercial '1984'",
-    "Lo echan de Apple y funda NeXT",
-    "Pixar estrena Toy Story",
-    "Apple compra NeXT y Jobs vuelve"
-   ],
-   "explain": "Su peor momento (la salida de Apple, NeXT y Pixar perdiendo plata) terminó siendo el camino de vuelta a Apple. Otra vez, los puntos se conectaron hacia atrás."
   },
   {
    "type": "mc",
@@ -6346,17 +5719,6 @@
    ],
    "answer": 2,
    "explain": "La tecnología cambia cada tanto (de servidores propios a la nube, de la nube a la IA). La cultura que permite adaptarse y hasta canibalizar tu propio producto es lo que sostiene la ventaja."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el análisis que proponen para una empresa intensiva en intangibles:",
-   "items": [
-    "Ver cuánto I+D y marketing pasa por el estado de resultados",
-    "Separar cuánto es mantención y cuánto crecimiento",
-    "Tratar la parte de crecimiento como capex",
-    "Recalcular métricas como el ROIC y buscar la ventaja competitiva"
-   ],
-   "explain": "Primero se identifica el gasto, después se clasifica y ajusta, y recién ahí las métricas muestran el potencial real del negocio."
   }
  ],
  "98": [
@@ -6435,16 +5797,6 @@
    "statement": "Francisco cuenta que contrató un plan para acumular millas y después el banco cambió las condiciones, así que perdió los beneficios por los que lo había contratado.",
    "answer": true,
    "explain": "Las promociones sirven para atraer clientes y suelen desaparecer. Por eso conviene revisar cada cierto tiempo y elegir el producto por el servicio, no por el incentivo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino que proponen al final del capítulo:",
-   "items": [
-    "Si tienes una carga financiera alta, sal primero de esas deudas",
-    "Elige un banco que te atienda bien y olvídate un poco de los puntos",
-    "Invierte tu tiempo en aprender y hacerte más valioso"
-   ],
-   "explain": "Salir de deudas caras suele ser tu mejor inversión. Después, simplifica tu banco y pon la energía donde más retorna: en ti."
   },
   {
    "type": "mc",
@@ -6527,16 +5879,6 @@
    "explain": "María llegó a unos 306 millones, Andrés a 276 y Gabriel a 236. Ser disciplinado te deja muy cerca de lo perfecto, sin la imposible tarea de adivinar el mercado."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los ingredientes de la receta tal como los presentan en el capítulo:",
-   "items": [
-    "Dale tiempo a las acciones para hacer su pega",
-    "Sé disciplinado: parte antes y sé sistemático",
-    "No pagues de más en comisiones"
-   ],
-   "explain": "El tiempo hace el trabajo pesado, la disciplina asegura que sigas aportando y las comisiones bajas evitan que una mochila pesada se coma tu rentabilidad."
-  },
-  {
    "type": "tf",
    "statement": "En el ejemplo de los dos recién egresados, quien invierte 100 lucas al mes durante 10 años termina con más plata que quien empieza 10 años después y aporta durante 30 años.",
    "answer": true,
@@ -6603,18 +5945,6 @@
    ],
    "answer": 2,
    "explain": "Llegar exactamente a cero es peligroso si vives más de lo previsto o aparece un gasto enorme. Por eso la idea es disfrutar, pero con un colchón de seguridad."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena estos mandamientos tal como aparecen en el capítulo:",
-   "items": [
-    "Págate todos los meses: ahorra a principios de mes",
-    "Gasta en cosas que te hacen feliz y apunta a morir con cero",
-    "Vota con tu plata",
-    "No intentes predecir el futuro, busca entender el pasado",
-    "Arma tu estrategia de inversión de largo plazo y síguela"
-   ],
-   "explain": "Primero el ahorro, después el gasto consciente, y recién ahí la estrategia de inversión. El orden importa, igual que en las reglas del juego."
   },
   {
    "type": "match",
@@ -6749,16 +6079,6 @@
    "statement": "Según Pablo y Francisco, las apuestas de alto riesgo como bitcoin o una acción individual tienen más sentido cuando ya tienes un patrimonio diversificado, y con un porcentaje chico, no al revés.",
    "answer": true,
    "explain": "Muchas veces lo hacen quienes menos tienen, buscando un golpe de suerte. Ese riesgo debería ser un privilegio ganado tras cumplir la base."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las tres grandes metas de patrimonio que proponen en el episodio:",
-   "items": [
-    "Primer millón de pesos",
-    "100 millones de pesos",
-    "Un millón de dólares"
-   ],
-   "explain": "El primer millón demuestra que empezaste a ahorrar; llegar a 100 millones significa que llevas años con buenos hábitos; y desde ahí el interés compuesto acelera todo."
   }
  ],
  "102": [
@@ -7133,18 +6453,6 @@
    "emoji": "🚁"
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino que describen para que un sueño cambie tu destino:",
-   "items": [
-    "Tener un sueño",
-    "Escribirlo en una hoja o en el celular",
-    "Convertirlo en una meta",
-    "Diseñar un plan",
-    "Hacer cosas en el día a día que te acerquen"
-   ],
-   "explain": "Un sueño que no se escribe se diluye. Al anotarlo y bajarlo a un plan, empiezas a actuar en el día a día para avanzar hacia él."
-  },
-  {
    "type": "tf",
    "statement": "Para cambiar de perspectiva necesitas sí o sí un año sabático o un viaje al otro lado del mundo.",
    "answer": false,
@@ -7331,18 +6639,6 @@
    ],
    "answer": 2,
    "explain": "Hay que tener metas, aterrizarlas a cómo funciona el mundo real y ejecutarlas con determinación."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el proceso de cinco pasos de Dalio para conseguir lo que quieres en la vida.",
-   "items": [
-    "Tener metas claras",
-    "Identificar los problemas que te separan de ellas",
-    "Diagnosticar los problemas hasta su raíz",
-    "Diseñar un plan para salir del problema",
-    "Ejecutar el plan hasta lograr resultados"
-   ],
-   "explain": "Es un ciclo: al avanzar aparecen nuevos problemas y vuelves a diagnosticar, diseñar y ejecutar."
   },
   {
    "type": "mc",
@@ -7539,18 +6835,6 @@
    "explain": "Es al revés: la gente de la vereda y del carril lento espera el evento; la del carril rápido sabe que la riqueza es un proceso del día a día."
   },
   {
-   "type": "order",
-   "prompt": "Ordena las letras del acrónimo CENTS, los cinco mandamientos de un negocio de carril rápido.",
-   "items": [
-    "Control: tú manejas el negocio",
-    "Entrada: hay barreras para que no cualquiera te copie",
-    "Necesidad: resuelve un problema real",
-    "Tiempo: tus ingresos no dependen de tus horas",
-    "Escala: puede crecer a mucha gente"
-   ],
-   "explain": "Todo apunta a la ley del efecto: mientras a más personas impactes, en cantidad o profundidad, más riqueza puedes generar."
-  },
-  {
    "type": "mc",
    "prompt": "Ejemplo de Ben Horowitz: inviertes 12 horas al año en capacitar a 10 personas que trabajan 2.000 horas cada una. Si mejoran 1% su productividad, ¿cuántas horas ganas en total?",
    "options": [
@@ -7661,18 +6945,6 @@
    "explain": "La ley habla de la capacidad de influir en las decisiones de inversión de la audiencia, aunque no haya pago ni sea algo personal. Por eso ellos decidieron regularse."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos de la fórmula de la decisión para saber si enfocarte en ahorrar o en invertir mejor.",
-   "items": [
-    "Mira cuánto ahorraste el último mes",
-    "Multiplícalo por 12 para tener tu ahorro anual",
-    "Calcula el 10% de lo que ya tienes invertido",
-    "Compara ambos números",
-    "Si tu ahorro anual es mayor, enfócate en ahorrar más"
-   ],
-   "explain": "Mientras tu patrimonio sea chico, un poco más de rentabilidad mueve poco la aguja; ahorrar más pesa bastante más."
-  },
-  {
    "type": "fill",
    "sentence": "Si algo no lo entiendes pero te llama la atención, el consejo es partir con un monto chico, como un ___ de tu plata, para conocerlo.",
    "options": [
@@ -7733,18 +7005,6 @@
    "statement": "Si tu empleador iguala lo que ahorras, eso equivale a un 100% de retorno en el minuto cero y sin riesgo.",
    "answer": true,
    "explain": "Por eso esa plata gratis va antes que pagar deudas: ninguna otra alternativa te da ese retorno."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena estas reglas como aparecen en el checklist",
-   "items": [
-    "Págate primero el 10%",
-    "Junta tu primer millón",
-    "Aprovecha la plata gratis del empleador",
-    "Paga tus deudas caras",
-    "Arma tu fondo de emergencia"
-   ],
-   "explain": "El orden sigue qué te retorna más en cada etapa y qué te protege de quebrar antes de pensar en inversiones."
   },
   {
    "type": "fill",
@@ -7865,18 +7125,6 @@
    "explain": "Recomiendan elegirla por los jefes, el ambiente y el aprendizaje, al menos hasta los 30. Un buen primer jefe te puede tirar para arriba toda la carrera."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el proceso de planificación financiera que se comenta en el episodio.",
-   "items": [
-    "Establecer objetivos",
-    "Juntar los datos",
-    "Analizarlos",
-    "Desarrollar un plan",
-    "Implementar el plan y monitorearlo"
-   ],
-   "explain": "Es un ciclo: al monitorear vuelves a juntar datos y ajustas. En los 20 y 30 se repite más seguido porque tu vida cambia mucho."
-  },
-  {
    "type": "mc",
    "prompt": "Todavía vives con tus papás. ¿En qué caso el episodio dice que es una gran jugada?",
    "options": [
@@ -7931,16 +7179,6 @@
    "title": "Liderar es una actividad, no un cargo",
    "body": "El liderazgo tradicional pone a una persona arriba que sabe más y da instrucciones. En un mundo que cambia tan rápido eso ya no alcanza. El **liderazgo adaptativo** es una actividad que pueden ejercer muchas personas: ayudar a un grupo a **progresar**, lo que significa salir del equilibrio y la comodidad.",
    "emoji": "🦅"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las tres etapas del ejercicio de liderazgo adaptativo, parecidas a un diagnóstico médico.",
-   "items": [
-    "Observar",
-    "Interpretar",
-    "Intervenir"
-   ],
-   "explain": "Hay que dedicar mucho tiempo a entender antes de actuar, igual que un doctor recoge datos e interpreta los síntomas antes de tratar."
   },
   {
    "type": "fill",
@@ -8077,18 +7315,6 @@
    ],
    "answer": 0,
    "explain": "Si solo sabes de una disciplina, aplicas la misma herramienta a todo. Por eso recomendaba sumar las grandes ideas de muchas áreas."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo aprenden los pilotos, el ejemplo que Munger ponía de buena educación.",
-   "items": [
-    "Partir con una base amplia de todo lo que implica volar",
-    "Practicar hasta alcanzar fluidez, no solo pasar una prueba",
-    "Pensar hacia adelante y hacia atrás: qué quiero lograr y qué quiero evitar",
-    "Usar checklists para no saltarse pasos",
-    "Mantener la fluidez practicando seguido, por ejemplo en simulador"
-   ],
-   "explain": "Lo que no se practica se olvida. Por eso la repetición y los checklists son claves, también para tus finanzas."
   },
   {
    "type": "match",
@@ -8279,17 +7505,6 @@
    "explain": "El acreedor tiene un contrato y entra a la lista de quienes cobran; el accionista solo recibe lo que queda después de pagar todo lo demás."
   },
   {
-   "type": "order",
-   "prompt": "Siguiendo la idea de 'armar el equipo desde la defensa', ordena los pasos:",
-   "items": [
-    "Definir hacia dónde quieres ir",
-    "Armar tu fondo de emergencia",
-    "Separar los gastos próximos (por ejemplo, la matrícula de marzo)",
-    "Recién ahí invertir con más riesgo según tu tolerancia"
-   ],
-   "explain": "Muchos parten contestando un test de riesgo e invirtiendo altiro, cuando primero hay que cubrir la defensa."
-  },
-  {
    "type": "concept",
    "title": "El gráfico favorito de Marks",
    "body": "La relación riesgo-retorno no es una línea recta donde más riesgo siempre gana. Marks la dibuja con **campanas**: con poco riesgo, los resultados posibles son pocos y cercanos; con más riesgo, el **retorno esperado es mayor pero la dispersión es mucho más amplia**, incluidos escenarios muy malos. Y si tienes deudas, como agrega Morgan Housel, puedes sobrevivir a menos de esos escenarios.",
@@ -8338,17 +7553,6 @@
    "statement": "Según la encuesta, cerca de un tercio de las familias tuvo a uno de los padres que dejó de trabajar o pasó a media jornada tras el postnatal.",
    "answer": true,
    "explain": "Y de los que siguieron trabajando, muchos tuvieron que contratar ayuda: o ganas menos o gastas más, desde el día cero."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena de mayor a menor estos ítems del gasto mensual según la encuesta:",
-   "items": [
-    "Jardín o colegio",
-    "Alimentación (incluye pañales y supermercado)",
-    "Salud",
-    "Ropa"
-   ],
-   "explain": "Educación y cuidado son difíciles de recortar; por eso los ítems chicos como ropa y regalos son donde más conviene poner atención."
   },
   {
    "type": "fill",
@@ -8427,16 +7631,6 @@
    "statement": "En la encuesta, el trading quedó como uno de los temas que más interesan.",
    "answer": false,
    "explain": "Quedó último: cerca de 60% dijo que no le interesaba, algo que Pablo y Francisco celebran porque la mayoría de quienes hacen trading pierden plata."
-  },
-  {
-   "type": "order",
-   "prompt": "Según el efecto Dunning-Kruger que explican en el episodio, ordena las etapas al aprender a invertir:",
-   "items": [
-    "Confianza alta al principio ('le estoy ganando 20% al mes')",
-    "Valle de la desesperación: te das cuenta de todo lo que no sabes",
-    "Conocimiento real y una base sólida"
-   ],
-   "explain": "Al principio es fácil creer que sabes mucho; la misión del podcast es acompañar a pasar el valle hasta un conocimiento que dure."
   },
   {
    "type": "mc",
@@ -8561,17 +7755,6 @@
    ],
    "answer": 1,
    "explain": "Con ese nivel de ahorro apuntas a una tasa de reemplazo cercana al 70-75%: si vivías con 75 y ahorrabas 25, después puedes seguir viviendo con 75."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las etapas del 'valle del ahorro' que describe Fernando:",
-   "items": [
-    "Primer sueldo viviendo con tus papás: tu ingreso disponible se multiplica",
-    "Ahorras un porcentaje alto: esos pesos tienen más tiempo para crecer",
-    "Llegan compromisos: pareja, hijos, casa, crédito hipotecario",
-    "Tu capacidad de ahorro como porcentaje del sueldo baja"
-   ],
-   "explain": "Por eso el consejo es subir tu gasto con moderación al empezar a trabajar y aprovechar esos años para ahorrar fuerte."
   },
   {
    "type": "tf",
@@ -8760,17 +7943,6 @@
    ],
    "answer": 2,
    "explain": "Buscaba unos cuantos clientes con un ticket parecido (ingreso activo), sumado a un inmueble (semipasivo) y dividendos (pasivo), para no depender de una sola fuente."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo planteó Álvaro su camino a la independencia:",
-   "items": [
-    "Definir el estilo de vida que quería",
-    "Invertir en activos que generaran flujo mientras seguía empleado",
-    "Conseguir clientes antes de renunciar",
-    "Renunciar cuando la renta pasiva superó su sueldo y cubría lo básico"
-   ],
-   "explain": "No pasó de ganar un sueldo a ganar cero: renunció con 'lianas amarradas', o sea, con clientes y flujos ya funcionando."
   }
  ],
  "125": [
@@ -8853,17 +8025,6 @@
    "explain": "El problema no es solo la separación, sino que venía de antes; vivir al 60-70% de tu capacidad funciona como un seguro."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el ejercicio de patrimonio en pareja que proponen en el episodio",
-   "items": [
-    "Anotar lo que tiene cada uno: inversiones, cuentas, propiedades",
-    "Anotar lo que debe cada uno",
-    "Calcular el patrimonio: lo que tengo menos lo que debo",
-    "Cruzarlo con el régimen matrimonial y conversar si es equitativo"
-   ],
-   "explain": "Los números no mienten: hacerlo cuando la relación está bien, y en cada hito como un hijo o una casa, permite corregir a tiempo."
-  },
-  {
    "type": "mc",
    "prompt": "Si tu pareja se niega por completo a hablar de plata, ¿qué dice Fran?",
    "options": [
@@ -8944,17 +8105,6 @@
    "explain": "El problema fue lo contrario: tomaron demasiado riesgo en pocas apuestas. En un juego tan arriesgado como el venture capital, diversificar es clave."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de Ryan desde el deporte hasta las inversiones",
-   "items": [
-    "Juega 7 años en la NFL y gana el Super Bowl",
-    "Trabaja en una oficina familiar (family office)",
-    "Cofunda una startup que termina comprada por Fox Sports",
-    "Lanza su firma de venture capital, Next Play Capital"
-   ],
-   "explain": "Cada etapa le dio aprendizajes para la siguiente: se puede cambiar de rubro si te preparas y aprendes de quienes lo hacen bien."
-  },
-  {
    "type": "tf",
    "statement": "Ryan cree que la 'otra IA', la interacción auténtica con personas talentosas, es tan valiosa como la inteligencia artificial.",
    "answer": true,
@@ -8967,16 +8117,6 @@
    "title": "Leer los reportes, no los titulares",
    "body": "Cada año las grandes casas financieras publican sus perspectivas. Los titulares suelen quedarse con predicciones llamativas, pero al leer los reportes completos Pablo y Francisco encontraron algo más **animalesco**: ideas de largo plazo para armar un portafolio robusto, diversificado y consciente de los riesgos.",
    "emoji": "📑"
-  },
-  {
-   "type": "order",
-   "prompt": "Según BlackRock, ordena las etapas de la inteligencia artificial (hoy estaríamos en la primera)",
-   "items": [
-    "Construcción",
-    "Adopción",
-    "Transformación"
-   ],
-   "explain": "Primero se construyen data centers y chips; después viene la adopción masiva y recién ahí la transformación de las industrias."
   },
   {
    "type": "tf",
@@ -9137,16 +8277,6 @@
    "statement": "Carolina explica que la dopamina natural viene de cosas como un abrazo, jugar a la pelota o sacar a pasear al perro.",
    "answer": true,
    "explain": "Su preocupación es que el placer intenso de las pantallas haga que esas actividades simples parezcan aburridas."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las preguntas que propone Carolina antes de entregar una tecnología a un niño",
-   "items": [
-    "¿Qué tecnología?",
-    "¿Con qué fin?",
-    "¿Para qué edad?"
-   ],
-   "explain": "No se trata de estar contra la tecnología, sino de usarla con un propósito claro y en el momento adecuado del desarrollo."
   }
  ],
  "129": [
@@ -9219,16 +8349,6 @@
    ],
    "answer": 1,
    "explain": "La idea es estar ahí para apoyar, pero dejar que cometan errores: así desarrollan herramientas para enfrentar los problemas de la vida."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo describe Carolina el camino hacia el aprendizaje",
-   "items": [
-    "Hay emoción",
-    "La emoción genera atención",
-    "La atención permite el aprendizaje"
-   ],
-   "explain": "Por eso una clase entretenida y con cosas para tocar logra más que pedir atención a gritos frente a un pizarrón."
   },
   {
    "type": "tf",
@@ -9319,17 +8439,6 @@
    "statement": "La conclusión del episodio es vender todas las acciones, irse a depósito a plazo y esperar a que la burbuja reviente para volver a entrar.",
    "answer": false,
    "explain": "Hacer timing es casi imposible y salir demasiado temprano te hace perder retornos de largo plazo; lo razonable es ajustar el portafolio a tu perfil y horizonte."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena una forma prudente de reaccionar ante el temor a una burbuja, según lo conversado",
-   "items": [
-    "No tomar decisiones de pánico ni vender todo",
-    "Revisar qué tan concentrado está tu portafolio en las más grandes",
-    "Considerar alternativas como equal weight o empresas más pequeñas",
-    "Darle espacio a la renta fija si tu perfil lo requiere y mantener el plan a 20-30 años"
-   ],
-   "explain": "Primero calma, después diagnóstico y ajustes graduales: la idea es protegerte sin abandonar el crecimiento de largo plazo."
   }
  ],
  "131": [
@@ -9408,17 +8517,6 @@
    "statement": "Según el estudio de la CMF comentado en el episodio, la gran mayoría de quienes compran en 3 cuotas sin interés terminan pagando efectivamente cero interés.",
    "answer": false,
    "explain": "Solo un 16% pagaba cero interés; el resto en algún momento pagó el mínimo. Saber usar los productos financieros no viene de fábrica."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo se estructuró la semana del curso para profesores",
-   "items": [
-    "Tópicos de finanzas personales: generar, ahorrar, invertir y fondo de emergencia",
-    "Teoría financiera, con el interés compuesto como estrella",
-    "Didáctica de la educación financiera con Natalia",
-    "Profes en grupos diseñando situaciones para su sala de clases"
-   ],
-   "explain": "Primero se domina el contenido y luego se aprende a enseñarlo: solo quien maneja bien un tema puede adaptarlo a distintos cursos."
   },
   {
    "type": "mc",
@@ -9503,18 +8601,6 @@
    ],
    "answer": 1,
    "explain": "Es un ejemplo de crecimiento exponencial: trabajó mucho tiempo sin que nadie lo viera, y los resultados aparecieron de golpe cuando llegó el momento."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo Kobe veía una película cinco veces:",
-   "items": [
-    "Para entretenerse y disfrutar la historia",
-    "Fijándose en los cortes de la edición",
-    "Fijándose en la iluminación",
-    "Fijándose en la música",
-    "Sin sonido, para entender las decisiones del director"
-   ],
-   "explain": "Es la obsesión por el detalle: cada pasada revela una capa distinta. Puedes aplicar esa misma segunda mirada a tu trabajo o a tus inversiones."
   },
   {
    "type": "tf",
@@ -9653,18 +8739,6 @@
    "explain": "Habla de pasar de lo reactivo a lo proactivo, igual que con las finanzas: es mejor prevenir que apagar incendios."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos del ejercicio de respiración consciente que guía el invitado:",
-   "items": [
-    "Sentarte apoyado y cómodo",
-    "Inhalar por la nariz inflando primero el abdomen y luego el tórax",
-    "Mantener el aire un par de segundos",
-    "Exhalar suavemente todo el aire",
-    "Observar sin juicio tu cuerpo y tus pensamientos"
-   ],
-   "explain": "Con práctica, puedes hacerlo en plena reunión o discusión: tomar conciencia de tu respiración te da calma y perspectiva para reaccionar mejor."
-  },
-  {
    "type": "mc",
    "prompt": "Los mercados se están cayendo y te duele la guata. Según el episodio, ¿qué te ayuda a decidir mejor?",
    "options": [
@@ -9741,17 +8815,6 @@
    "statement": "Para ganar en el mercado necesitas acertar en la gran mayoría de tus decisiones.",
    "answer": false,
    "explain": "El ejemplo de Jim Simons muestra que un acierto de poco más del 50% puede bastar si manejas bien tus riesgos. Buffett, por su parte, gana con pocas apuestas grandes que mantiene por décadas."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el framework de Francisco para gestionar a alguien que contrataste:",
-   "items": [
-    "Definir muy bien lo que esperas",
-    "Dar feedback rápido si algo se interpretó mal",
-    "Dar oportunidades de mejora y apoyar su crecimiento",
-    "Si después de un tiempo no hay match, tomar la decisión"
-   ],
-   "explain": "Buffett dice que los errores al contratar son los que más le duelen, porque se parecen a un matrimonio fallido. Una buena comunicación desde el inicio evita muchos de esos errores."
   },
   {
    "type": "mc",
@@ -9876,17 +8939,6 @@
    ],
    "answer": 1,
    "explain": "Es la misma lógica del ahorro y la inversión: sacrificas algo hoy por un beneficio futuro que cuesta ver. Una mirada muy cortoplacista hace que ese beneficio parezca menor."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la cadena de consecuencias que se discute en el episodio:",
-   "items": [
-    "Nacen menos niños",
-    "Hay menos trabajadores y más personas mayores",
-    "Se estresan las pensiones, la salud y los cuidados",
-    "Hay menos apoyo familiar en la vejez, así que conviene ahorrar más"
-   ],
-   "explain": "Por eso la invitación a los animales financieros es ahorrar con disciplina, aprovechar el APV y armar un fondo de emergencia, en vez de contar con que el Estado o los hijos financien la vejez."
   },
   {
    "type": "tf",
@@ -10057,17 +9109,6 @@
     "El APV no tiene nada que ver con este punto y retirarlo tiene costos."
    ],
    "explain": "Las compensaciones por expectativa de vida y por años cotizados exigen estar pensionado. Por eso, antes de postergar la jubilación, conviene pedirle a la AFP que revise su caso."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo funciona la licitación de afiliados que describe la invitada:",
-   "items": [
-    "Una AFP gana la licitación con la comisión más baja",
-    "Se sortea un 10% de afiliados que aún no están pensionados",
-    "Se les avisa y tienen 30 días para decir que no se quieren cambiar",
-    "Si no hacen nada, se les traspasa junto con su saldo"
-   ],
-   "explain": "Además, siempre puedes volver a elegir tu AFP después. A la invitada le preocupa que traspasar los saldos cada dos años desarme portafolios de largo plazo, sobre todo los activos alternativos."
   }
  ],
  "139": [
@@ -10139,16 +9180,6 @@
      "Recomendaciones confusas de inversión"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la pirámide del rendimiento que describe Nuria, desde la base hasta la punta:",
-   "items": [
-    "Buena alimentación, entrenamiento y descanso",
-    "Alimentos específicos para deportistas",
-    "Ayudas ergogénicas (suplementos con evidencia)"
-   ],
-   "explain": "Los suplementos aportan poco (ella habla de 1% a 5%) si falta la base. En plata pasa algo parecido: los detalles finos no sirven de mucho sin ahorro y un plan."
   },
   {
    "type": "tf",
@@ -10244,16 +9275,6 @@
    "statement": "Matías dice que si ve rentabilidades muy por sobre los rangos que maneja (aprox. 10% a 18% anual), él mismo se preocuparía.",
    "answer": true,
    "explain": "Rentabilidades extremadamente altas suelen esconder riesgos mayores. Lo que él busca son retornos razonables, no estratosféricos."
-  },
-  {
-   "type": "order",
-   "prompt": "Según Matías, ordena estas formas de invertir en inmobiliario de MÁS pasiva a MÁS activa:",
-   "items": [
-    "Crowdfunding de desarrollo inmobiliario",
-    "Comprar un depto y arrendarlo",
-    "Hacer tú el negocio (flipping, strip center, data centers)"
-   ],
-   "explain": "En el crowdfunding los expertos y la administración son del desarrollador. Arrendar un depto exige algo de gestión, y hacer el negocio tú mismo es casi un trabajo de tiempo completo."
   },
   {
    "type": "mc",
@@ -10359,17 +9380,6 @@
    ],
    "answer": 2,
    "explain": "Si los créditos son de largo plazo, no calza prometer rescates semanales. También hay que revisar que el gestor no esté prestando a sus propios relacionados."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el razonamiento de Marks para saber si un spread compensa el riesgo:",
-   "items": [
-    "Estimar la probabilidad de default",
-    "Estimar cuánto perderías si ocurre",
-    "Multiplicar ambas para obtener el spread mínimo",
-    "Comparar con el spread que realmente te ofrecen"
-   ],
-   "explain": "Si el spread ofrecido está por sobre esa pérdida esperada, estás tomando un riesgo que se paga. Si está por debajo, no te están compensando."
   }
  ],
  "142": [
@@ -10447,17 +9457,6 @@
    "statement": "Vivir tus primeras caídas de mercado con montos pequeños puede ayudarte a conocer tu verdadera tolerancia al riesgo.",
    "answer": true,
    "explain": "Estudiar historia no es lo mismo que vivirla. Equivocarte con poca plata, cuando todavía tienes mucho capital humano por delante, es una lección barata."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el razonamiento para prepararte para el escenario negativo:",
-   "items": [
-    "Identificar el gran riesgo: una recesión",
-    "Pensar cómo te afecta: podrías quedarte sin pega",
-    "Tener un buen fondo de emergencia",
-    "Fortalecer tu capital humano y crear otras fuentes de ingreso"
-   ],
-   "explain": "Vas del riesgo general a su efecto concreto en tu vida, y de ahí a las acciones que sí dependen de ti."
   },
   {
    "type": "mc",
@@ -10656,17 +9655,6 @@
    ],
    "answer": 2,
    "explain": "Una acción tiene unos 252 precios al año y un fondo privado puede tener solo 4. Si el mercado cae y el fondo no actualiza, no significa que no haya caído. La invitada responde que parte del beneficio es real, pero hay que entender de dónde viene."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena una forma prudente de empezar con alternativos semilíquidos, según lo conversado:",
-   "items": [
-    "Define tu horizonte y cuánta iliquidez aguantas",
-    "Parte con un monto chico en una estrategia más líquida, como crédito privado",
-    "Evalúa al gestor: equipo, valorizaciones y comisiones",
-    "Diversifica entre estrategias, por ejemplo con un fondo de fondos"
-   ],
-   "explain": "Una buena primera experiencia te permite aprender y seguir invirtiendo. Diversificar viene después, cuando ya entiendes cómo se comporta la clase de activo."
   }
  ],
  "145": [
@@ -10687,18 +9675,6 @@
    ],
    "answer": 2,
    "explain": "Responder rápido o llenar la agenda puede ser pura inercia. La medida propuesta es si tu tiempo generó valor para el negocio, para ti o para tu equipo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los cinco pasos del método Getting Things Done de David Allen:",
-   "items": [
-    "Recopilar",
-    "Procesar",
-    "Organizar",
-    "Evaluar (revisar)",
-    "Hacer"
-   ],
-   "explain": "Primero juntas todo en una sola bandeja fuera de tu cabeza; después decides qué es cada cosa, la ordenas, la revisas y recién ahí ejecutas. Tu cabeza no es una bandeja de entrada."
   },
   {
    "type": "fill",
@@ -10890,18 +9866,6 @@
    "explain": "Si un cambio no tuviera costo, todos lo aceptarían al tiro. Reconocer la pérdida (por ejemplo, dormir menos) hace más sostenible el nuevo hábito."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos para construir un nuevo hábito, según lo conversado",
-   "items": [
-    "Identifica el mal hábito actual que quieres reemplazar",
-    "Reconoce la pérdida que te implica el cambio",
-    "Pon una pista visible (por ejemplo, las zapatillas listas)",
-    "Parte con la acción más simple posible",
-    "Date una recompensa coherente con tu objetivo"
-   ],
-   "explain": "Los hábitos se reemplazan, no solo se suman. Y la recompensa debe ir alineada: si el hábito es hacer deporte, que el premio no sea una hamburguesa."
-  },
-  {
    "type": "match",
    "prompt": "Une cada concepto con su idea",
    "pairs": [
@@ -11048,18 +10012,6 @@
    "emoji": "🧓"
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos del cálculo que hacen en el episodio",
-   "items": [
-    "Define el gasto mensual que quieres tener jubilado",
-    "Llévalo a pesos del año en que te jubilas, considerando la inflación",
-    "Calcula el capital total que necesitas para financiar esos años",
-    "Resta lo que tendrás en AFP, APV y cotizaciones futuras",
-    "Calcula cuánto debes ahorrar extra cada mes para cubrir la diferencia"
-   ],
-   "explain": "Así el ahorro deja de ser 'lo que sobra' y se transforma en un objetivo concreto que guía tus decisiones del mes a mes."
-  },
-  {
    "type": "tf",
    "statement": "En el ejemplo, por pura inflación, un gasto de $2 millones al mes hoy equivale a más del doble al momento de jubilar, 30 años después.",
    "answer": true,
@@ -11172,18 +10124,6 @@
      "Págala lo antes posible"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos para enfrentar tus deudas según Collins",
-   "items": [
-    "Haz una lista de tus deudas y déjala visible",
-    "Recorta gastos y ajusta tu nivel de vida",
-    "Ordénalas por tasa de interés",
-    "Paga el mínimo en todas y ataca la de mayor tasa",
-    "Cuando la termines, sigue con la siguiente"
-   ],
-   "explain": "Lo que no ves no lo puedes gestionar. Atacar primero la de mayor tasa es lo matemáticamente óptimo, aunque la bola de nieve puede servir si te motiva."
   },
   {
    "type": "tf",
@@ -11604,17 +10544,6 @@
    ],
    "answer": 1,
    "explain": "Internet no te hace mejor que el resto, pero sin internet no puedes trabajar. Con la IA pasaría lo mismo: las empresas esperarán hacer más con menos, así que hay que subirse al carro."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la historia de cómo Cristóbal descubrió su pasión por la tecnología",
-   "items": [
-    "De niño, pasaba horas en el computador tratando de entenderlo",
-    "Armaba la red en los encuentros de juegos con sus amigos",
-    "Empezó a hacer páginas web como freelance",
-    "Decidió construir un producto más grande y fundó una empresa"
-   ],
-   "explain": "Sus papás no lo empujaron a un camino, pero le dieron espacio para probar de todo sin sentirse juzgado. Para él, ser rico es poder dedicarte a lo que te apasiona."
   }
  ],
  "155": [
@@ -11647,16 +10576,6 @@
    ],
    "answer": 2,
    "explain": "Los ingresos son inestables: puedes tener un gran año y después perder la pega. La riqueza acumulada es algo más permanente."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las «libertades» de gasto que se van ganando al subir en la escalera",
-   "items": [
-    "Comprar lo que quieres en el supermercado",
-    "Pedir lo que quieres en un restaurante",
-    "Viajar más seguido y quedarte en mejores hoteles"
-   ],
-   "explain": "Cada libertad se gana después de haber creado la riqueza, no antes."
   },
   {
    "type": "tf",
@@ -11729,18 +10648,6 @@
    "statement": "Si inviertes solo en fondos indexados, puedes comprar y vender todo el tiempo sin afectar tus resultados.",
    "answer": false,
    "explain": "Usar fondos pasivos pero moverlos a cada rato va contra el espíritu de la estrategia. Lo recomendado en el episodio es armar tu asset allocation, rebalancear una vez al año y olvidarte."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo funciona la estafa clásica que describe Collins",
-   "items": [
-    "Mandar una predicción a 1.000 personas: a la mitad le dices que sube y a la otra mitad que cae",
-    "Quedarte solo con la mitad que vio tu «acierto»",
-    "Repetir el proceso varias veces con un activo muy volátil",
-    "Al final, unas pocas personas creen que eres un genio",
-    "Venderles el curso o pedirles su plata"
-   ],
-   "explain": "Nadie predijo nada: solo se fue descartando a quienes vieron el error. Hoy lo mismo se puede hacer por WhatsApp o Instagram, así que ojo con quien muestra solo sus aciertos."
   },
   {
    "type": "mc",
@@ -11867,16 +10774,6 @@
    ],
    "answer": 3,
    "explain": "Eso es el riesgo de secuencia de retornos. Por eso se incorporan activos seguros de los que puedes gastar mientras las acciones se recuperan, y conviene moderar el gasto en esos años."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los «cubos» de la estrategia que Christine aprendió de Harold Evansky, desde el más líquido al más riesgoso",
-   "items": [
-    "Efectivo para 1 a 2 años de gastos",
-    "Bonos de alta calidad para unos 5 a 8 años",
-    "Acciones globalmente diversificadas para el largo plazo"
-   ],
-   "explain": "Con los dos primeros cubos armas una defensa: las acciones pueden caer y quedarse abajo varios años sin que tengas que venderlas. Además, a la gente le da tranquilidad entender para qué sirve cada parte."
   },
   {
    "type": "match",
@@ -12093,17 +10990,6 @@
    "explain": "Entrenar un modelo del tamaño de los más grandes es carísimo. Pero construir soluciones sobre esos modelos para problemas locales es mucho más accesible."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos para armar un evento de comunidad de IA, como el AI Salon que Luana creó en Río",
-   "items": [
-    "Detectar que en tu ciudad no hay un espacio de encuentro",
-    "Contactar a gobierno, startups, inversionistas y empresas",
-    "Hacer el primer evento gratis, pidiendo favores",
-    "Sumar auspiciadores a medida que la comunidad crece"
-   ],
-   "explain": "Luana partió llamando y pidiendo favores, y después las empresas empezaron a ver valor en la comunidad. Para ella, el contenido es solo la excusa para que la gente se conozca."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué le preocupa a Luana incluso más que la IA para la capacidad de concentración?",
    "options": [
@@ -12186,18 +11072,6 @@
    ],
    "answer": 1,
    "explain": "La psicología puede alejar el precio del valor durante bastante tiempo, pero los fundamentos terminan tirando de él. Como recordaba la cita de Keynes, el mercado puede seguir irracional más tiempo del que tú aguantas solvente."
-  },
-  {
-   "type": "order",
-   "prompt": "Si crees que el mercado está caro, ordena las acciones del «InvestCon» desde la más suave hasta la más extrema",
-   "items": [
-    "Dejar de comprar",
-    "Reducir activos agresivos o sumar defensivos",
-    "Vender tus activos agresivos",
-    "Vender tus activos defensivos",
-    "Irte todo a caja"
-   ],
-   "explain": "El memo propone los niveles suaves y recomienda no hacer nunca los más extremos (vender lo defensivo, irse a caja o apostar a la caída). En el episodio les pareció más razonable ajustar en el margen, por ejemplo con la plata nueva, que rehacer todo el portafolio."
   },
   {
    "type": "tf",
@@ -12296,17 +11170,6 @@
    "explain": "Si apuestas todo una y otra vez, en algún momento pierdes y quedas fuera del juego. Sobrevivir es lo que permite que el interés compuesto trabaje."
   },
   {
-   "type": "order",
-   "prompt": "En el ejemplo inmobiliario de Naval, ordena de MENOR a MAYOR apalancamiento:",
-   "items": [
-    "Trabajador de la obra pagado por hora",
-    "Contratista que maneja un equipo",
-    "Inmobiliaria que construye con deuda y vende el edificio",
-    "Arquitecto de renombre que cobra por poner su firma"
-   ],
-   "explain": "A medida que subes, cada hora de trabajo mueve más capital, más gente o más marca. Pero ojo: más apalancamiento también puede traer más riesgo."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué tres cualidades recomienda Naval buscar en un socio?",
    "options": [
@@ -12337,18 +11200,6 @@
    ],
    "answer": 1,
    "explain": "Tus recursos no son solo plata: también son tiempo, energía y atención. Sin tener claro para qué, cualquier portafolio queda cojo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos de la charla de tranquilidad financiera que mencionan:",
-   "items": [
-    "Generar",
-    "Ahorrar",
-    "Invertir",
-    "Ser disciplinado",
-    "Darle tiempo"
-   ],
-   "explain": "Sin generar ingresos no hay nada que ahorrar ni invertir. Después, la disciplina y el tiempo dejan que el interés compuesto haga su pega."
   },
   {
    "type": "tf",
@@ -12485,17 +11336,6 @@
    "statement": "Según el invitado, delegar siempre en la IA la redacción de tus ideas no tiene ningún costo para tu desarrollo personal.",
    "answer": false,
    "explain": "Ordenar tus propias ideas es parte importante del aprendizaje. Hay estudios que muestran que, si lo delegas todo, tus capacidades de escritura pueden ir disminuyendo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo se fue despertando la curiosidad de Peter por la ingeniería:",
-   "items": [
-    "Su papá le trae una revista con experimentos sencillos",
-    "Hace experimentos como un electroimán con un clavo y una pila",
-    "Empieza a desarmar juguetes y aparatos viejos",
-    "A los 11 años le regalan su primer cautín"
-   ],
-   "explain": "Experiencias simples, y la libertad de explorar e incluso embarrarla, gatillan la curiosidad. Como adulto aplica lo mismo: pregúntate por qué y ve a las fuentes."
   }
  ],
  "164": [
@@ -12504,16 +11344,6 @@
    "title": "Siempre es más tarde de lo que crees",
    "body": "El tiempo es el recurso más escaso y lo único que hace es avanzar. Para Sahil Bloom, la riqueza de tiempo tiene tres pilares, en este orden: **conciencia** (entender que el tiempo es finito), **atención** (poner foco en lo que importa e ignorar el resto) y **control** (decidir tú en qué y con quién lo gastas). Tener tranquilidad financiera sirve de poco si no tienes tiempo para disfrutarla.",
    "emoji": "⏳"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los tres pilares de la riqueza de tiempo según el orden que recomienda el autor:",
-   "items": [
-    "Conciencia: darte cuenta de que el tiempo es finito",
-    "Atención: poner foco en lo importante",
-    "Control: decidir en qué gastas tu tiempo"
-   ],
-   "explain": "Primero te das cuenta, después aprendes a concentrarte y recién ahí puedes controlar el tiempo que liberaste."
   },
   {
    "type": "mc",
@@ -12674,17 +11504,6 @@
    "statement": "Según el episodio, el mayor valor de un buen asesor financiero es prometerte una rentabilidad mucho más alta que el mercado.",
    "answer": false,
    "explain": "Armar un portafolio está bastante estandarizado. El valor está en aplicar las decisiones a tu caso (jubilación, casa, cambio de pega) y en el lado humano: acompañarte e incluso animarte a gastar en lo que importa."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos para ordenar tus finanzas, según la lógica del episodio:",
-   "items": [
-    "Hacer un diagnóstico (escanearte)",
-    "Pagar deudas caras y armar tu fondo de emergencia",
-    "Contratar los seguros clave y hacer APV",
-    "Optimizar el portafolio o pagar una planificación personalizada"
-   ],
-   "explain": "Sin tranquilidad no tienes cabeza ni energía para lo demás. Lo sofisticado viene al final, no al principio."
   }
  ],
  "167": [
@@ -12775,17 +11594,6 @@
    ],
    "answer": 0,
    "explain": "El ingreso por arriendo ha sido estable; la subida de precio viene en ciclos y en los últimos años ha sido negativa. Ojo: también necesitas buenos arrendatarios."
-  },
-  {
-   "type": "order",
-   "prompt": "Según el gráfico del portafolio 60/40, ordena de MENOR a MAYOR probabilidad de terminar en positivo:",
-   "items": [
-    "Invertir por 1 mes",
-    "Invertir por 6 meses",
-    "Invertir por 3 años",
-    "Invertir por 10 años o más"
-   ],
-   "explain": "Mientras más tiempo le das, más probable es terminar en verde: en horizontes de 10 años o más, prácticamente siempre fue positivo."
   }
  ],
  "168": [
@@ -12844,17 +11652,6 @@
    "explain": "Las noticias del día suelen ser ruido. Esperar a que el mercado se vea menos riesgoso muchas veces termina en perderse retornos."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los cuatro pasos de la técnica Feynman para aprender cualquier cosa:",
-   "items": [
-    "Preparar el escenario: leer, escuchar clases, ver videos",
-    "Enseñarlo en palabras simples, como a un niño de 12 años",
-    "Recibir feedback y estudiar las partes que no te quedaron sólidas",
-    "Organizar y revisar lo aprendido en un modelo mental"
-   ],
-   "explain": "Explicar algo simple te obliga a detectar lo que no entiendes de verdad; ahí es donde más aprendes."
-  },
-  {
    "type": "fill",
    "sentence": "Para fijar lo que aprendes, en vez de leerlo una sola vez conviene usar la ___: repasarlo varias veces en momentos distintos.",
    "options": [
@@ -12909,17 +11706,6 @@
    "statement": "Según la experiencia de Matías, el precio publicado de una propiedad suele estar por debajo de su valor justo.",
    "answer": false,
    "explain": "Es al revés: lo que se pide suele estar sobre lo que indican las compraventas, típicamente entre 5% y 20%. Saberlo te ayuda a negociar."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos para estimar la plusvalía de una zona, como en la demo del episodio.",
-   "items": [
-    "Delimitar un sector que sea comparable",
-    "Filtrar por tipo y tamaño de propiedad",
-    "Separar propiedades nuevas de usadas",
-    "Revisar que queden suficientes datos antes de concluir"
-   ],
-   "explain": "Cada filtro compara peras con peras; si quedan muy pocas transacciones, la tendencia no es confiable."
   },
   {
    "type": "mc",
@@ -13003,16 +11789,6 @@
    ],
    "answer": 3,
    "explain": "Al día 30 tuvo que correr un hoyito el cinturón, y esa señal lo motivó a seguir. Con la plata pasa igual cuando ves tu primera rentabilidad."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los niveles del 'juego' de movimiento, del más fácil al más difícil.",
-   "items": [
-    "Mover el cuerpo 30 minutos al día",
-    "Sumar 2 a 3 sesiones de cardio y 2 de fuerza a la semana",
-    "Sumar 3 o más sesiones de cardio y al menos 3 de fuerza con flexibilidad y estabilidad"
-   ],
-   "explain": "La gracia es partir por el nivel uno y subir como en un videojuego, en vez de paralizarse intentando todo de una."
   },
   {
    "type": "tf",
@@ -13128,18 +11904,6 @@
    "explain": "Es la más usada porque es la que se puede medir. El riesgo real es no tener la plata que necesitas cuando la necesitas."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los objetivos del comité según su prioridad, de mayor a menor.",
-   "items": [
-    "Definir la asignación de activos correcta",
-    "Contratar gestores que le ganen al mercado",
-    "Superar el retorno esperado",
-    "Aumentar el riesgo en el momento correcto",
-    "Ganarle a los otros fondos"
-   ],
-   "explain": "Compararse con otros quedó último, y está bien: lo que importa es el retorno absoluto que financia tus objetivos."
-  },
-  {
    "type": "fill",
    "sentence": "Invertir en depósitos a plazo puede ser muy riesgoso si esa plata es para financiar tu ___, aunque se vea como una línea recta.",
    "options": [
@@ -13205,18 +11969,6 @@
    "statement": "La regla de los 30 días dice: si quieres comprar algo online, déjalo en el carrito 30 días y, si aún lo quieres, cómpralo.",
    "answer": true,
    "explain": "La mayoría de las veces las ganas se pasan y borras la compra; así gastas menos sin prohibirte nada."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los niveles de riqueza que describe Sahil Bloom, de menor a mayor.",
-   "items": [
-    "Necesidades básicas cubiertas",
-    "Pequeños placeres: salir a comer, vacaciones modestas",
-    "Tu dinero empieza a componerse",
-    "Ingresos pasivos cubren parte de tu estilo de vida",
-    "Velocidad de escape: tus activos cubren tu vida y más"
-   ],
-   "explain": "Cada nivel da más libertad, pero si no sabes cuál es tu 'suficiente' siempre vas a querer el siguiente."
   },
   {
    "type": "mc",
@@ -13300,16 +12052,6 @@
    ],
    "answer": 1,
    "explain": "Si pasas 10 años desbalanceado, se te rompen otras áreas de la vida. Lo clave es volver al equilibrio."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el sistema semanal de Tomás.",
-   "items": [
-    "El lunes (o el domingo) define sus prioridades de impacto de la semana",
-    "Reserva espacio en su agenda para ejecutarlas",
-    "Deja el viernes en la tarde sin reuniones para cerrar pendientes"
-   ],
-   "explain": "Priorizar no sirve si no bloqueas tiempo para hacerlo; el viernes libre es el margen para lo que se atrasó."
   },
   {
    "type": "tf",
@@ -13418,18 +12160,6 @@
    "explain": "Cada peso que pagas en comisiones es un peso que deja de trabajar para ti, pase lo que pase con el mercado."
   },
   {
-   "type": "order",
-   "prompt": "Ordena estos principios Bogleheads según su lugar en la lista de 11.",
-   "items": [
-    "Vive por debajo de tus posibilidades",
-    "Desarrolla un plan de inversión viable",
-    "Diversifica ampliamente",
-    "Minimiza los costos de inversión",
-    "Mantén el rumbo"
-   ],
-   "explain": "Todo parte por ahorrar y tener un plan; el último, y el más importante, es no abandonar la estrategia cuando llegan las crisis."
-  },
-  {
    "type": "mc",
    "prompt": "¿Por qué el episodio dice que invertir solo en depósitos a plazo puede ser riesgoso?",
    "options": [
@@ -13504,16 +12234,6 @@
    ],
    "answer": 2,
    "explain": "Con la IA, la inteligencia está al alcance de todos; lo escaso es la capacidad de elegir y actuar. Ser reactivo es dejar que la vida te pase."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo Nico arma su calendario anual con la idea del balde y las rocas.",
-   "items": [
-    "Poner primero las rocas grandes: viajes y fechas importantes con la familia",
-    "Agregar las piedras chicas: cumpleaños del colegio, reuniones con inversionistas",
-    "Dejar que el resto de las cosas entre, si es que cabe"
-   ],
-   "explain": "Si llenas el balde primero con cosas chicas, después no cabe lo importante. Con la plata pasa lo mismo: primero lo prioritario."
   },
   {
    "type": "tf",
@@ -13657,18 +12377,6 @@
    "explain": "Si prestarle al gobierno rinde cerca de un 4%, a una empresa con flujos inciertos deberías exigirle bastante más; hoy se habla de premios de apenas 1%."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la progresión típica de una burbuja que describe Marks",
-   "items": [
-    "Aparece algo nuevo y aparentemente revolucionario",
-    "Captura la imaginación y el entusiasmo se vuelve abrumador",
-    "Los que entraron primero ganan mucho",
-    "Los de afuera sienten envidia y entran por miedo sin fijarse en el precio",
-    "Se genera un optimismo excesivo e irracional"
-   ],
-   "explain": "Marks dice que las burbujas son un tema de progresión y no de timing: se pueden reconocer patrones, pero no predecir cuándo revientan."
-  },
-  {
    "type": "tf",
    "statement": "La conclusión final de los conductores es que el ruido de las noticias no debe frenar tu ahorro mensual y que conviene seguir diversificado.",
    "answer": true,
@@ -13693,16 +12401,6 @@
    ],
    "answer": 0,
    "explain": "Tiene que incomodarte: si es muy fácil no te transforma. Pablo eligió una trifecta de Spartan Race y para 2026 publicar un libro; Francisco, tocar guitarra fogatera."
-  },
-  {
-   "type": "order",
-   "prompt": "En la analogía del frasco, ¿en qué orden conviene llenarlo para que quepa lo más importante?",
-   "items": [
-    "Las rocas: lo verdaderamente importante que quieres avanzar",
-    "Las piedras: lo que no puedes fallar en la pega",
-    "La arena: las cosas del día a día, como reuniones o cafés"
-   ],
-   "explain": "Si metes primero la arena, las rocas no caben; partiendo por lo importante, el frasco queda mucho más lleno."
   },
   {
    "type": "fill",
@@ -13843,18 +12541,6 @@
    "statement": "En el episodio se plantea que los primeros años con los hijos son una ventana de tiempo que no vuelve y que conviene darle espacio de forma consciente.",
    "answer": true,
    "explain": "Los conductores lo destacan, aunque Ackermann matiza que no estar tan presente no deja a un niño traumado: lo importante es que sea una decisión familiar consciente."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo se va dando la conversación con Ackermann, de principio a fin",
-   "items": [
-    "Su mejor nota: la riqueza financiera",
-    "Su riqueza mental y el propósito de los 100 millones",
-    "Su peor nota: la salud física y la alimentación",
-    "Las relaciones profundas y la familia",
-    "Cómo quiere verse en dos años y cómo le gustaría ser recordado"
-   ],
-   "explain": "El recorrido parte por lo que mejor tiene y termina en lo más profundo: el legado y el tipo de vida que quiere construir."
   }
  ],
  "179": [
@@ -14025,17 +12711,6 @@
    "explain": "Por eso él trabajó más de 100 horas a la semana de joven. Igual aclara que cada uno debe analizar su situación y que el camino depende de tus fortalezas."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el ejercicio de valores que le hizo un coach a Gert",
-   "items": [
-    "Partir de una lista larga de valores",
-    "Descartar los que no te representan",
-    "Priorizar los más importantes",
-    "Usarlos como criterios para tomar decisiones grandes"
-   ],
-   "explain": "Puede parecer un día perdido rayando papelitos, pero es mucho mejor que años persiguiendo una meta que no te motiva. Un valor que no te ayuda a decidir es un mal valor."
-  },
-  {
    "type": "tf",
    "statement": "Gert dice que cuando alguien no lucha por su meta en el día a día, muchas veces es porque esa meta no lo motiva tanto.",
    "answer": true,
@@ -14104,17 +12779,6 @@
    "explain": "La probabilidad de no recaer es cero. Como andar en bicicleta, con práctica cada vez vuelves más rápido."
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo Gabriela baja un gran objetivo a la acción",
-   "items": [
-    "Definir el objetivo grande a 12 meses",
-    "Fijar resultados clave medibles (key results)",
-    "Definir iniciativas para cada resultado",
-    "Bajarlas a acciones semana a semana"
-   ],
-   "explain": "El vínculo entre el objetivo macro y el día a día es la clave para cumplir. El cómo puede cambiar; por eso la flexibilidad es fundamental."
-  },
-  {
    "type": "tf",
    "statement": "Para Gabriela, lo más importante de un plan es seguirlo al pie de la letra, escrito en piedra.",
    "answer": false,
@@ -14145,18 +12809,6 @@
    "title": "15 niveles, no un interruptor",
    "body": "Morgan Housel propone que la independencia financiera no es 'la tengo o no la tengo', sino una **escalera de 15 niveles**: desde el nivel 0 (dependencia total) hasta el 15 (control total de tu tiempo). Lo importante es saber en qué rango estás y apuntar al **siguiente nivel razonable**, sin abandonar porque la meta final se ve lejos.",
    "emoji": "🪜"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena estos niveles de independencia financiera de menor a mayor",
-   "items": [
-    "Dependencia de personas cercanas",
-    "Autosustento frágil",
-    "Ahorros para crisis mayores",
-    "Libertad para elegir trabajos",
-    "Control total del tiempo"
-   ],
-   "explain": "Primero dependes de otros, luego te sostienes al ras, después construyes colchones y recién entonces ganas libertad de elegir."
   },
   {
    "type": "mc",
@@ -14323,17 +12975,6 @@
    "statement": "En la práctica deliberada, si practicar te resulta cómodo y fácil, es señal de que estás aprendiendo mucho.",
    "answer": false,
    "explain": "Es al revés: tiene que ser incómodo. El basquetbolista que solo lanza a 50 cm del aro no mejora nada."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino para construir capital de carrera según el episodio",
-   "items": [
-    "Definir qué significa ser bueno en tu campo",
-    "Practicar de forma deliberada para cerrar la brecha",
-    "Construir capital de carrera y que aparezcan más oportunidades",
-    "Decidir si priorizas llegar lejos en tu carrera o tu estilo de vida"
-   ],
-   "explain": "Primero defines la meta de calidad, luego practicas y, con el capital acumulado, ganas independencia para elegir tu camino."
   }
  ],
  "184": [
@@ -14372,18 +13013,6 @@
    ],
    "answer": 0,
    "explain": "Es barato y reduce la probabilidad de quebrar. El primer millón te ayuda a pagar ese deducible."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena estos pasos de las reglas del juego",
-   "items": [
-    "Juntar tu primer millón y contratar un seguro catastrófico",
-    "Aprovechar si tu empleador iguala tu ahorro",
-    "Pagar las deudas caras",
-    "Armar el fondo de emergencia",
-    "Aprovechar el APV"
-   ],
-   "explain": "La lógica va por tasas: 100% a tu favor con el aporte del empleador, 30% en tu contra con deudas caras y luego 15% de beneficio del APV más el retorno del mercado."
   },
   {
    "type": "match",
@@ -14516,17 +13145,6 @@
    "statement": "Según el episodio, para invertir bien hay que dedicarle al menos un par de horas diarias.",
    "answer": false,
    "explain": "Muchas veces mientras menos tiempo le dedicas, mejor inviertes, siempre que tengas un portafolio acorde a tu perfil, instrumentos eficientes y estés protegido. Ganarle al mercado es para muy pocos profesionales."
-  },
-  {
-   "type": "order",
-   "prompt": "Con un 10% anual promedio la plata se duplica cerca de cada 7 años. Ordena cómo crece $1 invertido en el tiempo",
-   "items": [
-    "Año 7: se duplica a $2",
-    "Año 14: llega a $4",
-    "Año 21: llega a $8",
-    "Año 28: llega a $16"
-   ],
-   "explain": "Los primeros 7 años no te cambian la vida, pero la exponencialidad aparece en las décadas siguientes. Por eso la paciencia (la voluntad) paga."
   }
  ],
  "186": [
@@ -14588,16 +13206,6 @@
    "explain": "Es la lógica de 'Ahorra más mañana' (Save More Tomorrow): subir un poco con cada aumento de sueldo casi no se siente."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los tres baldes para financiar tu jubilación, del más corto al más largo plazo",
-   "items": [
-    "Balde 1: 2 a 3 años de gastos en money market o depósitos a plazo",
-    "Balde 2: 3 a 8 años de gastos en un portafolio conservador",
-    "Balde 3: el resto, invertido de forma agresiva para el largo plazo"
-   ],
-   "explain": "Vives del primer balde; si el mercado cae, no tocas el tercero y le das tiempo para recuperarse."
-  },
-  {
    "type": "mc",
    "prompt": "Según el gráfico del S&P 500, ¿por qué es tan caro salirse del mercado cuando cae fuerte?",
    "options": [
@@ -14628,16 +13236,6 @@
    "title": "Algo grande está pasando",
    "emoji": "🤖",
    "body": "Tres documentos guían el episodio: el memo de **Howard Marks** sobre la IA, el ensayo **'Something Big Is Happening'** y el escenario a 2028 de **Citrini Research**. La idea central: los modelos dieron un salto hacia la **autonomía**, lo técnico se vuelve commodity y lo que más valor tendrá es **lo humano**. No te puedes quedar abajo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los niveles de uso de IA que describen en el episodio",
-   "items": [
-    "Nivel 1: chatear con la IA",
-    "Nivel 2: la IA usa herramientas y hace tareas",
-    "Nivel 3: agentes autónomos que trabajan solos"
-   ],
-   "explain": "La mayoría está en el nivel 1; subir al 2 ya te da una ventaja enorme en tu pega."
   },
   {
    "type": "match",
@@ -14833,18 +13431,6 @@
    "explain": "Miedo a equivocarte, a quedarte en blanco o a que piensen que no mereces estar ahí; por eso se trabaja desde adentro y desde el cuerpo."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la estructura simple de presentación que recomienda Consu",
-   "items": [
-    "Definir tu idea fuerza",
-    "Un inicio que enganche",
-    "Un desarrollo con tres ideas clave",
-    "Un cierre con llamado a la acción o aprendizaje",
-    "Ensayar en voz alta incorporando el cuerpo"
-   ],
-   "explain": "Todo parte de una sola idea central; la estructura la refuerza y el ensayo con el cuerpo te da seguridad."
-  },
-  {
    "type": "tf",
    "statement": "Para conectar con un grupo, lo ideal es hacer un barrido rápido con la mirada por toda la sala.",
    "answer": false,
@@ -14920,16 +13506,6 @@
    "title": "El 10% que te lleva al 1%",
    "emoji": "🐺",
    "body": "Ser el mejor del mundo en algo es casi imposible, pero ser del **10% superior** en varias áreas (deporte, alimentación, IA, ahorro...) es alcanzable. La **intersección** de varios 10% te deja en el 1%. Y lo difícil no es la teoría: es **pasar a la acción**."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las etapas del trimestre de Manada 10%",
-   "items": [
-    "Mes 1: energía (agua, sueño, ejercicio, hábitos)",
-    "Mes 2: foco y menos distracciones (relación con el teléfono)",
-    "Mes 3: un proyecto personal"
-   ],
-   "explain": "Primero sumas energía, luego quitas lo que te diluye y recién ahí empujas un proyecto con foco."
   },
   {
    "type": "mc",
@@ -15131,16 +13707,6 @@
    "explain": "Así partes el día como tú quieres y no como te lo dicta un correo, y evitas los reels en la cama."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el modelo 10-80-10 para trabajar con IA:",
-   "items": [
-    "Tú haces el 10% inicial: pensar el problema",
-    "Delegas el 80% del medio en la IA",
-    "Tú haces el 10% final: revisar y darle tu toque"
-   ],
-   "explain": "El inicio es lo que te hace pensar y el final es lo que te hace único. La IA te ayuda en el medio a ser más eficiente."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuántas herramientas de IA recomiendan usar a la vez para no quemarte?",
    "options": [
@@ -15199,17 +13765,6 @@
    "title": "Primero la energía",
    "body": "Mariana Bennett explica que cambiar hábitos requiere **energía**: el cerebro gasta cerca del **25% del metabolismo basal**. Por eso un buen proceso parte por **dormir mejor**, luego busca **claridad** sobre tu porqué y recién después suma cambios chicos, **un paso a la vez**.",
    "emoji": "😴"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las etapas del proceso de cambio de hábitos que propone Mariana:",
-   "items": [
-    "Recuperar energía base, partiendo por el sueño",
-    "Desarrollar claridad sobre por qué quieres cambiar",
-    "Hacer un cambio pequeño y concreto (ej.: el desayuno)",
-    "Usar ese impulso para sumar el siguiente hábito"
-   ],
-   "explain": "Sin energía cuesta cambiar, y sin un porqué el cambio no dura. Los pasos chicos te dan impulso para seguir."
   },
   {
    "type": "tf",
@@ -15342,17 +13897,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos del ejercicio de fear setting (definir tus miedos):",
-   "items": [
-    "Identifica la decisión difícil que te da miedo (ej.: renunciar)",
-    "Escribe en papel el peor escenario posible",
-    "Anota qué podrías hacer si ese escenario realmente pasa",
-    "Revisa el miedo ya aterrizado y nota la calma que te da"
-   ],
-   "explain": "Pasar un miedo del subconsciente al papel lo vuelve concreto. Al ver que tienes opciones, la ansiedad baja."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál es la única pregunta que hacen los creadores de Exploding Kittens cuando alguien prueba un juego nuevo?",
    "options": [
@@ -15441,17 +13985,6 @@
    ],
    "answer": 0,
    "explain": "Según él, el principal reto es que falta gente capacitada para aprovechar la tecnología. Por eso dice que todo esto 'recién está partiendo'."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la historia que cuenta Marcio sobre cómo Nvidia llegó a la IA:",
-   "items": [
-    "Nvidia se enfoca en computación gráfica y videojuegos",
-    "En 2012 unos alumnos de Toronto ganan una competencia de imágenes usando una tarjeta de videojuegos y CUDA",
-    "En 2016 Nvidia lanza su primera supercomputadora para IA",
-    "Desde 2022, con ChatGPT, todo el mundo empieza a mirar a Nvidia"
-   ],
-   "explain": "Lo que parece un boom repentino fue un proceso de años. Como dice Marcio, la innovación es una jornada, no algo que pasa de un año para otro."
   },
   {
    "type": "tf",
@@ -15588,18 +14121,6 @@
    "explain": "Escribir (journaling) deja fluir las ideas y te ayuda a notar qué te hace vibrar. Así Nicole se dio cuenta de que la música siempre estaba en sus momentos más felices."
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo fue la transición de Nicole de dentista a DJ:",
-   "items": [
-    "Toma un curso de DJ como hobby y lo deja en pausa por falta de tiempo",
-    "Vuelve a practicar en casa y toca en cumpleaños de amigas",
-    "Libera los jueves en la tarde para tomar eventos de marca",
-    "En pandemia practica a diario y luego va soltando jornadas de dentista",
-    "La música pasa a ser su ingreso principal y se enfoca en matrimonios"
-   ],
-   "explain": "Cada paso fue pequeño y probado antes del siguiente. Así el cambio se sintió menos como un salto al vacío y más como un camino con paracaídas."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué le dio estabilidad financiera durante la pandemia, cuando cerraron las clínicas?",
    "options": [
@@ -15646,18 +14167,6 @@
    "title": "Los 5 errores que nos estresan",
    "body": "En un congreso médico, Pablo presentó los cinco errores financieros más típicos, que aplican a casi todos: **no ahorrar, no invertir, no prepararse para el retiro, sucumbir ante los vendedores y pagar demasiados impuestos**. Ganar mucha plata no te salva: en Chile, incluso en el grupo de mayores ingresos, la gran mayoría no logra ahorrar.",
    "emoji": "😰"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los cinco errores tal como Pablo los presentó.",
-   "items": [
-    "No ahorrar",
-    "No invertir",
-    "No prepararse para el retiro",
-    "Sucumbir ante los vendedores",
-    "Pagar demasiados impuestos"
-   ],
-   "explain": "Van en cadena: sin ahorro no hay qué invertir, y sin inversión es difícil llegar bien al retiro."
   },
   {
    "type": "tf",
@@ -15748,17 +14257,6 @@
    "title": "Donde las papas queman",
    "body": "Fernando Alex fue el único sudamericano en la conferencia de semiconductores más importante del mundo. Volvió con una idea clara: la inteligencia artificial está cambiando el mundo, pero su avance está frenado por **cuellos de botella físicos**. Y para ganarle al mercado eligiendo acciones, hay que estar metido en la industria todo el día, no leyendo titulares.",
    "emoji": "💾"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo se preparó Fernando para la conferencia, desde la preparación hasta la cancha.",
-   "items": [
-    "Tomar clases de inglés para ganar confianza",
-    "Estudiar la agenda y elegir a quiénes quería conocer",
-    "Preparar un speech de presentación y un set de preguntas",
-    "En la conferencia, improvisar dentro de ese marco"
-   ],
-   "explain": "La improvisación funciona mejor cuando tienes una estructura previa, como un futbolista que ya sabe qué hacer cuando recibe la pelota."
   },
   {
    "type": "tf",
@@ -15867,18 +14365,6 @@
    ],
    "answer": 0,
    "explain": "Si no actúas rápido, el piloto automático gana. Ese sesgo a la acción es uno de los grandes aprendizajes de los 200 capítulos."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los pasos del ejercicio para definir tus objetivos de vida.",
-   "items": [
-    "Escribe tu lista de objetivos",
-    "Al día siguiente, oblígate a duplicar la lista",
-    "Ordénala con las categorías de los cinco tipos de riqueza",
-    "Recién ahí compárala con la lista maestra",
-    "Refina y quédate con los más importantes"
-   ],
-   "explain": "No hay que partir mirando la lista maestra: primero haz tu propia pega, porque somos malos para definir objetivos y la lista ajena nos puede sesgar."
   },
   {
    "type": "tf",
@@ -16015,17 +14501,6 @@
    "explain": "Para quienes tienen insomnio, medir el sueño puede generar más angustia y empeorar el cuadro; en ellos recomiendan mejor técnicas de relajación."
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de un paciente para diagnosticar y tratar un trastorno del sueño.",
-   "items": [
-    "Consulta de evaluación con un médico",
-    "Estudio del sueño (polisomnografía) durmiendo una noche en la clínica",
-    "Revisión del resultado con un especialista",
-    "Tratamiento según el diagnóstico"
-   ],
-   "explain": "El diagnóstico va primero: el tratamiento (bajar de peso, un dispositivo mandibular o CPAP) depende del tipo y la gravedad del trastorno."
-  },
-  {
    "type": "tf",
    "statement": "Si tomas alcohol puedes roncar aunque no tengas apnea, y quienes sí tienen apnea empeoran con él.",
    "answer": true,
@@ -16134,18 +14609,6 @@
    "title": "El mapa de la vocación",
    "body": "Nacho propone no mezclar palabras que usamos como si fueran lo mismo. Un **hobby** te entretiene, una **pasión** te mueve el corazón, un **don** es algo para lo que naciste bueno, la **profesión** es lo que el mercado te paga, la **vocación** está por encima de todo eso y el **propósito** se descubre recién al final del camino. Ponerle el nombre correcto a cada cosa baja harto la ansiedad de elegir.",
    "emoji": "🗺️"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los peldaños del mapa de Nacho, del más chico al más grande.",
-   "items": [
-    "Hobby",
-    "Pasión",
-    "Profesión",
-    "Vocación",
-    "Propósito"
-   ],
-   "explain": "Cada peldaño suma algo: la profesión agrega que alguien te pague, la vocación agrupa varias herramientas, y el propósito solo se ve mirando hacia atrás."
   },
   {
    "type": "mc",
@@ -16307,18 +14770,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino de Rip hacia Wall Street",
-   "items": [
-    "Toma su primer curso de inversiones y descubre su vocación",
-    "Entra al MBA para ganar tiempo y planificar",
-    "Llama durante años a empresas de Nueva York",
-    "Viaja en las vacaciones de Mardi Gras con entrevistas agendadas",
-    "Entra al programa de formación de Salomon Brothers"
-   ],
-   "explain": "No hubo atajo: la oportunidad llegó después de años de esfuerzo metódico y muchos 'no'."
-  },
-  {
    "type": "mc",
    "prompt": "¿Cuál es el consejo final de Rip para quien quiere abrirse camino?",
    "options": [
@@ -16382,17 +14833,6 @@
      "Abarata entrenar sus propios modelos"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el ejemplo de Fernando sobre por qué la productividad no necesariamente destruye empleo",
-   "items": [
-    "Una empresa tiene 4 personas en contabilidad",
-    "Con ayuda del software necesita solo 2",
-    "La mayor riqueza lleva a crear otra empresa",
-    "La nueva empresa contrata a las otras 2"
-   ],
-   "explain": "Más productividad significa más riqueza y más negocios, que necesitan gente. El gran desafío es la transición para quienes se ven afectados."
   },
   {
    "type": "tf",
@@ -16491,17 +14931,6 @@
    "explain": "Puedes liderar a mucha gente por poco tiempo sin quererla, pero no por mucho tiempo: sin cariño no hay confianza."
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo se construye una visión según Jottar",
-   "items": [
-    "Juntar las miradas diversas del equipo",
-    "Elegir un futuro y renunciar a los demás",
-    "Compartir la visión con toda la organización",
-    "Ejecutar con excelencia y ajustar en el camino"
-   ],
-   "explain": "La visión no es un secreto del jefe: si no la entiende la gente, no mueve ninguna voluntad. Y toda idea se perfecciona haciéndola."
-  },
-  {
    "type": "fill",
    "sentence": "Según el empresario citado en la conversación, una idea vale 1 punto, con un plan vale 10 y ejecutada vale ___.",
    "options": [
@@ -16578,17 +15007,6 @@
    ],
    "answer": 0,
    "explain": "Es liquidez: si todo estuviera en inmobiliario, tendría que vender apurado, a mal precio y sin alcanzar a tener la plata a tiempo."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la secuencia que le permitió a Francisco enfrentar la urgencia sin estrés financiero",
-   "items": [
-    "Contratar un seguro de viaje antes de salir",
-    "Pagar la atención con el cupo de la tarjeta de crédito",
-    "Pagar la tarjeta completa con el colchón de emergencia",
-    "Recibir el reembolso del seguro"
-   ],
-   "explain": "Cada pieza cubre un momento distinto: el seguro asume el costo final, la tarjeta da liquidez inmediata y el colchón evita pagar intereses."
   },
   {
    "type": "match",
@@ -16702,17 +15120,6 @@
    "explain": "Si no sabes qué quieres hacer y cuánto cuesta, entras en un círculo de querer más sin ser feliz. Muchas veces tu día ideal cuesta menos de lo que crees."
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo ser un 'primer pingüino' sin que te coman",
-   "items": [
-    "Armar tus colchones de emergencia",
-    "Partir el proyecto compatibilizándolo con tu trabajo",
-    "Tirarte al agua y probar la idea",
-    "Aprender de lo que salga mal y seguir"
-   ],
-   "explain": "El riesgo vale la pena cuando es asimétrico: puedes perder algunas horas o quedar como el que se equivocó, pero sin arriesgar lo que te mantiene en el juego."
-  },
-  {
    "type": "tf",
    "statement": "Si tus finanzas están en negativo, es mejor no revisarlas para no desmotivarte.",
    "answer": false,
@@ -16800,18 +15207,6 @@
    ],
    "answer": 3,
    "explain": "Con renta fija bastaría un año; con acciones, que pueden caer 50% o más, necesitas más margen. Por eso Pablo sugiere derechamente bajar el riesgo de esa bolsa."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena cómo Francisco pensó la compra de su casa",
-   "items": [
-    "Mirar cuánto paga hoy de arriendo cómodo",
-    "Fijar un dividendo objetivo parecido a ese arriendo",
-    "Calcular en el simulador el pie necesario",
-    "Sumar uno o dos años de gastos líquidos para después del pie",
-    "Decidir si espera por algo más caro o compra antes algo más modesto"
-   ],
-   "explain": "Partir por lo que ya sabes que puedes pagar, y no por lo que te presta el banco, te lleva a una decisión más tranquila y consciente."
   },
   {
    "type": "mc",
@@ -16928,16 +15323,6 @@
    "title": "Agentes que trabajan y activos que no se ven",
    "body": "Un agente de IA pasa de 'pregunta y respuesta' a **'objetivo y solución'**. Para que funcione necesita **contexto, herramientas y habilidades**. En la otra mitad del episodio, la historia del tata de Francisco muestra que puedes ser **rico en patrimonio pero pobre en liquidez**, y que la emoción pesa mucho en las decisiones inmobiliarias.",
    "emoji": "🔑"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los tres ingredientes de un buen agente, tal como los explica Pablo",
-   "items": [
-    "Contexto: quién eres y cómo te comunicas",
-    "Herramientas: acceso a las apps que necesita",
-    "Habilidades: procesos repetitivos bien definidos"
-   ],
-   "explain": "Es como un nuevo compañero de trabajo: sin contexto ni computador no puede hacer bien la pega, y los procesos claros le permiten repetirla."
   },
   {
    "type": "tf",
@@ -17108,17 +15493,6 @@
    "emoji": "🏠"
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos que propone Francisco para ponerle precio a tu departamento",
-   "items": [
-    "Pedirle a la IA propiedades similares a la tuya",
-    "Contrastar con precios reales de transacción, no solo los publicados",
-    "Calcular la TIR de tu inversión con todo lo que pusiste",
-    "Publicar cerca del precio de mercado, en la parte alta del rango"
-   ],
-   "explain": "Los precios publicados son expectativas; con precios reales y tu TIR pasas de UF abstractas a una rentabilidad con la que te sientas cómodo."
-  },
-  {
    "type": "mc",
    "prompt": "¿Qué le pasó a Francisco cuando le quedó mucha plata con destino definido en su cuenta corriente?",
    "options": [
@@ -17229,18 +15603,6 @@
      "Métrica donde se puede meter cualquier cosa"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el camino de Pablo tal como lo cuenta",
-   "items": [
-    "Renuncia a su trabajo en noviembre de 2022",
-    "Entra a Colossus con un rol part-time mal pagado",
-    "Pasa a contractor y luego se termina el acuerdo",
-    "Descubre la planificación financiera y se certifica como CFP",
-    "Conoce a un profesor en una conferencia y termina enseñando en LSU"
-   ],
-   "explain": "La historia funciona porque tiene causalidad: cada caída lo empujó al siguiente paso."
   },
   {
    "type": "fill",
@@ -17435,18 +15797,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena la secuencia que vivió Trii según el episodio",
-   "items": [
-    "Casi 3 años de desarrollo sin poder lanzar, financiándose con deuda personal",
-    "Construir una comunidad gratuita que llega a 4.500 personas",
-    "Lanzar la app y conseguir 1.000 cuentas en 4 días",
-    "Cerrar el primer mes con 10.000 cuentas y entrar a Y Combinator",
-    "Levantar una ronda semilla de US$4,5 millones y contratar equipo"
-   ],
-   "explain": "El 'empujón inicial' no vino de plata para marketing, sino de un activo construido a pulso durante los años en que parecía que no pasaba nada."
-  },
-  {
    "type": "mc",
    "prompt": "Carlos usa una analogía para explicar por qué invertir es de largo plazo. ¿Cuál es?",
    "options": [
@@ -17549,18 +15899,6 @@
    "explain": "La regla es poner a las mejores personas donde están las oportunidades, no donde están los problemas. Cinco años después ese negocio la rompió."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los niveles de liderazgo según el libro, del 1 al 5",
-   "items": [
-    "Individuo altamente capaz: aporta talento y buenos hábitos",
-    "Miembro de equipo que contribuye a los objetivos del grupo",
-    "Gerente competente: organiza personas y recursos",
-    "Líder efectivo: genera compromiso con una visión clara",
-    "Ejecutivo nivel 5: construye grandeza duradera"
-   ],
-   "explain": "La pirámide es acumulativa: cada nivel supone los anteriores, y el 5 agrega humildad con ambición puesta en algo más grande que uno mismo."
-  },
-  {
    "type": "tf",
    "statement": "En el episodio comparan a los Marines: reclutan gente que ya comparte sus valores y recién después la forman.",
    "answer": true,
@@ -17597,17 +15935,6 @@
    ],
    "answer": 0,
    "explain": "El cupón que paga el bono está fijo: si pagas más caro por ese mismo flujo, el retorno que obtienes es menor. Por eso precio y tasa van al revés."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena lo que pasó en Chile con los retiros de las AFP y las tasas largas",
-   "items": [
-    "Las AFP necesitan liquidez para pagar los retiros",
-    "Salen a vender sus bonos de largo plazo",
-    "Aumenta la oferta de bonos y caen sus precios",
-    "Suben las tasas largas y se encarece el crédito hipotecario"
-   ],
-   "explain": "Las AFP eran de los mayores compradores de bonos largos en Chile; al convertirse en vendedoras masivas, el mercado reaccionó encareciendo el costo de endeudarse a largo plazo."
   },
   {
    "type": "tf",
@@ -17746,17 +16073,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena el camino para obtener la certificación CFP según el episodio",
-   "items": [
-    "Tener un título de bachiller",
-    "Completar los seis cursos de educación (o usar el camino acelerado)",
-    "Hacer el curso del Capstone",
-    "Preparar y rendir el examen de 6 horas"
-   ],
-   "explain": "Primero la educación, luego el Capstone que integra todo y al final el examen con casos de estudio."
-  },
-  {
    "type": "mc",
    "prompt": "Un asesor recomienda a su cliente un fondo que cobra 2% de comisión cuando existe otro que invierte exactamente en lo mismo y cobra 1%. Según el código de ética del CFP, ¿qué puede pasar?",
    "options": [
@@ -17793,17 +16109,6 @@
    "title": "La educación financiera parte mucho antes de invertir",
    "body": "En el episodio se plantea que gran parte del contenido financiero disponible hoy apunta a **inversiones**, cuando la mayoría de las personas todavía necesita lo anterior: **presupuesto, tasas de interés y liquidez**. En Chile, cerca de **un tercio** declara ser capaz de ahorrar, y de esos la gran mayoría no llega ni al 10% de su sueldo. Primero el piso, después el techo.",
    "emoji": "🧱"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena las prioridades de aprendizaje financiero según lo planteado en el episodio",
-   "items": [
-    "Armar un presupuesto: saber cuánto entra y en qué gasto",
-    "Entender tasas de interés y que un peso hoy vale más que un peso mañana",
-    "Tener liquidez / un fondo de emergencia",
-    "Invertir en instrumentos como ETFs o APV"
-   ],
-   "explain": "El orden importa: invertir sin presupuesto ni colchón de emergencia es construir el techo antes que los cimientos."
   },
   {
    "type": "mc",
@@ -17966,18 +16271,6 @@
    "explain": "No puedes tener 1,5 seres humanos ni suponer que todos son partículas idénticas; por eso los agentes permiten universos heterogéneos y redes."
   },
   {
-   "type": "order",
-   "prompt": "Ordena la lógica del argumento del episodio",
-   "items": [
-    "Pones esfuerzo de forma constante y perseverante",
-    "Canalizas ese esfuerzo en algo que crea valor para otros",
-    "Ese valor se traduce en oportunidades, confianza y capital (financiero, social, intelectual)",
-    "El interés compuesto acumula esas mejoras en el largo plazo",
-    "Tu nivel de vida sube respecto a tu propio punto de partida"
-   ],
-   "explain": "El salto no es de un día para otro: la secuencia es esfuerzo → valor → oportunidades → acumulación compuesta → mejora real."
-  },
-  {
    "type": "tf",
    "statement": "Para el invitado, 'progresar' significa necesariamente hacerse millonario o jubilarse a los 35.",
    "answer": false,
@@ -18020,18 +16313,6 @@
    ],
    "answer": 0,
    "explain": "Irse corto es apostar a la baja; esa presión obliga al apalancado a liquidar, y ahí los cortos se cubren con ganancia."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la secuencia de la espiral que se describe en el episodio",
-   "items": [
-    "El fondo crece rápido con deuda de 3 a 4 veces y concentrado en IA",
-    "Los precios de las acciones de IA empiezan a caer",
-    "Los bancos piden garantías adicionales (margin calls)",
-    "El fondo se ve forzado a vender su parte líquida y presiona más los precios",
-    "Otro fondo le compra toda la posición con un 10% de descuento"
-   ],
-   "explain": "Cada eslabón alimenta al siguiente: el apalancamiento convierte una caída normal de mercado en una crisis de sobrevivencia."
   },
   {
    "type": "concept",
@@ -18152,18 +16433,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena el experimento tal como lo cuenta Josefa en el episodio",
-   "items": [
-    "Investigar y notar que las redes le quitaban tiempo sin darle valor",
-    "Borrar Instagram como primer paso",
-    "A las dos o tres semanas, eliminar también Facebook y TikTok",
-    "Evaluar a los 3 meses y decidir seguir",
-    "A los 6 meses concluir que simplemente no las necesita"
-   ],
-   "explain": "Empezar chico y revisar en fechas definidas convierte un cambio enorme en una serie de decisiones pequeñas y reversibles."
-  },
-  {
    "type": "mc",
    "prompt": "Tu amigo quiere bajarle al teléfono pero dice que solo no puede. ¿Qué recomienda el episodio?",
    "options": [
@@ -18266,17 +16535,6 @@
    "explain": "Lo médico y lo patrimonial se documentan por separado: una cosa es quién decide sobre tu salud y otra quién administra tu plata."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los cuatro grandes temas de la conversación, tal como se plantean en el episodio",
-   "items": [
-    "¿Quién va a tomar las decisiones?",
-    "El plan de cuidado a largo plazo",
-    "¿Quién va a manejar el patrimonio?",
-    "Los últimos deseos"
-   ],
-   "explain": "Partir por quién decide ordena todo lo demás, y dejar los últimos deseos por escrito evita que la familia tenga que adivinar."
-  },
-  {
    "type": "mc",
    "prompt": "Tu mamá puede pensar que le hablas de esto porque andas detrás de la herencia. Según el episodio, ¿cómo conviene abordarlo?",
    "options": [
@@ -18313,16 +16571,6 @@
    ],
    "answer": 1,
    "explain": "Matemáticamente conviene mantener una deuda muy barata e invertir, pero él priorizó la independencia de levantarse y hacer lo que quiera con su tiempo. Rentabilidad y tranquilidad no siempre apuntan al mismo lado."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena los baldes de Christine Benz desde el más líquido y de corto plazo al de más largo plazo",
-   "items": [
-    "1 a 2 años de gastos en instrumentos de muy bajo riesgo",
-    "Mediano plazo (3 a 7 años) en bonos y deuda",
-    "Balde de crecimiento, prácticamente todo en acciones"
-   ],
-   "explain": "Separar la plata por horizonte evita tener que vender acciones justo cuando el mercado va mal: lo de corto plazo ya está guardado en algo estable."
   },
   {
    "type": "tf",
@@ -18479,17 +16727,6 @@
    "explain": "En el régimen B el castigo es distinto: pagas los impuestos que no pagaste más una sobretasa de entre 3% y 7%."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos para decidir qué APV te conviene, según el episodio",
-   "items": [
-    "Entender cómo funciona el impuesto global complementario y en qué tramo marginal estás",
-    "Revisar tu ahorro obligatorio en la AFP y el multifondo en que estás",
-    "Comparar el beneficio del 15% del régimen A con tu ahorro de impuestos del régimen B",
-    "Elegir dónde hacerlo: AFP, AGF o aseguradora, mirando costos y libertad de inversión"
-   ],
-   "explain": "Primero el diagnóstico (tu tramo y tu situación previsional), después la elección de régimen y recién al final la institución donde lo contratas."
-  },
-  {
    "type": "mc",
    "prompt": "Según el episodio, ¿cuál es la opción menos recomendada para hacer tu APV?",
    "options": [
@@ -18571,17 +16808,6 @@
    ],
    "answer": 1,
    "explain": "Con deuda, un proyecto que se va a cero te deja igual pagando intereses; con caja propia, la empresa sigue funcionando aunque la apuesta falle."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el razonamiento que propone el episodio para decidir qué hacer con tus inversiones",
-   "items": [
-    "Entender qué es una burbuja y qué dicen los datos de ambos lados",
-    "Mirar las señales: adopción, crecimiento de ventas y levantamiento de capital",
-    "Preguntarte si aguantarías una caída de 20% o 30% por varios años",
-    "Ajustar tu nivel de riesgo ahora, antes de que caiga el mercado"
-   ],
-   "explain": "La idea es decidir con información y en frío: reevaluar tu tolerancia al riesgo cuando todo está tranquilo, no en medio del pánico."
   },
   {
    "type": "tf",
@@ -18686,18 +16912,6 @@
    "explain": "Son unas tremendas vacaciones por varios años, simplemente por no elegir el camino más fácil."
   },
   {
-   "type": "order",
-   "prompt": "Ordena los pasos para evaluar si te conviene un seguro con ahorro universitario",
-   "items": [
-    "Pedir la póliza y ver la prima mensual, el plazo y el monto asegurado",
-    "Multiplicar la prima por los meses para ver cuánto pagarás en total",
-    "Cotizar por separado un seguro con la misma cobertura en varias aseguradoras",
-    "Proyectar cuánto rendiría invertir la diferencia según el plazo",
-    "Comparar ambos escenarios: si te pasa algo y si todo sale bien"
-   ],
-   "explain": "Hacer los números con tu propio caso es el punto de partida; cada familia tiene aranceles, carreras y beneficios distintos."
-  },
-  {
    "type": "tf",
    "statement": "Al cotizar el seguro por separado, las primas y coberturas eran prácticamente iguales en todas las aseguradoras.",
    "answer": false,
@@ -18788,16 +17002,6 @@
    "explain": "El conocimiento específico no se enseña en la sala de clases: viene de curiosidad, experiencia y talento, y la magia está en la combinación de mundos distintos."
   },
   {
-   "type": "order",
-   "prompt": "Ordena las tres 'patas del piso' para elegir carrera, según se presentan en el episodio",
-   "items": [
-    "El área: dónde trabajas y dónde tienes ventaja",
-    "Con quién trabajas: encontrar las personas correctas",
-    "Qué tanto trabajas: impaciencia con las acciones, paciencia con los resultados"
-   ],
-   "explain": "Si falla una pata, se cae el piso completo: el área se elige desde tu conocimiento específico, pero sin la gente y el esfuerzo correctos no se sostiene."
-  },
-  {
    "type": "tf",
    "statement": "El sexto elemento de la fórmula —el más importante— es el tiempo, porque hace que el crecimiento sea exponencial.",
    "answer": true,
@@ -18874,18 +17078,6 @@
    ],
    "answer": 2,
    "explain": "Con una tasa decente y un monto modesto, elevar a 20, 25 o 30 años produce un resultado exponencial. El tiempo es la palanca que casi nadie usa completa."
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena la secuencia de un cambio importante, según el gráfico que muestra Weaver",
-   "items": [
-    "Tomas la decisión difícil (cambio de trabajo, hábito, conversación)",
-    "Al principio todo empeora: incertidumbre, miedo, incomodidad",
-    "Te vas adaptando y empiezas a mejorar",
-    "Terminas más arriba del punto donde estabas antes",
-    "Repites el ciclo y cada caída inicial se hace más pequeña"
-   ],
-   "explain": "Mientras más veces pasas por esa caída, menos miedo te da: te preparas para la incomodidad porque sabes que al otro lado vale la pena."
   },
   {
    "type": "tf",
@@ -18978,17 +17170,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena el 'círculo virtuoso' que describe el episodio",
-   "items": [
-    "Las personas aprenden a usar la IA como herramienta",
-    "Aumenta la productividad de cada trabajador",
-    "Las empresas y startups generan más utilidades",
-    "Hay espacio para pagar mejores sueldos y repartir más"
-   ],
-   "explain": "El argumento parte de la adopción individual de la herramienta, no de una mejora salarial que caiga del cielo."
-  },
-  {
    "type": "tf",
    "statement": "Según el episodio, parte del problema es que nuestro cerebro no es capaz de procesar el crecimiento exponencial ni imaginar la nueva economía que puede despertar.",
    "answer": true,
@@ -19065,18 +17246,6 @@
      "Lo que haces si igual te siguen llamando"
     ]
    ]
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el paso a paso que muestra el episodio",
-   "items": [
-    "Entrar al Portal del Consumidor del SERNAC",
-    "Iniciar sesión con Clave Única",
-    "Ir a la sección \"No Molestar\" e ingresar tu teléfono",
-    "Agregar las empresas que quieres bloquear y marcar llamadas, SMS y WhatsApp",
-    "Si te siguen contactando, denunciarlas"
-   ],
-   "explain": "El trámite es secuencial y simple: ingresar, identificarte, registrar tu número, bloquear empresas y, si no respetan, denunciar."
   },
   {
    "type": "mc",
@@ -19187,17 +17356,6 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Ordena cómo describe el episodio el camino de la innovación",
-   "items": [
-    "Ser curioso y asumir que sabes poco",
-    "Partir lo antes posible y fracasar",
-    "Aguantar largos periodos siendo incomprendido",
-    "Abrir una puerta nueva: el posible adyacente"
-   ],
-   "explain": "Steven Johnson lo describe como un laberinto: cada puerta que abres revela nuevas puertas. Por eso la primera innovación rara vez es la gran cosa, pero cambia tu rumbo."
-  },
-  {
    "type": "mc",
    "prompt": "¿Por qué el episodio argumenta que el \"proceso\" fue un éxito aunque el equipo no salió campeón?",
    "options": [
@@ -19258,16 +17416,6 @@
    "explain": "La idea es que una nueva forma de pensar cambia cómo experimentas exactamente la misma realidad, sin que cambie nada externo."
   },
   {
-   "type": "order",
-   "prompt": "Ordena a estos filósofos según quién fue discípulo de quién (del maestro al último discípulo)",
-   "items": [
-    "Sócrates",
-    "Platón",
-    "Aristóteles"
-   ],
-   "explain": "El episodio los llama 'el trío dinámico': cada uno fue discípulo del anterior y entre los tres sentaron la base de cómo pensamos hasta hoy."
-  },
-  {
    "type": "tf",
    "statement": "Según el episodio, Sócrates se hizo famoso por su método mayéutico, que consiste básicamente en preguntar y preguntar, como un niño de 4 o 5 años.",
    "answer": true,
@@ -19322,18 +17470,6 @@
    "title": "Un libro cuesta 10 horas de tu vida",
    "body": "Leer un libro de finanzas toma en promedio **unas 10 horas**. Si eliges el libro equivocado, te puede mandar por el camino equivocado; y si te aburre y lo dejas a la mitad, nunca encuentras lo que buscabas. Por eso vale la pena saber qué entrega cada clásico **antes** de empezarlo.",
    "emoji": "📚"
-  },
-  {
-   "type": "order",
-   "prompt": "Ordena el ranking del episodio, desde el puesto 5 (menos favorito) hasta el puesto 1 (favorito)",
-   "items": [
-    "Padre rico, padre pobre",
-    "El millonario de la puerta de al lado",
-    "Te enseñaré a ser rico (Ramit Sethi)",
-    "El hombre más rico de Babilonia",
-    "Psicología del dinero / Cómo piensan los ricos (Morgan Housel)"
-   ],
-   "explain": "El ranking va del libro con más críticas al que resultó más fácil de leer y más regalado."
   },
   {
    "type": "mc",

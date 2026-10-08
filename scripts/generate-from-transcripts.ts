@@ -31,13 +31,12 @@ const MC = z.object({ type: z.literal('mc'), prompt: z.string(), options: z.arra
 const TF = z.object({ type: z.literal('tf'), statement: z.string(), answer: z.boolean(), explain: z.string() })
 const Fill = z.object({ type: z.literal('fill'), sentence: z.string(), options: z.array(z.string()), answer: z.number().int(), explain: z.string() })
 const Match = z.object({ type: z.literal('match'), prompt: z.string(), pairs: z.array(z.array(z.string())) })
-const Order = z.object({ type: z.literal('order'), prompt: z.string(), items: z.array(z.string()), explain: z.string() })
 
 const EpisodeContent = z.object({
   summary: z.string(),
   takeaways: z.array(z.string()),
   category: z.enum(CATEGORIES),
-  exercises: z.array(z.union([Concept, MC, TF, Fill, Match, Order])),
+  exercises: z.array(z.union([Concept, MC, TF, Fill, Match])),
 })
 type EpisodeContent = z.infer<typeof EpisodeContent>
 
@@ -49,8 +48,13 @@ Devuelve:
 - takeaways: 4-6 ideas clave accionables, tal como se discuten en el episodio.
 - category: la categoría principal.
 - exercises: 7-9 ejercicios. Empieza con 1 "concept" con la gran idea del episodio.
-  Mezcla mc, tf, fill, match (3-4 pares [izquierda, derecha]) y order (3-5 pasos en orden correcto).
+  Mezcla mc, tf, fill y match (3-4 pares [izquierda, derecha]). No existe el tipo "order".
   "fill" usa exactamente un "___". "answer" es el índice (desde 0) de la opción correcta.
+  Las preguntas evalúan el CONCEPTO que enseña el episodio, no los detalles de la anécdota con que
+  se ilustra: si el episodio cuenta el caso de una persona o una empresa, pregunta por la idea general
+  que ese caso demuestra, de forma que alguien que no escuchó el episodio igual pueda razonar la respuesta.
+  Cada pregunta debe entenderse sola: nada de "en el ejemplo", "según el invitado" o "como se dijo antes";
+  si una pregunta necesita datos, inclúyelos en el enunciado.
   Todo debe salir de lo que efectivamente se dice en el transcript: no inventes datos ni citas.
   Puedes citar textualmente frases breves del episodio si están en el transcript.`
 

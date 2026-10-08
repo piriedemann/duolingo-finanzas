@@ -75,15 +75,16 @@ export const unit: Unit = {
           explain: 'La automatización convierte el ahorro en algo por defecto: tendrías que hacer un esfuerzo para NO ahorrar.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena los pasos para empezar a pagarte primero:',
-          items: [
-            'Decidir qué porcentaje de tu sueldo vas a ahorrar',
-            'Abrir una cuenta separada para el ahorro',
-            'Programar una transferencia automática el día de pago',
-            'Ajustar tus gastos a lo que queda disponible',
+          type: 'mc',
+          prompt: '¿Por qué "ahorrar lo que sobra" casi nunca funciona?',
+          options: [
+            'Porque el gasto se expande hasta ocupar toda la plata disponible',
+            'Porque los bancos cobran comisión por ahorrar a fin de mes',
+            'Porque el sueldo siempre llega atrasado',
+            'Porque ahorrar a fin de mes paga menos intereses',
           ],
-          explain: 'Primero defines cuánto, luego dónde, después automatizas, y finalmente vives con el resto.',
+          answer: 0,
+          explain: 'Sin un monto separado de antemano, cada peso disponible compite con un gasto, y los gastos casi siempre ganan. Por eso el ahorro tiene que salir primero.',
         },
         {
           type: 'tf',

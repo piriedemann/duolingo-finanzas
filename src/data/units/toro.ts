@@ -95,15 +95,16 @@ export const unit: Unit = {
           body: 'Para esperar **más retorno**, tienes que aceptar **más riesgo**: más subidas y bajadas en el camino. La **volatilidad** mide cuánto se mueve el precio de una inversión. Nadie regala retornos altos sin riesgo.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena de MENOR a MAYOR riesgo (en general)',
-          items: [
-            'Depósito a plazo',
-            'Fondo de bonos',
-            'Fondo indexado de acciones de todo el mundo',
-            'Acción de una sola empresa pequeña',
+          type: 'mc',
+          prompt: '¿Cuál de estas inversiones tiene, en general, MÁS riesgo?',
+          options: [
+            'Una acción de una sola empresa pequeña',
+            'Un fondo indexado de acciones de todo el mundo',
+            'Un fondo de bonos',
+            'Un depósito a plazo',
           ],
-          explain: 'A medida que subes en potencial de retorno y bajas en diversificación, aumentan las oscilaciones y la chance de perder.',
+          answer: 0,
+          explain: 'Mientras menos diversificada y más dependiente de un solo resultado, más oscila y más chance hay de perder. Un fondo mundial reparte el riesgo entre miles de empresas; un depósito a plazo tiene retorno conocido.',
         },
         {
           type: 'concept',
@@ -203,16 +204,16 @@ export const unit: Unit = {
           body: 'El **DCA** (dollar-cost averaging, o costo promedio) es invertir **un monto fijo cada mes**, pase lo que pase. Cuando el precio baja compras más cuotas, cuando sube compras menos. Así evitas intentar adivinar el mejor momento.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena los pasos para empezar a invertir con cabeza',
-          items: [
-            'Tener un fondo de emergencia',
-            'Definir tu objetivo y horizonte',
-            'Elegir un instrumento diversificado y de bajo costo',
-            'Invertir un monto fijo periódicamente',
-            'No vender por pánico cuando el mercado cae',
+          type: 'mc',
+          prompt: '¿Por qué conviene tener un fondo de emergencia ANTES de empezar a invertir?',
+          options: [
+            'Para no verte obligado a vender en un mal momento si aparece un imprevisto',
+            'Porque sin fondo de emergencia no te dejan abrir una cuenta de inversión',
+            'Porque el fondo de emergencia rinde más que las inversiones',
+            'No conviene: es mejor invertir primero y armar el fondo después',
           ],
-          explain: 'Sin fondo de emergencia podrías verte obligado a vender en mal momento; el resto del proceso te mantiene disciplinado.',
+          answer: 0,
+          explain: 'Si un imprevisto te obliga a vender cuando el mercado está abajo, conviertes una baja temporal en una pérdida real. El colchón te permite mantener el plan.',
         },
         {
           type: 'mc',

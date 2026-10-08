@@ -58,15 +58,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       body: 'El fin de mes es un buen momento para **revisar tus finanzas** y decidir qué hacer con lo que sobra. Si tienes deudas caras o no tienes colchón, la clave es seguir **un orden claro**: primero lo urgente, después lo que te hace crecer.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena qué hacer con la plata que sobra (de lo primero a lo último)',
-      items: [
-        'Revisar en qué se fue la plata del mes',
-        'Pagar las deudas caras',
-        'Armar el fondo de emergencia',
-        'Invertir para el largo plazo',
+      type: 'mc',
+      prompt: 'Te sobra plata a fin de mes y tienes una deuda de tarjeta al 30% anual. ¿Qué conviene hacer primero con ese excedente?',
+      options: [
+        'Pagar esa deuda cara',
+        'Invertir en acciones',
+        'Comprar criptomonedas',
+        'Dejarla en la cuenta corriente',
       ],
-      explain: 'Ordenar primero te muestra la foto real. Luego las deudas caras (que cobran más de lo que cualquier inversión rinde) y un colchón que te evite endeudarte de nuevo; recién ahí invertir tiene sentido.',
+      answer: 0,
+      explain: 'Ninguna inversión razonable rinde lo que cobra una deuda cara, así que eliminarla es un retorno seguro. Después viene el fondo de emergencia, y recién ahí invertir para el largo plazo.',
     },
     {
       type: 'mc',
@@ -161,15 +162,10 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'La mayoría de los profesionales no logra ganarle al mercado de forma sostenida. Ser disciplinado con una estrategia simple suele dar mejores resultados.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena el flujo que se propone para tu plata',
-      items: [
-        'Recibes tu ingreso',
-        'Asignas el gasto a tus distintos "yos"',
-        'Inviertes el resto para tu yo futuro',
-        'Dejas que el interés compuesto trabaje con los años',
-      ],
-      explain: 'Primero se cubren los propósitos del presente; lo que queda va a tu yo futuro, y el tiempo hace el trabajo pesado.',
+      type: 'tf',
+      statement: 'Separar la plata por "yos" significa cubrir primero los propósitos de tu presente y destinar lo que queda a tu yo del futuro, dejando que el interés compuesto trabaje con los años.',
+      answer: true,
+      explain: 'Asignar la plata por propósitos ordena el gasto de hoy sin olvidar al yo futuro, que es quien más se beneficia del tiempo.',
     },
     {
       type: 'fill',
@@ -426,15 +422,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Rentabilidades medidas en distintos plazos, antes o después de comisiones, o en distintas monedas no son comparables directamente.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena un proceso razonable para elegir plataforma',
-      items: [
-        'Definir tu objetivo y plazo',
-        'Revisar qué fondos y riesgos ofrece cada una',
-        'Comparar comisiones y cómo miden la rentabilidad',
-        'Elegir y automatizar tus aportes',
+      type: 'mc',
+      prompt: 'Vas a elegir una plataforma para invertir. ¿Por dónde conviene partir?',
+      options: [
+        'Por tu objetivo y plazo; después comparar fondos, riesgos y comisiones',
+        'Por la que más aparece en redes sociales',
+        'Por la que tuvo mejor rentabilidad el mes pasado',
+        'Por la que te recomendó un amigo, sin mirar más',
       ],
-      explain: 'Partir por tus necesidades evita elegir por moda; luego comparas lo que ofrecen y lo que cuesta.',
+      answer: 0,
+      explain: 'Partir por tus necesidades evita elegir por moda; con eso claro, puedes comparar lo que ofrece cada una y lo que cuesta.',
     },
   ],
 
@@ -633,15 +630,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Experimentar con poco te enseña cosas que la teoría no transmite, como qué sientes cuando tu inversión cae.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena una forma sensata de aprender a invertir',
-      items: [
-        'Ordenar tu presupuesto y tener un colchón',
-        'Aprender lo básico de los instrumentos',
-        'Probar con un monto pequeño',
-        'Revisar qué aprendiste y ajustar tu plan',
+      type: 'mc',
+      prompt: '¿Cuál es una forma sensata de aprender a invertir?',
+      options: [
+        'Con el presupuesto ordenado y un colchón, probar con un monto pequeño y aprender de los resultados',
+        'Poner todos tus ahorros en lo que esté de moda para aprender rápido',
+        'Esperar a saberlo todo antes de poner un peso',
+        'Pedir un crédito para invertir y apurar el aprendizaje',
       ],
-      explain: 'La planificación es la base: con las finanzas en orden, una pérdida pequeña de aprendizaje no pone en riesgo tu estabilidad.',
+      answer: 0,
+      explain: 'Con las finanzas en orden, una pérdida pequeña de aprendizaje no pone en riesgo tu estabilidad, y la experiencia enseña más que la teoría.',
     },
     {
       type: 'fill',
@@ -704,15 +702,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       body: '¿Qué hago con mi próxima luca? Este episodio responde con una **guía paso a paso**: tener un **orden de prioridades**, aprovechar la **"plata gratis"**, pagar **deudas caras** y armar el **fondo de emergencia** antes de invertir, y **preparar el futuro**.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena estas prioridades según la lógica del episodio',
-      items: [
-        'Aprovechar la "plata gratis" disponible',
-        'Pagar las deudas caras',
-        'Armar el fondo de emergencia',
-        'Invertir y preparar la jubilación',
+      type: 'mc',
+      prompt: '¿Por qué conviene aprovechar la "plata gratis" (como aportes del empleador o bonificaciones del Estado) y pagar las deudas caras antes de invertir?',
+      options: [
+        'Porque dan un retorno inmediato y seguro que ninguna inversión iguala',
+        'Porque está prohibido invertir si tienes deudas',
+        'Porque las inversiones no rinden nada los primeros años',
+        'Porque la plata gratis se pierde si inviertes',
       ],
-      explain: 'Primero lo que te da retorno inmediato sin riesgo (beneficios gratis y eliminar intereses altos), luego la protección, y recién ahí el crecimiento de largo plazo.',
+      answer: 0,
+      explain: 'Un beneficio gratis es retorno sin riesgo, y eliminar un interés alto es retorno garantizado. Después viene la protección (fondo de emergencia) y recién ahí el crecimiento de largo plazo.',
     },
     {
       type: 'mc',
@@ -948,10 +947,10 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Es un guiño a la idea central del podcast: manejar tu "animal interior" para tomar mejores decisiones con la plata.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena un ciclo de mejora (vale para un podcast o para tu presupuesto)',
-      items: ['Medir', 'Analizar los resultados', 'Decidir cambios', 'Aplicar y volver a medir'],
-      explain: 'Es un ciclo: sin volver a medir no sabes si el cambio funcionó.',
+      type: 'tf',
+      statement: 'Para saber si un cambio en tu presupuesto funcionó, basta con aplicarlo; no hace falta volver a medir.',
+      answer: false,
+      explain: 'Es un ciclo: medir, analizar, decidir cambios y volver a medir. Sin la nueva medición no sabes si el cambio sirvió.',
     },
   ],
 
@@ -963,9 +962,15 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       body: 'Fernando Gómez desmenuza su charla de Finanfest sobre **tranquilidad financiera**, que tiene 5 puntos y se construye **por etapas**. Esta primera parte cubre los dos primeros: **generar** ingresos y **ahorrar** de forma sistemática.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena las dos primeras etapas del marco que cubre este episodio',
-      items: ['Generar ingresos', 'Ahorrar de forma sistemática'],
+      type: 'mc',
+      prompt: 'Si la tranquilidad financiera se construye por etapas, ¿cuál es la primera?',
+      options: [
+        'Generar ingresos',
+        'Ahorrar de forma sistemática',
+        'Invertir a largo plazo',
+        'Protegerse con seguros',
+      ],
+      answer: 0,
       explain: 'No se puede ahorrar lo que no se genera: primero ingresos, después un sistema para guardar parte de ellos.',
     },
     {
@@ -1046,15 +1051,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       body: 'En este episodio se plantea **definir primero el estilo de vida** que quieres y **después elegir la estrategia de inversión** que te lleva ahí. También se habla de prioridades al empezar y de la **independencia financiera** como objetivo (incluyendo dividendos).',
     },
     {
-      type: 'order',
-      prompt: 'Ordena el enfoque que propone el episodio',
-      items: [
-        'Definir el estilo de vida que quieres',
-        'Estimar cuánto cuesta ese estilo de vida',
-        'Elegir la estrategia de inversión según eso',
-        'Avanzar hacia la independencia financiera',
+      type: 'mc',
+      prompt: '¿Por qué conviene definir el estilo de vida que quieres antes de elegir una estrategia de inversión?',
+      options: [
+        'Porque la estrategia es un medio: sin saber para qué vida inviertes, puedes elegir riesgos o plazos que no te calzan',
+        'Porque las estrategias de inversión solo funcionan con un estilo de vida caro',
+        'Porque así puedes copiar la estrategia de otra persona',
+        'No conviene: primero hay que invertir y después ver para qué',
       ],
-      explain: 'La estrategia es un medio: si no sabes para qué vida inviertes, es fácil elegir riesgos o plazos que no te calzan.',
+      answer: 0,
+      explain: 'Estimar cuánto cuesta la vida que quieres te dice cuánto necesitas y en cuánto tiempo; de ahí salen el riesgo y el plazo adecuados.',
     },
     {
       type: 'mc',
@@ -1119,15 +1125,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'En un ahorro de décadas, una comisión más alta se compone en contra tuyo y puede restar una parte grande de tu pensión.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena los pasos para partir con tu APV',
-      items: [
-        'Elegir régimen (A o B) según tu ingreso',
-        'Definir cuánto ahorrar',
-        'Comparar proveedores y comisiones',
-        'Contratar y automatizar el aporte',
+      type: 'mc',
+      prompt: 'Vas a partir con un APV. ¿Qué define si te conviene el Régimen A o el B?',
+      options: [
+        'Tu situación tributaria: cuánto impuesto a la renta pagas',
+        'La AFP en la que estás',
+        'Tu edad',
+        'El multifondo que elijas',
       ],
-      explain: 'El régimen depende de tu situación tributaria; con eso claro, el monto y el proveedor definen cuánto termina en tu bolsillo.',
+      answer: 0,
+      explain: 'El A entrega una bonificación del Estado (mejor si pagas poco impuesto) y el B rebaja tu base imponible (mejor en tramos altos). Con eso claro, el monto y las comisiones del proveedor definen cuánto termina en tu bolsillo.',
     },
   ],
 
@@ -1554,14 +1561,15 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Para la mayoría de las personas jóvenes, su capital humano es su activo más valioso; cuidarlo y mejorarlo es una inversión.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena un plan para adaptarte a cambios tecnológicos en tu trabajo',
-      items: [
-        'Identificar qué tareas de tu trabajo podrían automatizarse',
-        'Elegir habilidades complementarias para aprender',
-        'Dedicar tiempo o plata a formarte',
-        'Aplicarlas en tu trabajo o buscar nuevas oportunidades',
+      type: 'mc',
+      prompt: 'Parte de tu trabajo podría automatizarse. ¿Qué te deja mejor parado?',
+      options: [
+        'Identificar qué tareas son automatizables y formarte en habilidades que las complementen',
+        'Ignorar el tema hasta que pase',
+        'Cambiarte de rubro de inmediato, sin información',
+        'Pedir que prohíban la tecnología en tu empresa',
       ],
+      answer: 0,
       explain: 'Anticiparse te permite moverte hacia tareas donde la tecnología te potencia en vez de reemplazarte.',
     },
   ],
@@ -1673,15 +1681,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Un colchón te da tiempo para reconvertirte o buscar trabajo sin endeudarte ni vender inversiones en mal momento.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena un plan para prepararte ante cambios en el mercado laboral',
-      items: [
-        'Asegurar un fondo de emergencia',
-        'Informarte con fuentes serias sobre tu industria',
-        'Aprender habilidades que la IA potencie',
-        'Diversificar tus fuentes de ingreso si es posible',
+      type: 'mc',
+      prompt: 'Ante cambios en el mercado laboral por la IA, ¿qué conviene asegurar primero?',
+      options: [
+        'Un fondo de emergencia que te dé margen para adaptarte',
+        'Invertir todos tus ahorros en empresas de IA',
+        'Renunciar antes de que te reemplacen',
+        'Dejar de informarte para no estresarte',
       ],
-      explain: 'Primero la protección; luego información y habilidades para adaptarte, y finalmente depender menos de una sola fuente de ingresos.',
+      answer: 0,
+      explain: 'La protección va primero; con ese margen puedes informarte, aprender habilidades que la IA potencie y diversificar tus ingresos sin decidir a la desesperada.',
     },
     {
       type: 'fill',
@@ -1811,15 +1820,10 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Un estilo de vida intencional tiene un costo; ahorrar con tiempo y organizar tus ingresos lo hace posible.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena los pasos para diseñar tu estilo de vida',
-      items: [
-        'Definir cómo quieres vivir',
-        'Estimar cuánto cuesta',
-        'Ajustar trabajo e ingresos para lograrlo',
-        'Probar, aprender y ajustar',
-      ],
-      explain: 'Partir por la vida que quieres le da sentido al plan financiero, y el sesgo a la acción te permite ir corrigiendo.',
+      type: 'tf',
+      statement: 'Diseñar tu estilo de vida parte por definir cómo quieres vivir y estimar cuánto cuesta; recién después ajustas trabajo e ingresos para lograrlo.',
+      answer: true,
+      explain: 'Partir por la vida que quieres le da sentido al plan financiero, y probar, aprender y ajustar te permite ir corrigiendo.',
     },
   ],
 
@@ -1869,15 +1873,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       body: 'El paso a paso para vender un departamento directamente, **sin pagar comisión** a un corredor: usar **IA para estimar el precio** y contrastarlo con el mercado, calcular la **rentabilidad real** y tener listo el **checklist de documentos** para el estudio de títulos.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena un proceso razonable para vender sin corredor',
-      items: [
-        'Estimar el precio (con IA) y contrastarlo con el mercado',
-        'Reunir los documentos para el estudio de títulos',
-        'Publicar y mostrar el departamento',
-        'Negociar y cerrar la venta con el banco del comprador',
+      type: 'mc',
+      prompt: 'Si vendes un departamento sin corredor, ¿qué ayuda a que la venta no se caiga en la etapa del banco del comprador?',
+      options: [
+        'Tener listos de antemano los documentos para el estudio de títulos',
+        'Subir el precio para negociar con margen',
+        'Mostrar el departamento solo a conocidos',
+        'Pedirle al comprador que pague en efectivo',
       ],
-      explain: 'Un precio bien calibrado atrae compradores; tener los papeles listos evita que la venta se caiga en la etapa del banco.',
+      answer: 0,
+      explain: 'Un precio bien calibrado atrae compradores, pero son los papeles en regla los que permiten que el banco apruebe el crédito y la venta se cierre.',
     },
     {
       type: 'tf',
@@ -1975,15 +1980,16 @@ export const EPISODE_QUIZZES: Record<string, Exercise[]> = {
       explain: 'Una revisión anual es suficiente para ver tendencias y ajustar, sin caer en reaccionar a cada movimiento del mercado.',
     },
     {
-      type: 'order',
-      prompt: 'Ordena una revisión anual de tus finanzas',
-      items: [
-        'Mirar dónde estabas hace un año',
-        'Comparar con dónde estás hoy',
-        'Identificar qué funcionó y qué no',
-        'Definir el rumbo del próximo año',
+      type: 'mc',
+      prompt: 'Al hacer una revisión anual de tus finanzas, ¿con qué conviene compararte?',
+      options: [
+        'Con dónde estabas tú hace un año',
+        'Con tus amigos de la misma edad',
+        'Con los influencers de finanzas',
+        'Con el promedio del país',
       ],
-      explain: 'Comparar con tu propio pasado (y no con otros) te muestra el progreso real y te ayuda a decidir el siguiente paso.',
+      answer: 0,
+      explain: 'Comparar con tu propio pasado muestra el progreso real, te dice qué funcionó y qué no, y te ayuda a definir el rumbo del próximo año.',
     },
     {
       type: 'fill',

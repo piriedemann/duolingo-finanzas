@@ -11,6 +11,7 @@ import { cloudEnabled } from '../lib/supabase'
 const GOALS = [
   'Ordenar mis gastos y empezar a ahorrar',
   'Salir de deudas',
+  'Materializar proyectos',
   'Aprender a invertir',
   'Preparar mi jubilación',
   'Aumentar mis ingresos',

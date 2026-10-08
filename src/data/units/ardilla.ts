@@ -50,16 +50,22 @@ export const unit: Unit = {
           explain: 'Se calcula con tus gastos esenciales: lo que necesitas para vivir si dejaras de recibir ingresos.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena los pasos para construir tu fondo de emergencia:',
-          items: [
-            'Calcular tus gastos esenciales mensuales',
-            'Definir la meta (3 a 6 meses de esos gastos)',
-            'Abrir una cuenta separada solo para el fondo',
-            'Automatizar un aporte mensual',
-            'Reponerlo si alguna vez lo usas',
+          type: 'mc',
+          prompt: '¿Cuál es la mejor forma de ir llenando tu fondo de emergencia?',
+          options: [
+            'Un aporte automático cada mes, aunque sea chico',
+            'Esperar un bono o el aguinaldo y meterlo todo de una vez',
+            'Ahorrar solo los meses en que sobre plata',
+            'Pedir un crédito para juntarlo rápido',
           ],
-          explain: 'Primero sabes cuánto necesitas, después lo separas y automatizas. Y si lo usas, vuelves a llenarlo.',
+          answer: 0,
+          feedback: [
+            '¡Eso! Un aporte fijo y automático no depende de que sobre plata ni de la fuerza de voluntad.',
+            'Los bonos pueden acelerar, pero si no llegan, el fondo no avanza. El hábito mensual es lo que lo sostiene.',
+            'Esos meses casi nunca llegan: siempre aparece un gasto que se come lo que iba a sobrar.',
+            'Pagarías intereses por plata que está guardada. No tiene sentido.',
+          ],
+          explain: 'El fondo se construye con constancia: un monto que puedas sostener, separado apenas llega el sueldo.',
         },
         {
           type: 'fill',

@@ -88,9 +88,9 @@ export const unit: Unit = {
         },
         {
           type: 'tf',
-          statement: 'En el ejemplo, Ana aportó tres veces menos que Beto y aun así terminó con más plata.',
+          statement: 'Quien invierte $100.000 al mes solo entre los 25 y los 35 años puede terminar a los 65 con más plata que quien invierte lo mismo cada mes desde los 35 hasta los 65.',
           answer: true,
-          explain: 'Cada peso que Ana invirtió a los 25 tuvo 40 años para crecer; los de Beto tuvieron como máximo 30.',
+          explain: 'Aunque aporta un tercio, cada peso invertido a los 25 tuvo hasta 40 años para componerse; los del que partió a los 35, como máximo 30.',
         },
         {
           type: 'mc',
@@ -116,10 +116,10 @@ export const unit: Unit = {
           explain: '72 ÷ 12 = 6. Mientras mayor la tasa, más rápido se duplica.',
         },
         {
-          type: 'order',
-          prompt: 'Ordena de MÁS rápido a MÁS lento en duplicar la plata',
-          items: ['Rentabilidad de 12% anual', 'Rentabilidad de 9% anual', 'Rentabilidad de 6% anual', 'Rentabilidad de 3% anual'],
-          explain: 'Con la regla del 72: 6, 8, 12 y 24 años respectivamente. Una tasa más alta duplica antes.',
+          type: 'tf',
+          statement: 'Si una inversión rinde el doble de tasa anual que otra, la plata se duplica aproximadamente en la mitad del tiempo.',
+          answer: true,
+          explain: 'Con la regla del 72: al 6% tarda unos 12 años y al 12%, unos 6. Una diferencia de tasa que parece chica cambia mucho el resultado a largo plazo.',
         },
       ],
     },

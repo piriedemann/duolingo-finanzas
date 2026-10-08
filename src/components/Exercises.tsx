@@ -1,21 +1,19 @@
 import { useMemo, useState } from 'react'
-import type { Exercise, MatchPairs, OrderSteps } from '../data/types'
+import type { Exercise, MatchPairs } from '../data/types'
 import { richText, shuffle } from '../lib/util'
 import { sfx } from '../lib/sound'
 
-export type Answer = number | boolean | string[] | null
+export type Answer = number | boolean | null
 
 export function isGradable(ex: Exercise) {
   return ex.type !== 'concept' && ex.type !== 'match'
 }
 
-export function initialAnswer(ex: Exercise): Answer {
-  if (ex.type === 'order') return []
+export function initialAnswer(_ex: Exercise): Answer {
   return null
 }
 
-export function canCheck(ex: Exercise, a: Answer) {
-  if (ex.type === 'order') return Array.isArray(a) && a.length === ex.items.length
+export function canCheck(_ex: Exercise, a: Answer) {
   return a !== null
 }
 
@@ -26,8 +24,6 @@ export function grade(ex: Exercise, a: Answer): boolean {
       return a === ex.answer
     case 'tf':
       return a === ex.answer
-    case 'order':
-      return Array.isArray(a) && a.every((x, i) => x === ex.items[i])
     default:
       return true
   }
@@ -41,8 +37,6 @@ export function correctText(ex: Exercise): string {
       return ex.sentence.replace('___', ex.options[ex.answer])
     case 'tf':
       return ex.answer ? 'Verdadero' : 'Falso'
-    case 'order':
-      return ex.items.map((x, i) => `${i + 1}. ${x}`).join('  ')
     default:
       return ''
   }
@@ -119,8 +113,6 @@ export function ExerciseView(p: Props) {
           </div>
         </>
       )
-    case 'order':
-      return <OrderView {...p} ex={ex} />
     case 'match':
       return <MatchView {...p} ex={ex} />
   }
@@ -148,46 +140,6 @@ function Options({ options, answer, setAnswer, locked, chips }: Props & { option
         </button>
       ))}
     </div>
-  )
-}
-
-function OrderView({ ex, answer, setAnswer, locked, seed }: Props & { ex: OrderSteps }) {
-  const pool = useMemo(() => {
-    let s = shuffle(ex.items, seed)
-    if (s.every((x, i) => x === ex.items[i])) s = [...s].reverse()
-    return s
-  }, [ex, seed])
-  const chosen = (answer as string[]) ?? []
-  return (
-    <>
-      <Prompt text={ex.prompt} />
-      <div className="order-slots">
-        {chosen.length === 0 && <div className="muted center small">Toca los pasos en el orden correcto</div>}
-        {chosen.map((x, i) => (
-          <button key={x} className="order-item placed" disabled={locked} onClick={() => setAnswer(chosen.filter((y) => y !== x))}>
-            <span className="key">{i + 1}</span> {x}
-          </button>
-        ))}
-      </div>
-      <div className="order-pool">
-        {pool.map((x) => {
-          const used = chosen.includes(x)
-          return (
-            <button
-              key={x}
-              className={'order-item' + (used ? ' used' : '')}
-              disabled={locked || used}
-              onClick={() => {
-                sfx.tap()
-                setAnswer([...chosen, x])
-              }}
-            >
-              {x}
-            </button>
-          )
-        })}
-      </div>
-    </>
   )
 }
 

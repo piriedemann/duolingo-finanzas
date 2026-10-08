@@ -7,8 +7,9 @@ basado en el contenido del podcast chileno [Animales Financieros](https://www.an
 
 - **Camino de aprendizaje** con 9 unidades, cada una guiada por un animal (🐜 ahorro, 🐝 presupuesto, 🐿️ fondo de emergencia,
   🦊 deudas, 🐢 interés compuesto, 🐂 inversión, 🦉 psicología del dinero, 🐘 jubilación, 🦅 ingresos) y 27 lecciones.
-- **6 tipos de ejercicio**: tarjetas de concepto, alternativas, verdadero/falso, completar la frase, unir parejas
-  y ordenar pasos. Sin cálculos: se juega desde el teléfono.
+- **5 tipos de ejercicio**: tarjetas de concepto, alternativas, verdadero/falso, completar la frase y unir parejas.
+  Sin cálculos ni "ordena los pasos": se juega desde el teléfono. Cada pregunta se entiende sola, porque el repaso
+  las muestra sin la tarjeta de concepto que las precede.
 - **Gamificación**: XP, racha diaria, vidas ❤️, "Lucas" 🪙 como moneda, cofres, misiones diarias, logros,
   tienda (recargar vidas, protector de racha) y práctica de errores.
 - **Liga semanal con gente real**: cada jugador publica su XP semanal en Supabase (sesión anónima guardada en el
