@@ -3382,5 +3382,23 @@
   ],
   "category": "inversion",
   "confidence": "high"
+ },
+ {
+  "number": 219,
+  "title": "El discurso que más me ha marcado (del editor de Charlie Munger)",
+  "guest": null,
+  "date": "2026-10-13",
+  "summary": "Episodio especial en solitario donde el conductor traduce y lee en voz alta el discurso de Peter Kaufman (editor del libro de Charlie Munger, 'Poor Charlie's Almanack') titulado 'El enfoque multidisciplinario para pensar', dado al club de economía de Cal Poly Pomona. El discurso explica los 'tres baldes' de muestras grandes y relevantes (universo inorgánico, biología, historia humana) y de ahí deriva dos ideas centrales: la reciprocidad en espejo y el interés compuesto entendido como progreso tenaz, incremental y constante en el tiempo. Cierra con el mensaje práctico: ir primero y ir positivo.",
+  "takeaways": [
+   "Piensa de forma multidisciplinaria: 'la rana en el pozo no sabe nada del inmenso océano'. Los errores vienen de los puntos ciegos, y como decía Wittgenstein, 'entender es saber qué hacer'.",
+   "Usa los tres baldes para validar una idea: 13.700 millones de años de universo inorgánico, 3.500 millones de años de biología y 20.000 años de historia humana. Si los tres dicen lo mismo, puedes apostar a eso.",
+   "El interés compuesto, según la definición de Kaufman, es 'progreso tenaz, incremental y constante a lo largo de un horizonte muy largo de tiempo': la misma fórmula de la evolución, de aprender un idioma o de construir Berkshire Hathaway.",
+   "Cuidado con el 'variance drain': cada vez que interrumpes el avance constante te caes de la curva logarítmica a una lineal o escalonada hacia abajo. Buffett y Munger fueron constantes, no intermitentes.",
+   "Todo es reciprocidad en espejo: entrega primero atención, escucha, respeto, sentido y cariño, y lo recibirás de vuelta. Como en el ascensor: si no haces nada, recibes nada.",
+   "Ve primero y ve positivo. El miedo al ridículo (el 2% de riesgo) te hace perder el 98% de beneficio; es gastar 98% para protegerte de un 2%.",
+   "En los negocios busca relaciones donde ambos ganan: los tres sellos de una gran inversión son retornos superiores, bajo riesgo y larga duración, y el bajo riesgo y la larga duración vienen del win-win."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
  }
 ]

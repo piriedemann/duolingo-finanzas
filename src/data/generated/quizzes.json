@@ -17686,6 +17686,110 @@
    "emoji": "🌱"
   }
  ],
+ "219": [
+  {
+   "type": "concept",
+   "title": "Tres baldes para no equivocarte",
+   "body": "Peter Kaufman cuenta que saca sus modelos mentales de **las tres muestras más grandes y relevantes que existen**: 13.700 millones de años del universo inorgánico, 3.500 millones de años de biología y 20.000 años de historia humana registrada. Si una idea aparece en los tres baldes, es muy difícil que esté equivocada. Con ese método derivó dos ideas enormes: la **reciprocidad en espejo** y el **interés compuesto**.",
+   "emoji": "🪣"
+  },
+  {
+   "type": "concept",
+   "title": "Lo simple está por encima del genio",
+   "body": "Kaufman cuenta que Einstein ordenó cinco niveles de capacidad cognitiva y que el más alto no era 'genio' sino **simple**. ¿Por qué? Porque lo simple se puede entender, y como dijo Wittgenstein, **'entender es saber qué hacer'**. Los errores no vienen de la falta de inteligencia, vienen de los puntos ciegos.",
+   "emoji": "💡"
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Cómo define Kaufman el interés compuesto en el discurso?",
+   "options": [
+    "Una fórmula matemática donde los intereses generan más intereses",
+    "Progreso tenaz, incremental y constante a lo largo de un horizonte muy largo de tiempo",
+    "Invertir en fondos indexados y no mirar la cuenta",
+    "La capacidad de encontrar retornos muy altos en poco tiempo"
+   ],
+   "answer": 1,
+   "explain": "La gracia de esa definición es que saca el interés compuesto de la pizarra y lo convierte en una regla de vida: aplica igual para la evolución, para aprender un idioma o para tus ahorros."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el discurso, el gran problema humano con el interés compuesto es que no nos gusta ser constantes.",
+   "answer": true,
+   "explain": "Kaufman nos compara con Sísifo: empujamos la roca hasta la mitad, la soltamos y vuelve a caer. La intermitencia, no la falta de talento, es lo que rompe la capitalización."
+  },
+  {
+   "type": "fill",
+   "sentence": "Cuando interrumpes el avance constante por debajo de cierto umbral pierdes la capitalización: eso se llama ___ y te saca de la curva logarítmica.",
+   "options": [
+    "costo de oportunidad",
+    "variance drain (drenaje por varianza)",
+    "reciprocidad en espejo",
+    "aversión a la pérdida"
+   ],
+   "answer": 1,
+   "explain": "El punto es que partir de nuevo una y otra vez te devuelve a una curva lineal o incluso escalonada hacia abajo; el tiempo acumulado sin cortes es lo que hace la magia."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada balde con lo que contiene, según Kaufman",
+   "pairs": [
+    [
+     "Balde 1: 13.700 millones de años",
+     "El universo inorgánico: física, geología, donde vivimos"
+    ],
+    [
+     "Balde 2: 3.500 millones de años",
+     "La biología en la Tierra: aquello de lo que somos parte"
+    ],
+    [
+     "Balde 3: 20.000 años",
+     "La historia humana registrada: lo que somos"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "En la historia del ascensor, entras y hay un desconocido. Si no haces absolutamente nada, ¿qué recibes el 98% de las veces?",
+   "options": [
+    "Un saludo igual, porque la gente es amable",
+    "Nada",
+    "Una mala cara",
+    "Depende del día de la persona"
+   ],
+   "answer": 1,
+   "explain": "Es reciprocidad en espejo: el mundo te devuelve lo que entregas, y si no entregas nada, no hay nada que devolver. Por eso el consejo es dar el primer paso."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los niveles de capacidad cognitiva de Einstein que cita Kaufman, del más bajo al más alto",
+   "items": [
+    "Listo",
+    "Inteligente",
+    "Brillante",
+    "Genio",
+    "Simple"
+   ],
+   "explain": "Lo simple corona la lista porque se puede entender y, por lo tanto, se puede aplicar. La ética de Spinoza es genial y casi nadie la entiende."
+  },
+  {
+   "type": "tf",
+   "statement": "Según Kaufman, los tres sellos de una gran inversión son retornos superiores, bajo riesgo y larga duración, y el bajo riesgo y la larga duración se consiguen con relaciones donde ambos ganan.",
+   "answer": true,
+   "explain": "Casi todos miran solo el retorno, pero la duración es la que permite que el interés compuesto trabaje, y eso se sostiene con contrapartes que también ganan."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué, según Kaufman apoyándose en Kahneman, la gente no 'va primero y va positivo' aunque haya 98% de probabilidad de que le vaya bien?",
+   "options": [
+    "Porque no sabe que funciona",
+    "Porque el miedo a la pérdida (hacer el ridículo) pesa mucho más que el deseo de ganar",
+    "Porque toma demasiado tiempo",
+    "Porque la mayoría es introvertida"
+   ],
+   "answer": 1,
+   "explain": "Es como gastar el 98% para protegerte de un 2%: al revés de como funciona un seguro. El costo de esa asimetría es perderte casi todas las buenas interacciones."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",
