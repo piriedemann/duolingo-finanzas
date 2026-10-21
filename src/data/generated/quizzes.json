@@ -17790,6 +17790,118 @@
    "explain": "Es como gastar el 98% para protegerte de un 2%: al revés de como funciona un seguro. El costo de esa asimetría es perderte casi todas las buenas interacciones."
   }
  ],
+ "220": [
+  {
+   "type": "concept",
+   "title": "El dinero es un invento humano",
+   "body": "En el episodio, la historiadora Magdalena Merbilhaá cuenta que el dinero nació de un problema muy concreto: **el trueque no alcanzaba y la gente no siempre cumple**. Por eso apareció la moneda con una cara que la respaldaba, y luego el crédito, la banca, los bonos, las acciones y los seguros. Ninguno es una cosa fría: todos son herramientas inventadas por personas para resolver problemas humanos.",
+   "emoji": "🪙"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿de dónde viene la palabra 'crédito'?",
+   "options": [
+    "De 'crecer', porque el dinero crece con el tiempo",
+    "De 'credo', porque prestar es creer que el otro te va a pagar",
+    "De 'crédulo', porque antiguamente los bancos eran ingenuos",
+    "De 'cuenta', porque había que llevar registro"
+   ],
+   "answer": 1,
+   "explain": "Todo préstamo descansa en una creencia, no en una certeza: por eso quien presta evalúa cuánto puede confiar en ti.."
+  },
+  {
+   "type": "tf",
+   "statement": "Según lo conversado, quienes prestaban a personas insolventes cobraban intereses más altos principalmente porque eran gente mala.",
+   "answer": false,
+   "explain": "El interés más alto cubre el riesgo: si una parte de los deudores no paga, quien presta necesita compensarlo para no quebrar."
+  },
+  {
+   "type": "fill",
+   "sentence": "Un billete de $100 no vale por el material del que está hecho, sino porque existe ___ en quien lo respalda.",
+   "options": [
+    "un impuesto",
+    "confianza",
+    "oro en tu casa",
+    "una ley de herencia"
+   ],
+   "answer": 1,
+   "explain": "El dinero moderno es un sistema de confianza institucional; cuando esa confianza se rompe, el valor también."
+  },
+  {
+   "type": "concept",
+   "title": "De la plaza al mercado de acciones",
+   "body": "La palabra **banco** viene literalmente del banco de madera donde el cambista de monedas se sentaba en la plaza, al lado del que vendía pescado o lana. Siglos después, la compañía holandesa VOC tuvo una idea enorme: partir la empresa en **partitions** (acciones) y vendérselas a la gente. Así nació la idea de invertir en una empresa junto a muchos otros.",
+   "emoji": "📈"
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena cómo fueron apareciendo estas herramientas según el relato del episodio",
+   "items": [
+    "Trueque entre grupos que tenían cosas de sobra",
+    "Moneda con una cara que la respalda",
+    "Crédito y el concepto de interés",
+    "Banca: cambistas de moneda sentados en la plaza",
+    "Bonos y acciones para financiar guerras y compañías"
+   ],
+   "explain": "Cada paso resuelve una limitación del anterior: del intercambio directo a la confianza en una moneda, y de ahí a financiar proyectos grandes entre muchos."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada invento con su origen según el episodio",
+   "pairs": [
+    [
+     "Crédito",
+     "Viene de 'credo': creer que te pagarán"
+    ],
+    [
+     "Banco",
+     "El banco de madera del cambista en la plaza"
+    ],
+    [
+     "Bonos",
+     "El 'monte comunal' para financiar guerras entre ciudades italianas"
+    ],
+    [
+     "Acciones",
+     "Las 'partitions' de la compañía holandesa VOC"
+    ],
+    [
+     "Seguros",
+     "Pastores presbiterianos escoceses calculando apoyo para viudas y huérfanos"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "En el episodio se cuenta el caso de la hija que tuvo un accidente y terminó pagando casi solo 'el almuerzo del acompañante'. ¿Qué idea ilustra eso?",
+   "options": [
+    "Que las clínicas cobran poco",
+    "Que un seguro se compra esperando no usarlo, pero te cubre cuando el golpe llega",
+    "Que conviene no tener seguros y ahorrar esa plata",
+    "Que el Estado siempre cubre los accidentes"
+   ],
+   "answer": 1,
+   "explain": "La gracia del seguro es transferir un riesgo que no podrías pagar de un viaje: el costo mensual es chico comparado con el evento grave."
+  },
+  {
+   "type": "tf",
+   "statement": "Según lo discutido, antes de la Revolución Industrial la mayoría de la gente era pobre, y el trabajo por sí solo no generaba riqueza.",
+   "answer": true,
+   "explain": "Trabajo siempre hubo; lo que faltaba era capital, tecnología e instituciones que multiplicaran lo que ese trabajo producía."
+  },
+  {
+   "type": "mc",
+   "prompt": "Sobre la ostentación, ¿qué observación se hace en el episodio?",
+   "options": [
+    "Mientras más grande el logo, más probable que sea plata nueva",
+    "Los ricos antiguos siempre usan logos grandes",
+    "La ostentación es un invento del siglo XXI",
+    "Nadie quiere destacar, todos buscan ser iguales"
+   ],
+   "answer": 0,
+   "explain": "Desde el Renacimiento hasta hoy, mostrar riqueza suele ser señal de estatus reciente; gastar para aparentar rara vez es construir patrimonio."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",

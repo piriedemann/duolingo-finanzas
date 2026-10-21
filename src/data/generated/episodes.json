@@ -3400,5 +3400,22 @@
   ],
   "category": "mentalidad",
   "confidence": "high"
+ },
+ {
+  "number": 220,
+  "title": "Conoce la historia del dinero",
+  "guest": null,
+  "date": "2026-10-20",
+  "summary": "Episodio con la historiadora Magdalena Merbilhaá sobre la historia del dinero: cómo el comercio, la moneda, el crédito, la banca, los bonos, las acciones y los seguros fueron inventos humanos nacidos de problemas concretos y de la confianza (y la desconfianza) entre personas. La conversación conecta esa historia con la naturaleza humana, la pobreza previa a la Revolución Industrial y la importancia de la memoria, el lenguaje y la autoeducación para tomar mejores decisiones hoy.",
+  "takeaways": [
+   "Los instrumentos financieros no son 'fríos': nacen de problemas humanos. Entenderlos como herramientas con historia te ayuda a usarlos mejor.",
+   "'Crédito' viene de 'credo': prestar es creer que te van a pagar. Por eso existe el interés, y a mayor riesgo de no pago, mayor interés cobra quien presta.",
+   "Distingue interés de usura: el interés compensa el paso del tiempo y el riesgo; históricamente se hablaba de interés justo e injusto.",
+   "El dinero funciona por confianza en un respaldo: un billete no vale por su material, sino porque confiamos en la institución que lo emite.",
+   "Los seguros son uno de los grandes inventos: pagas esperando no usarlos, pero te cubren cuando llega el golpe. Lo mismo aplica a tu fondo de emergencia y a tu previsión.",
+   "Nadie te va a resolver el futuro: hazte cargo de tu salud, tu previsión y tu formación. La autoeducación (leer, ampliar vocabulario) es lo que sostiene tu capital humano."
+  ],
+  "category": "otros",
+  "confidence": "high"
  }
 ]
