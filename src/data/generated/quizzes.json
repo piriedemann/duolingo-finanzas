@@ -17902,6 +17902,113 @@
    "explain": "Desde el Renacimiento hasta hoy, mostrar riqueza suele ser señal de estatus reciente; gastar para aparentar rara vez es construir patrimonio."
   }
  ],
+ "221": [
+  {
+   "type": "concept",
+   "title": "Pensamiento disciplinado",
+   "body": "La segunda parte de *Good to Great* trata del **pensamiento disciplinado**: antes de actuar, hay que **enfrentar los hechos brutales** de tu realidad y encontrar tu **concepto del erizo**. Suena simple, pero es lo más difícil: casi siempre preferimos la información que nos deja tranquilos antes que la que nos sirve.",
+   "emoji": "🦔"
+  },
+  {
+   "type": "concept",
+   "title": "La paradoja de Stockdale",
+   "body": "Stockdale estuvo 8 años preso en Vietnam. Cuando le preguntaron quiénes no sobrevivían, respondió que **los optimistas**: los que decían \"salimos para Navidad\", después \"para Año Nuevo\", y se terminaban quebrando. La paradoja es aceptar con brutal honestidad lo malo del presente **y** mantener la fe absoluta en que vas a salir adelante.",
+   "emoji": "⚓"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según la paradoja de Stockdale, ¿cuál es la combinación que permite sobrevivir?",
+   "options": [
+    "Optimismo con fechas concretas de salida en el corto plazo",
+    "Aceptar la realidad tal cual es y, a la vez, tener fe inquebrantable en el desenlace",
+    "Negar que la situación sea mala para no desmotivarse",
+    "Esperar lo peor y resignarse"
+   ],
+   "answer": 1,
+   "explain": "La fe sin realismo se desinfla con cada plazo incumplido; el realismo sin fe lleva a abandonar. Las dos juntas sostienen el esfuerzo largo."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se dice que enfrentar los hechos brutales, por sí solo, ya produce el cambio: basta con reconocer el problema.",
+   "answer": false,
+   "explain": "El ejemplo es claro: aceptar que tienes sobrepeso y seguir comiendo McDonald's todos los días no lleva a ningún lado. Reconocer el hecho es el inicio, la pega hay que hacerla igual."
+  },
+  {
+   "type": "fill",
+   "sentence": "El concepto del erizo nace de la fábula del zorro y el erizo: el zorro sabe muchas cosas, pero el erizo sabe ___ muy bien y por eso gana.",
+   "options": [
+    "una sola cosa",
+    "diez cosas",
+    "esconderse de todo",
+    "correr más rápido"
+   ],
+   "answer": 0,
+   "explain": "La moraleja es que el foco extremo en una cosa suele vencer a la dispersión en muchas habilidades medianas."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del capítulo con su ejemplo mencionado en el episodio",
+   "pairs": [
+    [
+     "Crear un canal de información sin filtros",
+     "Churchill armó un departamento independiente de hechos"
+    ],
+    [
+     "Consejo honesto que te dice en qué estás",
+     "El Brain Trust de Pixar en Creativity, Inc."
+    ],
+    [
+     "Enfoque de erizo que cambió el modelo de negocio",
+     "Walgreens y sus farmacias por visita de cliente"
+    ],
+    [
+     "Apostar todo a una sola cosa con evidencia a favor",
+     "Joanne dejando su carrera para ser campeona de Ironman"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena los pasos del pensamiento disciplinado tal como se plantean en el episodio",
+   "items": [
+    "Mirar los hechos reales, aunque sean incómodos",
+    "Crear un ambiente donde la gente se atreva a decir la verdad (preguntas, red flags)",
+    "Definir en qué puedes ser el mejor, qué te apasiona y cuál es tu motor económico",
+    "Enfocarte en esa intersección y decirle que no a todo lo demás"
+   ],
+   "explain": "Primero la verdad, después la cultura que la sostiene y recién ahí el foco. Sin los datos crudos, el foco se elige sobre fantasías."
+  },
+  {
+   "type": "mc",
+   "prompt": "Los tres círculos del concepto del erizo son:",
+   "options": [
+    "En qué puedes ser el mejor del mundo, qué te apasiona y cuál es tu motor económico",
+    "Cuánto ganas, cuánto ahorras y cuánto inviertes",
+    "Tu talento natural, tu red de contactos y tu capital inicial",
+    "Lo que sabes hacer, lo que te pagan hoy y lo que el mercado demanda"
+   ],
+   "answer": 0,
+   "explain": "La decisión vive en la intersección: pasión sin motor económico no se sostiene, y motor económico sin pasión se apaga cuando llega la adversidad."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que si \"ser el mejor del mundo\" suena imposible, una forma válida de partir es acotar el campo, por ejemplo ser el mejor de Chile en algo.",
+   "answer": true,
+   "explain": "Acotar el campo hace la meta creíble y permite empezar; también se menciona la regla del 10%, combinar varias habilidades en el top 10% para ser único."
+  },
+  {
+   "type": "mc",
+   "prompt": "¿Por qué el episodio sugiere liderar con preguntas en vez de con respuestas?",
+   "options": [
+    "Porque así el jefe evita responsabilizarse de las decisiones",
+    "Porque le das voz al otro y el cambio nace desde adentro, en vez de imponerlo",
+    "Porque las preguntas ahorran tiempo en las reuniones",
+    "Porque así se evita el conflicto en el equipo"
+   ],
+   "answer": 1,
+   "explain": "Si siempre decide uno solo, el resto se calla y deja de pensar. Las preguntas obligan a participar y hacen que la persona llegue sola a la conclusión."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",
