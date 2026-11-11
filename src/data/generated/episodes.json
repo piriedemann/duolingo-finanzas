@@ -3434,5 +3434,23 @@
   ],
   "category": "mentalidad",
   "confidence": "high"
+ },
+ {
+  "number": 223,
+  "title": "Qué hace la Corfo, explicado por su vicepresidente ejecutivo",
+  "guest": null,
+  "date": "2026-11-10",
+  "summary": "Entrevista a José Mujica Castro, vicepresidente ejecutivo de Corfo, sobre qué hace realmente la institución: fomentar el emprendimiento y la innovación con subsidios, financiamiento y, sobre todo, conectando emprendedores con grandes empresas. Se conversa de la ley de impulso startup (que permitiría a Corfo invertir en capital vía un fondo de fondos), del camino prototipo–piloto–escala y de cómo decisiones industriales de largo plazo generan efectos de segundo orden, como Intel en Costa Rica. Cierra con un consejo simple: tomarse cafés y aprender de otros en vez de resolver todo en solitario.",
+  "takeaways": [
+   "Corfo no es solo plata: su rol es fomentar emprendimiento e innovación con subsidios, financiamiento y conexiones entre privados, universidades y proveedores.",
+   "Una buena solución técnica no basta; para escalar necesitas que una empresa grande se atreva a pilotearla y después comprártela.",
+   "El camino del emprendedor de base científica es prototipo → piloto → escala; en proveedores mineros, la mitad nunca llega al piloto y la mitad de los que llegan demora un año.",
+   "Innovar es un sistema, no un genio: las empresas exitosas miden sus proyectos, documentan fracasos y conectan la gerencia de innovación con operaciones.",
+   "Como en un fondo de venture capital, de 20 inversiones solo dos o tres entregan la mayoría del retorno: hay que tolerar el fracaso dentro de un portafolio.",
+   "Las decisiones industriales de hoy generan efectos de segundo orden en 10-20 años (Intel en Costa Rica abrió la puerta a los medical devices).",
+   "Tip final: tómate cafés, incomódate y pide ayuda; casi siempre la gente regala algo de su tiempo."
+  ],
+  "category": "emprendimiento",
+  "confidence": "high"
  }
 ]

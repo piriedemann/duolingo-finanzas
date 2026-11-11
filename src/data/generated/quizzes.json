@@ -18009,6 +18009,106 @@
    "explain": "Si siempre decide uno solo, el resto se calla y deja de pensar. Las preguntas obligan a participar y hacen que la persona llegue sola a la conclusión."
   }
  ],
+ "223": [
+  {
+   "type": "concept",
+   "title": "Conectar vale tanto como financiar",
+   "body": "Corfo apoya con **subsidios y financiamiento**, pero en el episodio el énfasis está en algo menos obvio: **conectar** emprendedores innovadores con empresas grandes. Una solución técnicamente correcta no se transforma en negocio hasta que alguien al otro lado se atreve a probarla y luego comprarla a escala.",
+   "emoji": "🔗"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según el episodio, ¿cuál es el rol principal de Corfo?",
+   "options": [
+    "Fiscalizar a los bancos y a las AFP",
+    "Fomentar el emprendimiento y la innovación, siendo un motor de crecimiento",
+    "Entregar créditos de consumo a personas naturales",
+    "Administrar las pensiones de los trabajadores del Estado"
+   ],
+   "answer": 1,
+   "explain": "Corfo es una institución de fomento: apoya con subsidios, financiamiento y articulación entre privados, universidades y proveedores."
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el camino que describe José para que una innovación se transforme en negocio:",
+   "items": [
+    "Desarrollar la solución técnica y el prototipo",
+    "Conseguir que una empresa grande se atreva a hacer un piloto",
+    "Que el piloto salga bien y se extienda a más operaciones",
+    "Escalar a la industria y salir a otros países"
+   ],
+   "explain": "El salto de laboratorio a gran negocio no es discreto: pasa sí o sí por prototipo, piloto y escalamiento."
+  },
+  {
+   "type": "tf",
+   "statement": "Según el episodio, con la ley de impulso startup Corfo podría invertir en capital directamente en las startups.",
+   "answer": false,
+   "explain": "La idea es invertir en capital en fondos (y principalmente en un fondo de fondos), nunca directamente en las empresas."
+  },
+  {
+   "type": "fill",
+   "sentence": "En proveedores mineros con una idea innovadora, cerca del ___ nunca llega a hacer un piloto.",
+   "options": [
+    "10%",
+    "50%",
+    "90%"
+   ],
+   "answer": 1,
+   "explain": "Y de los que sí llegan, la mitad demora alrededor de un año: tiempo carísimo cuando estás pagando sueldos y compitiendo con emprendedores de otros países."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada ejemplo del episodio con la idea que ilustra:",
+   "pairs": [
+    [
+     "Intel en Costa Rica",
+     "Efecto de segundo orden: capital humano que atrae nuevas industrias"
+    ],
+    [
+     "Corea y la construcción naval",
+     "Política industrial de largo plazo con subsidios y financiamiento"
+    ],
+    [
+     "Luces en jaulas de salmones",
+     "Un piloto exitoso que escala a toda la industria y al extranjero"
+    ],
+    [
+     "Corfo Connecta",
+     "Conectar grandes empresas con pymes innovadoras"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "prompt": "En un fondo de venture capital con 20 inversiones, ¿qué pasa típicamente según la conversación?",
+   "options": [
+    "Casi todas entregan un retorno parecido",
+    "Dos o tres entregan la mayoría del retorno y varias dejan de operar",
+    "La mitad se vende con grandes ganancias",
+    "Ninguna pierde plata si el fondo está bien diversificado"
+   ],
+   "answer": 1,
+   "explain": "Los retornos se concentran en pocas apuestas, igual que en las acciones listadas en bolsa; por eso innovar requiere pensar en portafolio y tolerar fracasos."
+  },
+  {
+   "type": "tf",
+   "statement": "Para José, innovar bien depende sobre todo de tener un genio creativo dentro de la empresa.",
+   "answer": false,
+   "explain": "Lo que marca la diferencia es tener un sistema: metas, medición de éxito y fracaso, documentación y conexión entre innovación, operaciones y gerencia general."
+  },
+  {
+   "type": "mc",
+   "prompt": "El tip final que deja José a la audiencia es:",
+   "options": [
+    "Invertir siempre en startups chilenas",
+    "Hablar con gente y tomarse cafés para aprender, en vez de resolver todo solo",
+    "Endeudarse temprano para financiar tu emprendimiento",
+    "Esperar a tener la idea perfecta antes de actuar"
+   ],
+   "answer": 1,
+   "explain": "Pedir un café implica incomodarse, pero acelera el aprendizaje y abre conexiones que difícilmente llegan estando solo."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",
