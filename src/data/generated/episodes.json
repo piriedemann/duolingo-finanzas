@@ -3452,5 +3452,22 @@
   ],
   "category": "emprendimiento",
   "confidence": "high"
+ },
+ {
+  "number": 224,
+  "title": "Vida Familiar",
+  "guest": null,
+  "date": "2026-11-17",
+  "summary": "Capítulo filosófico sobre los trade-offs entre dinero, tiempo, familia y carrera. A partir de la idea del \"juego equivocado\" de Nick Maggiulli y del tablero equivocado de Sahil Bloom, conversan sobre cuánto sueldo extra justificaría sacrificar relaciones, por qué las compras idílicas (casa en la playa, terreno) decepcionan, el interés compuesto de leer y aprender, y la importancia de delegar para cuidar el \"ancho de banda mental\".",
+  "takeaways": [
+   "Antes de aceptar más sueldo a cambio de tiempo, evalúa también el downside (relaciones, hijos, familia), no solo el upside del cheque.",
+   "Tu situación financiera cambia la respuesta: con fondo de emergencia y patrimonio puedes decir que no; con deudas grandes, quizás convenga aceptar para dormir tranquilo.",
+   "Las compras tipo casa en la playa o terreno se imaginan idílicas, pero traen costos escondidos (mantención, tacos, acuerdos con otros); la dopamina llega antes de comprar y luego te acostumbras.",
+   "La IA tiene más información, pero no conoce tu contexto (liquidez, beneficios tributarios del crédito hipotecario, tu vida), así que no reemplaza el juicio humano.",
+   "Leer y meterte cosas buenas a la cabeza funciona como interés compuesto: no se nota el primer mes, pero a los 3 años la diferencia es abismal.",
+   "Delegar (coach, terapeuta, asesor, IA) libera \"RAM\" mental para enfocarte en lo realmente importante; nunca es tarde para ponerse al día y alargar tu vida laboral."
+  ],
+  "category": "mentalidad",
+  "confidence": "high"
  }
 ]

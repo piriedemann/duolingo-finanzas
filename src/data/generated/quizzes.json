@@ -18109,6 +18109,102 @@
    "explain": "Pedir un café implica incomodarse, pero acelera el aprendizaje y abre conexiones que difícilmente llegan estando solo."
   }
  ],
+ "224": [
+  {
+   "type": "concept",
+   "title": "¿Estás jugando el juego correcto?",
+   "body": "El episodio parte con una pregunta incómoda: si te ofrecieran **30% o 50% más de sueldo** a cambio de salir a las 7 AM y volver a las 10 PM, ¿lo tomarías? El punto es que **es fácil ver el upside (la plata) y muy difícil imaginar el downside**: relaciones, hijos, amigos. La vida financiera es personal y no hay una fórmula que responda por ti.",
+   "emoji": "🎲"
+  },
+  {
+   "type": "concept",
+   "title": "La trampa de la compra idílica",
+   "body": "Cuando imaginas la casa en la playa o el terreno, tu cabeza arma una **imagen idílica**: verano, hijos jugando cartas, felicidad eterna. Lo que no aparece en esa imagen es el taco, el califont que se revienta y los acuerdos con los otros dueños. Además, **la dopamina de una compra llega antes de comprarla**: después te acostumbras y quieres la siguiente.",
+   "emoji": "🏖️"
+  },
+  {
+   "type": "mc",
+   "prompt": "Según lo conversado, ¿qué cambia la respuesta a \"aceptarías el sueldo mucho mayor aunque te quite tiempo con tu familia\"?",
+   "options": [
+    "Tu edad exacta, nada más",
+    "Tu situación personal: si tienes fondo de emergencia y patrimonio, o si arrastras deudas y un dividendo grande",
+    "La rentabilidad esperada del mercado ese año",
+    "El tipo de multifondo en que estés"
+   ],
+   "answer": 1,
+   "explain": "Quien ya construyó un colchón tiene la libertad de decir que no; quien está muy endeudado puede ganar tranquilidad aceptando, aunque pague un costo en tiempo."
+  },
+  {
+   "type": "tf",
+   "statement": "En el episodio se plantea que aceptar un trabajo muy demandante puede tener sentido como algo temporal y acotado, por ejemplo un año o dos.",
+   "answer": true,
+   "explain": "Se menciona la idea de hacerlo por un periodo acotado; el riesgo es que el costo en relaciones no siempre es reversible."
+  },
+  {
+   "type": "fill",
+   "sentence": "Leer y aprender es uno de los mejores ejemplos del ___: el primer mes no se nota, el primer año poquito, pero en 3 años la diferencia es abismal.",
+   "options": [
+    "interés compuesto",
+    "costo hundido",
+    "apalancamiento",
+    "arbitraje"
+   ],
+   "answer": 0,
+   "explain": "Igual que con la plata, los hábitos de aprendizaje acumulan sobre lo acumulado y la brecha se abre con el tiempo."
+  },
+  {
+   "type": "mc",
+   "prompt": "Un amigo le pregunta a la IA si pagar un terreno al contado o con crédito. ¿Qué limitación de esa respuesta se destaca en el episodio?",
+   "options": [
+    "Que la IA siempre recomienda endeudarse",
+    "Que la IA no tiene el contexto completo: no valora la liquidez ni considera beneficios tributarios como descontar intereses del crédito hipotecario",
+    "Que la IA no sabe calcular tasas",
+    "Que la IA se equivoca en matemáticas simples"
+   ],
+   "answer": 1,
+   "explain": "La herramienta tiene mucha información, pero sin contexto completo entrega conclusiones incompletas; el juicio humano aporta liquidez, tributación y vida real."
+  },
+  {
+   "type": "match",
+   "prompt": "Une cada idea del episodio con lo que significa",
+   "pairs": [
+    [
+     "Cuidar tu RAM",
+     "Proteger tu ancho de banda mental de lo que no importa"
+    ],
+    [
+     "Delegar",
+     "Apoyarte en coach, terapeuta, asesor o IA para liberar energía"
+    ],
+    [
+     "Imagen idílica",
+     "Visión de la compra sin sus costos escondidos"
+    ],
+    [
+     "Zoom out",
+     "Parar e ir a mirar los datos cuando las noticias te comen la cabeza"
+    ]
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Ordena el proceso que proponen para decidir frente a una oferta de mucho más sueldo con mucho menos tiempo",
+   "items": [
+    "Mirar el upside: cuánta plata extra y para qué te sirve",
+    "Mirar el downside: relaciones, hijos, amigos, etapa de vida",
+    "Revisar tu situación financiera real (deudas, fondo de emergencia, patrimonio)",
+    "Definir si es temporal y acotado, con fecha de salida",
+    "Decidir según lo que tú valoras, sin compararte con nadie"
+   ],
+   "explain": "La decisión no es solo financiera: parte por los números, pero termina en tus valores y tu etapa de vida."
+  },
+  {
+   "type": "tf",
+   "statement": "Según lo conversado, los estudios muestran que la casa más grande, la casa en la playa y el auto son lo que más valora la gente al mirar su vida hacia atrás.",
+   "answer": false,
+   "explain": "Se menciona lo contrario: pesan mucho más las relaciones y pasarlo bien en el día a día que los grandes objetivos materiales."
+  }
+ ],
  "x-la-certificacion-que-nadie-tiene-en-chile-y-por-que-la-quier": [
   {
    "type": "concept",
